@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>/post/meeting-april-12-2018/</loc>
+      <lastmod>2018-04-12T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/post/meeting/</loc>
       <lastmod>2018-03-22T00:00:00+00:00</lastmod>
     </url>
@@ -464,8 +473,8 @@
     
     <url>
     
-      <loc>/categories/meeting/</loc>
-      <lastmod>2018-03-22T00:00:00+00:00</lastmod>
+      <loc>/tags/meeting/</loc>
+      <lastmod>2018-02-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -474,8 +483,8 @@
     
     <url>
     
-      <loc>/tags/meeting/</loc>
-      <lastmod>2018-02-15T00:00:00+00:00</lastmod>
+      <loc>/categories/meeting/</loc>
+      <lastmod>2018-04-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -525,7 +534,7 @@
     <url>
     
       <loc>/categories/planning/</loc>
-      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+      <lastmod>2018-04-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -663,8 +672,8 @@
     
     <url>
     
-      <loc>/categories/systematic-review/</loc>
-      <lastmod>2018-03-21T00:00:00+00:00</lastmod>
+      <loc>/tags/systematic-review/</loc>
+      <lastmod>2018-04-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -673,8 +682,8 @@
     
     <url>
     
-      <loc>/tags/systematic-review/</loc>
-      <lastmod>2018-03-15T00:00:00+00:00</lastmod>
+      <loc>/categories/systematic-review/</loc>
+      <lastmod>2018-03-21T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
