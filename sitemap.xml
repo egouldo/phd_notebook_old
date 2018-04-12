@@ -5,6 +5,69 @@
     
     <url>
     
+      <loc>/post/meeting/</loc>
+      <lastmod>2018-03-22T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/fidler-2017-metaresearch-in-ecology/</loc>
+      <lastmod>2018-03-21T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/bioinformatics-workshop-dockerisation/</loc>
+      <lastmod>2018-03-21T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/reproducibility-for-decision-support-tools/</loc>
+      <lastmod>2018-03-21T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/meeting-15-march-2018/</loc>
+      <lastmod>2018-03-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/reading-club-reproducibility/</loc>
+      <lastmod>2018-03-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/systematic-review-methodologies-for-conservation-and-ecology/</loc>
+      <lastmod>2018-03-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/post/french-2012-meta-analysis-for-expert-judgment/</loc>
       <lastmod>2018-03-06T00:00:00+00:00</lastmod>
     </url>
@@ -231,6 +294,56 @@
     
     <url>
     
+      <loc>/categories/coding-criteria/</loc>
+      <lastmod>2017-12-15T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/computational-skills/</loc>
+      <lastmod>2018-03-21T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/conservation/</loc>
+      <lastmod>2018-03-15T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/containerisation/</loc>
+      <lastmod>2018-03-21T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/data-science/</loc>
+      <lastmod>2018-03-21T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/decision-analysis/</loc>
       <lastmod>2018-03-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -242,7 +355,7 @@
     <url>
     
       <loc>/tags/decision-support/</loc>
-      <lastmod>2017-12-18T00:00:00+00:00</lastmod>
+      <lastmod>2018-03-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -252,7 +365,7 @@
     <url>
     
       <loc>/tags/decision-tools/</loc>
-      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+      <lastmod>2018-03-21T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -271,8 +384,18 @@
     
     <url>
     
+      <loc>/tags/docker/</loc>
+      <lastmod>2018-03-21T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/ecology/</loc>
-      <lastmod>2018-03-01T00:00:00+00:00</lastmod>
+      <lastmod>2018-03-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -302,7 +425,7 @@
     <url>
     
       <loc>/categories/first-chapter/</loc>
-      <lastmod>2018-02-20T00:00:00+00:00</lastmod>
+      <lastmod>2018-03-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -342,7 +465,7 @@
     <url>
     
       <loc>/categories/meeting/</loc>
-      <lastmod>2018-03-01T00:00:00+00:00</lastmod>
+      <lastmod>2018-03-22T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -353,6 +476,16 @@
     
       <loc>/tags/meeting/</loc>
       <lastmod>2018-02-15T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/metaresearch/</loc>
+      <lastmod>2018-03-21T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -373,6 +506,16 @@
     
       <loc>/tags/objectives/</loc>
       <lastmod>2018-02-19T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/open-science/</loc>
+      <lastmod>2018-03-21T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -441,6 +584,16 @@
     
     <url>
     
+      <loc>/tags/publication-bias/</loc>
+      <lastmod>2018-03-21T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/publication_types/</loc>
       <priority>0</priority>
     </url>
@@ -461,7 +614,7 @@
     <url>
     
       <loc>/tags/reproducibility/</loc>
-      <lastmod>2018-03-06T00:00:00+00:00</lastmod>
+      <lastmod>2018-03-21T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -471,7 +624,7 @@
     <url>
     
       <loc>/categories/research-proposal/</loc>
-      <lastmod>2017-02-15T00:00:00+00:00</lastmod>
+      <lastmod>2018-03-21T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -492,6 +645,36 @@
     
       <loc>/tags/structured-decision-making/</loc>
       <lastmod>2018-02-19T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/synthesis/</loc>
+      <lastmod>2018-03-21T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/systematic-review/</loc>
+      <lastmod>2018-03-21T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/systematic-review/</loc>
+      <lastmod>2018-03-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -540,8 +723,28 @@
     
     <url>
     
+      <loc>/tags/transparency/</loc>
+      <lastmod>2018-03-21T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/vegetation/</loc>
       <lastmod>2018-02-19T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/workshop/</loc>
+      <lastmod>2018-03-21T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
