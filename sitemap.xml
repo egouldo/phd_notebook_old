@@ -5,6 +5,24 @@
     
     <url>
     
+      <loc>/post/cullina-et-al-2018-navigating-the-unfolding-open-data-landscape-in-ecology-and-evolution/</loc>
+      <lastmod>2018-04-13T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/nakagawa-and-parker-2015/</loc>
+      <lastmod>2018-04-12T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/post/meeting-april-12-2018/</loc>
       <lastmod>2018-04-12T00:00:00+00:00</lastmod>
     </url>
@@ -221,6 +239,15 @@
     
     <url>
     
+      <loc>/project/reserach_proposal/</loc>
+      <lastmod>2017-02-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/academic/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
@@ -404,7 +431,7 @@
     <url>
     
       <loc>/tags/ecology/</loc>
-      <lastmod>2018-03-15T00:00:00+00:00</lastmod>
+      <lastmod>2018-04-13T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -415,6 +442,16 @@
     
       <loc>/tags/evidence-based/</loc>
       <lastmod>2017-12-15T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/evolution/</loc>
+      <lastmod>2018-04-13T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -435,6 +472,16 @@
     
       <loc>/categories/first-chapter/</loc>
       <lastmod>2018-03-15T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/generalisation/</loc>
+      <lastmod>2018-04-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -523,8 +570,18 @@
     
     <url>
     
+      <loc>/tags/open-data/</loc>
+      <lastmod>2018-04-13T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/open-science/</loc>
-      <lastmod>2018-03-21T00:00:00+00:00</lastmod>
+      <lastmod>2018-04-13T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -613,7 +670,17 @@
     <url>
     
       <loc>/categories/reading/</loc>
-      <lastmod>2018-03-06T00:00:00+00:00</lastmod>
+      <lastmod>2018-04-13T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/replication/</loc>
+      <lastmod>2018-04-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -623,7 +690,7 @@
     <url>
     
       <loc>/tags/reproducibility/</loc>
-      <lastmod>2018-03-21T00:00:00+00:00</lastmod>
+      <lastmod>2018-04-13T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -734,6 +801,16 @@
     
       <loc>/tags/transparency/</loc>
       <lastmod>2018-03-21T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/validation/</loc>
+      <lastmod>2018-04-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
