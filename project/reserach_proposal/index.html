@@ -244,26 +244,51 @@
     <div class="article-style" itemprop="articleBody">
       <div id="goal" class="section level1">
 <h1>Goal</h1>
-<p>I want to generate a roadmap, if you like, of the sources of bias and questionable research practices (QRPs) that I think are frequently encountered when developing DSTs in applied ecology. These QRPs and biases will make a DST irreproducible. So the question is really about “what sorts of biases and QRPs make a DST reproducible”. In knowing this, we can offer a guide or advice, for various decision-points in the DST building process that will ensure a DST is reproducible, or at least as reproducible as possible.</p>
-<p>Aside from helping to pinpoint areas of improvement that researchers can target in terms of reproducibility, another important aim of developing the roadmap is to generate coding criteria for the systematic review.</p>
-<p>At first I focus on a single study, I can step outside the confines of a single study to look at how sources of bias in the broader evidence base or discipline level might impact on the reproducibility of a decision-support tool.</p>
+<p>I want to generate a “roadmap” of the sources of bias and questionable research practices (QRPs) that I think are frequently encountered when developing D in applied ecology / conservation. These biases will reduce the reproducibility of of a given decision support tool. Identifying where in the DST development process particular biases are likely to occur should serve as a launching point for proposing solutions towards minimising their occurrence and therefore increasing the reproducibility of DSTs. Aside from helping to pinpoint areas of improvement that researchers can target in terms of reproducibility, in the context of my PhD, another important aim of developing this roadmap is to generate coding criteria for the systematic review.</p>
+<p>At first I focus on a single study, I can step outside the confines of a single study to look at how sources of bias in the broader evidence base and or cultural research practices at the disciplinary level might impact on the reproducibility of conservation and applied ecological decisions.</p>
 </div>
 <div id="plan" class="section level1">
 <h1>Plan</h1>
+<div id="method-for-generating-the-roadmap" class="section level2">
+<h2>Method for generating the roadmap</h2>
+<ol style="list-style-type: decimal">
+<li>Sketch out the SDM / DST building process, but breakdown into modelling-steps if need be. a. Does this process differ for different tools / decision frameworks?</li>
+<li>Separately, identify sources of bias AND questionable research practices that others have identified in ecology and evolution, but also in other disciplines. a. at the individual study level b. at a higher level, e.g. evidence base / discipline c. WHAT ARE THE LEVELS?! d. Are these biases / QRPs applicable to DSTs? e. are there other biases unique to DSTs, that I can identify, that haven’t been considered? f. Is their occurrence dependent on the type of tool / technical specifics of the application… i.e. are some tools more robust to biases / QRPs than others?</li>
+<li>Map these biases / QRPs onto 1, where do they occur at the various decision-points?</li>
+</ol>
+</div>
+</div>
+<div id="dst-process" class="section level1">
+<h1>DST process</h1>
+<p>As a starting point, I’m going to take the Structured Decision Making process as the overarching framework for building a decision-tool. There are many variations on this, and often the same tasks in the process are called different things. I prefer the diagram by Wintle et al <span class="citation">(2011)</span>.</p>
+<div class="figure">
+<img src="https://github.com/egouldo/notebook_elise_gould/blob/master/static/img/Wintle_et_al-2011.png" />
+
+</div>
 <div id="defining-what-we-mean-by-reproducibility-in-the-context-of-dsts" class="section level2">
 <h2>Defining what we mean by “reproducibility” in the context of DSTs</h2>
-<p>There are many typologies of reproducibility / replication. What do we consider a reproducible DST to be? For this task… are we talking about a direct / exact replication? Close / partial? Conceptual? Something to consider later…. does the risk of types of QRPs / sources of bias increase or decrease depending on what type of reproducibility / replication level you’re considering?</p>
-<p>Original study follows some commonly accepted decision-analytic decision-making process where the development of the tool is broken down into several phases steps. E.g. problem-formulation, modelling. This process is also repeated. Does it have to be? Theoretically it’s possible to follow two similar, albeit different, decision processes, but arrive at the same decision. So maybe that’s where we should begin.. at the end-point.</p>
-<p>However, if we consider that the initial problem-framing is fraught with bias and susceptible to variation based on some combination of the analyst and the stakeholders / decision-makers for a given problem… then we can’t guarantee that two different studies will result in the same decision, because they might result in non-overlapping suites of proposed decision alternatives.</p>
+<p>There are many typologies of reproducibility / replication. What do we consider a reproducible DST to be? For this task… am I talking about a direct / exact replication? Close / partial? Conceptual? And something to consider later…. does the risk of particular QRPs / sources of bias increase or decrease depending on what type of reproducibility / replication level under consideration?</p>
+<p>A starting point should be that the original study follows some commonly implemented decision-analytic decision-making / decision-analytic process where the approach to the decision or development of the tool is broken down into several phases. E.g. problem-formulation, modelling, etc.</p>
+<p>Does the replication / reproduction follow the <strong>same decision process</strong>. I don’t think it necessarily must – It’s plausible that two independent studiesfollow two different decision processes, but arrive at the same decision. So maybe that’s where we should begin.. at the end-point… What is the unit of currency that we use to define a replication / reproduction as being successful?</p>
+<p>Even if two independent studies follow the same overarching decision process, if we consider that the initial problem-framing is fraught with bias and susceptible to variation based on some combination of the analyst and the stakeholders / decision-makers for a given problem… then we can’t guarantee that two different studies will result in the same decision, because they might result in non-overlapping suites of proposed decision alternatives, for example.</p>
+<div id="defining-points-of-departure-from-one-decision-tool-application-to-the-next" class="section level3">
+<h3>Defining points of departure from one decision-tool application to the next</h3>
+<p>Pattil et al. <span class="citation">(2016)</span> have defined a statistical framework for defining reproducibility and replication with a computational science bent. I’m finding it useful for thinking about the particular points in a decision process that might result in variation if it were replicated / reproduced / was developed in a parallel universe.</p>
+<div class="figure">
+<img src="https://github.com/egouldo/notebook_elise_gould/blob/master/static/img/Pattil-et-al_2016_fig-1.png" />
+
 </div>
-<div id="defining-points-of-departure-from-one-decision-tool-application-to-the-next" class="section level2">
-<h2>Defining points of departure from one decision-tool application to the next</h2>
-<p>Perhaps define some key terms, and try to come up with a conceptual definition as Patil and Leek <span class="citation">(2016)</span>.</p>
-<p><strong>Analyst(s):</strong> Person / people leading the decision process from inception / problem definition to decision implementation (SDM), and to learning and review (AM). <strong>Decision-maker(s):</strong> Person / people wholly or partially for responsible for implementing some decision for a given problem. <strong>Decision / decision alternative:</strong> From Conroy <span class="citation">(2013)</span>, “choice among alternative <em>actions</em> ordinarily involving irrevocable allocation of resources, and directed toward achieving an <em>objective</em>”. <strong>Stakeholders</strong> “Persons or organizations with a vested interest in the outcomes of management decisions” <span class="citation">(Conroy and Peterson 2013)</span>.</p>
+<p>I’ve attempted to define some key points of departure, based on Pattil et al.</p>
+<ul>
+<li><strong>Analyst(s):</strong> Person / people leading the decision process from inception / problem definition to decision implementation (SDM), and to learning and review (AM).</li>
+<li><strong>Decision-maker(s):</strong> Person / people wholly or partially for responsible for implementing some decision for a given problem.</li>
+<li><strong>Decision / decision alternative:</strong> From Conroy <span class="citation">(2013)</span>, “choice among alternative <em>actions</em> ordinarily involving irrevocable allocation of resources, and directed toward achieving an <em>objective</em>”.</li>
+<li><strong>Stakeholders</strong> “Persons or organizations with a vested interest in the outcomes of management decisions” <span class="citation">(Conroy and Peterson 2013)</span>. I see stakeholders as influencing the decision when stakeholders are directly consulted or perhaps even just mentally considered by the analyst or the decision-maker when thinking about the fundamental or means objectives.</li>
+</ul>
 <p>What counts as a replication and what counts as a reproduction?</p>
 </div>
-<div id="apples-and-oranges" class="section level2">
-<h2>Apples and Oranges</h2>
+<div id="apples-and-oranges" class="section level3">
+<h3>Apples and Oranges</h3>
 <p>You might have the same problem, but the system is in a different state / configuration from one problem-context to another. And thus in each context you arrive at a different decision that is implemented. So how do you compare the two tools, how do you meaningfully measure a replication? Well it’s not going to be the final action that is undertaken. Instead, it’s going to be the suite of decision outcomes in relationship / conditioned on some range of plausible states. So I’m thinking robustness curves and the like as a method for comparing two DST’s.</p>
 <p>So how do we define a <strong>problem</strong>? I think we can consider some problems to be generalisable. So, say for examle, you specified two different decision-problems mathematically, and you arrived at the same specification, then for both contexts you have the same problem.</p>
 <p>You could then define a <strong>problem-context</strong> as being a specific instantiation of a general problem. Perhaps you have a landuse planning problem with different sets of stakeholders, decision-makers, and even analysts in charge of seeing through the decision-making process. After stepping through the problem specification process… you result in the same problem specification e.g. perhaps you mathematically specify each context, and arrive at the point where you have some knapsack algorithm problem and you have the same objective functions. Thus you could therefore describe these two contexts, as sharing the same <strong>problem</strong>.</p>
@@ -273,24 +298,16 @@
 <p>Trying to derive the elements of a decision-problem that must so we can define what constitutes a reproduction and a replication for a DST.</p>
 <p>So a replication counts when we vary the: - analyst - problem-context and we maintain the: - problem - system (?)</p>
 </div>
-<div id="why-even" class="section level2">
-<h2>Why even?</h2>
+<div id="why-even" class="section level3">
+<h3>Why even?</h3>
 <p>Why even would we want to replicate a decision-tool? Why even would we want to reproduce a decision-tool?</p>
-<p>What are the goals / aims of each of these? What do they tell us? Thinking Nakagawa and Parker here.</p>
+<p>What are the goals / aims of each of these? What do they tell us? Thinking Nakagawa and Parker 2015, validity vs. scope of generality.</p>
 <p>So what elements of a decision-tool development process must be held constant in order for us to be comparing apples, with apples, and oranges with oranges?</p>
-<p>I’m thinking bare-minimum</p>
-</div>
-<div id="method-for-generating-the-roadmap" class="section level2">
-<h2>Method for generating the roadmap</h2>
-<ol style="list-style-type: decimal">
-<li>Sketch out the SDM / DST building process, but breakdown into modelling-steps if need be. a. Does this process differ for different tools?</li>
-<li>Separately, identify sources of bias AND questionable research practices that other people have identified in ecology and evolution, but also in other disciplines. a. at the individual study level b. at the broader level (what do we mean by this?) c. WHAT ARE THE LEVELS?! d. Are these biases applicable to DSTs? e. are there other biases unique to DSTs, that other people haven’t considered? f. Is their occurrence dependent on the type of tool / technical specifics of the application… i.e. are some tools more robust to biases / QRPs than others?</li>
-<li>Map these biases / QRPs onto 1, where do they occur at the various decision-points?</li>
-</ol>
 </div>
 </div>
-<div id="summarising-biases-and-qrps" class="section level1">
-<h1>Summarising biases and QRPs</h1>
+</div>
+<div id="reviewing-the-literature-on-biases-and-qrps" class="section level1">
+<h1>Reviewing the literature on biases and QRPs</h1>
 </div>
 <div id="references" class="section level1 unnumbered">
 <h1>References</h1>
@@ -300,6 +317,9 @@
 </div>
 <div id="ref-Patil:2016tm">
 <p>Patil, P, R D Peng, and J Leek. 2016. “A statistical definition for reproducibility and replicability.” <em>bioRxiv</em>. <a href="http://www.biorxiv.org/content/early/2016/07/29/066803.abstract" class="uri">http://www.biorxiv.org/content/early/2016/07/29/066803.abstract</a>.</p>
+</div>
+<div id="ref-Wintle:2011tl">
+<p>Wintle, Brendan A, Sarah A Bekessy, David A Keith, Brian W van Wilgen, Mar Cabeza, Boris Schroeder, Silvia B Carvalho, et al. 2011. “Ecological-economic optimization of biodiversity conservation under climate change.” <em>Nature Climate Change</em> 1 (7): 355–59. doi:<a href="https://doi.org/10.1038/NCLIMATE1227">10.1038/NCLIMATE1227</a>.</p>
 </div>
 </div>
 </div>
@@ -341,12 +361,12 @@
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="/project/reserach_proposal/"><span
-      aria-hidden="true">&larr;</span> research_proposal</a></li>
+    <li class="previous"><a href="/project/phd_timeline.nb/"><span
+      aria-hidden="true">&larr;</span> </a></li>
     
 
     
-    <li class="next"><a href="/project/reproducibility-web-resources/">reproducibility blogs and websites <span
+    <li class="next"><a href="/project/reserach_proposal/">PhD Research Proposal <span
       aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
