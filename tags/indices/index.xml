@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Indices on research notebook</title>
+    <link>/tags/indices/</link>
+    <description>Recent content in Indices on research notebook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Elise Gould</copyright>
+    <lastBuildDate>Thu, 18 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/indices/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>McPherson et al 2018 A simulation tool to scrutinise the behaviour of functional diversity metrics</title>
+      <link>/post/mcpherson-et-al-2018-a-simulation-tool-to-scrutinise-the-behaviour-of-functional-diversity-metrics/</link>
+      <pubDate>Thu, 18 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/mcpherson-et-al-2018-a-simulation-tool-to-scrutinise-the-behaviour-of-functional-diversity-metrics/</guid>
+      <description>\cite{MEE3:MEE312855}
+Problem
+More and more indices of diversity are created with time. Accurately quantifying functional diversity is important because we want to know how biodiversity loss affects ecosystem functioning.
+Functional diversity is the &amp;ldquo;values and range of functionally important traits in a community&amp;rdquo;.
+The authors describe four dimensions to functional diversity:
+ functional richness evenness divergence redundancy  And they each characterise how organisms interact with ecosystem functioning.
+Although the choice of index should be guided by the functional diversity component of interest, there are multiple indices available for each component, and then there are synthetic indices that summarise all four components as a whole.</description>
+    </item>
+    
+  </channel>
+</rss>

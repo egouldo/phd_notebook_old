@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ecology on research notebook</title>
+    <link>/tags/ecology/</link>
+    <description>Recent content in Ecology on research notebook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Elise Gould</copyright>
+    <lastBuildDate>Fri, 13 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/ecology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cullina et al 2018 Navigating the unfolding open data landscape in ecology and evolution</title>
+      <link>/post/cullina-et-al-2018-navigating-the-unfolding-open-data-landscape-in-ecology-and-evolution/</link>
+      <pubDate>Fri, 13 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/cullina-et-al-2018-navigating-the-unfolding-open-data-landscape-in-ecology-and-evolution/</guid>
+      <description>The open data movement has the capacity to provide new and powerful insights into complex systems, in ecology and evolution. However, in ecology and evolution there has not been great uptake / implementation of open data to the extent seen in other disciplines (e.g. medicine, climate sciences).
+Why open data?
+ identify broader eco evo processes across space, time, species reanalysing data using new statistical approaches error checking using existing data to answer new questions era of the Anthropocene: large, complicated questions with high degree of uncertainty requires combined data from multiple sources, and multidsciplinary data synthesis.</description>
+    </item>
+    
+    <item>
+      <title>Nakagawa and Parker 2015</title>
+      <link>/post/nakagawa-and-parker-2015/</link>
+      <pubDate>Thu, 12 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/nakagawa-and-parker-2015/</guid>
+      <description>Why do we replicate? Assess the validity of prior findings probe the generality of those findings   Levels of replication Exact (also known as “direct”): highest fidelity to the original work. But in ecology, usually can only be ‘close’ replications. Partial: there is a spectrum of partial replications, from close to limited. These have slight procedural differences. Conceptual: uses distinctly different study designs to test the same hypotheses. Quasi-replication (cross-species or system)   Assessing validity  Probing generality Conceptual replications: when results concur, we can define generality.</description>
+    </item>
+    
+    <item>
+      <title>systematic review methodologies for conservation and ecology</title>
+      <link>/post/systematic-review-methodologies-for-conservation-and-ecology/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/systematic-review-methodologies-for-conservation-and-ecology/</guid>
+      <description>Systematic Review Methods Nakagawa and Poulin [-@Nakagawa:2012fl] recommend following the PRISMA statement, at least for meta-analyses in ecology and evolution.
+PRISMA
+Checklist here: http://www.prisma-statement.org/documents/PRISMA%202009%20checklist.pdf
+Cochrane Review
+Manual broken down into two phases of the review: 1. Developing Protocol of the review 2. Conducting Review
+Writing review protocol - Formulating review questions, predefining objectives. - Medicine focused, emphasis on reporting adverse effects, on consumer needs - Choosing &amp;lsquo;outcomes&amp;rsquo;of interest (Mandatory). Assessing risk of bias of studies included in the review.</description>
+    </item>
+    
+    <item>
+      <title>meeting Fiona Hannah 1st March 2018</title>
+      <link>/post/meeting-fiona-hannah-1st-march-18/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/meeting-fiona-hannah-1st-march-18/</guid>
+      <description>To date:
+Have been trying to determine the scope of the project. Want to look at the reproducibility of decision support tools
+ what elements of existing reproducibility literature apply to this context?
+ do we need a new set of criteria? Much of the repro literature especially in ecology seems to be focused on NHST, but this statistical tool is rarely used in decision science, instead it might often rely on the outputs of other studies that utilise them.</description>
+    </item>
+    
+    <item>
+      <title>Meeting Hannah</title>
+      <link>/post/meeting-hannah/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/meeting-hannah/</guid>
+      <description>See Steve&amp;rsquo;s guidelines around meta-analysis from medicine. Hannah&amp;rsquo;s criteria. Conservation Biology guidelines. Guidelines / checkpoints are just around transparency. No actual checking of reproducibility.
+How do decisions vs. models differ? What is particular about my problem context? values, preferences. Process vs. decision model - problem is often split into two. Decision tools as models more complex, involve not just a model of the system / domain (including decision elements), but capturing objectives, alternatives, eliciting expert judgment, involving many stakeholders.</description>
+    </item>
+    
+    <item>
+      <title>Hart - Towards a more reproducible ecology</title>
+      <link>/post/hart-towards-a-more-reproducible-ecology/</link>
+      <pubDate>Tue, 20 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/hart-towards-a-more-reproducible-ecology/</guid>
+      <description>Borregaard, M. K., Hart, E. M. (2018) Towards a more reproducible ecology. httpwww.ecography.orgblogtowards-more-reproducible-ecology, 1–9.
+This is an editorial intro to the special edition of ecography dedicated to reproducible methods in ecology..
+Page 1 Page 1, Red, Text, 2018-02-20: State of ecological research and analyses has changed.
+Page 1, Red, Highlight, 2018-02-20:  A new paradigm has emerged, where individual scientists download, curate and share large amounts of data and analyse it using reproducible software packages and scripts written in languages such as R, Python and Julia.</description>
+    </item>
+    
+  </channel>
+</rss>

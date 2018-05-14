@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Systematic review on research notebook</title>
+    <link>/categories/systematic-review/</link>
+    <description>Recent content in Systematic review on research notebook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Elise Gould</copyright>
+    <lastBuildDate>Wed, 21 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/systematic-review/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fidler 2017 Metaresearch in ecology</title>
+      <link>/post/fidler-2017-metaresearch-in-ecology/</link>
+      <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/fidler-2017-metaresearch-in-ecology/</guid>
+      <description>Fidler, F., Chee, Y. E., Wintle, B. A., Burgman, M. A., McCarthy, M. A., Gordon, A. (2017) Metaresearch for Evaluating Reproducibility in Ecology and Evolution. BioScience doi: 10.1093/biosci/biw159.
+Demonstrate that ecology and evolution as disciplines are at risk of a having low rates of reproducibility, aka a &amp;lsquo;reproducibility crisis&amp;rsquo; as others have termed it. The paper sets out to identify the different ways in which ecology is likely to have a reproducibility problem.</description>
+    </item>
+    
+    <item>
+      <title>Law et al. (2017) Biol Con</title>
+      <link>/post/law-et-al-2017-biol-con/</link>
+      <pubDate>Fri, 15 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/law-et-al-2017-biol-con/</guid>
+      <description>Law, E. A., Ferraro, P. J., Arcese, P., Bryan, B. A., Davis, K., Gordon, A., Holden, M. H., Iacona, G., Martinez, R. M., McAlpine, C. A., Rhodes, J. R., Sze, J. S., Wilson, K. A. (2017) Projecting the performance of conservation interventions. BIOC doi: 10.1016/j.biocon.2017.08.029.
+Problem: Projecting the performance of conservation interventions Successful decision-making for environmental management requires reliable evidence for both the performance and efficacy of proposed conservation actions.</description>
+    </item>
+    
+    <item>
+      <title>research_proposal</title>
+      <link>/project/reserach_proposal/</link>
+      <pubDate>Wed, 15 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/project/reserach_proposal/</guid>
+      <description>Goal I want to generate a “roadmap” of the sources of bias and questionable research practices (QRPs) that I think are frequently encountered when developing D in applied ecology / conservation. These biases will reduce the reproducibility of of a given decision support tool. Identifying where in the DST development process particular biases are likely to occur should serve as a launching point for proposing solutions towards minimising their occurrence and therefore increasing the reproducibility of DSTs.</description>
+    </item>
+    
+  </channel>
+</rss>

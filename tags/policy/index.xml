@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Policy on research notebook</title>
+    <link>/tags/policy/</link>
+    <description>Recent content in Policy on research notebook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Elise Gould</copyright>
+    <lastBuildDate>Fri, 15 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/policy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Law et al. (2017) Biol Con</title>
+      <link>/post/law-et-al-2017-biol-con/</link>
+      <pubDate>Fri, 15 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/law-et-al-2017-biol-con/</guid>
+      <description>Law, E. A., Ferraro, P. J., Arcese, P., Bryan, B. A., Davis, K., Gordon, A., Holden, M. H., Iacona, G., Martinez, R. M., McAlpine, C. A., Rhodes, J. R., Sze, J. S., Wilson, K. A. (2017) Projecting the performance of conservation interventions. BIOC doi: 10.1016/j.biocon.2017.08.029.
+Problem: Projecting the performance of conservation interventions Successful decision-making for environmental management requires reliable evidence for both the performance and efficacy of proposed conservation actions.</description>
+    </item>
+    
+  </channel>
+</rss>

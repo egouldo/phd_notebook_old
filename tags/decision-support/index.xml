@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Decision support on research notebook</title>
+    <link>/tags/decision-support/</link>
+    <description>Recent content in Decision support on research notebook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Elise Gould</copyright>
+    <lastBuildDate>Wed, 09 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/decision-support/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gardner et al. 2018 Decision Complacency and Conservation Planning</title>
+      <link>/post/gardner-et-al-2018-decision-complacency-and-conservation-planning/</link>
+      <pubDate>Wed, 09 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/gardner-et-al-2018-decision-complacency-and-conservation-planning/</guid>
+      <description>Gardner et al. (2018) add to knowledge-doing gap literature by defining and exemplifying what they call “Decision Complacency”
+ The non-use of evidence or systematic processes to make decisions.
+ Contextualising decision complacency in the knowledge-doing gap:
+Researcher-practitioner divide: the case where researchers do not meet the needs of practitioners such that the information provided by conservation scientists does not allow decision-makers or practitioners to make sufficiently evidence-based decisions Evidence Complacency: Sutherland and Wordley (2017) describe a different angle of the researcher-practitioner divide where practitioners don’t use or seek available evidence, and/or don’t test the impact of their actions.</description>
+    </item>
+    
+    <item>
+      <title>meeting 15 March 2018</title>
+      <link>/post/meeting-15-march-2018/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/meeting-15-march-2018/</guid>
+      <description>Libby, Hannah present.
+Exploring systematic review methods Add my notes from CJ meeting here.
+Also see: BES - will be discussed in coding club / reading club. SER (Society of ecological restoration) -&amp;gt; Australian Chapter, SERA. Other disciplines where science / evidence is used in making decision s(Ecotoxicology / Biosecurity).
+Authors who have worked on systematic reviews in ecology (@TODO): - Catherine Pickering - Robin Hale - W J Sutherland</description>
+    </item>
+    
+    <item>
+      <title>systematic review methodologies for conservation and ecology</title>
+      <link>/post/systematic-review-methodologies-for-conservation-and-ecology/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/systematic-review-methodologies-for-conservation-and-ecology/</guid>
+      <description>Systematic Review Methods Nakagawa and Poulin [-@Nakagawa:2012fl] recommend following the PRISMA statement, at least for meta-analyses in ecology and evolution.
+PRISMA
+Checklist here: http://www.prisma-statement.org/documents/PRISMA%202009%20checklist.pdf
+Cochrane Review
+Manual broken down into two phases of the review: 1. Developing Protocol of the review 2. Conducting Review
+Writing review protocol - Formulating review questions, predefining objectives. - Medicine focused, emphasis on reporting adverse effects, on consumer needs - Choosing &amp;lsquo;outcomes&amp;rsquo;of interest (Mandatory). Assessing risk of bias of studies included in the review.</description>
+    </item>
+    
+    <item>
+      <title>first chapter</title>
+      <link>/post/first-chapter/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/first-chapter/</guid>
+      <description>Libby has suggested an idea for the first chapter. It would be a data-based review of reproducibility issues facing decision support tools and ecological models. It would require not simply applying existing criteria for reproducibility, but would require generating criteria appropriate to DST&amp;rsquo;s and ecological models. Maybe some existing criteria apply. Maybe some don&amp;rsquo;t.
+First chapter initial steps:
+ identify why reproducibility is important for ecological models / decision support tools Generate a list of reproducibility criteria: - review issues facing devt of ecological models - review literature on reproducibility in ecology / conservation in general Generate a set of DST&amp;rsquo;s / models to apply the list to Figure out a way of scoring the models Apply the list and score the models  Questions:</description>
+    </item>
+    
+  </channel>
+</rss>

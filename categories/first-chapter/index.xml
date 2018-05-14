@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>First chapter on research notebook</title>
+    <link>/categories/first-chapter/</link>
+    <description>Recent content in First chapter on research notebook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Elise Gould</copyright>
+    <lastBuildDate>Thu, 15 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/first-chapter/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>systematic review methodologies for conservation and ecology</title>
+      <link>/post/systematic-review-methodologies-for-conservation-and-ecology/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/systematic-review-methodologies-for-conservation-and-ecology/</guid>
+      <description>Systematic Review Methods Nakagawa and Poulin [-@Nakagawa:2012fl] recommend following the PRISMA statement, at least for meta-analyses in ecology and evolution.
+PRISMA
+Checklist here: http://www.prisma-statement.org/documents/PRISMA%202009%20checklist.pdf
+Cochrane Review
+Manual broken down into two phases of the review: 1. Developing Protocol of the review 2. Conducting Review
+Writing review protocol - Formulating review questions, predefining objectives. - Medicine focused, emphasis on reporting adverse effects, on consumer needs - Choosing &amp;lsquo;outcomes&amp;rsquo;of interest (Mandatory). Assessing risk of bias of studies included in the review.</description>
+    </item>
+    
+    <item>
+      <title>reproducibility criteria</title>
+      <link>/post/reproducibility-criteria/</link>
+      <pubDate>Tue, 20 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/reproducibility-criteria/</guid>
+      <description>I need to start thinking about how we define reproducibility for a) ecological models b) ecological models in the context of decision support.
+Reviewing Fiona&amp;rsquo;s article on metaresearch on ecology would be a good place to start thinking about reproducibility in ecology.
+-&amp;gt; Reproducibility in ecology&amp;hellip; why important? &amp;ldquo;the inherent complexity of the inference chain needed to advance ecology as well as the importance of ecological results to challenges important to society&amp;rdquo; https://eco.</description>
+    </item>
+    
+    <item>
+      <title>Guerrero et al 2017 Using SDM to set restoration objectives</title>
+      <link>/post/guerrero-et-al-2017-using-sdm-to-set-restoration-objectives/</link>
+      <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/guerrero-et-al-2017-using-sdm-to-set-restoration-objectives/</guid>
+      <description>Guerrero, A. M., Shoo, L., Iacona, G., Standish, R. J., Catterall, C. P., Rumpff, L., de Bie, K., White, Z., Matzek, V., Wilson, K. A. (2017) Using structured decision-making to set restoration objectives when multiple values and preferences exist. Restoration Ecology. 25, 858–865.
+Problem: achieving restoration targets is impeded by difficulty in identifying and working towards targets, because objective setting is beset by multiple / conflicting values and preferences, and there are often time-lags in a restoration action and its desired outcome.</description>
+    </item>
+    
+    <item>
+      <title>Matzek et al (2017) Emerging approaches to successful ecologicall restoration</title>
+      <link>/post/matzek-et-al-2017-emerging-approaches-to-successful-ecologicall-restoration/</link>
+      <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/matzek-et-al-2017-emerging-approaches-to-successful-ecologicall-restoration/</guid>
+      <description>Matzek, V., Gornish, E. S., Hulvey, K. B. (2017) Emerging approaches to successful ecological restoration: five imperatives to guide innovation (eds E. Gornish, V. Matzek, &amp;amp; K. Hulvey). Restoration Ecology. 25, S110–S113.
+New techniques, approaches, and technologies are emerging and being applied in habitat restoration. This is because restoration goals are shifting towards resilience and dynamism, and because the need for efficient resource use is of increasing concern.
+The paper serves as an introduction / review to the special issue of the journal.</description>
+    </item>
+    
+    <item>
+      <title>first chapter</title>
+      <link>/post/first-chapter/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/first-chapter/</guid>
+      <description>Libby has suggested an idea for the first chapter. It would be a data-based review of reproducibility issues facing decision support tools and ecological models. It would require not simply applying existing criteria for reproducibility, but would require generating criteria appropriate to DST&amp;rsquo;s and ecological models. Maybe some existing criteria apply. Maybe some don&amp;rsquo;t.
+First chapter initial steps:
+ identify why reproducibility is important for ecological models / decision support tools Generate a list of reproducibility criteria: - review issues facing devt of ecological models - review literature on reproducibility in ecology / conservation in general Generate a set of DST&amp;rsquo;s / models to apply the list to Figure out a way of scoring the models Apply the list and score the models  Questions:</description>
+    </item>
+    
+  </channel>
+</rss>

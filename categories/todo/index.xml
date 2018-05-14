@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Todo on research notebook</title>
+    <link>/categories/todo/</link>
+    <description>Recent content in Todo on research notebook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Elise Gould</copyright>
+    <lastBuildDate>Wed, 13 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/todo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>first post</title>
+      <link>/post/first-post/</link>
+      <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/first-post/</guid>
+      <description>Readings: Reproducibility – how to define for this context. Ecology / decision support tools.
+Reproducibility of ecological models used for decision support tools.
+Interested in the sorts of decisions that we make as modellers… e.g. what performance measures do we use, there are so many different ways of valuing the objectives. And depending on which measure you use, you might judge the outcomes of each of the different strategies under consideration differently….</description>
+    </item>
+    
+  </channel>
+</rss>

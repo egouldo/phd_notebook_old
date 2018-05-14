@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Modelling on research notebook</title>
+    <link>/tags/modelling/</link>
+    <description>Recent content in Modelling on research notebook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Elise Gould</copyright>
+    <lastBuildDate>Mon, 18 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/modelling/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>first chapter</title>
+      <link>/post/first-chapter/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/first-chapter/</guid>
+      <description>Libby has suggested an idea for the first chapter. It would be a data-based review of reproducibility issues facing decision support tools and ecological models. It would require not simply applying existing criteria for reproducibility, but would require generating criteria appropriate to DST&amp;rsquo;s and ecological models. Maybe some existing criteria apply. Maybe some don&amp;rsquo;t.
+First chapter initial steps:
+ identify why reproducibility is important for ecological models / decision support tools Generate a list of reproducibility criteria: - review issues facing devt of ecological models - review literature on reproducibility in ecology / conservation in general Generate a set of DST&amp;rsquo;s / models to apply the list to Figure out a way of scoring the models Apply the list and score the models  Questions:</description>
+    </item>
+    
+  </channel>
+</rss>

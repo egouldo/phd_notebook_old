@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>QRP on research notebook</title>
+    <link>/tags/qrp/</link>
+    <description>Recent content in QRP on research notebook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Elise Gould</copyright>
+    <lastBuildDate>Mon, 14 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/qrp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Retreat Reproducibility Session</title>
+      <link>/post/retreat-reproducibility-session/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/retreat-reproducibility-session/</guid>
+      <description>Session Planning Focus: Reproducibility in practice - QRPs.
+Session aim: To help spread awareness among Qaecologists and Cebranalysts about reproducibility issues in our research practices. And then possibly provide people with the tools / solutions to overcome some of these issues.
+Format: not a lecture, not an unstructured discussion.
+Length 90 minutes.
+Introduction: 15 minutes Introductory talk with a few slides . Led by Fiona and Hannah.
+Intro by Fiona, perhaps talking about why reproducibility is important to us as ecologists, the state of reproducibility in eco/evo, an in the context of other dsciplines?</description>
+    </item>
+    
+  </channel>
+</rss>

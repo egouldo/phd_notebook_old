@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conservation on research notebook</title>
+    <link>/tags/conservation/</link>
+    <description>Recent content in Conservation on research notebook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Elise Gould</copyright>
+    <lastBuildDate>Thu, 15 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/conservation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>systematic review methodologies for conservation and ecology</title>
+      <link>/post/systematic-review-methodologies-for-conservation-and-ecology/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/systematic-review-methodologies-for-conservation-and-ecology/</guid>
+      <description>Systematic Review Methods Nakagawa and Poulin [-@Nakagawa:2012fl] recommend following the PRISMA statement, at least for meta-analyses in ecology and evolution.
+PRISMA
+Checklist here: http://www.prisma-statement.org/documents/PRISMA%202009%20checklist.pdf
+Cochrane Review
+Manual broken down into two phases of the review: 1. Developing Protocol of the review 2. Conducting Review
+Writing review protocol - Formulating review questions, predefining objectives. - Medicine focused, emphasis on reporting adverse effects, on consumer needs - Choosing &amp;lsquo;outcomes&amp;rsquo;of interest (Mandatory). Assessing risk of bias of studies included in the review.</description>
+    </item>
+    
+  </channel>
+</rss>

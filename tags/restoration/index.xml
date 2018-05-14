@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Restoration on research notebook</title>
+    <link>/tags/restoration/</link>
+    <description>Recent content in Restoration on research notebook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Elise Gould</copyright>
+    <lastBuildDate>Mon, 19 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/restoration/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Guerrero et al 2017 Using SDM to set restoration objectives</title>
+      <link>/post/guerrero-et-al-2017-using-sdm-to-set-restoration-objectives/</link>
+      <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/guerrero-et-al-2017-using-sdm-to-set-restoration-objectives/</guid>
+      <description>Guerrero, A. M., Shoo, L., Iacona, G., Standish, R. J., Catterall, C. P., Rumpff, L., de Bie, K., White, Z., Matzek, V., Wilson, K. A. (2017) Using structured decision-making to set restoration objectives when multiple values and preferences exist. Restoration Ecology. 25, 858–865.
+Problem: achieving restoration targets is impeded by difficulty in identifying and working towards targets, because objective setting is beset by multiple / conflicting values and preferences, and there are often time-lags in a restoration action and its desired outcome.</description>
+    </item>
+    
+    <item>
+      <title>Matzek et al (2017) Emerging approaches to successful ecologicall restoration</title>
+      <link>/post/matzek-et-al-2017-emerging-approaches-to-successful-ecologicall-restoration/</link>
+      <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/matzek-et-al-2017-emerging-approaches-to-successful-ecologicall-restoration/</guid>
+      <description>Matzek, V., Gornish, E. S., Hulvey, K. B. (2017) Emerging approaches to successful ecological restoration: five imperatives to guide innovation (eds E. Gornish, V. Matzek, &amp;amp; K. Hulvey). Restoration Ecology. 25, S110–S113.
+New techniques, approaches, and technologies are emerging and being applied in habitat restoration. This is because restoration goals are shifting towards resilience and dynamism, and because the need for efficient resource use is of increasing concern.
+The paper serves as an introduction / review to the special issue of the journal.</description>
+    </item>
+    
+  </channel>
+</rss>

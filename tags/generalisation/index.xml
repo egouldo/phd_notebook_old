@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Generalisation on research notebook</title>
+    <link>/tags/generalisation/</link>
+    <description>Recent content in Generalisation on research notebook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Elise Gould</copyright>
+    <lastBuildDate>Thu, 12 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/generalisation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Nakagawa and Parker 2015</title>
+      <link>/post/nakagawa-and-parker-2015/</link>
+      <pubDate>Thu, 12 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/nakagawa-and-parker-2015/</guid>
+      <description>Why do we replicate? Assess the validity of prior findings probe the generality of those findings   Levels of replication Exact (also known as “direct”): highest fidelity to the original work. But in ecology, usually can only be ‘close’ replications. Partial: there is a spectrum of partial replications, from close to limited. These have slight procedural differences. Conceptual: uses distinctly different study designs to test the same hypotheses. Quasi-replication (cross-species or system)   Assessing validity  Probing generality Conceptual replications: when results concur, we can define generality.</description>
+    </item>
+    
+  </channel>
+</rss>

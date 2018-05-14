@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Planning on research notebook</title>
+    <link>/categories/planning/</link>
+    <description>Recent content in Planning on research notebook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Elise Gould</copyright>
+    <lastBuildDate>Thu, 12 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/planning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>meeting april 12 2018</title>
+      <link>/post/meeting-april-12-2018/</link>
+      <pubDate>Thu, 12 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/meeting-april-12-2018/</guid>
+      <description>Planning the projects and the scope of the Phd (and the format for the thesis):
+ Perfectly acceptable to have disparate projects / papers comprising the thesis, and bound together with a good introduction and conclusion. Don’t have to choose between different projects.  Good to try and sit with that tension, and not having to resolve it by having a neat / tightly fitting narrative thesis.
+Hannah: working on structured decision making tool with Libby.</description>
+    </item>
+    
+    <item>
+      <title>PhD Timeline and Milestones</title>
+      <link>/project/phd_timeline/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/project/phd_timeline/</guid>
+      <description>Timeline   Milestones Milestones are documented in the RHD manual, page 4: https://app.lms.unimelb.edu.au/bbcswebdav/pid-6166800-dt-content-rid-24849943_3/orgs/COM_01654/RHD%20Handbook%20v%202017%2008%2016%20LMS%20version%202.pdf
+Candidature and Confirmation: Probationary Candidate: You start your PhD as a probationary candidate and within 12 months (we recommend the ideal time of 9 to 10 months) you will go through the confirmation procedure, formalising your candidature. Purpose of Confirmation: The main purpose of the confirmation process is to determine if you have developed a detailed research plan together with your supervisor(s), to assess whether this research plan meets the requirements of the degree, and to assess if adequate progress has been made.</description>
+    </item>
+    
+    <item>
+      <title>reproducibility criteria</title>
+      <link>/post/reproducibility-criteria/</link>
+      <pubDate>Tue, 20 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/reproducibility-criteria/</guid>
+      <description>I need to start thinking about how we define reproducibility for a) ecological models b) ecological models in the context of decision support.
+Reviewing Fiona&amp;rsquo;s article on metaresearch on ecology would be a good place to start thinking about reproducibility in ecology.
+-&amp;gt; Reproducibility in ecology&amp;hellip; why important? &amp;ldquo;the inherent complexity of the inference chain needed to advance ecology as well as the importance of ecological results to challenges important to society&amp;rdquo; https://eco.</description>
+    </item>
+    
+    <item>
+      <title>first chapter</title>
+      <link>/post/first-chapter/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/first-chapter/</guid>
+      <description>Libby has suggested an idea for the first chapter. It would be a data-based review of reproducibility issues facing decision support tools and ecological models. It would require not simply applying existing criteria for reproducibility, but would require generating criteria appropriate to DST&amp;rsquo;s and ecological models. Maybe some existing criteria apply. Maybe some don&amp;rsquo;t.
+First chapter initial steps:
+ identify why reproducibility is important for ecological models / decision support tools Generate a list of reproducibility criteria: - review issues facing devt of ecological models - review literature on reproducibility in ecology / conservation in general Generate a set of DST&amp;rsquo;s / models to apply the list to Figure out a way of scoring the models Apply the list and score the models  Questions:</description>
+    </item>
+    
+    <item>
+      <title>first post</title>
+      <link>/post/first-post/</link>
+      <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/first-post/</guid>
+      <description>Readings: Reproducibility – how to define for this context. Ecology / decision support tools.
+Reproducibility of ecological models used for decision support tools.
+Interested in the sorts of decisions that we make as modellers… e.g. what performance measures do we use, there are so many different ways of valuing the objectives. And depending on which measure you use, you might judge the outcomes of each of the different strategies under consideration differently….</description>
+    </item>
+    
+  </channel>
+</rss>

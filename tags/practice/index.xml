@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Practice on research notebook</title>
+    <link>/tags/practice/</link>
+    <description>Recent content in Practice on research notebook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Elise Gould</copyright>
+    <lastBuildDate>Wed, 09 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/practice/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gardner et al. 2018 Decision Complacency and Conservation Planning</title>
+      <link>/post/gardner-et-al-2018-decision-complacency-and-conservation-planning/</link>
+      <pubDate>Wed, 09 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/gardner-et-al-2018-decision-complacency-and-conservation-planning/</guid>
+      <description>Gardner et al. (2018) add to knowledge-doing gap literature by defining and exemplifying what they call “Decision Complacency”
+ The non-use of evidence or systematic processes to make decisions.
+ Contextualising decision complacency in the knowledge-doing gap:
+Researcher-practitioner divide: the case where researchers do not meet the needs of practitioners such that the information provided by conservation scientists does not allow decision-makers or practitioners to make sufficiently evidence-based decisions Evidence Complacency: Sutherland and Wordley (2017) describe a different angle of the researcher-practitioner divide where practitioners don’t use or seek available evidence, and/or don’t test the impact of their actions.</description>
+    </item>
+    
+    <item>
+      <title>Matzek et al (2017) Emerging approaches to successful ecologicall restoration</title>
+      <link>/post/matzek-et-al-2017-emerging-approaches-to-successful-ecologicall-restoration/</link>
+      <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/matzek-et-al-2017-emerging-approaches-to-successful-ecologicall-restoration/</guid>
+      <description>Matzek, V., Gornish, E. S., Hulvey, K. B. (2017) Emerging approaches to successful ecological restoration: five imperatives to guide innovation (eds E. Gornish, V. Matzek, &amp;amp; K. Hulvey). Restoration Ecology. 25, S110–S113.
+New techniques, approaches, and technologies are emerging and being applied in habitat restoration. This is because restoration goals are shifting towards resilience and dynamism, and because the need for efficient resource use is of increasing concern.
+The paper serves as an introduction / review to the special issue of the journal.</description>
+    </item>
+    
+  </channel>
+</rss>

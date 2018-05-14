@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Evidence-based on research notebook</title>
+    <link>/tags/evidence-based/</link>
+    <description>Recent content in Evidence-based on research notebook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Elise Gould</copyright>
+    <lastBuildDate>Wed, 09 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/evidence-based/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gardner et al. 2018 Decision Complacency and Conservation Planning</title>
+      <link>/post/gardner-et-al-2018-decision-complacency-and-conservation-planning/</link>
+      <pubDate>Wed, 09 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/gardner-et-al-2018-decision-complacency-and-conservation-planning/</guid>
+      <description>Gardner et al. (2018) add to knowledge-doing gap literature by defining and exemplifying what they call “Decision Complacency”
+ The non-use of evidence or systematic processes to make decisions.
+ Contextualising decision complacency in the knowledge-doing gap:
+Researcher-practitioner divide: the case where researchers do not meet the needs of practitioners such that the information provided by conservation scientists does not allow decision-makers or practitioners to make sufficiently evidence-based decisions Evidence Complacency: Sutherland and Wordley (2017) describe a different angle of the researcher-practitioner divide where practitioners don’t use or seek available evidence, and/or don’t test the impact of their actions.</description>
+    </item>
+    
+    <item>
+      <title>Law et al. (2017) Biol Con</title>
+      <link>/post/law-et-al-2017-biol-con/</link>
+      <pubDate>Fri, 15 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/law-et-al-2017-biol-con/</guid>
+      <description>Law, E. A., Ferraro, P. J., Arcese, P., Bryan, B. A., Davis, K., Gordon, A., Holden, M. H., Iacona, G., Martinez, R. M., McAlpine, C. A., Rhodes, J. R., Sze, J. S., Wilson, K. A. (2017) Projecting the performance of conservation interventions. BIOC doi: 10.1016/j.biocon.2017.08.029.
+Problem: Projecting the performance of conservation interventions Successful decision-making for environmental management requires reliable evidence for both the performance and efficacy of proposed conservation actions.</description>
+    </item>
+    
+  </channel>
+</rss>

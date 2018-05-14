@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reading on research notebook</title>
+    <link>/categories/reading/</link>
+    <description>Recent content in Reading on research notebook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Elise Gould</copyright>
+    <lastBuildDate>Wed, 09 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/reading/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gardner et al. 2018 Decision Complacency and Conservation Planning</title>
+      <link>/post/gardner-et-al-2018-decision-complacency-and-conservation-planning/</link>
+      <pubDate>Wed, 09 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/gardner-et-al-2018-decision-complacency-and-conservation-planning/</guid>
+      <description>Gardner et al. (2018) add to knowledge-doing gap literature by defining and exemplifying what they call “Decision Complacency”
+ The non-use of evidence or systematic processes to make decisions.
+ Contextualising decision complacency in the knowledge-doing gap:
+Researcher-practitioner divide: the case where researchers do not meet the needs of practitioners such that the information provided by conservation scientists does not allow decision-makers or practitioners to make sufficiently evidence-based decisions Evidence Complacency: Sutherland and Wordley (2017) describe a different angle of the researcher-practitioner divide where practitioners don’t use or seek available evidence, and/or don’t test the impact of their actions.</description>
+    </item>
+    
+    <item>
+      <title>Cullina et al 2018 Navigating the unfolding open data landscape in ecology and evolution</title>
+      <link>/post/cullina-et-al-2018-navigating-the-unfolding-open-data-landscape-in-ecology-and-evolution/</link>
+      <pubDate>Fri, 13 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/cullina-et-al-2018-navigating-the-unfolding-open-data-landscape-in-ecology-and-evolution/</guid>
+      <description>The open data movement has the capacity to provide new and powerful insights into complex systems, in ecology and evolution. However, in ecology and evolution there has not been great uptake / implementation of open data to the extent seen in other disciplines (e.g. medicine, climate sciences).
+Why open data?
+ identify broader eco evo processes across space, time, species reanalysing data using new statistical approaches error checking using existing data to answer new questions era of the Anthropocene: large, complicated questions with high degree of uncertainty requires combined data from multiple sources, and multidsciplinary data synthesis.</description>
+    </item>
+    
+    <item>
+      <title>Nakagawa and Parker 2015</title>
+      <link>/post/nakagawa-and-parker-2015/</link>
+      <pubDate>Thu, 12 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/nakagawa-and-parker-2015/</guid>
+      <description>Why do we replicate? Assess the validity of prior findings probe the generality of those findings   Levels of replication Exact (also known as “direct”): highest fidelity to the original work. But in ecology, usually can only be ‘close’ replications. Partial: there is a spectrum of partial replications, from close to limited. These have slight procedural differences. Conceptual: uses distinctly different study designs to test the same hypotheses. Quasi-replication (cross-species or system)   Assessing validity  Probing generality Conceptual replications: when results concur, we can define generality.</description>
+    </item>
+    
+    <item>
+      <title>French 2012 meta-analysis for expert judgment</title>
+      <link>/post/french-2012-meta-analysis-for-expert-judgment/</link>
+      <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/french-2012-meta-analysis-for-expert-judgment/</guid>
+      <description>French, S. (2012) Expert Judgment, Meta-analysis, and Participatory Risk Analysis. Decision Analysis. 9, 119–127.
+Problem / background and paper goals Page 2 [@French:2012di] describes three types of expert elicitation problems. The third forms the focus of the paper:
+ The expert problem: where the decision-maker does not have the domain knowledge and elicits judgments from a group of experts. The group decision problem: where the expert group itself is jointly responseible for the decision.</description>
+    </item>
+    
+    <item>
+      <title>Hart - Towards a more reproducible ecology</title>
+      <link>/post/hart-towards-a-more-reproducible-ecology/</link>
+      <pubDate>Tue, 20 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/hart-towards-a-more-reproducible-ecology/</guid>
+      <description>Borregaard, M. K., Hart, E. M. (2018) Towards a more reproducible ecology. httpwww.ecography.orgblogtowards-more-reproducible-ecology, 1–9.
+This is an editorial intro to the special edition of ecography dedicated to reproducible methods in ecology..
+Page 1 Page 1, Red, Text, 2018-02-20: State of ecological research and analyses has changed.
+Page 1, Red, Highlight, 2018-02-20:  A new paradigm has emerged, where individual scientists download, curate and share large amounts of data and analyse it using reproducible software packages and scripts written in languages such as R, Python and Julia.</description>
+    </item>
+    
+    <item>
+      <title>Guerrero et al 2017 Using SDM to set restoration objectives</title>
+      <link>/post/guerrero-et-al-2017-using-sdm-to-set-restoration-objectives/</link>
+      <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/guerrero-et-al-2017-using-sdm-to-set-restoration-objectives/</guid>
+      <description>Guerrero, A. M., Shoo, L., Iacona, G., Standish, R. J., Catterall, C. P., Rumpff, L., de Bie, K., White, Z., Matzek, V., Wilson, K. A. (2017) Using structured decision-making to set restoration objectives when multiple values and preferences exist. Restoration Ecology. 25, 858–865.
+Problem: achieving restoration targets is impeded by difficulty in identifying and working towards targets, because objective setting is beset by multiple / conflicting values and preferences, and there are often time-lags in a restoration action and its desired outcome.</description>
+    </item>
+    
+    <item>
+      <title>McPherson et al 2018 A simulation tool to scrutinise the behaviour of functional diversity metrics</title>
+      <link>/post/mcpherson-et-al-2018-a-simulation-tool-to-scrutinise-the-behaviour-of-functional-diversity-metrics/</link>
+      <pubDate>Thu, 18 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/mcpherson-et-al-2018-a-simulation-tool-to-scrutinise-the-behaviour-of-functional-diversity-metrics/</guid>
+      <description>\cite{MEE3:MEE312855}
+Problem
+More and more indices of diversity are created with time. Accurately quantifying functional diversity is important because we want to know how biodiversity loss affects ecosystem functioning.
+Functional diversity is the &amp;ldquo;values and range of functionally important traits in a community&amp;rdquo;.
+The authors describe four dimensions to functional diversity:
+ functional richness evenness divergence redundancy  And they each characterise how organisms interact with ecosystem functioning.
+Although the choice of index should be guided by the functional diversity component of interest, there are multiple indices available for each component, and then there are synthetic indices that summarise all four components as a whole.</description>
+    </item>
+    
+    <item>
+      <title>Matzek et al (2017) Emerging approaches to successful ecologicall restoration</title>
+      <link>/post/matzek-et-al-2017-emerging-approaches-to-successful-ecologicall-restoration/</link>
+      <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/matzek-et-al-2017-emerging-approaches-to-successful-ecologicall-restoration/</guid>
+      <description>Matzek, V., Gornish, E. S., Hulvey, K. B. (2017) Emerging approaches to successful ecological restoration: five imperatives to guide innovation (eds E. Gornish, V. Matzek, &amp;amp; K. Hulvey). Restoration Ecology. 25, S110–S113.
+New techniques, approaches, and technologies are emerging and being applied in habitat restoration. This is because restoration goals are shifting towards resilience and dynamism, and because the need for efficient resource use is of increasing concern.
+The paper serves as an introduction / review to the special issue of the journal.</description>
+    </item>
+    
+    <item>
+      <title>Law et al. (2017) Biol Con</title>
+      <link>/post/law-et-al-2017-biol-con/</link>
+      <pubDate>Fri, 15 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/law-et-al-2017-biol-con/</guid>
+      <description>Law, E. A., Ferraro, P. J., Arcese, P., Bryan, B. A., Davis, K., Gordon, A., Holden, M. H., Iacona, G., Martinez, R. M., McAlpine, C. A., Rhodes, J. R., Sze, J. S., Wilson, K. A. (2017) Projecting the performance of conservation interventions. BIOC doi: 10.1016/j.biocon.2017.08.029.
+Problem: Projecting the performance of conservation interventions Successful decision-making for environmental management requires reliable evidence for both the performance and efficacy of proposed conservation actions.</description>
+    </item>
+    
+    <item>
+      <title>first post</title>
+      <link>/post/first-post/</link>
+      <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/first-post/</guid>
+      <description>Readings: Reproducibility – how to define for this context. Ecology / decision support tools.
+Reproducibility of ecological models used for decision support tools.
+Interested in the sorts of decisions that we make as modellers… e.g. what performance measures do we use, there are so many different ways of valuing the objectives. And depending on which measure you use, you might judge the outcomes of each of the different strategies under consideration differently….</description>
+    </item>
+    
+  </channel>
+</rss>
