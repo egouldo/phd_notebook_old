@@ -11,6 +11,67 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Fraser et al 2018 QRPs in Ecology and Evolution</title>
+      <link>/post/fraser-et-al-2018-qrps-in-ecology-and-evolution/</link>
+      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/fraser-et-al-2018-qrps-in-ecology-and-evolution/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Fraser, H. S., Parker, T. H., Nakagawa, S., Barnett, A., Fidler, F. (2018) Questionable Research Practices in Ecology and Evolution. doi: 10.17605/OSF.IO/AJYQG.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;“Transformation process” of science communication is susceptible to confusion and corruption, has triggered both reflection and meta-research in other disciplines.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Forstmeier et al [8]:&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Individual research practice is embedded in a broader culture, and promoite conditions of publication bias and type 1 errors. ‘Questionable research practices’ are fostered under conditions of publication bias, inflating false postive rates in the literature.&lt;/p&gt;
+&lt;p&gt;Within Ecology and evolution research, there is a dearth of replications of existing research. Existing advice predominantly focuses on practices that individual researchers can implement. There is increasing initiatives at broader scales, at the journal level, for example, to improve reporting standards.&lt;/p&gt;
+&lt;p&gt;Psychology and Medicine have both properly documented the prevalence of QRPs. &lt;span class=&#34;citation&#34;&gt;(2018)&lt;/span&gt; represents the first study to document the prevalence of QRPs in EcoEvo.&lt;/p&gt;
+&lt;div id=&#34;what-are-qrps&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;What are QRPs?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;p-hacking&lt;/code&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A set of activities: checking the statistical significance of results before deciding whether to collect more data; stopping data collection early because results reached statistical significance; deciding whether to exclude data points (e.g., outliers) only after checking the impact on statistical significance and not reporting the impact of the data exclusion; adjusting statistical models, for instance by including or excluding covariates based on the resulting strength of the main effect of interest; and rounding of a p value to meet a statistical significance threshold (e.g., presenting 0.053 as p &amp;lt; .05).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;cherry picking&lt;/code&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;includes failing to report dependent or response variables or relationships that did not reach statistical significance or other threshold and/or failing to report conditions or treatments that did not reach statistical significance or other threshold.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;HARK-ing&lt;/code&gt; (hypothesizing after results are known):&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;includes presenting ad hoc and/or unexpected findings as though they had been predicted all along [16]; and presenting exploratory work as though it was confirmatory hypothesis testing [17].&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;–&amp;gt; Jian: ideally, exploratory work should be published / presented as just that, and offer potential hypotheses / mechanisms explaining the findings that future researchers can test.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;publication-bias-publish-or-perish-culture&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Publication bias, publish-or-perish culture&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Publication bias in this context refers to a bias towards publishing statistically significant, ‘positive’ results and not publishing statistically non-significant (‘negative’ or null results).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It has been documented for decads in disciplines like psychology. Moreover, the increase in the proportion of statistiaclly significant results has been increasing over the last 25 years.&lt;/p&gt;
+&lt;p&gt;What is the relationship between QRP prevalence and publication bias + publish/perish culture? It is thought that these broader set of conditions may be impacting on the frequency with which researchers use QRPs (Agnoli) (Fidler).&lt;/p&gt;
+&lt;p&gt;# Relevance to my research&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;building-a-picture-of-the-different-levels-of-research&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Building a picture of the different levels of research&lt;/h2&gt;
+&lt;p&gt;Most research focused on the individual researcher - reference for this? No. I get this impression, too. But would be good to evaluate this claim by looking at the literature systematically.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;non-nhst-qrps&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Non-NHST QRPs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;p-hacking: point about “adjusting statistical models (e.g. by including or excluding covariates based on resulting strength of the main effect of interest)”. This is presumably referencing GLMS / GAMs and other models where there are fit statistics with p-values, etc. What is a parallel offence for other sorts of models, e.g. causal models?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&#34;refs&#34; class=&#34;references&#34;&gt;
+&lt;div id=&#34;ref-Fraser:2018cl&#34;&gt;
+&lt;p&gt;Fraser, Hannah Stephanie, Timothy H Parker, Shinichi Nakagawa, A Barnett, and Fiona Fidler. 2018. “Questionable Research Practices in Ecology and Evolution,” March, 1–24. doi:&lt;a href=&#34;https://doi.org/10.17605/OSF.IO/AJYQG&#34;&gt;10.17605/OSF.IO/AJYQG&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Retreat Reproducibility Session</title>
       <link>/post/retreat-reproducibility-session/</link>
       <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
@@ -1038,34 +1099,6 @@ b) and therefore without structured / formal accepted procedures for doing so.&l
 Look at what people are reporting in journals is an easier place to start.
 PRISMA - systematic reviews. double coding. Cochrane reviews also another goldstandard.
 Campbel collaboration -&amp;gt; equivalent social science. check their guidelines.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Meeting Hannah</title>
-      <link>/post/meeting-hannah/</link>
-      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/meeting-hannah/</guid>
-      <description>&lt;p&gt;See Steve&amp;rsquo;s guidelines around meta-analysis from medicine.
-Hannah&amp;rsquo;s criteria. Conservation Biology guidelines.
-Guidelines / checkpoints are just around transparency. No actual checking of reproducibility.&lt;/p&gt;
-
-&lt;p&gt;How do decisions vs. models differ? What is particular about my problem context?
-values, preferences. Process vs. decision model - problem is often split into two.
-Decision tools as models more complex, involve not just a model of the system / domain (including decision elements), but capturing objectives, alternatives, eliciting expert judgment, involving many stakeholders.&lt;/p&gt;
-
-&lt;p&gt;What facet of reproducibility do I want to test?
-1. Computational / analytical reproducibility? In theory this should be easy - Different team, trying to reproduce the result using the exact methods and procedures of the original study.
-2. Same problem, different team, do you get the same decision outcome recommended? Even if the tool/model is different?&lt;/p&gt;
-
-&lt;p&gt;How reproducibile they are might depend on the decision context at hand.
-Some decisions will be inherently more robust to the tool used than others. Some not. Some the differences will be more marginal.&lt;/p&gt;
-
-&lt;p&gt;Need to come up with own set of criteria for not just reproducibility in ecology, but for decision tools / modelling.&lt;/p&gt;
-
-&lt;p&gt;Hannah&amp;rsquo;s work on questionable research practices in ecology. Issue of people trying a model, and then using another one because the first one is crap. But some people do this to check whether the result is robust to different models. Similar to detectability studies, you could get multiple groups of experts addressing the same problem, is it an &amp;lsquo;all-roads-lead-to-rome&amp;rsquo; situation?
-My hypothesis, if you nut out the conceptual model correctly, then it shouldn&amp;rsquo;t matter what model / tool you use to find the decision outcome (unless you use the tool / method out of context and the assumptions don&amp;rsquo;t match). BUT that step isn&amp;rsquo;t really given much time / thought in the literature. Especially because in the decision science / ecology literature, most papers are proof-of-concept papers. And a lot of the actual applications exist in the grey literature.&lt;/p&gt;
 </description>
     </item>
     
