@@ -408,6 +408,14 @@
     
     <url>
     
+      <loc>/docs/decision_science_vocabulary/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/decision-analysis/</loc>
       <lastmod>2018-03-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -450,6 +458,15 @@
     
       <loc>/tags/docker/</loc>
       <lastmod>2018-03-21T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/docs/</loc>
       <priority>0</priority>
     </url>
     
@@ -520,6 +537,15 @@
     
       <loc>/tags/goals/</loc>
       <lastmod>2017-12-21T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/ideas-in-development/</loc>
       <priority>0</priority>
     </url>
     
