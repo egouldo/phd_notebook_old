@@ -158,6 +158,15 @@
     
     <url>
     
+      <loc>/post/madin-2007-advancing-ecological-research-with-ontologies/</loc>
+      <lastmod>2018-02-24T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/post/meeting/</loc>
       <lastmod>2018-02-22T00:00:00+00:00</lastmod>
     </url>
@@ -529,6 +538,16 @@
     
     <url>
     
+      <loc>/tags/informatics/</loc>
+      <lastmod>2018-02-24T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/knowing-doing-gap/</loc>
       <lastmod>2018-05-09T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -581,6 +600,16 @@
     
       <loc>/tags/objectives/</loc>
       <lastmod>2018-02-19T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/ontology/</loc>
+      <lastmod>2018-02-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

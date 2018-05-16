@@ -240,4 +240,124 @@ uri = {\url{papers3://publication/uuid/184576DE-14C6-4C68-A439-9466C8496EFA}}
   url           = {https://www.nature.com/polopoly_fs/1.19970.1469695948!/menu/main/topColumns/topLeftColumn/pdf/533452a.pdf?origin=ppub},
 }
 
+@article{OpenScienceCollaboration:2015cn,
+author = {{Open Science Collaboration}},
+title = {{Estimating the reproducibility of psychological science}},
+journal = {Science (New York, N.Y.)},
+year = {2015},
+volume = {349},
+number = {6251},
+pages = {aac4716--aac4716},
+month = aug,
+keywords = {psychology, replication, reproducibility},
+doi = {10.1126/science.aac4716},
+language = {English},
+read = {Yes},
+rating = {0},
+date-added = {2018-04-18T02:16:06GMT},
+date-modified = {2018-04-18T05:31:35GMT},
+url = {http://www.sciencemag.org/cgi/doi/10.1126/science.aac4716},
+local-url = {file://localhost/Users/Elise/Dropbox/papers3/Library.papers3/Files/5C/5C3661FB-2CB0-4296-86D5-04BED7CDBB84.pdf},
+file = {{5C3661FB-2CB0-4296-86D5-04BED7CDBB84.pdf:/Users/Elise/Dropbox/papers3/Library.papers3/Files/5C/5C3661FB-2CB0-4296-86D5-04BED7CDBB84.pdf:application/pdf}},
+uri = {\url{papers3://publication/doi/10.1126/science.aac4716}}
+}
+
+@article{Wintle:2011tl,
+author = {Wintle, Brendan A and Bekessy, Sarah A and Keith, David A and van Wilgen, Brian W and Cabeza, Mar and Schroeder, Boris and Carvalho, Silvia B and Falcucci, Alessandra and Maiorano, Luigi and Regan, Tracey J and Rondinini, Carlo and Boitani, Luigi and Possingham, Hugh P},
+title = {{Ecological-economic optimization of biodiversity conservation under climate change}},
+journal = {Nature Climate Change},
+year = {2011},
+volume = {1},
+number = {7},
+pages = {355--359},
+month = oct,
+keywords = {Adaptation, Biodiversity, Climate change, Conservation, Ecological-economic modelling, Optimal decision, Prioritisation, Resource allocation},
+doi = {10.1038/NCLIMATE1227},
+read = {Yes},
+rating = {0},
+date-added = {2015-01-17T00:32:37GMT},
+date-modified = {2018-04-19T09:25:00GMT},
+url = {http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=mekentosj&SrcApp=Papers&DestLinkType=FullRecord&DestApp=WOS&KeyUT=000296142400017},
+local-url = {file://localhost/Users/Elise/Dropbox/papers3/Library.papers3/Wintle/2011/2011-Wintle.pdf},
+file = {{2011-Wintle.pdf:/Users/Elise/Dropbox/papers3/Library.papers3/Wintle/2011/2011-Wintle.pdf:application/pdf;2011-Wintle.pdf:/Users/Elise/Dropbox/papers3/Library.papers3/Wintle/2011/2011-Wintle.pdf:application/pdf}},
+uri = {\url{papers3://publication/doi/10.1038/NCLIMATE1227}}
+}
+
+@article{Gardner:2018dm,
+author = {Gardner, Charlie J and Waeber, Patrick O and Razafindratsima, Onja H and Wilm{\'e}, Lucienne},
+title = {{Decision complacency and conservation planning}},
+journal = {Conservation Biology},
+year = {2018},
+pages = {1--10},
+month = may,
+doi = {10.1111/cobi.13124},
+language = {English},
+read = {Yes},
+rating = {0},
+date-added = {2018-05-09T01:15:36GMT},
+date-modified = {2018-05-09T01:54:44GMT},
+url = {http://doi.wiley.com/10.1111/cobi.13124},
+local-url = {file://localhost/Users/Elise/Dropbox/papers3/Library.papers3/Files/A6/A638B209-9F4F-4A9A-AD71-E1228A018EC5.pdf},
+file = {{A638B209-9F4F-4A9A-AD71-E1228A018EC5.pdf:/Users/Elise/Dropbox/papers3/Library.papers3/Files/A6/A638B209-9F4F-4A9A-AD71-E1228A018EC5.pdf:application/pdf}},
+uri = {\url{papers3://publication/doi/10.1111/cobi.13124}}
+}
+
+@article{Sutherland:2017hc,
+author = {Sutherland, William J and Wordley, Claire F R},
+title = {{Evidence complacency hampers conservation}},
+journal = {Nature Ecology {\&} Evolution},
+year = {2017},
+pages = {1--2},
+month = aug,
+publisher = {Springer US},
+doi = {10.1038/s41559-017-0244-1},
+rating = {0},
+date-added = {2018-05-09T02:17:40GMT},
+date-modified = {2018-05-09T02:17:49GMT},
+abstract = {Nature Ecology {\&} Evolution, doi:10.1038/s41559-017-0244-1},
+url = {http://dx.doi.org/10.1038/s41559-017-0244-1},
+local-url = {file://localhost/Users/Elise/Dropbox/papers3/Library.papers3/Files/3B/3B2A8864-83E2-40CC-842B-2B99F3719ECE.pdf},
+file = {{3B2A8864-83E2-40CC-842B-2B99F3719ECE.pdf:/Users/Elise/Dropbox/papers3/Library.papers3/Files/3B/3B2A8864-83E2-40CC-842B-2B99F3719ECE.pdf:application/pdf}},
+uri = {\url{papers3://publication/doi/10.1038/s41559-017-0244-1}}
+}
+
+@article{Segan:vd,
+author = {Segan, D B and Bottrill, M C and Baxter, PWJ and Biology, HP Possingham Conservation and {2011}},
+title = {{Using conservation evidence to guide management}},
+journal = {JSTOR
+},
+year = {2011},
+rating = {0},
+date-added = {2018-05-09T06:34:23GMT},
+date-modified = {2018-05-09T06:36:08GMT},
+abstract = {Almost 10 years ago, Puliin and Knight (2001) called for an" effectiveness revolution in conservation" to be en abled by the systematic evaluation of evidence for conser vation decision making. Drawing from the model used in clinical medicine, they outlined the concept of" evidence based conservation" in which existing information, or ev idence, from relevant and rigorous research is compiled and analyzed in a systematic manner to inform conserva tion actions (Cochrane 1972). The promise of evidence based conservation has~{\ldots}
+},
+url = {http://www.jstor.org/stable/27976443},
+local-url = {file://localhost/Users/Elise/Dropbox/papers3/Library.papers3/Files/C3/C3E9BE5B-98BF-42BE-8CD5-C32BBB526C79.pdf},
+file = {{C3E9BE5B-98BF-42BE-8CD5-C32BBB526C79.pdf:/Users/Elise/Dropbox/papers3/Library.papers3/Files/C3/C3E9BE5B-98BF-42BE-8CD5-C32BBB526C79.pdf:application/pdf;C3E9BE5B-98BF-42BE-8CD5-C32BBB526C79.pdf:/Users/Elise/Dropbox/papers3/Library.papers3/Files/C3/C3E9BE5B-98BF-42BE-8CD5-C32BBB526C79.pdf:application/pdf}},
+uri = {\url{papers3://publication/uuid/6D647753-8A31-4075-AD51-7E927330E0D0}}
+}
+
+@article{Fraser:2018cl,
+author = {Fraser, Hannah Stephanie and Parker, Timothy H and Nakagawa, Shinichi and Barnett, A and Fidler, Fiona},
+title = {{Questionable Research Practices in Ecology and Evolution}},
+year = {2018},
+pages = {1--24},
+month = mar,
+keywords = {QRP, reproducibility},
+doi = {10.17605/OSF.IO/AJYQG},
+read = {Yes},
+rating = {0},
+date-added = {2018-05-15T01:23:53GMT},
+date-modified = {2018-05-15T02:57:04GMT},
+url = {https://osf.io/ajyqg},
+local-url = {file://localhost/Users/Elise/Dropbox/papers3/Library.papers3/Files/5E/5E03E199-94B4-439B-9CA4-D658C2EB1E00.pdf},
+file = {{5E03E199-94B4-439B-9CA4-D658C2EB1E00.pdf:/Users/Elise/Dropbox/papers3/Library.papers3/Files/5E/5E03E199-94B4-439B-9CA4-D658C2EB1E00.pdf:application/pdf;5E03E199-94B4-439B-9CA4-D658C2EB1E00.pdf:/Users/Elise/Dropbox/papers3/Library.papers3/Files/5E/5E03E199-94B4-439B-9CA4-D658C2EB1E00.pdf:application/pdf}},
+uri = {\url{papers3://publication/doi/10.17605/OSF.IO/AJYQG}}
+}
+
+
+
+
+
 @Comment{jabref-meta: databaseType:bibtex;}
