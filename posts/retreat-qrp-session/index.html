@@ -500,7 +500,7 @@ based on dark.css by Ivan Sagalaev
   
   
 
-  <meta name="generator" content="Hugo 0.31.1" />
+  <meta name="generator" content="Hugo 0.30" />
 
   
   
@@ -622,7 +622,10 @@ based on dark.css by Ivan Sagalaev
       </div>
 
       <div class="post-content">
-        <div id="summary-and-purpose-of-the-workshop" class="section level1">
+        <script src="2018-07-20-retreat-qrp-session_files/kePrint/kePrint.js"></script>
+
+
+<div id="summary-and-purpose-of-the-workshop" class="section level1">
 <h1>Summary and purpose of the workshop:</h1>
 <p>We ran a workshop where we hosted small discussions attempting to propose questionable research practices that arise in ecological and conservation research using non-frequentist and/or non hypothetico-deductive inquiry.</p>
 <p>The purpose of the workshop was two-fold:</p>
@@ -661,9 +664,22 @@ based on dark.css by Ivan Sagalaev
 <pre class="r"><code>library(kableExtra)
 dat &lt;- readr::read_csv(&quot;../../public/files/data/retreat_qaeco_qrps.csv&quot;)
 
-first_last &lt;- dat %&gt;% dplyr::mutate(num = row_number()) %&gt;% dplyr::group_by(Group) %&gt;% dplyr::summarise(first = first(num), last = last(num))
+first_last &lt;- dat %&gt;% 
+        dplyr::mutate(num = row_number()) %&gt;% 
+        dplyr::group_by(Group) %&gt;% 
+        dplyr::summarise(first = first(num), last = last(num))
 
-dat %&gt;% knitr::kable()</code></pre>
+dat %&gt;% 
+    dplyr::group_by(Group, QRP) %&gt;% 
+        tidyr::spread(key = Questionable, value = Reasoning) %&gt;% 
+        dplyr::arrange(Group, QRP) %&gt;% 
+        dplyr::ungroup() %&gt;%
+        dplyr::select(-Group) %&gt;%
+        kable() %&gt;% 
+        group_rows(&quot;Bayesian&quot;, 1, 11) %&gt;% 
+        group_rows(&quot;Multiple models&quot;, 12, 18) %&gt;%
+        group_rows(&quot;Study Design and Data Collection&quot;, 19, 27) %&gt;%
+        group_rows(&quot;SDM&quot;, 28, 41)</code></pre>
 <table>
 <thead>
 <tr>
@@ -671,1737 +687,609 @@ dat %&gt;% knitr::kable()</code></pre>
 QRP
 </th>
 <th style="text-align:left;">
-Group
+Depends
 </th>
 <th style="text-align:left;">
-Questionable
+No
 </th>
 <th style="text-align:left;">
-Reasoning
+Yes
 </th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td style="text-align:left;">
-selection of prior: weighting.
-</td>
-<td style="text-align:left;">
-Bayesian
-</td>
-<td style="text-align:left;">
-Yes
-</td>
-<td style="text-align:left;">
-Questions on how to weight if from another location for inference. Post-hoc rationalisation of weighting is a QRP
+<tr grouplength="11">
+<td colspan="4" style="border-bottom: 1px solid;">
+<strong>Bayesian</strong>
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
-selection of prior: weighting.
-</td>
-<td style="text-align:left;">
-Bayesian
-</td>
-<td style="text-align:left;">
-No
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-selection of prior: weighting.
-</td>
-<td style="text-align:left;">
-Bayesian
-</td>
-<td style="text-align:left;">
-Depends
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Selection of prior: checking influence.
-</td>
-<td style="text-align:left;">
-Bayesian
-</td>
-<td style="text-align:left;">
-Yes
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Selection of prior: checking influence.
-</td>
-<td style="text-align:left;">
-Bayesian
-</td>
-<td style="text-align:left;">
-No
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Selection of prior: checking influence.
-</td>
-<td style="text-align:left;">
-Bayesian
-</td>
-<td style="text-align:left;">
-Depends
-</td>
-<td style="text-align:left;">
-Is it often done? Is it reported?, QRP if not reported.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Selection of prior: are priors measured on the same scale / units of likelihood? If the result is interesting, you might keep the result.
-</td>
-<td style="text-align:left;">
-Bayesian
-</td>
-<td style="text-align:left;">
-Yes
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Selection of prior: are priors measured on the same scale / units of likelihood? If the result is interesting, you might keep the result.
-</td>
-<td style="text-align:left;">
-Bayesian
-</td>
-<td style="text-align:left;">
-No
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Selection of prior: are priors measured on the same scale / units of likelihood? If the result is interesting, you might keep the result.
-</td>
-<td style="text-align:left;">
-Bayesian
-</td>
-<td style="text-align:left;">
-Depends
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-MCMC convergence - is it checked thoroughly, is a wide range of initial values used?
-</td>
-<td style="text-align:left;">
-Bayesian
-</td>
-<td style="text-align:left;">
-Yes
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-MCMC convergence - is it checked thoroughly, is a wide range of initial values used?
-</td>
-<td style="text-align:left;">
-Bayesian
-</td>
-<td style="text-align:left;">
-No
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-MCMC convergence - is it checked thoroughly, is a wide range of initial values used?
-</td>
-<td style="text-align:left;">
-Bayesian
-</td>
-<td style="text-align:left;">
-Depends
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Use of a model as source of priors
-</td>
-<td style="text-align:left;">
-Bayesian
-</td>
-<td style="text-align:left;">
-Yes
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Use of a model as source of priors
-</td>
-<td style="text-align:left;">
-Bayesian
-</td>
-<td style="text-align:left;">
-No
-</td>
-<td style="text-align:left;">
-Consensus that not questionable.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Use of a model as source of priors
-</td>
-<td style="text-align:left;">
-Bayesian
-</td>
-<td style="text-align:left;">
-Depends
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Priors, MCMC convergence: will debug if results are unexpected, but might not if results are “expected” or “exciting”.
-</td>
-<td style="text-align:left;">
-Bayesian
-</td>
-<td style="text-align:left;">
-Yes
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Priors, MCMC convergence: will debug if results are unexpected, but might not if results are “expected” or “exciting”.
-</td>
-<td style="text-align:left;">
-Bayesian
-</td>
-<td style="text-align:left;">
-No
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Priors, MCMC convergence: will debug if results are unexpected, but might not if results are “expected” or “exciting”.
-</td>
-<td style="text-align:left;">
-Bayesian
-</td>
-<td style="text-align:left;">
-Depends
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
 Failing to report influence of prior.
-</td>
-<td style="text-align:left;">
-Bayesian
-</td>
-<td style="text-align:left;">
-Yes
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Failing to report influence of prior.
-</td>
-<td style="text-align:left;">
-Bayesian
-</td>
-<td style="text-align:left;">
-No
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Failing to report influence of prior.
-</td>
-<td style="text-align:left;">
-Bayesian
-</td>
-<td style="text-align:left;">
-Depends
 </td>
 <td style="text-align:left;">
 Must be reported, otherwise is QRP.
 </td>
-</tr>
-<tr>
 <td style="text-align:left;">
-Model selection: failing to report all models.
-</td>
-<td style="text-align:left;">
-Bayesian
-</td>
-<td style="text-align:left;">
-Yes
-</td>
-<td style="text-align:left;">
-Equivalent to NHST issue of failing to report all covars etc.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Model selection: failing to report all models.
-</td>
-<td style="text-align:left;">
-Bayesian
-</td>
-<td style="text-align:left;">
-No
+NA
 </td>
 <td style="text-align:left;">
 NA
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
-Model selection: failing to report all models.
-</td>
-<td style="text-align:left;">
-Bayesian
-</td>
-<td style="text-align:left;">
-Depends
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Interpreting credible intervals in NHST framework
-</td>
-<td style="text-align:left;">
-Bayesian
-</td>
-<td style="text-align:left;">
-Yes
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Interpreting credible intervals in NHST framework
-</td>
-<td style="text-align:left;">
-Bayesian
-</td>
-<td style="text-align:left;">
-No
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Interpreting credible intervals in NHST framework
-</td>
-<td style="text-align:left;">
-Bayesian
-</td>
-<td style="text-align:left;">
-Depends
-</td>
-<td style="text-align:left;">
-potential P-hacking issues.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
 HARKing
 </td>
 <td style="text-align:left;">
-Bayesian
+NA
 </td>
 <td style="text-align:left;">
-Yes
+NA
 </td>
 <td style="text-align:left;">
 This is still an issue with Bayesian methods.
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
-HARKing
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
+Interpreting credible intervals in NHST framework
 </td>
 <td style="text-align:left;">
-Bayesian
+potential P-hacking issues.
 </td>
 <td style="text-align:left;">
-No
+NA
 </td>
 <td style="text-align:left;">
 NA
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
-HARKing
-</td>
-<td style="text-align:left;">
-Bayesian
-</td>
-<td style="text-align:left;">
-Depends
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
 Large computational burden might disuade full / thorough analysis / checking of results if an interesting result appears.
 </td>
 <td style="text-align:left;">
-Bayesian
+NA
 </td>
 <td style="text-align:left;">
-Yes
+NA
 </td>
 <td style="text-align:left;">
 NA
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
-Large computational burden might disuade full / thorough analysis / checking of results if an interesting result appears.
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
+MCMC convergence - is it checked thoroughly, is a wide range of initial values used?
 </td>
 <td style="text-align:left;">
-Bayesian
+NA
 </td>
 <td style="text-align:left;">
-No
+NA
 </td>
 <td style="text-align:left;">
 NA
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
-Large computational burden might disuade full / thorough analysis / checking of results if an interesting result appears.
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
+Model selection: failing to report all models.
 </td>
 <td style="text-align:left;">
-Bayesian
+NA
 </td>
 <td style="text-align:left;">
-Depends
+NA
+</td>
+<td style="text-align:left;">
+Equivalent to NHST issue of failing to report all covars etc.
+</td>
+</tr>
+<tr>
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
+Priors, MCMC convergence: will debug if results are unexpected, but might not if results are “expected” or “exciting”.
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
 </td>
 <td style="text-align:left;">
 NA
 </td>
 </tr>
 <tr>
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
+Selection of prior: are priors measured on the same scale / units of likelihood? If the result is interesting, you might keep the result.
+</td>
 <td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
+</tr>
+<tr>
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
+Selection of prior: checking influence.
+</td>
+<td style="text-align:left;">
+Is it often done? Is it reported?, QRP if not reported.
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
+</tr>
+<tr>
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
+selection of prior: weighting.
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+Questions on how to weight if from another location for inference. Post-hoc rationalisation of weighting is a QRP
+</td>
+</tr>
+<tr>
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
+Use of a model as source of priors
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+Consensus that not questionable.
+</td>
+<td style="text-align:left;">
+NA
+</td>
+</tr>
+<tr grouplength="7">
+<td colspan="4" style="border-bottom: 1px solid;">
+<strong>Multiple models</strong>
+</td>
+</tr>
+<tr>
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
+Absence of well specified a priori hypotheses: “let’s test this too!”
+</td>
+<td style="text-align:left;">
+Inference vs. prediction, or both?
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
+</tr>
+<tr>
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
 Combining categories of an independent variable: regrouping post collecting
-</td>
-<td style="text-align:left;">
-Multiple models
-</td>
-<td style="text-align:left;">
-Yes
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Combining categories of an independent variable: regrouping post collecting
-</td>
-<td style="text-align:left;">
-Multiple models
-</td>
-<td style="text-align:left;">
-No
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Combining categories of an independent variable: regrouping post collecting
-</td>
-<td style="text-align:left;">
-Multiple models
-</td>
-<td style="text-align:left;">
-Depends
 </td>
 <td style="text-align:left;">
 Done if not enough data per category. Bad if the recategorisation is done to impose fit.
 </td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
 </tr>
 <tr>
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
+Dredging across many models but only reporting a subset
+</td>
 <td style="text-align:left;">
+OK if put in supplementary materials.
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
+</tr>
+<tr>
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
 Post-hoc change of random effects: removing extra random effects after looking at model results.
 </td>
 <td style="text-align:left;">
-Multiple models
+BUT, if you report that, is it still a QRP if you still remove the random effects?
 </td>
 <td style="text-align:left;">
-Yes
+NA
 </td>
 <td style="text-align:left;">
 If study has a nested structure, then that is your model!!
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
-Post-hoc change of random effects: removing extra random effects after looking at model results.
-</td>
-<td style="text-align:left;">
-Multiple models
-</td>
-<td style="text-align:left;">
-No
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Post-hoc change of random effects: removing extra random effects after looking at model results.
-</td>
-<td style="text-align:left;">
-Multiple models
-</td>
-<td style="text-align:left;">
-Depends
-</td>
-<td style="text-align:left;">
-BUT, if you report that, is it still a QRP if you still remove the random effects?
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Univariate to start: exploring single variable models to choose which rain data.
-</td>
-<td style="text-align:left;">
-Multiple models
-</td>
-<td style="text-align:left;">
-Yes
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Univariate to start: exploring single variable models to choose which rain data.
-</td>
-<td style="text-align:left;">
-Multiple models
-</td>
-<td style="text-align:left;">
-No
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Univariate to start: exploring single variable models to choose which rain data.
-</td>
-<td style="text-align:left;">
-Multiple models
-</td>
-<td style="text-align:left;">
-Depends
-</td>
-<td style="text-align:left;">
-Maybe necessary if computationally complex
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Dredging across many models but only reporting a subset
-</td>
-<td style="text-align:left;">
-Multiple models
-</td>
-<td style="text-align:left;">
-Yes
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Dredging across many models but only reporting a subset
-</td>
-<td style="text-align:left;">
-Multiple models
-</td>
-<td style="text-align:left;">
-No
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Dredging across many models but only reporting a subset
-</td>
-<td style="text-align:left;">
-Multiple models
-</td>
-<td style="text-align:left;">
-Depends
-</td>
-<td style="text-align:left;">
-OK if put in supplementary materials.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Shape testing: univariate GAMs for variable shape
-</td>
-<td style="text-align:left;">
-Multiple models
-</td>
-<td style="text-align:left;">
-Yes
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Shape testing: univariate GAMs for variable shape
-</td>
-<td style="text-align:left;">
-Multiple models
-</td>
-<td style="text-align:left;">
-No
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Shape testing: univariate GAMs for variable shape
-</td>
-<td style="text-align:left;">
-Multiple models
-</td>
-<td style="text-align:left;">
-Depends
-</td>
-<td style="text-align:left;">
-What is an alternative?
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
 Post-hoc variation additions: “why not collect this too”
-</td>
-<td style="text-align:left;">
-Multiple models
-</td>
-<td style="text-align:left;">
-Yes
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Post-hoc variation additions: “why not collect this too”
-</td>
-<td style="text-align:left;">
-Multiple models
-</td>
-<td style="text-align:left;">
-No
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Post-hoc variation additions: “why not collect this too”
-</td>
-<td style="text-align:left;">
-Multiple models
-</td>
-<td style="text-align:left;">
-Depends
 </td>
 <td style="text-align:left;">
 Is it still bad if you do it before looking at your data?
 </td>
-</tr>
-<tr>
 <td style="text-align:left;">
-Absence of well specified a priori hypotheses: “let’s test this too!”
-</td>
-<td style="text-align:left;">
-Multiple models
-</td>
-<td style="text-align:left;">
-Yes
+NA
 </td>
 <td style="text-align:left;">
 NA
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
-Absence of well specified a priori hypotheses: “let’s test this too!”
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
+Shape testing: univariate GAMs for variable shape
 </td>
 <td style="text-align:left;">
-Multiple models
+What is an alternative?
 </td>
 <td style="text-align:left;">
-No
+NA
 </td>
 <td style="text-align:left;">
 NA
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
-Absence of well specified a priori hypotheses: “let’s test this too!”
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
+Univariate to start: exploring single variable models to choose which rain data.
 </td>
 <td style="text-align:left;">
-Multiple models
+Maybe necessary if computationally complex
 </td>
 <td style="text-align:left;">
-Depends
-</td>
-<td style="text-align:left;">
-Inference vs. prediction, or both?
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Not reporting exceptions
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-Yes
+NA
 </td>
 <td style="text-align:left;">
 NA
 </td>
 </tr>
-<tr>
-<td style="text-align:left;">
-Not reporting exceptions
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-No
-</td>
-<td style="text-align:left;">
-NA
+<tr grouplength="9">
+<td colspan="4" style="border-bottom: 1px solid;">
+<strong>Study Design and Data Collection</strong>
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
-Not reporting exceptions
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-Depends
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Not reporting / looking into limitations of data appropriateness
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-Yes
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Not reporting / looking into limitations of data appropriateness
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-No
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Not reporting / looking into limitations of data appropriateness
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-Depends
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Non-random site selection (look for species, choose strongest example)
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-Yes
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Non-random site selection (look for species, choose strongest example)
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-No
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Non-random site selection (look for species, choose strongest example)
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-Depends
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Falsely claiming adaptive design / management
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-Yes
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Falsely claiming adaptive design / management
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-No
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Falsely claiming adaptive design / management
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-Depends
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Confirmation bias
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-Yes
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Confirmation bias
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-No
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Confirmation bias
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-Depends
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Not reporting who surveyed what
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-Yes
-</td>
-<td style="text-align:left;">
-Potential for the identify of the surveyer / data recorder to contribute to noise.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Not reporting who surveyed what
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-No
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Not reporting who surveyed what
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-Depends
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Design based on costs / external factors [instead of??]
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-Yes
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Design based on costs / external factors [instead of??]
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-No
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Design based on costs / external factors [instead of??]
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-Depends
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Choosing which list to make species sound more threatened
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-Yes
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Choosing which list to make species sound more threatened
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-No
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Choosing which list to make species sound more threatened
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-Depends
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Presenting / cherry picking best example (e.g. sites)
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-Yes
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Presenting / cherry picking best example (e.g. sites)
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-No
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Presenting / cherry picking best example (e.g. sites)
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-Depends
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Simplifying methods [for write up], omitting modifications [minor].
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-Yes
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Simplifying methods [for write up], omitting modifications [minor].
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-No
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Simplifying methods [for write up], omitting modifications [minor].
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-Depends
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Cherry picking data to use
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-Yes
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Cherry picking data to use
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-No
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Cherry picking data to use
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-Depends
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Not reporting data conversion (e.g. changing conditions to discrete, ambiguous condensing / collapsing, -retrofitting response groups)
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-Yes
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Not reporting data conversion (e.g. changing conditions to discrete, ambiguous condensing / collapsing, -retrofitting response groups)
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-No
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Not reporting data conversion (e.g. changing conditions to discrete, ambiguous condensing / collapsing, -retrofitting response groups)
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-Depends
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Filling in missing data with best guess
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-Yes
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Filling in missing data with best guess
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-No
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Filling in missing data with best guess
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-Depends
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-shifting sites for an outcome or need (but not stating)
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-Yes
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-shifting sites for an outcome or need (but not stating)
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-No
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-shifting sites for an outcome or need (but not stating)
-</td>
-<td style="text-align:left;">
-Study design and data collection
-</td>
-<td style="text-align:left;">
-Depends
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Partial covariate reporting
-</td>
-<td style="text-align:left;">
-SDM
-</td>
-<td style="text-align:left;">
-Yes
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Partial covariate reporting
-</td>
-<td style="text-align:left;">
-SDM
-</td>
-<td style="text-align:left;">
-No
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Partial covariate reporting
-</td>
-<td style="text-align:left;">
-SDM
-</td>
-<td style="text-align:left;">
-Depends
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Fitting everything available
-</td>
-<td style="text-align:left;">
-SDM
-</td>
-<td style="text-align:left;">
-Yes
-</td>
-<td style="text-align:left;">
-Unthinking, inflates the chance of finding a significant model
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Fitting everything available
-</td>
-<td style="text-align:left;">
-SDM
-</td>
-<td style="text-align:left;">
-No
-</td>
-<td style="text-align:left;">
-Necessary?
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Fitting everything available
-</td>
-<td style="text-align:left;">
-SDM
-</td>
-<td style="text-align:left;">
-Depends
-</td>
-<td style="text-align:left;">
-Depends on what your aim is? Do you want a good map, or do you care about what’s driving the distribution? [is this the same binary as the prediction vs. explannation inference binary?]
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Cherry picking case studies
-</td>
-<td style="text-align:left;">
-SDM
-</td>
-<td style="text-align:left;">
-Yes
-</td>
-<td style="text-align:left;">
-confirmation bias
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Cherry picking case studies
-</td>
-<td style="text-align:left;">
-SDM
-</td>
-<td style="text-align:left;">
-No
-</td>
-<td style="text-align:left;">
-isn’t this just science?
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Cherry picking case studies
-</td>
-<td style="text-align:left;">
-SDM
-</td>
-<td style="text-align:left;">
-Depends
-</td>
-<td style="text-align:left;">
-Just don’t pretend it was random chance
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Using inappropriately scaled data
-</td>
-<td style="text-align:left;">
-SDM
-</td>
-<td style="text-align:left;">
-Yes
-</td>
-<td style="text-align:left;">
-not made for scale of your point data
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Using inappropriately scaled data
-</td>
-<td style="text-align:left;">
-SDM
-</td>
-<td style="text-align:left;">
-No
-</td>
-<td style="text-align:left;">
-But could send results either way, so is it a QRP?
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Using inappropriately scaled data
-</td>
-<td style="text-align:left;">
-SDM
-</td>
-<td style="text-align:left;">
-Depends
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-HARKing: narrative due to sexy variable importance. Adjusting which values you use based on results.
-</td>
-<td style="text-align:left;">
-SDM
-</td>
-<td style="text-align:left;">
-Yes
-</td>
-<td style="text-align:left;">
-e.g. throwing out old records or trying different lab study values in mechanistic modelling
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-HARKing: narrative due to sexy variable importance. Adjusting which values you use based on results.
-</td>
-<td style="text-align:left;">
-SDM
-</td>
-<td style="text-align:left;">
-No
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-HARKing: narrative due to sexy variable importance. Adjusting which values you use based on results.
-</td>
-<td style="text-align:left;">
-SDM
-</td>
-<td style="text-align:left;">
-Depends
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
 AUC rate hacking
 </td>
 <td style="text-align:left;">
-SDM
+NA
 </td>
 <td style="text-align:left;">
-Yes
+NA
 </td>
 <td style="text-align:left;">
 similar to p-hacking
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
-AUC rate hacking
-</td>
-<td style="text-align:left;">
-SDM
-</td>
-<td style="text-align:left;">
-No
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-AUC rate hacking
-</td>
-<td style="text-align:left;">
-SDM
-</td>
-<td style="text-align:left;">
-Depends
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
 checking / changing map based on decision-maker expert opinion
 </td>
 <td style="text-align:left;">
-SDM
-</td>
-<td style="text-align:left;">
-Yes
-</td>
-<td style="text-align:left;">
 NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-checking / changing map based on decision-maker expert opinion
-</td>
-<td style="text-align:left;">
-SDM
-</td>
-<td style="text-align:left;">
-No
 </td>
 <td style="text-align:left;">
 You don’t want a crap map, why not use expert opinion?
 </td>
-</tr>
-<tr>
-<td style="text-align:left;">
-checking / changing map based on decision-maker expert opinion
-</td>
-<td style="text-align:left;">
-SDM
-</td>
-<td style="text-align:left;">
-Depends
-</td>
 <td style="text-align:left;">
 NA
 </td>
 </tr>
 <tr>
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
+Cherry picking case studies
+</td>
 <td style="text-align:left;">
+Just don’t pretend it was random chance
+</td>
+<td style="text-align:left;">
+isn’t this just science?
+</td>
+<td style="text-align:left;">
+confirmation bias
+</td>
+</tr>
+<tr>
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
 Cherry picking which papers / maps you publish
 </td>
 <td style="text-align:left;">
-SDM
+NA
 </td>
 <td style="text-align:left;">
-Yes
+NA
 </td>
 <td style="text-align:left;">
 NA
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
-Cherry picking which papers / maps you publish
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
+Fitting everything available
 </td>
 <td style="text-align:left;">
-SDM
+Depends on what your aim is? Do you want a good map, or do you care about what’s driving the distribution? [is this the same binary as the prediction vs. explannation inference binary?]
 </td>
 <td style="text-align:left;">
-No
+Necessary?
+</td>
+<td style="text-align:left;">
+Unthinking, inflates the chance of finding a significant model
+</td>
+</tr>
+<tr>
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
+HARKing: narrative due to sexy variable importance. Adjusting which values you use based on results.
 </td>
 <td style="text-align:left;">
 NA
 </td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Cherry picking which papers / maps you publish
-</td>
-<td style="text-align:left;">
-SDM
-</td>
-<td style="text-align:left;">
-Depends
-</td>
 <td style="text-align:left;">
 NA
 </td>
+<td style="text-align:left;">
+e.g. throwing out old records or trying different lab study values in mechanistic modelling
+</td>
 </tr>
 <tr>
-<td style="text-align:left;">
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
 Overfitting models to improve ability to cross-validate
-</td>
-<td style="text-align:left;">
-SDM
-</td>
-<td style="text-align:left;">
-Yes
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Overfitting models to improve ability to cross-validate
-</td>
-<td style="text-align:left;">
-SDM
-</td>
-<td style="text-align:left;">
-No
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Overfitting models to improve ability to cross-validate
-</td>
-<td style="text-align:left;">
-SDM
-</td>
-<td style="text-align:left;">
-Depends
 </td>
 <td style="text-align:left;">
 We’re always using a subset of our data because we have too little data to hold some out entirely.
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
+</tr>
+<tr>
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
+Partial covariate reporting
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
+</tr>
+<tr>
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
+Using inappropriately scaled data
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+But could send results either way, so is it a QRP?
+</td>
+<td style="text-align:left;">
+not made for scale of your point data
+</td>
+</tr>
+<tr grouplength="14">
+<td colspan="4" style="border-bottom: 1px solid;">
+<strong>SDM</strong>
+</td>
+</tr>
+<tr>
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
+Cherry picking data to use
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
+</tr>
+<tr>
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
+Choosing which list to make species sound more threatened
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
+</tr>
+<tr>
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
+Confirmation bias
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
+</tr>
+<tr>
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
+Design based on costs / external factors [instead of??]
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
+</tr>
+<tr>
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
+Falsely claiming adaptive design / management
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
+</tr>
+<tr>
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
+Filling in missing data with best guess
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
+</tr>
+<tr>
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
+Non-random site selection (look for species, choose strongest example)
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
+</tr>
+<tr>
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
+Not reporting / looking into limitations of data appropriateness
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
+</tr>
+<tr>
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
+Not reporting data conversion (e.g. changing conditions to discrete, ambiguous condensing / collapsing, -retrofitting response groups)
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
+</tr>
+<tr>
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
+Not reporting exceptions
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
+</tr>
+<tr>
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
+Not reporting who surveyed what
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+Potential for the identify of the surveyer / data recorder to contribute to noise.
+</td>
+</tr>
+<tr>
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
+Presenting / cherry picking best example (e.g. sites)
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
+</tr>
+<tr>
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
+shifting sites for an outcome or need (but not stating)
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
+</tr>
+<tr>
+<td style="text-align:left; padding-left: 2em;" indentlevel="1">
+Simplifying methods [for write up], omitting modifications [minor].
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
 </td>
 </tr>
 </tbody>
