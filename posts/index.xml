@@ -9,10 +9,24 @@
     <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
     <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
     <copyright>(c) 2018 -- All rights reserved.</copyright>
-    <lastBuildDate>Tue, 31 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2018-09-08 meeting QRP survey design</title>
+      <link>/posts/meeting-qrp-survey-design/</link>
+      <pubDate>Wed, 08 Aug 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/meeting-qrp-survey-design/</guid>
+      <description>Themis, Ethics
+ [ ] Location / public / private [ ] Named Researcher credentials and experience  Survey Design Estimating Prevalence and Risk of QRPs \(Risk = Likelihood \times Consequence\)
+Risk
+% papers or researchers engaging in the practice.
+If researchers:
+ can compare the number of estimated vs. self-reported? Some interesting questions about whether self reporters estimate the prevalence to be greater than non-self reporters, is the self reported rate lower than the estimated rate?</description>
+    </item>
     
     <item>
       <title>Dormann et al (2018) Biotic interactions in species distribution modelling\: 10 questions to guide interpretations and avoid false conclusions</title>
