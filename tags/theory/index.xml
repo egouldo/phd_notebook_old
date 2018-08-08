@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Theory on research notebook</title>
+    <title>Theory on Electronic Lab Notebook</title>
     <link>/tags/theory/</link>
-    <description>Recent content in Theory on research notebook</description>
+    <description>Recent content in Theory on Electronic Lab Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Elise Gould</copyright>
+    <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
+    <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
+    <copyright>(c) 2018 -- All rights reserved.</copyright>
     <lastBuildDate>Thu, 21 Dec 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/theory/index.xml" rel="self" type="application/rss+xml" />
@@ -14,10 +16,10 @@
     
     <item>
       <title>Matzek et al (2017) Emerging approaches to successful ecologicall restoration</title>
-      <link>/post/matzek-et-al-2017-emerging-approaches-to-successful-ecologicall-restoration/</link>
+      <link>/posts/matzek-et-al-2017-emerging-approaches-to-successful-ecologicall-restoration/</link>
       <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/post/matzek-et-al-2017-emerging-approaches-to-successful-ecologicall-restoration/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/matzek-et-al-2017-emerging-approaches-to-successful-ecologicall-restoration/</guid>
       <description>Matzek, V., Gornish, E. S., Hulvey, K. B. (2017) Emerging approaches to successful ecological restoration: five imperatives to guide innovation (eds E. Gornish, V. Matzek, &amp;amp; K. Hulvey). Restoration Ecology. 25, S110–S113.
 New techniques, approaches, and technologies are emerging and being applied in habitat restoration. This is because restoration goals are shifting towards resilience and dynamism, and because the need for efficient resource use is of increasing concern.
 The paper serves as an introduction / review to the special issue of the journal.</description>

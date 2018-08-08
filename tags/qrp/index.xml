@@ -1,23 +1,75 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>QRP on research notebook</title>
+    <title>Qrp on Electronic Lab Notebook</title>
     <link>/tags/qrp/</link>
-    <description>Recent content in QRP on research notebook</description>
+    <description>Recent content in Qrp on Electronic Lab Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Elise Gould</copyright>
-    <lastBuildDate>Tue, 15 May 2018 00:00:00 +0000</lastBuildDate>
+    <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
+    <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
+    <copyright>(c) 2018 -- All rights reserved.</copyright>
+    <lastBuildDate>Tue, 31 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/qrp/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Dormann et al (2018) Biotic interactions in species distribution modelling\: 10 questions to guide interpretations and avoid false conclusions</title>
+      <link>/posts/dormann-et-al-2018-biotic-interactions-in-species-distribution-modelling-10-questions-to-guide-interpretations-and-avoid-false-conclusions/</link>
+      <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/dormann-et-al-2018-biotic-interactions-in-species-distribution-modelling-10-questions-to-guide-interpretations-and-avoid-false-conclusions/</guid>
+      <description>Problem The authors aim to address the problem of false conclusions arisng during inference of joint species distribution models – specifically, false conclusions of biotic interactions.
+Approach The authors conduct a review of joint species distribution modelling to identify (from caveats and other issues ear-marked in the source papers) potential factors that confound interpretation of analyses. Next, they develop a series of questions that can be asked by the analyst and also the reviewer to guide interpretation of conclusions – are the conclusions about biotic interactions plausible?</description>
+    </item>
+    
+    <item>
+      <title>New Perspectives in Statistics Education</title>
+      <link>/posts/new-perspectives-in-statistics-education/</link>
+      <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/new-perspectives-in-statistics-education/</guid>
+      <description>Upcoming events: Statistical Society of Australia (SSA), Biostatistics bonanza. August 23.
+Sue Finch: “Back to basics? Identifying educational needs through statistical consulting” People who come to consulting come with real need - come with an applied problem. How can we use this to inform new generation of statistical training for researchers?
+Break down research cycle using PPDAC cycle used within statistical education (Wild and Pfannkuch). Process of statistical thinking when carrying out a statistical inquiry.</description>
+    </item>
+    
+    <item>
+      <title>Retreat QRP session</title>
+      <link>/posts/retreat-qrp-session/</link>
+      <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/retreat-qrp-session/</guid>
+      <description>Summary and purpose of the workshop: We ran a workshop where we hosted small discussions attempting to propose questionable research practices that arise in ecological and conservation research using non-frequentist and/or non hypothetico-deductive inquiry.
+The purpose of the workshop was two-fold:
+To bring awareness to our research group of QRPs for the types of work relevant to the group, and to consider how reproducibility issues might affect us, even if reproducibility research seems irrelevant.</description>
+    </item>
+    
+    <item>
+      <title>Seaman &amp; Weber (2015) Undisclosed Flexibility in Computing and Reporting Structural Equation Models in Communication Science.</title>
+      <link>/posts/seaman-c-s-weber-r-2015-undisclosed-flexibility-in-computing-and-reporting-structural-equation-models-in-communication-science/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/seaman-c-s-weber-r-2015-undisclosed-flexibility-in-computing-and-reporting-structural-equation-models-in-communication-science/</guid>
+      <description>Summary This paper is a systematic review (or ‘methodological review’ in their tersm) of both QRPs and bad modelling practice in structural equation modelling within the field of communication. They don’t use the term ‘Questionable Research Practices’, however, they do explicitly look at practices falling under the QRP banner, including cherry-picking, HARKing, and researcher degrees of freedom. Importantly, this paper is really useful to me because they examine these questionable research practices in a modelling framework outside of the non-hypothetico-deductive scientific model.</description>
+    </item>
+    
+    <item>
+      <title>Advisory Committee Meeting</title>
+      <link>/posts/advisory-committee-meeting/</link>
+      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/advisory-committee-meeting/</guid>
+      <description>Chapter 2, QRPs Scope Trying to cover the scope of the entire decision process might be too large for just one chapter. Just examining QRPs for system modelling is quite a task. PV suggested restricting the focus to decision tools and focussing on one application area, such as conservation planning / reserve design. This would also give more traction and uptake among ecologists. Conservation planning isn&amp;rsquo;t using the term &amp;lsquo;reproducibility&amp;rsquo; to describe their problems.</description>
+    </item>
+    
+    <item>
       <title>Fraser et al 2018 QRPs in Ecology and Evolution</title>
-      <link>/post/fraser-et-al-2018-qrps-in-ecology-and-evolution/</link>
+      <link>/posts/fraser-et-al-2018-qrps-in-ecology-and-evolution/</link>
       <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/fraser-et-al-2018-qrps-in-ecology-and-evolution/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/fraser-et-al-2018-qrps-in-ecology-and-evolution/</guid>
       <description>Fraser, H. S., Parker, T. H., Nakagawa, S., Barnett, A., Fidler, F. (2018) Questionable Research Practices in Ecology and Evolution. doi: 10.17605/OSF.IO/AJYQG.
 “Transformation process” of science communication is susceptible to confusion and corruption, has triggered both reflection and meta-research in other disciplines.
 Forstmeier et al [8]:
@@ -26,10 +78,10 @@ Individual research practice is embedded in a broader culture, and promoite cond
     
     <item>
       <title>Retreat Reproducibility Session</title>
-      <link>/post/retreat-reproducibility-session/</link>
+      <link>/posts/retreat-reproducibility-session/</link>
       <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/retreat-reproducibility-session/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/retreat-reproducibility-session/</guid>
       <description>Session Planning Focus: Reproducibility in practice - QRPs.
 Session aim: To help spread awareness among Qaecologists and Cebranalysts about reproducibility issues in our research practices. And then possibly provide people with the tools / solutions to overcome some of these issues.
 Format: not a lecture, not an unstructured discussion.

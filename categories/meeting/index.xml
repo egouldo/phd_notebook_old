@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Meeting on research notebook</title>
+    <title>Meeting on Electronic Lab Notebook</title>
     <link>/categories/meeting/</link>
-    <description>Recent content in Meeting on research notebook</description>
+    <description>Recent content in Meeting on Electronic Lab Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Elise Gould</copyright>
+    <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
+    <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
+    <copyright>(c) 2018 -- All rights reserved.</copyright>
     <lastBuildDate>Mon, 14 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/meeting/index.xml" rel="self" type="application/rss+xml" />
@@ -14,10 +16,10 @@
     
     <item>
       <title>Retreat Reproducibility Session</title>
-      <link>/post/retreat-reproducibility-session/</link>
+      <link>/posts/retreat-reproducibility-session/</link>
       <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/retreat-reproducibility-session/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/retreat-reproducibility-session/</guid>
       <description>Session Planning Focus: Reproducibility in practice - QRPs.
 Session aim: To help spread awareness among Qaecologists and Cebranalysts about reproducibility issues in our research practices. And then possibly provide people with the tools / solutions to overcome some of these issues.
 Format: not a lecture, not an unstructured discussion.
@@ -28,10 +30,10 @@ Intro by Fiona, perhaps talking about why reproducibility is important to us as 
     
     <item>
       <title>meeting april 12 2018</title>
-      <link>/post/meeting-april-12-2018/</link>
+      <link>/posts/meeting-april-12-2018/</link>
       <pubDate>Thu, 12 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/meeting-april-12-2018/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/meeting-april-12-2018/</guid>
       <description>Planning the projects and the scope of the Phd (and the format for the thesis):
  Perfectly acceptable to have disparate projects / papers comprising the thesis, and bound together with a good introduction and conclusion. Don’t have to choose between different projects.  Good to try and sit with that tension, and not having to resolve it by having a neat / tightly fitting narrative thesis.
 Hannah: working on structured decision making tool with Libby.</description>
@@ -39,19 +41,19 @@ Hannah: working on structured decision making tool with Libby.</description>
     
     <item>
       <title>meeting</title>
-      <link>/post/meeting/</link>
+      <link>/posts/meeting/</link>
       <pubDate>Thu, 22 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/meeting/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/meeting/</guid>
       <description> Investigating appropriate systematic review methodologies Developing a framework / list of non-NHST reproducibility issues (QRP&amp;rsquo;s and other sources of bias) for decision-support tools &amp;ndash;&amp;gt; informing the coding criteria for systematic review    Fiona link.l  </description>
     </item>
     
     <item>
       <title>meeting 15 March 2018</title>
-      <link>/post/meeting-15-march-2018/</link>
+      <link>/posts/meeting-15-march-2018/</link>
       <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/meeting-15-march-2018/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/meeting-15-march-2018/</guid>
       <description>Libby, Hannah present.
 Exploring systematic review methods Add my notes from CJ meeting here.
 Also see: BES - will be discussed in coding club / reading club. SER (Society of ecological restoration) -&amp;gt; Australian Chapter, SERA. Other disciplines where science / evidence is used in making decision s(Ecotoxicology / Biosecurity).
@@ -60,10 +62,10 @@ Authors who have worked on systematic reviews in ecology (@TODO): - Catherine Pi
     
     <item>
       <title>reading club reproducibility</title>
-      <link>/post/reading-club-reproducibility/</link>
+      <link>/posts/reading-club-reproducibility/</link>
       <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/reading-club-reproducibility/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/reading-club-reproducibility/</guid>
       <description>BES Reproducibility guidelines.
 Good for YOU, and for reproducibility.
 Uptake in education: Fiona new reproducibility subject at the University.
@@ -73,10 +75,10 @@ Statistical abstinence vs.</description>
     
     <item>
       <title>meeting Fiona Hannah 1st March 2018</title>
-      <link>/post/meeting-fiona-hannah-1st-march-18/</link>
+      <link>/posts/meeting-fiona-hannah-1st-march-18/</link>
       <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/meeting-fiona-hannah-1st-march-18/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/meeting-fiona-hannah-1st-march-18/</guid>
       <description>To date:
 Have been trying to determine the scope of the project. Want to look at the reproducibility of decision support tools
  what elements of existing reproducibility literature apply to this context?
@@ -85,30 +87,30 @@ Have been trying to determine the scope of the project. Want to look at the repr
     
     <item>
       <title>Meeting Hannah</title>
-      <link>/post/meeting-hannah/</link>
+      <link>/posts/meeting-hannah/</link>
       <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/meeting-hannah/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/meeting-hannah/</guid>
       <description>See Steve&amp;rsquo;s guidelines around meta-analysis from medicine. Hannah&amp;rsquo;s criteria. Conservation Biology guidelines. Guidelines / checkpoints are just around transparency. No actual checking of reproducibility.
 How do decisions vs. models differ? What is particular about my problem context? values, preferences. Process vs. decision model - problem is often split into two. Decision tools as models more complex, involve not just a model of the system / domain (including decision elements), but capturing objectives, alternatives, eliciting expert judgment, involving many stakeholders.</description>
     </item>
     
     <item>
-      <title>Guerrero et al 2017 Using SDM to set restoration objectives</title>
-      <link>/post/guerrero-et-al-2017-using-sdm-to-set-restoration-objectives/</link>
-      <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/guerrero-et-al-2017-using-sdm-to-set-restoration-objectives/</guid>
-      <description>Guerrero, A. M., Shoo, L., Iacona, G., Standish, R. J., Catterall, C. P., Rumpff, L., de Bie, K., White, Z., Matzek, V., Wilson, K. A. (2017) Using structured decision-making to set restoration objectives when multiple values and preferences exist. Restoration Ecology. 25, 858–865.
-Problem: achieving restoration targets is impeded by difficulty in identifying and working towards targets, because objective setting is beset by multiple / conflicting values and preferences, and there are often time-lags in a restoration action and its desired outcome.</description>
+      <title>meeting</title>
+      <link>/posts/meeting/</link>
+      <pubDate>Thu, 22 Feb 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/meeting/</guid>
+      <description> Activities in the last week  Trying to map out the landscape of reproducibility, in particular, within ecology.  What is the magnitude of the reproducibility crisis, do people even think we have one? What&amp;rsquo;s being done? Mostly focused on efforts by individuals or research groups, as well as institutional efforts, particularly emerging in the bioinformatics discipline and focusing on computational analysis workflows and data management.
+ Is there really a differnce  </description>
     </item>
     
     <item>
       <title>meeting Feb 15 2018</title>
-      <link>/post/meeting-feb-15-2018/</link>
+      <link>/posts/meeting-feb-15-2018/</link>
       <pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/meeting-feb-15-2018/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/meeting-feb-15-2018/</guid>
       <description>activities -&amp;gt; working towards the research proposal -&amp;gt; also on first chapter
 Reading: - trying to identify difficulties / issues in modelling applied ecological problems in general - e.g. projecting performance of conservation actions, building the evidence base in restoration ecology as new techniques emerge.
 -&amp;gt; aims, trying to identify why reproducibility is important for ecological models / DSTs

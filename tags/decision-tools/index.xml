@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Decision tools on research notebook</title>
+    <title>Decision Tools on Electronic Lab Notebook</title>
     <link>/tags/decision-tools/</link>
-    <description>Recent content in Decision tools on research notebook</description>
+    <description>Recent content in Decision Tools on Electronic Lab Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Elise Gould</copyright>
+    <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
+    <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
+    <copyright>(c) 2018 -- All rights reserved.</copyright>
     <lastBuildDate>Wed, 21 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/decision-tools/index.xml" rel="self" type="application/rss+xml" />
@@ -14,10 +16,10 @@
     
     <item>
       <title>reproducibility for decision support tools</title>
-      <link>/post/reproducibility-for-decision-support-tools/</link>
+      <link>/posts/reproducibility-for-decision-support-tools/</link>
       <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/reproducibility-for-decision-support-tools/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/reproducibility-for-decision-support-tools/</guid>
       <description>I&amp;rsquo;ve set aside this document for developing a parallel framework of reproducibility issues not just outside of NHST, but particular to Decision Support Tools in ecology and conservation.
 WHY? Because the majority of work addressing reproducibility in and outside of ecology has focused on hypothesis testing (NHST, predominantly). And non-NHST methods are important tools in the Decision Support toolbox for conservation science and applied ecology.
 From this, I hope to: a) develop the coding criteria for the systematic review b) propose some sort of gold-standard protocol for developing reproducible decision support tools</description>
@@ -25,10 +27,10 @@ From this, I hope to: a) develop the coding criteria for the systematic review b
     
     <item>
       <title>Meeting Hannah</title>
-      <link>/post/meeting-hannah/</link>
+      <link>/posts/meeting-hannah/</link>
       <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/meeting-hannah/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/meeting-hannah/</guid>
       <description>See Steve&amp;rsquo;s guidelines around meta-analysis from medicine. Hannah&amp;rsquo;s criteria. Conservation Biology guidelines. Guidelines / checkpoints are just around transparency. No actual checking of reproducibility.
 How do decisions vs. models differ? What is particular about my problem context? values, preferences. Process vs. decision model - problem is often split into two. Decision tools as models more complex, involve not just a model of the system / domain (including decision elements), but capturing objectives, alternatives, eliciting expert judgment, involving many stakeholders.</description>
     </item>

@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Metaresearch on research notebook</title>
+    <title>Metaresearch on Electronic Lab Notebook</title>
     <link>/tags/metaresearch/</link>
-    <description>Recent content in Metaresearch on research notebook</description>
+    <description>Recent content in Metaresearch on Electronic Lab Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Elise Gould</copyright>
+    <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
+    <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
+    <copyright>(c) 2018 -- All rights reserved.</copyright>
     <lastBuildDate>Wed, 21 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/metaresearch/index.xml" rel="self" type="application/rss+xml" />
@@ -14,10 +16,10 @@
     
     <item>
       <title>Fidler 2017 Metaresearch in ecology</title>
-      <link>/post/fidler-2017-metaresearch-in-ecology/</link>
+      <link>/posts/fidler-2017-metaresearch-in-ecology/</link>
       <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/fidler-2017-metaresearch-in-ecology/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/fidler-2017-metaresearch-in-ecology/</guid>
       <description>Fidler, F., Chee, Y. E., Wintle, B. A., Burgman, M. A., McCarthy, M. A., Gordon, A. (2017) Metaresearch for Evaluating Reproducibility in Ecology and Evolution. BioScience doi: 10.1093/biosci/biw159.
 Demonstrate that ecology and evolution as disciplines are at risk of a having low rates of reproducibility, aka a &amp;lsquo;reproducibility crisis&amp;rsquo; as others have termed it. The paper sets out to identify the different ways in which ecology is likely to have a reproducibility problem.</description>
     </item>

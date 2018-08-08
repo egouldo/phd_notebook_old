@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Confidence Interval on Electronic Lab Notebook</title>
+    <link>/tags/confidence-interval/</link>
+    <description>Recent content in Confidence Interval on Electronic Lab Notebook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
+    <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
+    <copyright>(c) 2018 -- All rights reserved.</copyright>
+    <lastBuildDate>Tue, 31 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/confidence-interval/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>New Perspectives in Statistics Education</title>
+      <link>/posts/new-perspectives-in-statistics-education/</link>
+      <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/new-perspectives-in-statistics-education/</guid>
+      <description>Upcoming events: Statistical Society of Australia (SSA), Biostatistics bonanza. August 23.
+Sue Finch: “Back to basics? Identifying educational needs through statistical consulting” People who come to consulting come with real need - come with an applied problem. How can we use this to inform new generation of statistical training for researchers?
+Break down research cycle using PPDAC cycle used within statistical education (Wild and Pfannkuch). Process of statistical thinking when carrying out a statistical inquiry.</description>
+    </item>
+    
+  </channel>
+</rss>

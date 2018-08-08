@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vegetation on research notebook</title>
+    <title>Vegetation on Electronic Lab Notebook</title>
     <link>/tags/vegetation/</link>
-    <description>Recent content in Vegetation on research notebook</description>
+    <description>Recent content in Vegetation on Electronic Lab Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Elise Gould</copyright>
+    <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
+    <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
+    <copyright>(c) 2018 -- All rights reserved.</copyright>
     <lastBuildDate>Mon, 19 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/vegetation/index.xml" rel="self" type="application/rss+xml" />
@@ -14,10 +16,10 @@
     
     <item>
       <title>Guerrero et al 2017 Using SDM to set restoration objectives</title>
-      <link>/post/guerrero-et-al-2017-using-sdm-to-set-restoration-objectives/</link>
+      <link>/posts/guerrero-et-al-2017-using-sdm-to-set-restoration-objectives/</link>
       <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/guerrero-et-al-2017-using-sdm-to-set-restoration-objectives/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/guerrero-et-al-2017-using-sdm-to-set-restoration-objectives/</guid>
       <description>Guerrero, A. M., Shoo, L., Iacona, G., Standish, R. J., Catterall, C. P., Rumpff, L., de Bie, K., White, Z., Matzek, V., Wilson, K. A. (2017) Using structured decision-making to set restoration objectives when multiple values and preferences exist. Restoration Ecology. 25, 858–865.
 Problem: achieving restoration targets is impeded by difficulty in identifying and working towards targets, because objective setting is beset by multiple / conflicting values and preferences, and there are often time-lags in a restoration action and its desired outcome.</description>
     </item>

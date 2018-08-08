@@ -1,23 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Workshop on research notebook</title>
+    <title>Workshop on Electronic Lab Notebook</title>
     <link>/categories/workshop/</link>
-    <description>Recent content in Workshop on research notebook</description>
+    <description>Recent content in Workshop on Electronic Lab Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Elise Gould</copyright>
-    <lastBuildDate>Wed, 21 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
+    <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
+    <copyright>(c) 2018 -- All rights reserved.</copyright>
+    <lastBuildDate>Fri, 20 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/workshop/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Retreat QRP session</title>
+      <link>/posts/retreat-qrp-session/</link>
+      <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/retreat-qrp-session/</guid>
+      <description>Summary and purpose of the workshop: We ran a workshop where we hosted small discussions attempting to propose questionable research practices that arise in ecological and conservation research using non-frequentist and/or non hypothetico-deductive inquiry.
+The purpose of the workshop was two-fold:
+To bring awareness to our research group of QRPs for the types of work relevant to the group, and to consider how reproducibility issues might affect us, even if reproducibility research seems irrelevant.</description>
+    </item>
+    
+    <item>
       <title>bioinformatics workshop dockerisation</title>
-      <link>/post/bioinformatics-workshop-dockerisation/</link>
+      <link>/posts/bioinformatics-workshop-dockerisation/</link>
       <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/bioinformatics-workshop-dockerisation/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/bioinformatics-workshop-dockerisation/</guid>
       <description>Slides are here: http://melbournebioinformatics.github.io/MelBioInf_docs/tutorials/docker/media/index.html#47
 Docker: libraries and operating system included as well (as application). ALl dependencies distributed. AND docker containers are cross-platform. == Portable. Distributable: can store images on the docker cloud.
 Docker containers can&amp;rsquo;t access host-system&amp;rsquo;s files (good for security), but limits some use-cases (especially where command line utilities used).

@@ -1,49 +1,60 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on research notebook</title>
+    <title>Tags on Electronic Lab Notebook</title>
     <link>/tags/</link>
-    <description>Recent content in Tags on research notebook</description>
+    <description>Recent content in Tags on Electronic Lab Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Elise Gould</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
+    <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
+    <copyright>(c) 2018 -- All rights reserved.</copyright>
+    <lastBuildDate>Wed, 25 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Content tagged as &#39;Academic&#39;</title>
-      <link>/tags/academic/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/academic/</guid>
-      <description>Here is a list of all the content that has been tagged as academic.</description>
-    </item>
-    
-    <item>
       <title>Accuracy</title>
       <link>/tags/accuracy/</link>
-      <pubDate>Thu, 18 Jan 2018 00:00:00 +0000</pubDate>
-      
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/accuracy/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Causal inference</title>
+      <title>Causal Inference</title>
       <link>/tags/causal-inference/</link>
-      <pubDate>Fri, 15 Dec 2017 00:00:00 +0000</pubDate>
-      
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/causal-inference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computational Reproducibility</title>
+      <link>/tags/computational-reproducibility/</link>
+      <pubDate>Mon, 16 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/tags/computational-reproducibility/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Confidence Interval</title>
+      <link>/tags/confidence-interval/</link>
+      <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/tags/confidence-interval/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Conservation</title>
       <link>/tags/conservation/</link>
-      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
-      
+      <pubDate>Thu, 14 Jun 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/conservation/</guid>
       <description></description>
     </item>
@@ -52,53 +63,53 @@
       <title>Containerisation</title>
       <link>/tags/containerisation/</link>
       <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
-      
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/containerisation/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Data science</title>
+      <title>Data Science</title>
       <link>/tags/data-science/</link>
       <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
-      
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/data-science/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Decision analysis</title>
+      <title>Decision Analysis</title>
       <link>/tags/decision-analysis/</link>
-      <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
-      
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/decision-analysis/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Decision support</title>
+      <title>Decision Science</title>
+      <link>/tags/decision-science/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/tags/decision-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decision Support</title>
       <link>/tags/decision-support/</link>
-      <pubDate>Wed, 09 May 2018 00:00:00 +0000</pubDate>
-      
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/decision-support/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Decision tools</title>
+      <title>Decision Tools</title>
       <link>/tags/decision-tools/</link>
       <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
-      
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/decision-tools/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Decision-science</title>
-      <link>/tags/decision-science/</link>
-      <pubDate>Wed, 09 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/decision-science/</guid>
       <description></description>
     </item>
     
@@ -106,7 +117,7 @@
       <title>Docker</title>
       <link>/tags/docker/</link>
       <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
-      
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/docker/</guid>
       <description></description>
     </item>
@@ -114,17 +125,17 @@
     <item>
       <title>Ecology</title>
       <link>/tags/ecology/</link>
-      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
-      
+      <pubDate>Tue, 26 Jun 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/ecology/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Evidence-based</title>
+      <title>Evidence Based</title>
       <link>/tags/evidence-based/</link>
       <pubDate>Wed, 09 May 2018 00:00:00 +0000</pubDate>
-      
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/evidence-based/</guid>
       <description></description>
     </item>
@@ -133,16 +144,16 @@
       <title>Evolution</title>
       <link>/tags/evolution/</link>
       <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
-      
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/evolution/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Expert judgment</title>
+      <title>Expert Judgment</title>
       <link>/tags/expert-judgment/</link>
       <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
-      
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/expert-judgment/</guid>
       <description></description>
     </item>
@@ -150,8 +161,8 @@
     <item>
       <title>Generalisation</title>
       <link>/tags/generalisation/</link>
-      <pubDate>Thu, 12 Apr 2018 00:00:00 +0000</pubDate>
-      
+      <pubDate>Tue, 26 Jun 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/generalisation/</guid>
       <description></description>
     </item>
@@ -160,7 +171,7 @@
       <title>Goals</title>
       <link>/tags/goals/</link>
       <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
-      
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/goals/</guid>
       <description></description>
     </item>
@@ -169,7 +180,7 @@
       <title>Indices</title>
       <link>/tags/indices/</link>
       <pubDate>Thu, 18 Jan 2018 00:00:00 +0000</pubDate>
-      
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/indices/</guid>
       <description></description>
     </item>
@@ -177,17 +188,17 @@
     <item>
       <title>Informatics</title>
       <link>/tags/informatics/</link>
-      <pubDate>Sat, 24 Feb 2018 00:00:00 +0000</pubDate>
-      
+      <pubDate>Tue, 26 Jun 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/informatics/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Knowing-doing gap</title>
+      <title>Knowing Doing Gap</title>
       <link>/tags/knowing-doing-gap/</link>
-      <pubDate>Wed, 09 May 2018 00:00:00 +0000</pubDate>
-      
+      <pubDate>Tue, 26 Jun 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/knowing-doing-gap/</guid>
       <description></description>
     </item>
@@ -196,7 +207,7 @@
       <title>Meeting</title>
       <link>/tags/meeting/</link>
       <pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate>
-      
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/meeting/</guid>
       <description></description>
     </item>
@@ -205,17 +216,35 @@
       <title>Metaresearch</title>
       <link>/tags/metaresearch/</link>
       <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
-      
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/metaresearch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Model Evaluation</title>
+      <link>/tags/model-evaluation/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/tags/model-evaluation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Modelling</title>
       <link>/tags/modelling/</link>
-      <pubDate>Mon, 18 Dec 2017 00:00:00 +0000</pubDate>
-      
+      <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/modelling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Non Hypothetico Deductive Scientific Model</title>
+      <link>/tags/non-hypothetico-deductive-scientific-model/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/tags/non-hypothetico-deductive-scientific-model/</guid>
       <description></description>
     </item>
     
@@ -223,7 +252,7 @@
       <title>Objectives</title>
       <link>/tags/objectives/</link>
       <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
-      
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/objectives/</guid>
       <description></description>
     </item>
@@ -232,26 +261,53 @@
       <title>Ontology</title>
       <link>/tags/ontology/</link>
       <pubDate>Sat, 24 Feb 2018 00:00:00 +0000</pubDate>
-      
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/ontology/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Open data</title>
+      <title>Open Data</title>
       <link>/tags/open-data/</link>
       <pubDate>Fri, 13 Apr 2018 00:00:00 +0000</pubDate>
-      
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/open-data/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Open science</title>
+      <title>Open Science</title>
       <link>/tags/open-science/</link>
-      <pubDate>Fri, 13 Apr 2018 00:00:00 +0000</pubDate>
-      
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/open-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimisation</title>
+      <link>/tags/optimisation/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/tags/optimisation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>P Value</title>
+      <link>/tags/p-value/</link>
+      <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/tags/p-value/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Peer Review</title>
+      <link>/tags/peer-review/</link>
+      <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/tags/peer-review/</guid>
       <description></description>
     </item>
     
@@ -259,7 +315,7 @@
       <title>Policy</title>
       <link>/tags/policy/</link>
       <pubDate>Fri, 15 Dec 2017 00:00:00 +0000</pubDate>
-      
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/policy/</guid>
       <description></description>
     </item>
@@ -268,7 +324,7 @@
       <title>Practice</title>
       <link>/tags/practice/</link>
       <pubDate>Wed, 09 May 2018 00:00:00 +0000</pubDate>
-      
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/practice/</guid>
       <description></description>
     </item>
@@ -277,43 +333,43 @@
       <title>Prediction</title>
       <link>/tags/prediction/</link>
       <pubDate>Fri, 15 Dec 2017 00:00:00 +0000</pubDate>
-      
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/prediction/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Project</title>
-      <link>/tags/project/</link>
-      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Publication bias</title>
+      <title>Publication Bias</title>
       <link>/tags/publication-bias/</link>
-      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
-      
+      <pubDate>Thu, 14 Jun 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/publication-bias/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>QRP</title>
+      <title>Qrp</title>
       <link>/tags/qrp/</link>
-      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
-      
+      <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/qrp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Qrps</title>
+      <link>/tags/qrps/</link>
+      <pubDate>Thu, 14 Jun 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/tags/qrps/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Replication</title>
       <link>/tags/replication/</link>
-      <pubDate>Thu, 12 Apr 2018 00:00:00 +0000</pubDate>
-      
+      <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/replication/</guid>
       <description></description>
     </item>
@@ -321,17 +377,35 @@
     <item>
       <title>Reproducibility</title>
       <link>/tags/reproducibility/</link>
-      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
-      
+      <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/reproducibility/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Research practice</title>
+      <title>Reproducibility Crisis</title>
+      <link>/tags/reproducibility-crisis/</link>
+      <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/tags/reproducibility-crisis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reproducible Research</title>
+      <link>/tags/reproducible-research/</link>
+      <pubDate>Mon, 16 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/tags/reproducible-research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Research Practice</title>
       <link>/tags/research-practice/</link>
-      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
-      
+      <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/research-practice/</guid>
       <description></description>
     </item>
@@ -340,25 +414,52 @@
       <title>Restoration</title>
       <link>/tags/restoration/</link>
       <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
-      
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/restoration/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Structured-decision-making</title>
+      <title>Sdm</title>
+      <link>/tags/sdm/</link>
+      <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/tags/sdm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>/tags/software/</link>
+      <pubDate>Mon, 16 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/tags/software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistical Inference</title>
+      <link>/tags/statistical-inference/</link>
+      <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/tags/statistical-inference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Structured Decision Making</title>
       <link>/tags/structured-decision-making/</link>
       <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
-      
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/structured-decision-making/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Systematic review</title>
+      <title>Systematic Review</title>
       <link>/tags/systematic-review/</link>
-      <pubDate>Thu, 12 Apr 2018 00:00:00 +0000</pubDate>
-      
+      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/systematic-review/</guid>
       <description></description>
     </item>
@@ -367,25 +468,16 @@
       <title>Theory</title>
       <link>/tags/theory/</link>
       <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
-      
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/theory/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Timeline</title>
-      <link>/tags/timeline/</link>
-      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/timeline/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Transparency</title>
       <link>/tags/transparency/</link>
-      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
-      
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/transparency/</guid>
       <description></description>
     </item>
@@ -394,7 +486,7 @@
       <title>Validation</title>
       <link>/tags/validation/</link>
       <pubDate>Thu, 12 Apr 2018 00:00:00 +0000</pubDate>
-      
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/validation/</guid>
       <description></description>
     </item>
@@ -403,7 +495,7 @@
       <title>Vegetation</title>
       <link>/tags/vegetation/</link>
       <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
-      
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/vegetation/</guid>
       <description></description>
     </item>

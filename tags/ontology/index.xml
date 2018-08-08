@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ontology on research notebook</title>
+    <title>Ontology on Electronic Lab Notebook</title>
     <link>/tags/ontology/</link>
-    <description>Recent content in Ontology on research notebook</description>
+    <description>Recent content in Ontology on Electronic Lab Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Elise Gould</copyright>
+    <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
+    <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
+    <copyright>(c) 2018 -- All rights reserved.</copyright>
     <lastBuildDate>Sat, 24 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/ontology/index.xml" rel="self" type="application/rss+xml" />
@@ -14,11 +16,11 @@
     
     <item>
       <title>Madin (2007) Advancing ecological research with ontologies</title>
-      <link>/post/madin-2007-advancing-ecological-research-with-ontologies/</link>
+      <link>/posts/madin-2007-advancing-ecological-research-with-ontologies/</link>
       <pubDate>Sat, 24 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/madin-2007-advancing-ecological-research-with-ontologies/</guid>
-      <description>(???)
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/madin-2007-advancing-ecological-research-with-ontologies/</guid>
+      <description>(Madin et al. 2008)
 Why are ontologies relevant to ecology? Issue of effectively locating scientific data is hampered because our current approaches for describing it rely on the “ad hoc use of user-supplied keywords, and do not ensure that such terms are defined and used consistently.” The same is true when searching for relevant data, “users supply their own search terms, which are then matched against keywords assigned to datasets”. Ecology is particularly prone to this problem, and many terms often have multiple and variable meanings in different contexts.</description>
     </item>
     

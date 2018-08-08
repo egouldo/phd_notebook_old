@@ -1,23 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Synthesis on research notebook</title>
+    <title>Synthesis on Electronic Lab Notebook</title>
     <link>/categories/synthesis/</link>
-    <description>Recent content in Synthesis on research notebook</description>
+    <description>Recent content in Synthesis on Electronic Lab Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Elise Gould</copyright>
-    <lastBuildDate>Wed, 21 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
+    <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
+    <copyright>(c) 2018 -- All rights reserved.</copyright>
+    <lastBuildDate>Fri, 25 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/synthesis/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Arguments against the existance and extent of the reproducibility crisis</title>
+      <link>/posts/arguments-against-the-existance-and-extent-of-the-reproducibility-crisis/</link>
+      <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/arguments-against-the-existance-and-extent-of-the-reproducibility-crisis/</guid>
+      <description>Despite a growing body of large-scale meta-analyses across many different disciplines, debate as to whether there is a “crisis” persists. Fanelli et al. (2018) use a failed replication of a large-scale meta-analysis to argue that the “crisis” is mistaken, and should instead be re-branded as a narrative of “epochal changes and empowerment of science” (Jamieson 2018). In a ‘post-truth’ era of ‘alternative-facts’, how scientists communicate research on the robustness of science and its self-correcting mechanisms is certainly important (Sutherland and Wordley 2017).</description>
+    </item>
+    
+    <item>
       <title>reproducibility for decision support tools</title>
-      <link>/post/reproducibility-for-decision-support-tools/</link>
+      <link>/posts/reproducibility-for-decision-support-tools/</link>
       <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/reproducibility-for-decision-support-tools/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/reproducibility-for-decision-support-tools/</guid>
       <description>I&amp;rsquo;ve set aside this document for developing a parallel framework of reproducibility issues not just outside of NHST, but particular to Decision Support Tools in ecology and conservation.
 WHY? Because the majority of work addressing reproducibility in and outside of ecology has focused on hypothesis testing (NHST, predominantly). And non-NHST methods are important tools in the Decision Support toolbox for conservation science and applied ecology.
 From this, I hope to: a) develop the coding criteria for the systematic review b) propose some sort of gold-standard protocol for developing reproducible decision support tools</description>

@@ -1,23 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Systematic review on research notebook</title>
+    <title>Systematic Review on Electronic Lab Notebook</title>
     <link>/tags/systematic-review/</link>
-    <description>Recent content in Systematic review on research notebook</description>
+    <description>Recent content in Systematic Review on Electronic Lab Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Elise Gould</copyright>
-    <lastBuildDate>Thu, 12 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
+    <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
+    <copyright>(c) 2018 -- All rights reserved.</copyright>
+    <lastBuildDate>Wed, 20 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/systematic-review/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>de Vos Are Environmental Models Transparent and Reproducible?</title>
+      <link>/posts/de-vos-are-environmental-models-transparent-and-reproducible/</link>
+      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/de-vos-are-environmental-models-transparent-and-reproducible/</guid>
+      <description>Problem: Why is transparency and reproducibility of environmental models important? Transparency and reproducibility are quintessential for facilitating assessment of model quality and suitability by both peer-reviewers, readers, and future users:  Page 1, 2018-06-20:  Environmental models are in fact applications of shared theories on how real-world systems are functioning.
+ Because “Environmental models are in fact applications of shared theories on how real-world systems are functioning”, it is essential that “the underlying scientific theories they need to be evaluated and discussed among peers.</description>
+    </item>
+    
+    <item>
       <title>meeting april 12 2018</title>
-      <link>/post/meeting-april-12-2018/</link>
+      <link>/posts/meeting-april-12-2018/</link>
       <pubDate>Thu, 12 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/meeting-april-12-2018/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/meeting-april-12-2018/</guid>
       <description>Planning the projects and the scope of the Phd (and the format for the thesis):
  Perfectly acceptable to have disparate projects / papers comprising the thesis, and bound together with a good introduction and conclusion. Don’t have to choose between different projects.  Good to try and sit with that tension, and not having to resolve it by having a neat / tightly fitting narrative thesis.
 Hannah: working on structured decision making tool with Libby.</description>
@@ -25,10 +37,10 @@ Hannah: working on structured decision making tool with Libby.</description>
     
     <item>
       <title>meeting 15 March 2018</title>
-      <link>/post/meeting-15-march-2018/</link>
+      <link>/posts/meeting-15-march-2018/</link>
       <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/meeting-15-march-2018/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/meeting-15-march-2018/</guid>
       <description>Libby, Hannah present.
 Exploring systematic review methods Add my notes from CJ meeting here.
 Also see: BES - will be discussed in coding club / reading club. SER (Society of ecological restoration) -&amp;gt; Australian Chapter, SERA. Other disciplines where science / evidence is used in making decision s(Ecotoxicology / Biosecurity).
@@ -37,10 +49,10 @@ Authors who have worked on systematic reviews in ecology (@TODO): - Catherine Pi
     
     <item>
       <title>systematic review methodologies for conservation and ecology</title>
-      <link>/post/systematic-review-methodologies-for-conservation-and-ecology/</link>
+      <link>/posts/systematic-review-methodologies-for-conservation-and-ecology/</link>
       <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/systematic-review-methodologies-for-conservation-and-ecology/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/systematic-review-methodologies-for-conservation-and-ecology/</guid>
       <description>Systematic Review Methods Nakagawa and Poulin [-@Nakagawa:2012fl] recommend following the PRISMA statement, at least for meta-analyses in ecology and evolution.
 PRISMA
 Checklist here: http://www.prisma-statement.org/documents/PRISMA%202009%20checklist.pdf

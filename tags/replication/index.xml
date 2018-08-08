@@ -1,23 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Replication on research notebook</title>
+    <title>Replication on Electronic Lab Notebook</title>
     <link>/tags/replication/</link>
-    <description>Recent content in Replication on research notebook</description>
+    <description>Recent content in Replication on Electronic Lab Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Elise Gould</copyright>
-    <lastBuildDate>Thu, 12 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
+    <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
+    <copyright>(c) 2018 -- All rights reserved.</copyright>
+    <lastBuildDate>Tue, 31 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/replication/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>New Perspectives in Statistics Education</title>
+      <link>/posts/new-perspectives-in-statistics-education/</link>
+      <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/new-perspectives-in-statistics-education/</guid>
+      <description>Upcoming events: Statistical Society of Australia (SSA), Biostatistics bonanza. August 23.
+Sue Finch: “Back to basics? Identifying educational needs through statistical consulting” People who come to consulting come with real need - come with an applied problem. How can we use this to inform new generation of statistical training for researchers?
+Break down research cycle using PPDAC cycle used within statistical education (Wild and Pfannkuch). Process of statistical thinking when carrying out a statistical inquiry.</description>
+    </item>
+    
+    <item>
+      <title>Advisory Committee Meeting</title>
+      <link>/posts/advisory-committee-meeting/</link>
+      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/advisory-committee-meeting/</guid>
+      <description>Chapter 2, QRPs Scope Trying to cover the scope of the entire decision process might be too large for just one chapter. Just examining QRPs for system modelling is quite a task. PV suggested restricting the focus to decision tools and focussing on one application area, such as conservation planning / reserve design. This would also give more traction and uptake among ecologists. Conservation planning isn&amp;rsquo;t using the term &amp;lsquo;reproducibility&amp;rsquo; to describe their problems.</description>
+    </item>
+    
+    <item>
       <title>Nakagawa and Parker 2015</title>
-      <link>/post/nakagawa-and-parker-2015/</link>
+      <link>/posts/nakagawa-and-parker-2015/</link>
       <pubDate>Thu, 12 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/nakagawa-and-parker-2015/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/nakagawa-and-parker-2015/</guid>
       <description>Why do we replicate? Assess the validity of prior findings probe the generality of those findings   Levels of replication Exact (also known as “direct”): highest fidelity to the original work. But in ecology, usually can only be ‘close’ replications. Partial: there is a spectrum of partial replications, from close to limited. These have slight procedural differences. Conceptual: uses distinctly different study designs to test the same hypotheses. Quasi-replication (cross-species or system)   Assessing validity  Probing generality Conceptual replications: when results concur, we can define generality.</description>
     </item>
     

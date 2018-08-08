@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="utf-8">
+  <title>de Vos Are Environmental Models Transparent and Reproducible?</title>
+  <meta name="description" content="de Vos Are Environmental Models Transparent and Reproducible?">
+  <meta name="author" content="Elise Gould">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <noscript>
+    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/css/fonts.css">
+  </noscript>
+  
+  
+  <style type="text/css" media="screen">
+    /*!
+Pure v1.0.0
+Copyright 2013 Yahoo!
+Licensed under the BSD License.
+https://github.com/yahoo/pure/blob/master/LICENSE.md
+*/
+/*!
+normalize.css v^3.0 | MIT License | git.io/normalize
+Copyright (c) Nicolas Gallagher and Jonathan Neal
+*/
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */img,legend{border:0}legend,td,th{padding:0}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,optgroup,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}pre,textarea{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}table{border-collapse:collapse;border-spacing:0}.hidden,[hidden]{display:none!important}.pure-img{max-width:100%;height:auto;display:block}
+  </style>
+  <style type="text/css" media="screen">
+    /*!
+Pure v1.0.0
+Copyright 2013 Yahoo!
+Licensed under the BSD License.
+https://github.com/yahoo/pure/blob/master/LICENSE.md
+*/
+.pure-menu{box-sizing:border-box}.pure-menu-fixed{position:fixed;left:0;top:0;z-index:3}.pure-menu-item,.pure-menu-list{position:relative}.pure-menu-list{list-style:none;margin:0;padding:0}.pure-menu-item{padding:0;margin:0;height:100%}.pure-menu-heading,.pure-menu-link{display:block;text-decoration:none;white-space:nowrap}.pure-menu-horizontal{width:100%;white-space:normal}.pure-menu-horizontal .pure-menu-list{display:inline-block}.pure-menu-horizontal .pure-menu-heading,.pure-menu-horizontal .pure-menu-item,.pure-menu-horizontal .pure-menu-separator{display:inline-block;zoom:1;vertical-align:middle}.pure-menu-item .pure-menu-item{display:block}.pure-menu-children{display:none;position:absolute;left:100%;top:0;margin:0;padding:0;z-index:3}.pure-menu-horizontal .pure-menu-children{left:0;top:auto;width:inherit}.pure-menu-active>.pure-menu-children,.pure-menu-allow-hover:hover>.pure-menu-children{display:block;position:absolute}.pure-menu-has-children>.pure-menu-link:after{padding-left:.5em;content:"\25B8";font-size:small}.pure-menu-horizontal .pure-menu-has-children>.pure-menu-link:after{content:"\25BE"}.pure-menu-scrollable{overflow-y:scroll;overflow-x:hidden}.pure-menu-scrollable .pure-menu-list{display:block}.pure-menu-horizontal.pure-menu-scrollable .pure-menu-list{display:inline-block}.pure-menu-horizontal.pure-menu-scrollable{white-space:nowrap;overflow-y:hidden;overflow-x:auto;-ms-overflow-style:none;-webkit-overflow-scrolling:touch;padding:.5em 0}.pure-menu-horizontal.pure-menu-scrollable::-webkit-scrollbar{display:none}.pure-menu-horizontal .pure-menu-children .pure-menu-separator,.pure-menu-separator{background-color:#ccc;height:1px;margin:.3em 0}.pure-menu-horizontal .pure-menu-separator{width:1px;height:1.3em;margin:0 .3em}.pure-menu-horizontal .pure-menu-children .pure-menu-separator{display:block;width:auto}.pure-menu-heading{text-transform:uppercase;color:#565d64}.pure-menu-link{color:#777}.pure-menu-children{background-color:#fff}.pure-menu-disabled,.pure-menu-heading,.pure-menu-link{padding:.5em 1em}.pure-menu-disabled{opacity:.5}.pure-menu-disabled .pure-menu-link:hover{background-color:transparent}.pure-menu-active>.pure-menu-link,.pure-menu-link:focus,.pure-menu-link:hover{background-color:#eee}.pure-menu-selected .pure-menu-link,.pure-menu-selected .pure-menu-link:visited{color:#000}
+
+  </style>
+  <style type="text/css" media="screen">
+    /*!
+Pure v1.0.0
+Copyright 2013 Yahoo!
+Licensed under the BSD License.
+https://github.com/yahoo/pure/blob/master/LICENSE.md
+*/
+.pure-g{letter-spacing:-.31em;text-rendering:optimizespeed;font-family:FreeSans,Arimo,"Droid Sans",Helvetica,Arial,sans-serif;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row wrap;-ms-flex-flow:row wrap;flex-flow:row wrap;-webkit-align-content:flex-start;-ms-flex-line-pack:start;align-content:flex-start}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){table .pure-g{display:block}}.opera-only :-o-prefocus,.pure-g{word-spacing:-.43em}.pure-u,.pure-u-1,.pure-u-1-1,.pure-u-1-12,.pure-u-1-2,.pure-u-1-24,.pure-u-1-3,.pure-u-1-4,.pure-u-1-5,.pure-u-1-6,.pure-u-1-8,.pure-u-10-24,.pure-u-11-12,.pure-u-11-24,.pure-u-12-24,.pure-u-13-24,.pure-u-14-24,.pure-u-15-24,.pure-u-16-24,.pure-u-17-24,.pure-u-18-24,.pure-u-19-24,.pure-u-2-24,.pure-u-2-3,.pure-u-2-5,.pure-u-20-24,.pure-u-21-24,.pure-u-22-24,.pure-u-23-24,.pure-u-24-24,.pure-u-3-24,.pure-u-3-4,.pure-u-3-5,.pure-u-3-8,.pure-u-4-24,.pure-u-4-5,.pure-u-5-12,.pure-u-5-24,.pure-u-5-5,.pure-u-5-6,.pure-u-5-8,.pure-u-6-24,.pure-u-7-12,.pure-u-7-24,.pure-u-7-8,.pure-u-8-24,.pure-u-9-24{display:inline-block;zoom:1;letter-spacing:normal;word-spacing:normal;vertical-align:top;text-rendering:auto}.pure-g [class*=pure-u]{font-family:sans-serif}.pure-u-1-24{width:4.1667%}.pure-u-1-12,.pure-u-2-24{width:8.3333%}.pure-u-1-8,.pure-u-3-24{width:12.5%}.pure-u-1-6,.pure-u-4-24{width:16.6667%}.pure-u-1-5{width:20%}.pure-u-5-24{width:20.8333%}.pure-u-1-4,.pure-u-6-24{width:25%}.pure-u-7-24{width:29.1667%}.pure-u-1-3,.pure-u-8-24{width:33.3333%}.pure-u-3-8,.pure-u-9-24{width:37.5%}.pure-u-2-5{width:40%}.pure-u-10-24,.pure-u-5-12{width:41.6667%}.pure-u-11-24{width:45.8333%}.pure-u-1-2,.pure-u-12-24{width:50%}.pure-u-13-24{width:54.1667%}.pure-u-14-24,.pure-u-7-12{width:58.3333%}.pure-u-3-5{width:60%}.pure-u-15-24,.pure-u-5-8{width:62.5%}.pure-u-16-24,.pure-u-2-3{width:66.6667%}.pure-u-17-24{width:70.8333%}.pure-u-18-24,.pure-u-3-4{width:75%}.pure-u-19-24{width:79.1667%}.pure-u-4-5{width:80%}.pure-u-20-24,.pure-u-5-6{width:83.3333%}.pure-u-21-24,.pure-u-7-8{width:87.5%}.pure-u-11-12,.pure-u-22-24{width:91.6667%}.pure-u-23-24{width:95.8333%}.pure-u-1,.pure-u-1-1,.pure-u-24-24,.pure-u-5-5{width:100%}
+  </style>
+  
+  
+  <style type="text/css" media="screen">
+    /*!
+Pure v1.0.0
+Copyright 2013 Yahoo!
+Licensed under the BSD License.
+https://github.com/yahoo/pure/blob/master/LICENSE.md
+*/
+@media screen and (min-width:35.5em){.pure-u-sm-1,.pure-u-sm-1-1,.pure-u-sm-1-12,.pure-u-sm-1-2,.pure-u-sm-1-24,.pure-u-sm-1-3,.pure-u-sm-1-4,.pure-u-sm-1-5,.pure-u-sm-1-6,.pure-u-sm-1-8,.pure-u-sm-10-24,.pure-u-sm-11-12,.pure-u-sm-11-24,.pure-u-sm-12-24,.pure-u-sm-13-24,.pure-u-sm-14-24,.pure-u-sm-15-24,.pure-u-sm-16-24,.pure-u-sm-17-24,.pure-u-sm-18-24,.pure-u-sm-19-24,.pure-u-sm-2-24,.pure-u-sm-2-3,.pure-u-sm-2-5,.pure-u-sm-20-24,.pure-u-sm-21-24,.pure-u-sm-22-24,.pure-u-sm-23-24,.pure-u-sm-24-24,.pure-u-sm-3-24,.pure-u-sm-3-4,.pure-u-sm-3-5,.pure-u-sm-3-8,.pure-u-sm-4-24,.pure-u-sm-4-5,.pure-u-sm-5-12,.pure-u-sm-5-24,.pure-u-sm-5-5,.pure-u-sm-5-6,.pure-u-sm-5-8,.pure-u-sm-6-24,.pure-u-sm-7-12,.pure-u-sm-7-24,.pure-u-sm-7-8,.pure-u-sm-8-24,.pure-u-sm-9-24{display:inline-block;zoom:1;letter-spacing:normal;word-spacing:normal;vertical-align:top;text-rendering:auto}.pure-u-sm-1-24{width:4.1667%}.pure-u-sm-1-12,.pure-u-sm-2-24{width:8.3333%}.pure-u-sm-1-8,.pure-u-sm-3-24{width:12.5%}.pure-u-sm-1-6,.pure-u-sm-4-24{width:16.6667%}.pure-u-sm-1-5{width:20%}.pure-u-sm-5-24{width:20.8333%}.pure-u-sm-1-4,.pure-u-sm-6-24{width:25%}.pure-u-sm-7-24{width:29.1667%}.pure-u-sm-1-3,.pure-u-sm-8-24{width:33.3333%}.pure-u-sm-3-8,.pure-u-sm-9-24{width:37.5%}.pure-u-sm-2-5{width:40%}.pure-u-sm-10-24,.pure-u-sm-5-12{width:41.6667%}.pure-u-sm-11-24{width:45.8333%}.pure-u-sm-1-2,.pure-u-sm-12-24{width:50%}.pure-u-sm-13-24{width:54.1667%}.pure-u-sm-14-24,.pure-u-sm-7-12{width:58.3333%}.pure-u-sm-3-5{width:60%}.pure-u-sm-15-24,.pure-u-sm-5-8{width:62.5%}.pure-u-sm-16-24,.pure-u-sm-2-3{width:66.6667%}.pure-u-sm-17-24{width:70.8333%}.pure-u-sm-18-24,.pure-u-sm-3-4{width:75%}.pure-u-sm-19-24{width:79.1667%}.pure-u-sm-4-5{width:80%}.pure-u-sm-20-24,.pure-u-sm-5-6{width:83.3333%}.pure-u-sm-21-24,.pure-u-sm-7-8{width:87.5%}.pure-u-sm-11-12,.pure-u-sm-22-24{width:91.6667%}.pure-u-sm-23-24{width:95.8333%}.pure-u-sm-1,.pure-u-sm-1-1,.pure-u-sm-24-24,.pure-u-sm-5-5{width:100%}}@media screen and (min-width:48em){.pure-u-md-1,.pure-u-md-1-1,.pure-u-md-1-12,.pure-u-md-1-2,.pure-u-md-1-24,.pure-u-md-1-3,.pure-u-md-1-4,.pure-u-md-1-5,.pure-u-md-1-6,.pure-u-md-1-8,.pure-u-md-10-24,.pure-u-md-11-12,.pure-u-md-11-24,.pure-u-md-12-24,.pure-u-md-13-24,.pure-u-md-14-24,.pure-u-md-15-24,.pure-u-md-16-24,.pure-u-md-17-24,.pure-u-md-18-24,.pure-u-md-19-24,.pure-u-md-2-24,.pure-u-md-2-3,.pure-u-md-2-5,.pure-u-md-20-24,.pure-u-md-21-24,.pure-u-md-22-24,.pure-u-md-23-24,.pure-u-md-24-24,.pure-u-md-3-24,.pure-u-md-3-4,.pure-u-md-3-5,.pure-u-md-3-8,.pure-u-md-4-24,.pure-u-md-4-5,.pure-u-md-5-12,.pure-u-md-5-24,.pure-u-md-5-5,.pure-u-md-5-6,.pure-u-md-5-8,.pure-u-md-6-24,.pure-u-md-7-12,.pure-u-md-7-24,.pure-u-md-7-8,.pure-u-md-8-24,.pure-u-md-9-24{display:inline-block;zoom:1;letter-spacing:normal;word-spacing:normal;vertical-align:top;text-rendering:auto}.pure-u-md-1-24{width:4.1667%}.pure-u-md-1-12,.pure-u-md-2-24{width:8.3333%}.pure-u-md-1-8,.pure-u-md-3-24{width:12.5%}.pure-u-md-1-6,.pure-u-md-4-24{width:16.6667%}.pure-u-md-1-5{width:20%}.pure-u-md-5-24{width:20.8333%}.pure-u-md-1-4,.pure-u-md-6-24{width:25%}.pure-u-md-7-24{width:29.1667%}.pure-u-md-1-3,.pure-u-md-8-24{width:33.3333%}.pure-u-md-3-8,.pure-u-md-9-24{width:37.5%}.pure-u-md-2-5{width:40%}.pure-u-md-10-24,.pure-u-md-5-12{width:41.6667%}.pure-u-md-11-24{width:45.8333%}.pure-u-md-1-2,.pure-u-md-12-24{width:50%}.pure-u-md-13-24{width:54.1667%}.pure-u-md-14-24,.pure-u-md-7-12{width:58.3333%}.pure-u-md-3-5{width:60%}.pure-u-md-15-24,.pure-u-md-5-8{width:62.5%}.pure-u-md-16-24,.pure-u-md-2-3{width:66.6667%}.pure-u-md-17-24{width:70.8333%}.pure-u-md-18-24,.pure-u-md-3-4{width:75%}.pure-u-md-19-24{width:79.1667%}.pure-u-md-4-5{width:80%}.pure-u-md-20-24,.pure-u-md-5-6{width:83.3333%}.pure-u-md-21-24,.pure-u-md-7-8{width:87.5%}.pure-u-md-11-12,.pure-u-md-22-24{width:91.6667%}.pure-u-md-23-24{width:95.8333%}.pure-u-md-1,.pure-u-md-1-1,.pure-u-md-24-24,.pure-u-md-5-5{width:100%}}@media screen and (min-width:64em){.pure-u-lg-1,.pure-u-lg-1-1,.pure-u-lg-1-12,.pure-u-lg-1-2,.pure-u-lg-1-24,.pure-u-lg-1-3,.pure-u-lg-1-4,.pure-u-lg-1-5,.pure-u-lg-1-6,.pure-u-lg-1-8,.pure-u-lg-10-24,.pure-u-lg-11-12,.pure-u-lg-11-24,.pure-u-lg-12-24,.pure-u-lg-13-24,.pure-u-lg-14-24,.pure-u-lg-15-24,.pure-u-lg-16-24,.pure-u-lg-17-24,.pure-u-lg-18-24,.pure-u-lg-19-24,.pure-u-lg-2-24,.pure-u-lg-2-3,.pure-u-lg-2-5,.pure-u-lg-20-24,.pure-u-lg-21-24,.pure-u-lg-22-24,.pure-u-lg-23-24,.pure-u-lg-24-24,.pure-u-lg-3-24,.pure-u-lg-3-4,.pure-u-lg-3-5,.pure-u-lg-3-8,.pure-u-lg-4-24,.pure-u-lg-4-5,.pure-u-lg-5-12,.pure-u-lg-5-24,.pure-u-lg-5-5,.pure-u-lg-5-6,.pure-u-lg-5-8,.pure-u-lg-6-24,.pure-u-lg-7-12,.pure-u-lg-7-24,.pure-u-lg-7-8,.pure-u-lg-8-24,.pure-u-lg-9-24{display:inline-block;zoom:1;letter-spacing:normal;word-spacing:normal;vertical-align:top;text-rendering:auto}.pure-u-lg-1-24{width:4.1667%}.pure-u-lg-1-12,.pure-u-lg-2-24{width:8.3333%}.pure-u-lg-1-8,.pure-u-lg-3-24{width:12.5%}.pure-u-lg-1-6,.pure-u-lg-4-24{width:16.6667%}.pure-u-lg-1-5{width:20%}.pure-u-lg-5-24{width:20.8333%}.pure-u-lg-1-4,.pure-u-lg-6-24{width:25%}.pure-u-lg-7-24{width:29.1667%}.pure-u-lg-1-3,.pure-u-lg-8-24{width:33.3333%}.pure-u-lg-3-8,.pure-u-lg-9-24{width:37.5%}.pure-u-lg-2-5{width:40%}.pure-u-lg-10-24,.pure-u-lg-5-12{width:41.6667%}.pure-u-lg-11-24{width:45.8333%}.pure-u-lg-1-2,.pure-u-lg-12-24{width:50%}.pure-u-lg-13-24{width:54.1667%}.pure-u-lg-14-24,.pure-u-lg-7-12{width:58.3333%}.pure-u-lg-3-5{width:60%}.pure-u-lg-15-24,.pure-u-lg-5-8{width:62.5%}.pure-u-lg-16-24,.pure-u-lg-2-3{width:66.6667%}.pure-u-lg-17-24{width:70.8333%}.pure-u-lg-18-24,.pure-u-lg-3-4{width:75%}.pure-u-lg-19-24{width:79.1667%}.pure-u-lg-4-5{width:80%}.pure-u-lg-20-24,.pure-u-lg-5-6{width:83.3333%}.pure-u-lg-21-24,.pure-u-lg-7-8{width:87.5%}.pure-u-lg-11-12,.pure-u-lg-22-24{width:91.6667%}.pure-u-lg-23-24{width:95.8333%}.pure-u-lg-1,.pure-u-lg-1-1,.pure-u-lg-24-24,.pure-u-lg-5-5{width:100%}}@media screen and (min-width:80em){.pure-u-xl-1,.pure-u-xl-1-1,.pure-u-xl-1-12,.pure-u-xl-1-2,.pure-u-xl-1-24,.pure-u-xl-1-3,.pure-u-xl-1-4,.pure-u-xl-1-5,.pure-u-xl-1-6,.pure-u-xl-1-8,.pure-u-xl-10-24,.pure-u-xl-11-12,.pure-u-xl-11-24,.pure-u-xl-12-24,.pure-u-xl-13-24,.pure-u-xl-14-24,.pure-u-xl-15-24,.pure-u-xl-16-24,.pure-u-xl-17-24,.pure-u-xl-18-24,.pure-u-xl-19-24,.pure-u-xl-2-24,.pure-u-xl-2-3,.pure-u-xl-2-5,.pure-u-xl-20-24,.pure-u-xl-21-24,.pure-u-xl-22-24,.pure-u-xl-23-24,.pure-u-xl-24-24,.pure-u-xl-3-24,.pure-u-xl-3-4,.pure-u-xl-3-5,.pure-u-xl-3-8,.pure-u-xl-4-24,.pure-u-xl-4-5,.pure-u-xl-5-12,.pure-u-xl-5-24,.pure-u-xl-5-5,.pure-u-xl-5-6,.pure-u-xl-5-8,.pure-u-xl-6-24,.pure-u-xl-7-12,.pure-u-xl-7-24,.pure-u-xl-7-8,.pure-u-xl-8-24,.pure-u-xl-9-24{display:inline-block;zoom:1;letter-spacing:normal;word-spacing:normal;vertical-align:top;text-rendering:auto}.pure-u-xl-1-24{width:4.1667%}.pure-u-xl-1-12,.pure-u-xl-2-24{width:8.3333%}.pure-u-xl-1-8,.pure-u-xl-3-24{width:12.5%}.pure-u-xl-1-6,.pure-u-xl-4-24{width:16.6667%}.pure-u-xl-1-5{width:20%}.pure-u-xl-5-24{width:20.8333%}.pure-u-xl-1-4,.pure-u-xl-6-24{width:25%}.pure-u-xl-7-24{width:29.1667%}.pure-u-xl-1-3,.pure-u-xl-8-24{width:33.3333%}.pure-u-xl-3-8,.pure-u-xl-9-24{width:37.5%}.pure-u-xl-2-5{width:40%}.pure-u-xl-10-24,.pure-u-xl-5-12{width:41.6667%}.pure-u-xl-11-24{width:45.8333%}.pure-u-xl-1-2,.pure-u-xl-12-24{width:50%}.pure-u-xl-13-24{width:54.1667%}.pure-u-xl-14-24,.pure-u-xl-7-12{width:58.3333%}.pure-u-xl-3-5{width:60%}.pure-u-xl-15-24,.pure-u-xl-5-8{width:62.5%}.pure-u-xl-16-24,.pure-u-xl-2-3{width:66.6667%}.pure-u-xl-17-24{width:70.8333%}.pure-u-xl-18-24,.pure-u-xl-3-4{width:75%}.pure-u-xl-19-24{width:79.1667%}.pure-u-xl-4-5{width:80%}.pure-u-xl-20-24,.pure-u-xl-5-6{width:83.3333%}.pure-u-xl-21-24,.pure-u-xl-7-8{width:87.5%}.pure-u-xl-11-12,.pure-u-xl-22-24{width:91.6667%}.pure-u-xl-23-24{width:95.8333%}.pure-u-xl-1,.pure-u-xl-1-1,.pure-u-xl-24-24,.pure-u-xl-5-5{width:100%}}
+  </style>
+  
+
+  
+  <style type="text/css" media="screen">
+    html {
+	min-height:100%;
+	width:100%;
+	position:relative;
+}
+
+body {
+	background-color: rgb(252,252,252);
+	color: #484848;
+}
+
+.nav-menu {
+  margin-top: 5px;
+  padding-bottom: 5px;
+	border-bottom: 1px solid #e3e3e3;
+}
+
+.pure-menu-heading {
+  text-transform: none;
+  font-size: large;
+}
+
+.header {
+	text-align: left;
+	color: #484848;
+	margin-bottom: .5em;
+}
+
+.header ul li {
+		height: auto;
+}
+
+.header ul li a {
+	font-weight: bold;
+	color: #484848;
+	font-family: "Source Sans Pro", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.header {
+	font-weight: bold;
+	color: #484848;
+	font-family: "Source Sans Pro", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.site-title {
+	color: #484848;
+  text-transform: none;
+  font-weight: normal;
+	font-family: "Source Sans Pro", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.pull-right {
+	float: right;
+}
+
+.posts-name {
+	text-transform: capitalize;
+	font-weight: bold;
+	padding-left: 1em;
+	margin-top: 1em;
+	font-family: "Source Sans Pro", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.posts {
+	font-family: verdana,arial,helvetica,sans-serif;
+	list-style-type:none;
+	padding-left: 1em;
+}
+
+.posts li p {
+	margin-top: 0;
+}
+
+.posts li {
+	margin-bottom: 1em;
+}
+
+.posts li a {
+	color:#369;
+	text-decoration:none;
+}
+
+.post-list {
+  font-size: large;
+}
+
+.footnote {
+	font-family: verdana,arial,helvetica,sans-serif;
+	color:#888;
+	font-size:x-small;
+	margin-bottom:0;
+}
+
+.footnote a {
+	color: #888 !important
+}
+
+.footnote a:hover{
+	text-decoration:underline;
+	color:#369;
+}
+
+.footer {
+	position:absolute;
+	z-index:2;
+	height:auto;
+	width:100%;
+	bottom:0;
+}
+
+.footer-content {
+	border-top: 1px solid #e3e3e3;
+	font-size: 80%;
+	color: #bbb;
+}
+
+.footer-content a {
+	color: #bbb;
+}
+
+.footer-content ul {
+	height: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	display: inline-block;
+	padding-left: 0;
+}
+
+#gototop-btn {
+	display: inline-block;
+}
+
+#foot-name {
+  color: #484848;
+	text-transform: none;
+}
+
+#foot-copyright {
+	padding-left: 1em;
+	padding-bottom: 0.5em;
+	margin: 0;
+}
+
+.post {
+	font-family: proxima-nova,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+	color:#484848;
+	letter-spacing:normal;
+	padding-left: .5em;
+}
+
+.post h1,h2,h3,h4,h5,h6 {
+	font-weight: bold;
+	letter-spacing:normal;
+}
+
+.post-content {
+	z-index:9;
+	overflow:auto;
+	padding:0;
+	padding-bottom:3em;
+	font-size:16px;
+	line-height:1.4;
+}
+
+.post-content img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* ------------------------------------ */
+/* these sections screw up other themes */ 
+/*.post-content code {
+  background-color: #EEE;
+}
+
+.post code {
+  background-color: #EEE;
+} */
+/* to here */
+/* ------------------------------------ */
+
+.post a {
+	color:#c05b4d;
+	text-decoration: none;
+}
+
+.post a:hover {
+	color:#a5473a;
+	text-decoration: underline;
+}
+
+.post h1 {
+	font-size:28px;
+}
+
+.post h2 {
+	font-size:25px;
+}
+
+.post h3 {
+	font-size:23px;
+}
+
+.post h4 {
+	font-size:21px;
+}
+
+.post h5 {
+	font-size:19px;
+}
+
+.post h6 {
+	font-size:18px;
+}
+
+.post-title{
+		margin-top: 0;
+		margin-bottom: 2em;
+}
+
+.post-title h1 {
+	font-weight:bold;
+	font-size:39px;
+	line-height: 40px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+@media screen and (max-width:767px){
+	.desktop {
+		display: none;
+	}
+	.mobile {
+		display: block;
+	}
+	#toggle-btn {
+		display: inline-block;
+		float: right;
+		padding: .5em 1em;
+		text-decoration: none;
+		color: #484848;
+		font-weight: bold;
+	}
+	#toggle-content li {
+		clear: both;
+		height: auto;
+		background-color: rgb(249,249,249);
+	}
+	#toggle-home {
+		display: inline-block;
+	}
+}
+
+@media screen and (min-width:768px){
+	.mobile {
+		display:none;
+	}
+	.desktop {
+		display: block;
+	}
+}
+
+blockquote {
+	font-family: Georgia, serif;
+	font-size: 16px;
+	font-style: italic;
+	width: 850px;
+	margin: 0.25em 0;
+	padding: 0.35em 40px;
+	line-height: 1.45;
+	position: relative;
+	color: #383838;
+	}
+	
+	blockquote:before {
+	display: block;
+	padding-left: 10px;
+	content: "\201C";
+	font-size: 80px;
+	position: absolute;
+	left: -10px;
+	top: -20px;
+	color: #7a7a7a;
+	}
+	
+	blockquote cite {
+	color: #999999;
+	font-size: 11px;
+	display: block;
+	margin-top: 5px;
+	}
+	 
+	blockquote cite:before {
+	content: "\2014 \2009";
+	}
+
+<style>
+	.col2 {
+	  columns: 2 200px;         /* number of columns and width in pixels*/
+	  -webkit-columns: 2 200px; /* chrome, safari */
+	  -moz-columns: 2 200px;    /* firefox */
+	}
+	.col5 {
+	  columns: 5 100px;
+	  -webkit-columns: 5 100px;
+	  -moz-columns: 5 100px;
+	}
+ </style>
+
+ <style>
+ #images  {
+	 width: 1250px;
+	 height: 185px;
+ }
+ #images img {
+	 float: left;
+	 width: auto;
+	 height: 160px;
+	 margin: 0 0 0 15px;
+ }
+</style>
+
+<style type="text/css">
+th {
+  background-color:#b1b1b1;
+  border-top:1px solid black;
+  border-bottom:1px solid black;
+  padding:12px;}
+
+td{
+  background-color:#e7e7e7;
+  border-bottom:1px dotted black;
+  padding:2px;}
+
+table{ 
+  border-collapse:collapse;
+  margin:10px 150px
+  border: 1px solid black;}
+</style>
+  </style>
+  
+  <style type="text/css" media="screen"> 
+    
+      /*
+
+Zenburn style from voldmar.ru (c) Vladimir Epifanov <voldmar@voldmar.ru>
+based on dark.css by Ivan Sagalaev
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #3f3f3f;
+  color: #dcdcdc;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-tag {
+  color: #e3ceab;
+}
+
+.hljs-template-tag {
+  color: #dcdcdc;
+}
+
+.hljs-number {
+  color: #8cd0d3;
+}
+
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute {
+  color: #efdcbc;
+}
+
+.hljs-literal {
+  color: #efefaf;
+}
+
+.hljs-subst {
+  color: #8f8f8f;
+}
+
+.hljs-title,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-section,
+.hljs-type {
+  color: #efef8f;
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link {
+  color: #dca3a3;
+}
+
+.hljs-deletion,
+.hljs-string,
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #cc9393;
+}
+
+.hljs-addition,
+.hljs-comment,
+.hljs-quote,
+.hljs-meta {
+  color: #7f9f7f;
+}
+
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+ 
+    
+  </style>
+  
+
+  
+  <link rel="shortcut icon" 
+   
+    href="/img/favicon.ico"
+  
+  type="image/x-icon">
+
+  
+  
+
+  <meta name="generator" content="Hugo 0.31.1" />
+
+  
+  
+</head>
+<body>
+
+<div class="header pure-g">
+    <div class="pure-u-1-24 pure-u-md-1-6"></div>
+    <div class="pure-u-11-12 pure-u-md-2-3">
+        <div class="desktop pure-menu pure-menu-horizontal nav-menu">
+            
+            <a href="/" class="site-title pure-menu-heading">Electronic Lab Notebook</a>
+            <ul class="pure-menu-list pull-right">
+				
+                
+                <li class="pure-menu-item">
+                    <a href="/categories/meeting" class="pure-menu-link">Meeting</a>
+                </li>
+                
+                <li class="pure-menu-item">
+                    <a href="/categories/planning" class="pure-menu-link">Planning</a>
+                </li>
+                
+                <li class="pure-menu-item">
+                    <a href="/categories/reading" class="pure-menu-link">Reading</a>
+                </li>
+                
+                <li class="pure-menu-item">
+                    <a href="/categories/synthesis" class="pure-menu-link">Synthesis</a>
+                </li>
+                
+                <li class="pure-menu-item">
+                    <a href="/categories/systematic-review" class="pure-menu-link">Systematic-Review</a>
+                </li>
+                
+                <li class="pure-menu-item">
+                    <a href="/categories/talk" class="pure-menu-link">Talk</a>
+                </li>
+                
+                <li class="pure-menu-item">
+                    <a href="/categories/workshop" class="pure-menu-link">Workshop</a>
+                </li>
+                
+				
+                <li class="pure-menu-item">
+                    <a href="/about/" class="pure-menu-link">About</a>
+                </li>
+            </ul>
+        </div>
+        <div class="mobile pure-menu nav-menu">
+            <a href="/" class="site-title pure-menu-heading" id="toggle-home">Electronic Lab Notebook</a>
+            <a href="#" id="toggle-btn">&#9776;</a>
+            <ul class="pure-menu-list" id="toggle-content" style="display:none;">
+                
+				
+                
+                <li class="pure-menu-item">
+                    <a href="/categories/meeting" class="pure-menu-link">Meeting</a>
+                </li>
+                
+                <li class="pure-menu-item">
+                    <a href="/categories/planning" class="pure-menu-link">Planning</a>
+                </li>
+                
+                <li class="pure-menu-item">
+                    <a href="/categories/reading" class="pure-menu-link">Reading</a>
+                </li>
+                
+                <li class="pure-menu-item">
+                    <a href="/categories/synthesis" class="pure-menu-link">Synthesis</a>
+                </li>
+                
+                <li class="pure-menu-item">
+                    <a href="/categories/systematic-review" class="pure-menu-link">Systematic-Review</a>
+                </li>
+                
+                <li class="pure-menu-item">
+                    <a href="/categories/talk" class="pure-menu-link">Talk</a>
+                </li>
+                
+                <li class="pure-menu-item">
+                    <a href="/categories/workshop" class="pure-menu-link">Workshop</a>
+                </li>
+                
+				
+                <li class="pure-menu-item">
+                    <a href="/about" class="pure-menu-link">About</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="pure-u-1-24 pure-u-md-1-6"></div>
+</div>
+
+
+<div class="pure-g">
+  <div class="pure-u-1-24 pure-u-md-1-6"></div>
+  <div class="pure-u-11-12 pure-u-md-2-3">
+    <div class="post">
+
+      <div class="post-title">
+        <p class="footnote">
+        <time class="">06-20-2018</time>
+        
+        
+        |
+        
+        
+        tags: [ <a href="/tags/ecology">ecology</a> <a href="/tags/modelling">modelling</a> <a href="/tags/non-hypothetico-deductive-scientific-model">non-hypothetico deductive scientific model</a> <a href="/tags/reproducibility">reproducibility</a> <a href="/tags/systematic-review">systematic review</a> <a href="/tags/transparency">transparency</a> <a href="/tags/peer-review">peer-review</a> <a href="/tags/model-evaluation">model evaluation</a> ]
+        
+
+        
+        categories: [<a href="/categories/reading">reading</a> ]
+        
+
+        
+        </p>
+        <h1>de Vos Are Environmental Models Transparent and Reproducible?</h1>
+      </div>
+
+      <div class="post-content">
+        <div id="problem" class="section level1">
+<h1>Problem:</h1>
+<div id="why-is-transparency-and-reproducibility-of-environmental-models-important" class="section level2">
+<h2>Why is transparency and reproducibility of environmental models important?</h2>
+<ol style="list-style-type: decimal">
+<li>Transparency and reproducibility are quintessential for facilitating assessment of model quality and suitability by both peer-reviewers, readers, and future users:</li>
+</ol>
+<div id="page-1-2018-06-20" class="section level5">
+<h5>Page 1, 2018-06-20:</h5>
+<blockquote>
+<p>Environmental models are in fact applications of shared theories on how real-world systems are functioning.</p>
+</blockquote>
+<p>Because “Environmental models are in fact applications of shared theories on how real-world systems are functioning”, it is essential that “the underlying scientific theories they need to be evaluated and discussed among peers.”</p>
+<p>Moreover, the quality and suitability of environmental models should be able to be assessed such that “results and insights” can be “traced through the model structure to the underyling choices and assumptions”.</p>
+<p>Importantly, this idealised process of model evaluation should be taking place in the peer-review process, before any model output and analysis is published. But this does not happen in reality.</p>
+<ol start="2" style="list-style-type: decimal">
+<li><p>Crucial for enabling “independent re-use of models”, given that “Environmental models have an increasing influence on societal decision making on complex issues with potentially large impact (e.g. climate change, food security, biodiversity conservation, pollution).”</p></li>
+<li><p>And then, of course, there is the credibility of whole fields / disciplines at risk if not transparent, reprodicible. E.g. Climate Gate controversy.</p></li>
+</ol>
+</div>
+<div id="reporting-requirements-for-model-evaluation" class="section level3">
+<h3>Reporting requirements for model evaluation</h3>
+<p>What are the reporting requirements necessary for assessing the quality and suitability of these models? What do we need to know in order to evaluate their suitability and quality? What do we need to know? The authors discuss model evaluation within the peer-review process.</p>
+<ol style="list-style-type: decimal">
+<li>“Trace model results and insights through the model structure to the underlying choices and assumptions” – i.e. the choices and assumptions that are an inherent part of the model development process wherein modellers: “decide which processes and concepts to include and which to simplify or neglect (Jakeman et al., 2006; van der Sluijs, 2002).”</li>
+<li>Reproduce model findings (Jakeman et al. 2006).</li>
+<li>Transparency of the modeling process (Jakeman et al. 2006; Risbey et al., 1996)</li>
+<li>Transparency of the model (Jakeman et al. 2006; Risbey et al., 1996)</li>
+</ol>
+</div>
+<div id="state-of-environmental-model-reporting-practices" class="section level3">
+<h3>State of environmental model reporting practices?</h3>
+<p><em>What is known… as of 2011.</em></p>
+<ol style="list-style-type: decimal">
+<li><span class="citation">(Schmolke et al. 2010)</span> Ideal of model eval in peer-review practice of being able to trace model findings back through the model structure to the underlying choices and assumptions “is hardly ever realised.”</li>
+<li>Transparency of models hindered because assumptions and modelling choices are hidden in source code rather than documented. One solution to this is extended peer-review.</li>
+</ol>
+<blockquote>
+<p>A large part of the choices and assumptions remains hidden in the model source code or in the minds of the modelers and has not been made explicit in model documentation (van der Sluijs, 2002; Villa et al., 2009).</p>
+</blockquote>
+<p><em>And what might be the barriers to transparent reporting practices?</em></p>
+<ul>
+<li>Publication bias: “journal articles reporting modeling efforts focus on scientific originality rather than on model documentation (Alexandrov et al., 2011; Schmolke et al., 2010b).”.</li>
+<li>No consensus on standards / agreed upon reporting of environmental models - lots of variaiton in this. THUS, peer-reviewers evaluate the model and the findings based solely on the information provided to them.</li>
+</ul>
+<p><em>Remedies to lack of transparency?</em></p>
+<blockquote>
+<p>Funtowitz and Ravetz in (1990) to propose an extended peer review, in which not only the associated article but also additional materials such as models, data and scenarios are reviewed. However, reviewers do not have sufficient time or resources to conduct detailed evaluation of these models (Alexandrov et al., 2011).</p>
+</blockquote>
+</div>
+</div>
+</div>
+<div id="aim-objective" class="section level1">
+<h1>Aim / Objective:</h1>
+<p>To investigate:</p>
+<blockquote>
+<p>the transparency and reproducibility of environmental models by evaluating a limited set of models that were re-used by researchers for their own research.</p>
+</blockquote>
+<p>By testing the validity of the hypothesis:</p>
+<blockquote>
+<p>that, despite the numerous attempts to promote good modeling practice and extended peer review, the reproducibility and transparency of environmental models is limited in actual terms. even though good modeling practice and extended peer review are promoted.</p>
+</blockquote>
+</div>
+<div id="approach" class="section level1">
+<h1>Approach:</h1>
+<div id="method-page-1-2018-06-20" class="section level5">
+<h5>Method, Page 1, 2018-06-20:</h5>
+<blockquote>
+<p>To test the validity of this hypothesis we have reviewed publications, documentation and software of four environmental models. We analyzed to what extent this material provided insight in the model structure and the modeling process and to what extent model findings could be traced back to the underlying choices and assumptions.</p>
+</blockquote>
+<p>I like the approach taken by the authors where they examined highly cited models. Their argument for doing so was that these models are well-regarded. But 3 / 4 lacked enough information to be able to evaluate and assess them… so how did they pass peer-review… multiple times? demonstrate that the model part of the published document was most likely not evaluated.</p>
+</div>
+<div id="what-were-their-criteria-for-transparency" class="section level2">
+<h2>What were their criteria for transparency?</h2>
+<blockquote>
+<p>We analyzed to what extent this material provided insight in the model structure and the modeling process and to what extent model findings could be traced back to the underlying choices and assumptions.</p>
+</blockquote>
+<p>Specifically, The availability and the usefulness of descriptions of:</p>
+<ol style="list-style-type: decimal">
+<li>the conceptual model</li>
+<li>the calculation process,</li>
+<li>the input data and results and</li>
+<li>the source code.</li>
+</ol>
+<p>These were supposedly based on guidelines for “Good Modelling Practice”: (Alexandrov et al., 2011; Gaber et al., 2008; Jakeman et al., 2006; Refsgaard and Henriksen, 2004; Risbey et al., 2005; Rykiel Jr, 1996; Schmolke et al., 2010b).</p>
+<p>I think the term ‘usefulness’ is too vague to be useful. Especially if my goal is to generate specific items for a reporting checklist. Also… what does “the calculation process” actually entail? I think we need a more detailed and carefully specified framework for model development to better guide the development of the reporting checklist.</p>
+</div>
+</div>
+<div id="key-findings-wrt-reproducibility" class="section level1">
+<h1>Key Findings wrt Reproducibility:</h1>
+<div id="page-1-2018-06-20-1" class="section level5">
+<h5>Page 1, 2018-06-20:</h5>
+<blockquote>
+<p>Neither can they ensure the reproducibility and transparency of the model results and insights, for a number of reasons.</p>
+</blockquote>
+<blockquote>
+<p>First, information on model design is scattered over several sources, which are to a limited extent freely and easily available to reviewers.</p>
+</blockquote>
+<blockquote>
+<p>Second, written model documentation does not provide a sufficient description of the modeled system.</p>
+</blockquote>
+<blockquote>
+<p>Third, written model documentation does not provide a sufficient description of the calculation of model results.</p>
+</blockquote>
+<blockquote>
+<p>Finally, results presented in scientific publications do not necessarily correspond with parameter values or equations in the model source code.</p>
+</blockquote>
+<p>The authors broke down issues of transparency / reproducibility into the following sub-groups.</p>
+</div>
+<div id="documentation" class="section level2">
+<h2>Documentation</h2>
+<p>Information on model design is often scattered over several publications, especially for larger more complex models. Some papers just do not have the space for an extensive model description. Instead different publications focus on particular parts or applications of the model, but often they “simply describe the general functioning of the model, without being specific or concrete”. Alternatively more detailed information is supplied from model developers in the form of reports, but it is not peer-reviewed.</p>
+<p>Then there is the issue of how the models are referenced. They refer back to other papers, which then refer back to the grey literature, or book chapters. So readers have to work through a chain ofreferences… I’ve seen this issue referred to as “daisy chain”ing, especially with reference to the information sources used by “data parasites”. There are a couple of issues around this: 1. the indirect referencing means that the information on model design and development can’t be guaranteed to be found easily and 2. “The model version used in a journal article might be different from the version described in the documents.”</p>
+</div>
+<div id="conceptual-model" class="section level2">
+<h2>Conceptual Model</h2>
+<p>Reader’s understanding of the modeled system is necessary for being able to evaluate the model. In order to facilitate this, the authors argue that a “comprehensive list of assumptions, concepts and processes that [describe] the model as a simplified representation” is necessary. The authors had to request further information from 3/4 of the papers, which conflicted with the written documentation. Studying the source code also helped with conceptual understanding.</p>
+</div>
+<div id="calculation-process" class="section level2">
+<h2>Calculation Process</h2>
+<p>For none of the models could the “results from scientific publications[be] easily reproduced or traced through the model structure to the underlying choices and assumptions”. Eggregious reporting errors included:</p>
+<blockquote>
+<p>some results presented in scientific publications did not correspond with parameter values or equations in the model source code. Additional parameters were found in the source code, but not described in the scientific publications, in one case.</p>
+</blockquote>
+<blockquote>
+<p>In another case, the equations as documented in the scientific publication could not reproduce the behavior of the model as documented in figures, until an error was corrected in the equations</p>
+</blockquote>
+<blockquote>
+<p>For another paper, the process of setting scenario parameters for model runs was arbitrary and could not be based on scientific theories as the scenario parameters could not be measured or derived from scientific literature. At the same time these scenario parameters had a large influence on model results.</p>
+</blockquote>
+<blockquote>
+<p>in three cases the written model documentation only presented a selection of the equations and mathematical descriptions included in the models.</p>
+</blockquote>
+<p>The authors had to study and run the source code by trial and error to understand the process of calculating model results.</p>
+</div>
+<div id="data" class="section level2">
+<h2>Data</h2>
+<p>The process of data management should be outlined in enough detail to be understood by readers.</p>
+<blockquote>
+<p>The identity and source of most of the model input data of the four case study models are described in written model documentation.</p>
+</blockquote>
+<blockquote>
+<p>the input data are stored in dozens of files, which had been typically manually organized and adapted.</p>
+</blockquote>
+<blockquote>
+<p>Input files for one model do not have any structure or naming to each of the data fields, which may cause confusion and mistakes in the calculation process.</p>
+</blockquote>
+<p>HOW should input data be managed… rules about metadata?</p>
+</div>
+<div id="source-code" class="section level2">
+<h2>Source Code</h2>
+<p>Not provided for one (exists only as a set of equations and parameters described across several peer-reviewed publications).</p>
+<p>One model was available as open source, the source code was available only on request, and then only partly.</p>
+<p>Reading the source code alone was too difficult to gain a full understanding of the models, even by studying, altering and running the code.</p>
+<p>Two models contained functions or modules that had “no clear documented function in the calculation process, while still being included in the model runs”</p>
+</div>
+<div id="implications-of-these-findings" class="section level2">
+<h2>Implications of these findings:</h2>
+<div id="page-1-2018-06-20-2" class="section level5">
+<h5>Page 1, 2018-06-20:</h5>
+<p>In general, the researchers found that the models were essentially “black boxes” and they had to invest significant time and energy into trying to understand them.</p>
+<blockquote>
+<p>Our findings suggest that environmental models lack essential quality characteristics in terms of transparency and reproducibility. This raises the concern</p>
+</blockquote>
+<p>This is despite there being numerous guidelines and rules to improve transparency of environmental models.</p>
+<p>In the peer-review process, reviewers must adequately evaluate the models, query their utility and suitability. Given the results of the transparency and reproducibility analysis here, it is likely that the peer-reviewers were unable to do this properly, even if they had tried because models need to be described transparently in order to allow this. The authors are concerned that:</p>
+<blockquote>
+<p>that they are being used in applications without respecting and discussing their underlying choices and assumptions.</p>
+</blockquote>
+<p>How common are these problems in reporting transparency for environmental models? Given the fact that the models are “grounded in scientific theory, and are highly cited, and are used regularly in policy-oriented applications” the authors believe that the results of the study here apply to environmental models more generally.</p>
+</div>
+</div>
+</div>
+<div id="postulated-structural-reasons-for-lack-of-transparency-of-ecological-models" class="section level1">
+<h1>Postulated structural reasons for lack of transparency of ecological models:</h1>
+<div id="model-size-and-complexity" class="section level2">
+<h2>1. Model size and complexity</h2>
+<p>The reviewers found that descriptions of concepts, processes and calculation steps “contained only arbitrary selections of parts of the models”. This is a pragmatic decision because environmental models are “typically big and complex”. “Describing all elements in the models requires a lot of time and does not fit within the constraints set by scientific publications or project budgets”.</p>
+<p>The authors remedy to this p[roblem is to suggest that, actually, the complexity of the models is unwarranted in the first place, but is actually driven by advances in computational systems, and the rise of integrated modelling approaches, as well as modifying existing successful applications to new contexts. The authors quesiton the complexity stating that the cause for modelling is “abstraction and simplification by making appropriate assumptions”. Importantly, they argue that finding an appropriate level of model complexity improves performance, and enhances transparency.</p>
+<p>These are some pretty big claims and I’m unwilling to support them without reviewing the ecological modelling literature myself. I think that if you have found an appropriate level of model simplification in order to be able to answer the question at hand, then that should be the sole determinant of the level of model abstraction. Not transparency. I beleive there are technological solutions and approaches that can be implemented to aid in improving the transparency of environmental models without increasing the burden of time and resources on researchers.</p>
+</div>
+<div id="lack-of-incentives" class="section level2">
+<h2>2. Lack of incentives</h2>
+<p>General lack of incentives for modelers to follow good practice.</p>
+<ul>
+<li>Model imperfections are preferably undisclosed, because “these could be considered as failures”. But <em>every</em> model is imperfect, because they are <em>abstractions</em>!!</li>
+<li>Reluctance to “give away the intellectual property that is embodied in datasets or source code”. I suspect this applies particularly in commercial contexts. But with the advent and uptake of the open source code and data movement, things might have changed since publication.</li>
+<li>Probably, most importantly: “documenting models carefully is a labor-intensive and not very interesting job”, especially given the “on-going development of some models”.</li>
+</ul>
+<p>So where might incentives come from? Peers, stakeholders, journals requsting openness. If there is a demand for transparency and model documentation, the authors postulate that model developers “would spend more time and effort writing clear and comprehensive model documentation”. This is based on considering models or software where there is a well defined and active user-group - this software is typically very well documented.</p>
+<p>Yep, I agree, this is a good point. The authors argue that when journals begin to oblige researchers to share data and code, “it will make results and insights replicable, hold model developers more accountable and it will enhance cooperation between scientists.”</p>
+</div>
+<div id="use-of-computers" class="section level2">
+<h2>3. Use of computers</h2>
+<p>For applications involving environmental models, there is emphasis “on computation and simulation, rather than on the descriptive side of modelling.”</p>
+<p>“Vast amoun ts of data and computations can be processed in a limited time” The authors claim that “environmental modelers often lack the time and skills that are needed to perform rigorous testing and clear annotation of their models (Kelly, 2007; Merali, 2010)”. They instead focus on “‘model validation’ i.e. verifying whether the model results match their expectations or real world observations.” They assert that a remedy is training by professional software deelopers. I’m reluctant to stand by any argument denouncing the modelling skills of environmental scientists. I will say that in general we could do better in terms of how we write, annotate and package our software, but I think it’s important to distinguish this from any modelling issues. Though perhaps I’ve misunderstood what they mean by “rigorous testing”.</p>
+<p>They do make a good point below about the leading principles of scientific software being “representing applied scientific knowledge”, and that this requries “specific software development skills and tools”, that are basically distinct from those of a commercial software developer. They highlight the issue where the original source code is the only accurate descfiption of the model, but that it is unable to be read by most users, IF it is available in the first place. Importantly, the source code does not often represent accurately the assumptions made by the modeller.</p>
+<p>The authors argue for model authors supplying a conceptual description that is comprehensible to all stakeholders, and that this model description is consistent with the model source code (Yeah, this is a pretty good idea). Especially when stakeholders might include managers without any training or minimal exposure in software / modelling practice. So it’s also an issue of equity.</p>
+</div>
+</div>
+<div id="remedies-and-solutions-for-improving-reproducibility-and-transparency-of-ecological-models" class="section level1">
+<h1>Remedies and Solutions for improving reproducibility and transparency of ecological models:</h1>
+<blockquote>
+<p>We submit that openness in the modeling process can only be achieved with a general change of attitude. On the one hand model developers must become explicit and open about their choices and assumptions. On the other hand peers, stakeholders and journals must request openness and challenge these choices and assumptions. In an operational sense, computers and networks can be turned to their advantage by having them disseminate high-quality model descriptions using shared vocabularies.</p>
+</blockquote>
+<p>Peer Reviewers: must take responsibility “for the underlying assumptions and choices” so too must, decision makers when using models to explore consequences of alternative policies or management scenarios. HOWEVER, peer-reviewers cannot examine the premises and assumptions, “when they lack information”. It is their responsibility to request openness from model developers or journals.</p>
+<p>What mechanisms will (and are, at the time of publication) promote this?</p>
+<ul>
+<li>awareness of importance of crediting modelers and data providers: formal authorship, scientific ranking, licenses and other incentives</li>
+<li>growing importance of open source code and data</li>
+<li>web-hosting of materials like source code and data: linking models to journal papers to provide more advanced supplementary material (I’m thinking figshare, GitHUB and similar services here).</li>
+<li>Journals: need to start making delivery of additional material for models and data an obligation</li>
+<li>Semantic publishing of journal articles: “which allows readers to access and interact with the data and conceptual knowledge of the correpsonding model”…</li>
+</ul>
+<p>Whoa. People have been talking about semantic publishing and annotation and shared vocabularies for a <em>long</em> time…. I wonder when / if they will ever become operational in a broad-scale sense??!!</p>
+</div>
+<div id="follow-up-references" class="section level1">
+<h1>Follow-up references:</h1>
+<ul>
+<li><span class="citation">(Jakeman, Letcher, and Norton 2006)</span></li>
+<li><span class="citation">(Schmolke et al. 2010)</span></li>
+<li><span class="citation">(Alexandrov et al. 2011)</span></li>
+</ul>
+<div id="refs" class="references">
+<div id="ref-Alexandrov:2011iv">
+<p>Alexandrov, G A, D Ames, G Bellocchi, M Bruen, N Crout, M Erechtchoukova, A Hildebrandt, et al. 2011. “Technical assessment and evaluation of environmental models and software: Letter to the Editor.” <em>Environmental Modelling &amp; Software</em> 26 (3): 328–36. doi:<a href="https://doi.org/10.1016/j.envsoft.2010.08.004">10.1016/j.envsoft.2010.08.004</a>.</p>
+</div>
+<div id="ref-Jakeman:2006ii">
+<p>Jakeman, A J, R A Letcher, and J P Norton. 2006. “Ten iterative steps in development and evaluation of environmental models.” <em>Environmental Modelling &amp; Software</em> 21 (5): 602–14. doi:<a href="https://doi.org/10.1016/j.envsoft.2006.01.004">10.1016/j.envsoft.2006.01.004</a>.</p>
+</div>
+<div id="ref-Schmolke:2010fd">
+<p>Schmolke, Amelie, Pernille Thorbek, Donald L Deangelis, and Volker Grimm. 2010. “Ecological models supporting environmental decision making: a strategy for the future.” <em>Trends in Ecology &amp; Evolution</em> 25 (8): 479–86. doi:<a href="https://doi.org/10.1016/j.tree.2010.05.001">10.1016/j.tree.2010.05.001</a>.</p>
+</div>
+</div>
+</div>
+
+      </div>
+      
+      <div class="post-content">
+        <div id="disqus_thread"></div>
+<script>
+(function() {
+var d = document, s = d.createElement('script');
+s.src = 'https://electronic-lab-notebook.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+      </div>
+      
+    </div>
+  </div>
+  <div class="pure-u-1-24 pure-u-md-1-6"></div>
+</div>
+
+<div class="footer pure-g">
+  <div class="pure-u-1-24 pure-u-md-1-6"></div>
+  <div class="pure-u-11-12 pure-u-md-2-3">
+    <div class="footer-content">
+      <div class="pure-menu pure-menu-horizontal">
+        <ul>
+          
+          <li class="pure-menu-item" id="foot-name">© Elise Gould</li>
+          
+
+          
+          <li class="pure-menu-item">
+            <a href="mailto:elise.gould@unimelb.edu.au" class="pure-menu-link">Email</a>
+          </li>
+          
+
+          
+          <li class="pure-menu-item">
+            <a href="https://github.com/egouldo" class="pure-menu-link">GitHub</a>
+          </li>
+          
+
+          
+          <li class="pure-menu-item">
+            <a href="https://twitter.com/EliseGould" class="pure-menu-link">Twitter</a>
+          </li>
+          
+
+          
+
+        </ul>
+        <a href="#" class="pure-menu-link pull-right" id="gototop-btn">↑↑</a>
+        
+      </div>
+      
+      <p id="foot-copyright">(c) 2018 -- All rights reserved.</p>
+      
+    </div>
+  </div>
+  <div class="pure-u-1-24 pure-u-md-1-6"></div>
+</div>
+
+
+
+  <script src="/highlight/highlight.min.js"></script>
+  
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+  
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/vim.min.js"></script>
+  
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/shell.min.js"></script>
+  
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>
+  
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/markdown.min.js"></script>
+  
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+  
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+   
+  <script>hljs.initHighlighting();</script>
+
+
+<script type="text/javascript">
+  go();
+  window.addEventListener('resize', go);
+  function go(){
+    var d=document.querySelector(".desktop")
+    if(document.documentElement.clientWidth > 768) {
+      d.style.display="";
+    } else {
+      d.style.display="none";
+    }
+  }
+</script>
+<script type="text/javascript">
+  var a=document.querySelector("#toggle-btn"),b=document.querySelector("#toggle-content");a.addEventListener("click",function(){""==b.style.display?(b.style.display="none",a.innerHTML="☰"):(b.style.display="",a.innerHTML="X")});</script>
+
+
+</body>
+</html>
+

@@ -1,23 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Generalisation on research notebook</title>
+    <title>Generalisation on Electronic Lab Notebook</title>
     <link>/tags/generalisation/</link>
-    <description>Recent content in Generalisation on research notebook</description>
+    <description>Recent content in Generalisation on Electronic Lab Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Elise Gould</copyright>
-    <lastBuildDate>Thu, 12 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
+    <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
+    <copyright>(c) 2018 -- All rights reserved.</copyright>
+    <lastBuildDate>Tue, 26 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/generalisation/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Schmolke et al (2010) Ecological models supporting environmental decision making: a strategy for the future</title>
+      <link>/posts/schmolke-et-al-2010-ecological-models-supporting-environmental-decision-making-a-strategy-for-the-future/</link>
+      <pubDate>Tue, 26 Jun 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/schmolke-et-al-2010-ecological-models-supporting-environmental-decision-making-a-strategy-for-the-future/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Nakagawa and Parker 2015</title>
-      <link>/post/nakagawa-and-parker-2015/</link>
+      <link>/posts/nakagawa-and-parker-2015/</link>
       <pubDate>Thu, 12 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/nakagawa-and-parker-2015/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/nakagawa-and-parker-2015/</guid>
       <description>Why do we replicate? Assess the validity of prior findings probe the generality of those findings   Levels of replication Exact (also known as “direct”): highest fidelity to the original work. But in ecology, usually can only be ‘close’ replications. Partial: there is a spectrum of partial replications, from close to limited. These have slight procedural differences. Conceptual: uses distinctly different study designs to test the same hypotheses. Quasi-replication (cross-species or system)   Assessing validity  Probing generality Conceptual replications: when results concur, we can define generality.</description>
     </item>
     

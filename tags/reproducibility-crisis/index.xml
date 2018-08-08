@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reproducibility Crisis on Electronic Lab Notebook</title>
+    <link>/tags/reproducibility-crisis/</link>
+    <description>Recent content in Reproducibility Crisis on Electronic Lab Notebook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
+    <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
+    <copyright>(c) 2018 -- All rights reserved.</copyright>
+    <lastBuildDate>Fri, 25 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/reproducibility-crisis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Arguments against the existance and extent of the reproducibility crisis</title>
+      <link>/posts/arguments-against-the-existance-and-extent-of-the-reproducibility-crisis/</link>
+      <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/arguments-against-the-existance-and-extent-of-the-reproducibility-crisis/</guid>
+      <description>Despite a growing body of large-scale meta-analyses across many different disciplines, debate as to whether there is a “crisis” persists. Fanelli et al. (2018) use a failed replication of a large-scale meta-analysis to argue that the “crisis” is mistaken, and should instead be re-branded as a narrative of “epochal changes and empowerment of science” (Jamieson 2018). In a ‘post-truth’ era of ‘alternative-facts’, how scientists communicate research on the robustness of science and its self-correcting mechanisms is certainly important (Sutherland and Wordley 2017).</description>
+    </item>
+    
+  </channel>
+</rss>

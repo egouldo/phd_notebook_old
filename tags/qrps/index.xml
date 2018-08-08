@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Qrps on Electronic Lab Notebook</title>
+    <link>/tags/qrps/</link>
+    <description>Recent content in Qrps on Electronic Lab Notebook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
+    <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
+    <copyright>(c) 2018 -- All rights reserved.</copyright>
+    <lastBuildDate>Thu, 14 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/qrps/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>QRPs Study Planning</title>
+      <link>/posts/qrps-study-planning/</link>
+      <pubDate>Thu, 14 Jun 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/qrps-study-planning/</guid>
+      <description>QRPs for non-hypothesis testing research in Ecology and Conservation Decision Making Problem and Background:
+The reproducibility literature has focused exclusively on hypothesis-testing, whether that be Bayesian or frequentist. This also applies to initial research focusing on ecology and evolution. However, Fidler (2016) correctly identifies that in applied ecological research, particularly in conservation science, non-hypothesis testing methods, such as decision-theory, cost-effectiveness analysis, optimization and other scientific computing methods are common. These approaches come with their own set of reproducibility issues.</description>
+    </item>
+    
+  </channel>
+</rss>

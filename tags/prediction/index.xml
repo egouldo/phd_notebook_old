@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Prediction on research notebook</title>
+    <title>Prediction on Electronic Lab Notebook</title>
     <link>/tags/prediction/</link>
-    <description>Recent content in Prediction on research notebook</description>
+    <description>Recent content in Prediction on Electronic Lab Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Elise Gould</copyright>
+    <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
+    <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
+    <copyright>(c) 2018 -- All rights reserved.</copyright>
     <lastBuildDate>Fri, 15 Dec 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/prediction/index.xml" rel="self" type="application/rss+xml" />
@@ -14,10 +16,10 @@
     
     <item>
       <title>Law et al. (2017) Biol Con</title>
-      <link>/post/law-et-al-2017-biol-con/</link>
+      <link>/posts/law-et-al-2017-biol-con/</link>
       <pubDate>Fri, 15 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/post/law-et-al-2017-biol-con/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/law-et-al-2017-biol-con/</guid>
       <description>Law, E. A., Ferraro, P. J., Arcese, P., Bryan, B. A., Davis, K., Gordon, A., Holden, M. H., Iacona, G., Martinez, R. M., McAlpine, C. A., Rhodes, J. R., Sze, J. S., Wilson, K. A. (2017) Projecting the performance of conservation interventions. BIOC doi: 10.1016/j.biocon.2017.08.029.
 Problem: Projecting the performance of conservation interventions Successful decision-making for environmental management requires reliable evidence for both the performance and efficacy of proposed conservation actions.</description>
     </item>

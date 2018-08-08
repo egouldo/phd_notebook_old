@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Model Evaluation on Electronic Lab Notebook</title>
+    <link>/tags/model-evaluation/</link>
+    <description>Recent content in Model Evaluation on Electronic Lab Notebook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
+    <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
+    <copyright>(c) 2018 -- All rights reserved.</copyright>
+    <lastBuildDate>Tue, 10 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/model-evaluation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Seaman &amp; Weber (2015) Undisclosed Flexibility in Computing and Reporting Structural Equation Models in Communication Science.</title>
+      <link>/posts/seaman-c-s-weber-r-2015-undisclosed-flexibility-in-computing-and-reporting-structural-equation-models-in-communication-science/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/seaman-c-s-weber-r-2015-undisclosed-flexibility-in-computing-and-reporting-structural-equation-models-in-communication-science/</guid>
+      <description>Summary This paper is a systematic review (or ‘methodological review’ in their tersm) of both QRPs and bad modelling practice in structural equation modelling within the field of communication. They don’t use the term ‘Questionable Research Practices’, however, they do explicitly look at practices falling under the QRP banner, including cherry-picking, HARKing, and researcher degrees of freedom. Importantly, this paper is really useful to me because they examine these questionable research practices in a modelling framework outside of the non-hypothetico-deductive scientific model.</description>
+    </item>
+    
+    <item>
+      <title>de Vos Are Environmental Models Transparent and Reproducible?</title>
+      <link>/posts/de-vos-are-environmental-models-transparent-and-reproducible/</link>
+      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/de-vos-are-environmental-models-transparent-and-reproducible/</guid>
+      <description>Problem: Why is transparency and reproducibility of environmental models important? Transparency and reproducibility are quintessential for facilitating assessment of model quality and suitability by both peer-reviewers, readers, and future users:  Page 1, 2018-06-20:  Environmental models are in fact applications of shared theories on how real-world systems are functioning.
+ Because “Environmental models are in fact applications of shared theories on how real-world systems are functioning”, it is essential that “the underlying scientific theories they need to be evaluated and discussed among peers.</description>
+    </item>
+    
+  </channel>
+</rss>

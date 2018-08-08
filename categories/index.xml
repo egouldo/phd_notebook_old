@@ -1,48 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on research notebook</title>
+    <title>Categories on Electronic Lab Notebook</title>
     <link>/categories/</link>
-    <description>Recent content in Categories on research notebook</description>
+    <description>Recent content in Categories on Electronic Lab Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Elise Gould</copyright>
+    <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
+    <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
+    <copyright>(c) 2018 -- All rights reserved.</copyright>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Coding criteria</title>
-      <link>/categories/coding-criteria/</link>
-      <pubDate>Fri, 15 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/coding-criteria/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Computational skills</title>
-      <link>/categories/computational-skills/</link>
-      <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/computational-skills/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>First chapter</title>
-      <link>/categories/first-chapter/</link>
-      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/first-chapter/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Meeting</title>
       <link>/categories/meeting/</link>
       <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
-      
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/categories/meeting/</guid>
       <description></description>
     </item>
@@ -50,8 +25,8 @@
     <item>
       <title>Planning</title>
       <link>/categories/planning/</link>
-      <pubDate>Thu, 12 Apr 2018 00:00:00 +0000</pubDate>
-      
+      <pubDate>Thu, 14 Jun 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/categories/planning/</guid>
       <description></description>
     </item>
@@ -59,62 +34,44 @@
     <item>
       <title>Reading</title>
       <link>/categories/reading/</link>
-      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
-      
+      <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/categories/reading/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Research proposal</title>
-      <link>/categories/research-proposal/</link>
-      <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/research-proposal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Retreat</title>
-      <link>/categories/retreat/</link>
-      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/retreat/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Synthesis</title>
       <link>/categories/synthesis/</link>
-      <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
-      
+      <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/categories/synthesis/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Systematic review</title>
+      <title>Systematic Review</title>
       <link>/categories/systematic-review/</link>
-      <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
-      
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/categories/systematic-review/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Todo</title>
-      <link>/categories/todo/</link>
-      <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/todo/</guid>
+      <title>Talk</title>
+      <link>/categories/talk/</link>
+      <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/categories/talk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Workshop</title>
       <link>/categories/workshop/</link>
-      <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
-      
+      <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/categories/workshop/</guid>
       <description></description>
     </item>

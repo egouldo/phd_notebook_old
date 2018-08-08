@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Meeting on research notebook</title>
+    <title>Meeting on Electronic Lab Notebook</title>
     <link>/tags/meeting/</link>
-    <description>Recent content in Meeting on research notebook</description>
+    <description>Recent content in Meeting on Electronic Lab Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Elise Gould</copyright>
+    <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
+    <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
+    <copyright>(c) 2018 -- All rights reserved.</copyright>
     <lastBuildDate>Thu, 15 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/meeting/index.xml" rel="self" type="application/rss+xml" />
@@ -14,10 +16,10 @@
     
     <item>
       <title>meeting Feb 15 2018</title>
-      <link>/post/meeting-feb-15-2018/</link>
+      <link>/posts/meeting-feb-15-2018/</link>
       <pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/meeting-feb-15-2018/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/meeting-feb-15-2018/</guid>
       <description>activities -&amp;gt; working towards the research proposal -&amp;gt; also on first chapter
 Reading: - trying to identify difficulties / issues in modelling applied ecological problems in general - e.g. projecting performance of conservation actions, building the evidence base in restoration ecology as new techniques emerge.
 -&amp;gt; aims, trying to identify why reproducibility is important for ecological models / DSTs

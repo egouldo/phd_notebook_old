@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Data science on research notebook</title>
+    <title>Data Science on Electronic Lab Notebook</title>
     <link>/tags/data-science/</link>
-    <description>Recent content in Data science on research notebook</description>
+    <description>Recent content in Data Science on Electronic Lab Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Elise Gould</copyright>
+    <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
+    <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
+    <copyright>(c) 2018 -- All rights reserved.</copyright>
     <lastBuildDate>Wed, 21 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
@@ -14,10 +16,10 @@
     
     <item>
       <title>bioinformatics workshop dockerisation</title>
-      <link>/post/bioinformatics-workshop-dockerisation/</link>
+      <link>/posts/bioinformatics-workshop-dockerisation/</link>
       <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/bioinformatics-workshop-dockerisation/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/bioinformatics-workshop-dockerisation/</guid>
       <description>Slides are here: http://melbournebioinformatics.github.io/MelBioInf_docs/tutorials/docker/media/index.html#47
 Docker: libraries and operating system included as well (as application). ALl dependencies distributed. AND docker containers are cross-platform. == Portable. Distributable: can store images on the docker cloud.
 Docker containers can&amp;rsquo;t access host-system&amp;rsquo;s files (good for security), but limits some use-cases (especially where command line utilities used).

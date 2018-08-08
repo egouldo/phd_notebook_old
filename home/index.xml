@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Homes on research notebook</title>
+    <title>Homes on Electronic Lab Notebook</title>
     <link>/home/</link>
-    <description>Recent content in Homes on research notebook</description>
+    <description>Recent content in Homes on Electronic Lab Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Elise Gould</copyright>
+    <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
+    <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
+    <copyright>(c) 2018 -- All rights reserved.</copyright>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +1100</lastBuildDate>
     
 	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +18,7 @@
       <title>Academic</title>
       <link>/home/hero/</link>
       <pubDate>Sun, 15 Oct 2017 00:00:00 +1100</pubDate>
-      
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/home/hero/</guid>
       <description>The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes 🚀 Latest release  
 (function defer() { if (window.jQuery) { jQuery(document).ready(function(){ GetLatestReleaseInfo(); }); } else { setTimeout(function() { defer() }, 50); } })(); function GetLatestReleaseInfo() { $.getJSON(&#39;https://api.github.com/repos/gcushen/hugo-academic/tags&#39;).done(function (json) { let release = json[0]; // let downloadURL = release.zipball_url; $(&#39;#academic-release&#39;).text(&#39;Latest release &#39; + release.name); }); }  </description>
@@ -26,7 +28,7 @@
       <title></title>
       <link>/home/about/</link>
       <pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate>
-      
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/home/about/</guid>
       <description>Biography I am a PhD student at the Centre of Excellence for Biosecurity and Risk Analysis (CEBRA), University of Melbourne. This is my research notebook for all things PhD.</description>
     </item>
@@ -35,7 +37,7 @@
       <title>Selected Publications</title>
       <link>/home/publications_selected/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +1000</pubDate>
-      
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/home/publications_selected/</guid>
       <description></description>
     </item>
@@ -44,7 +46,7 @@
       <title>Recent Publications</title>
       <link>/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +1000</pubDate>
-      
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/home/publications/</guid>
       <description></description>
     </item>
@@ -53,7 +55,7 @@
       <title>Recent &amp; Upcoming Talks</title>
       <link>/home/talks/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/home/talks/</guid>
       <description></description>
     </item>
@@ -62,7 +64,7 @@
       <title>Recent Posts</title>
       <link>/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +1000</pubDate>
-      
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/home/posts/</guid>
       <description></description>
     </item>
@@ -71,7 +73,7 @@
       <title>Projects</title>
       <link>/home/projects/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/home/projects/</guid>
       <description></description>
     </item>
@@ -80,7 +82,7 @@
       <title>Teaching</title>
       <link>/home/teaching/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/home/teaching/</guid>
       <description>This is an example of using the custom widget to create your own homepage section.
 I am a teaching instructor for the following courses at University X:
@@ -91,7 +93,7 @@ I am a teaching instructor for the following courses at University X:
       <title>Tags</title>
       <link>/home/tags/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 +1000</pubDate>
-      
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/home/tags/</guid>
       <description></description>
     </item>
@@ -100,7 +102,7 @@ I am a teaching instructor for the following courses at University X:
       <title>Contact</title>
       <link>/home/contact/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/home/contact/</guid>
       <description></description>
     </item>

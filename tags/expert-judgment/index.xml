@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Expert judgment on research notebook</title>
+    <title>Expert Judgment on Electronic Lab Notebook</title>
     <link>/tags/expert-judgment/</link>
-    <description>Recent content in Expert judgment on research notebook</description>
+    <description>Recent content in Expert Judgment on Electronic Lab Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Elise Gould</copyright>
+    <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
+    <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
+    <copyright>(c) 2018 -- All rights reserved.</copyright>
     <lastBuildDate>Tue, 06 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/expert-judgment/index.xml" rel="self" type="application/rss+xml" />
@@ -14,10 +16,10 @@
     
     <item>
       <title>French 2012 meta-analysis for expert judgment</title>
-      <link>/post/french-2012-meta-analysis-for-expert-judgment/</link>
+      <link>/posts/french-2012-meta-analysis-for-expert-judgment/</link>
       <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/french-2012-meta-analysis-for-expert-judgment/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/french-2012-meta-analysis-for-expert-judgment/</guid>
       <description>French, S. (2012) Expert Judgment, Meta-analysis, and Participatory Risk Analysis. Decision Analysis. 9, 119–127.
 Problem / background and paper goals Page 2 [@French:2012di] describes three types of expert elicitation problems. The third forms the focus of the paper:
  The expert problem: where the decision-maker does not have the domain knowledge and elicits judgments from a group of experts. The group decision problem: where the expert group itself is jointly responseible for the decision.</description>

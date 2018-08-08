@@ -1,23 +1,43 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Open science on research notebook</title>
+    <title>Open Science on Electronic Lab Notebook</title>
     <link>/tags/open-science/</link>
-    <description>Recent content in Open science on research notebook</description>
+    <description>Recent content in Open Science on Electronic Lab Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Elise Gould</copyright>
-    <lastBuildDate>Fri, 13 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
+    <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
+    <copyright>(c) 2018 -- All rights reserved.</copyright>
+    <lastBuildDate>Tue, 10 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/open-science/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Seaman &amp; Weber (2015) Undisclosed Flexibility in Computing and Reporting Structural Equation Models in Communication Science.</title>
+      <link>/posts/seaman-c-s-weber-r-2015-undisclosed-flexibility-in-computing-and-reporting-structural-equation-models-in-communication-science/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/seaman-c-s-weber-r-2015-undisclosed-flexibility-in-computing-and-reporting-structural-equation-models-in-communication-science/</guid>
+      <description>Summary This paper is a systematic review (or ‘methodological review’ in their tersm) of both QRPs and bad modelling practice in structural equation modelling within the field of communication. They don’t use the term ‘Questionable Research Practices’, however, they do explicitly look at practices falling under the QRP banner, including cherry-picking, HARKing, and researcher degrees of freedom. Importantly, this paper is really useful to me because they examine these questionable research practices in a modelling framework outside of the non-hypothetico-deductive scientific model.</description>
+    </item>
+    
+    <item>
+      <title>Schmolke et al (2010) Ecological models supporting environmental decision making: a strategy for the future</title>
+      <link>/posts/schmolke-et-al-2010-ecological-models-supporting-environmental-decision-making-a-strategy-for-the-future/</link>
+      <pubDate>Tue, 26 Jun 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/schmolke-et-al-2010-ecological-models-supporting-environmental-decision-making-a-strategy-for-the-future/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Cullina et al 2018 Navigating the unfolding open data landscape in ecology and evolution</title>
-      <link>/post/cullina-et-al-2018-navigating-the-unfolding-open-data-landscape-in-ecology-and-evolution/</link>
+      <link>/posts/cullina-et-al-2018-navigating-the-unfolding-open-data-landscape-in-ecology-and-evolution/</link>
       <pubDate>Fri, 13 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/cullina-et-al-2018-navigating-the-unfolding-open-data-landscape-in-ecology-and-evolution/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/cullina-et-al-2018-navigating-the-unfolding-open-data-landscape-in-ecology-and-evolution/</guid>
       <description>The open data movement has the capacity to provide new and powerful insights into complex systems, in ecology and evolution. However, in ecology and evolution there has not been great uptake / implementation of open data to the extent seen in other disciplines (e.g. medicine, climate sciences).
 Why open data?
  identify broader eco evo processes across space, time, species reanalysing data using new statistical approaches error checking using existing data to answer new questions era of the Anthropocene: large, complicated questions with high degree of uncertainty requires combined data from multiple sources, and multidsciplinary data synthesis.</description>
@@ -25,10 +45,10 @@ Why open data?
     
     <item>
       <title>Fidler 2017 Metaresearch in ecology</title>
-      <link>/post/fidler-2017-metaresearch-in-ecology/</link>
+      <link>/posts/fidler-2017-metaresearch-in-ecology/</link>
       <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/fidler-2017-metaresearch-in-ecology/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/fidler-2017-metaresearch-in-ecology/</guid>
       <description>Fidler, F., Chee, Y. E., Wintle, B. A., Burgman, M. A., McCarthy, M. A., Gordon, A. (2017) Metaresearch for Evaluating Reproducibility in Ecology and Evolution. BioScience doi: 10.1093/biosci/biw159.
 Demonstrate that ecology and evolution as disciplines are at risk of a having low rates of reproducibility, aka a &amp;lsquo;reproducibility crisis&amp;rsquo; as others have termed it. The paper sets out to identify the different ways in which ecology is likely to have a reproducibility problem.</description>
     </item>

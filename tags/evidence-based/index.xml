@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Evidence-based on research notebook</title>
+    <title>Evidence Based on Electronic Lab Notebook</title>
     <link>/tags/evidence-based/</link>
-    <description>Recent content in Evidence-based on research notebook</description>
+    <description>Recent content in Evidence Based on Electronic Lab Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Elise Gould</copyright>
+    <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
+    <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
+    <copyright>(c) 2018 -- All rights reserved.</copyright>
     <lastBuildDate>Wed, 09 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/evidence-based/index.xml" rel="self" type="application/rss+xml" />
@@ -14,10 +16,10 @@
     
     <item>
       <title>Gardner et al. 2018 Decision Complacency and Conservation Planning</title>
-      <link>/post/gardner-et-al-2018-decision-complacency-and-conservation-planning/</link>
+      <link>/posts/gardner-et-al-2018-decision-complacency-and-conservation-planning/</link>
       <pubDate>Wed, 09 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/gardner-et-al-2018-decision-complacency-and-conservation-planning/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/gardner-et-al-2018-decision-complacency-and-conservation-planning/</guid>
       <description>Gardner et al. (2018) add to knowledge-doing gap literature by defining and exemplifying what they call “Decision Complacency”
  The non-use of evidence or systematic processes to make decisions.
  Contextualising decision complacency in the knowledge-doing gap:
@@ -26,10 +28,10 @@ Researcher-practitioner divide: the case where researchers do not meet the needs
     
     <item>
       <title>Law et al. (2017) Biol Con</title>
-      <link>/post/law-et-al-2017-biol-con/</link>
+      <link>/posts/law-et-al-2017-biol-con/</link>
       <pubDate>Fri, 15 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/post/law-et-al-2017-biol-con/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/law-et-al-2017-biol-con/</guid>
       <description>Law, E. A., Ferraro, P. J., Arcese, P., Bryan, B. A., Davis, K., Gordon, A., Holden, M. H., Iacona, G., Martinez, R. M., McAlpine, C. A., Rhodes, J. R., Sze, J. S., Wilson, K. A. (2017) Projecting the performance of conservation interventions. BIOC doi: 10.1016/j.biocon.2017.08.029.
 Problem: Projecting the performance of conservation interventions Successful decision-making for environmental management requires reliable evidence for both the performance and efficacy of proposed conservation actions.</description>
     </item>

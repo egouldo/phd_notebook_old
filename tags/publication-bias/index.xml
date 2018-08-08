@@ -1,23 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publication bias on research notebook</title>
+    <title>Publication Bias on Electronic Lab Notebook</title>
     <link>/tags/publication-bias/</link>
-    <description>Recent content in Publication bias on research notebook</description>
+    <description>Recent content in Publication Bias on Electronic Lab Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Elise Gould</copyright>
-    <lastBuildDate>Tue, 15 May 2018 00:00:00 +0000</lastBuildDate>
+    <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
+    <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
+    <copyright>(c) 2018 -- All rights reserved.</copyright>
+    <lastBuildDate>Thu, 14 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/publication-bias/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>QRPs Study Planning</title>
+      <link>/posts/qrps-study-planning/</link>
+      <pubDate>Thu, 14 Jun 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/qrps-study-planning/</guid>
+      <description>QRPs for non-hypothesis testing research in Ecology and Conservation Decision Making Problem and Background:
+The reproducibility literature has focused exclusively on hypothesis-testing, whether that be Bayesian or frequentist. This also applies to initial research focusing on ecology and evolution. However, Fidler (2016) correctly identifies that in applied ecological research, particularly in conservation science, non-hypothesis testing methods, such as decision-theory, cost-effectiveness analysis, optimization and other scientific computing methods are common. These approaches come with their own set of reproducibility issues.</description>
+    </item>
+    
+    <item>
       <title>Fraser et al 2018 QRPs in Ecology and Evolution</title>
-      <link>/post/fraser-et-al-2018-qrps-in-ecology-and-evolution/</link>
+      <link>/posts/fraser-et-al-2018-qrps-in-ecology-and-evolution/</link>
       <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/fraser-et-al-2018-qrps-in-ecology-and-evolution/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/fraser-et-al-2018-qrps-in-ecology-and-evolution/</guid>
       <description>Fraser, H. S., Parker, T. H., Nakagawa, S., Barnett, A., Fidler, F. (2018) Questionable Research Practices in Ecology and Evolution. doi: 10.17605/OSF.IO/AJYQG.
 “Transformation process” of science communication is susceptible to confusion and corruption, has triggered both reflection and meta-research in other disciplines.
 Forstmeier et al [8]:
@@ -26,10 +38,10 @@ Individual research practice is embedded in a broader culture, and promoite cond
     
     <item>
       <title>Fidler 2017 Metaresearch in ecology</title>
-      <link>/post/fidler-2017-metaresearch-in-ecology/</link>
+      <link>/posts/fidler-2017-metaresearch-in-ecology/</link>
       <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/fidler-2017-metaresearch-in-ecology/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/fidler-2017-metaresearch-in-ecology/</guid>
       <description>Fidler, F., Chee, Y. E., Wintle, B. A., Burgman, M. A., McCarthy, M. A., Gordon, A. (2017) Metaresearch for Evaluating Reproducibility in Ecology and Evolution. BioScience doi: 10.1093/biosci/biw159.
 Demonstrate that ecology and evolution as disciplines are at risk of a having low rates of reproducibility, aka a &amp;lsquo;reproducibility crisis&amp;rsquo; as others have termed it. The paper sets out to identify the different ways in which ecology is likely to have a reproducibility problem.</description>
     </item>

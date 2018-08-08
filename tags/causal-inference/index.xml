@@ -1,23 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Causal inference on research notebook</title>
+    <title>Causal Inference on Electronic Lab Notebook</title>
     <link>/tags/causal-inference/</link>
-    <description>Recent content in Causal inference on research notebook</description>
+    <description>Recent content in Causal Inference on Electronic Lab Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Elise Gould</copyright>
-    <lastBuildDate>Fri, 15 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
+    <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
+    <copyright>(c) 2018 -- All rights reserved.</copyright>
+    <lastBuildDate>Tue, 10 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/causal-inference/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Seaman &amp; Weber (2015) Undisclosed Flexibility in Computing and Reporting Structural Equation Models in Communication Science.</title>
+      <link>/posts/seaman-c-s-weber-r-2015-undisclosed-flexibility-in-computing-and-reporting-structural-equation-models-in-communication-science/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/seaman-c-s-weber-r-2015-undisclosed-flexibility-in-computing-and-reporting-structural-equation-models-in-communication-science/</guid>
+      <description>Summary This paper is a systematic review (or ‘methodological review’ in their tersm) of both QRPs and bad modelling practice in structural equation modelling within the field of communication. They don’t use the term ‘Questionable Research Practices’, however, they do explicitly look at practices falling under the QRP banner, including cherry-picking, HARKing, and researcher degrees of freedom. Importantly, this paper is really useful to me because they examine these questionable research practices in a modelling framework outside of the non-hypothetico-deductive scientific model.</description>
+    </item>
+    
+    <item>
       <title>Law et al. (2017) Biol Con</title>
-      <link>/post/law-et-al-2017-biol-con/</link>
+      <link>/posts/law-et-al-2017-biol-con/</link>
       <pubDate>Fri, 15 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/post/law-et-al-2017-biol-con/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/law-et-al-2017-biol-con/</guid>
       <description>Law, E. A., Ferraro, P. J., Arcese, P., Bryan, B. A., Davis, K., Gordon, A., Holden, M. H., Iacona, G., Martinez, R. M., McAlpine, C. A., Rhodes, J. R., Sze, J. S., Wilson, K. A. (2017) Projecting the performance of conservation interventions. BIOC doi: 10.1016/j.biocon.2017.08.029.
 Problem: Projecting the performance of conservation interventions Successful decision-making for environmental management requires reliable evidence for both the performance and efficacy of proposed conservation actions.</description>
     </item>

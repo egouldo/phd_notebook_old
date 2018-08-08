@@ -1,1105 +1,538 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>research notebook on research notebook</title>
+    <title>Electronic Lab Notebook</title>
     <link>/</link>
-    <description>Recent content in research notebook on research notebook</description>
+    <description>Recent content on Electronic Lab Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Elise Gould</copyright>
+    <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
+    <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
+    <copyright>(c) 2018 -- All rights reserved.</copyright>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +1100</lastBuildDate>
-    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Academic</title>
+      <link>/home/hero/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 +1100</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/home/hero/</guid>
+      <description>The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes 🚀 Latest release  
+(function defer() { if (window.jQuery) { jQuery(document).ready(function(){ GetLatestReleaseInfo(); }); } else { setTimeout(function() { defer() }, 50); } })(); function GetLatestReleaseInfo() { $.getJSON(&#39;https://api.github.com/repos/gcushen/hugo-academic/tags&#39;).done(function (json) { let release = json[0]; // let downloadURL = release.zipball_url; $(&#39;#academic-release&#39;).text(&#39;Latest release &#39; + release.name); }); }  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/home/about/</link>
+      <pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/home/about/</guid>
+      <description>Biography I am a PhD student at the Centre of Excellence for Biosecurity and Risk Analysis (CEBRA), University of Melbourne. This is my research notebook for all things PhD.</description>
+    </item>
+    
+    <item>
+      <title>Selected Publications</title>
+      <link>/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +1000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Publications</title>
+      <link>/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +1000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +1000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/home/teaching/</guid>
+      <description>This is an example of using the custom widget to create your own homepage section.
+I am a teaching instructor for the following courses at University X:
+ CS101: An intro to computer science CS102: An intro to computer science CS103: An intro to computer science CS104: An intro to computer science CS105: An intro to computer science CS106: An intro to computer science CS107: An intro to computer science  </description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>/home/tags/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 +1000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/home/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/home/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dormann et al (2018) Biotic interactions in species distribution modelling\: 10 questions to guide interpretations and avoid false conclusions</title>
+      <link>/posts/dormann-et-al-2018-biotic-interactions-in-species-distribution-modelling-10-questions-to-guide-interpretations-and-avoid-false-conclusions/</link>
+      <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/dormann-et-al-2018-biotic-interactions-in-species-distribution-modelling-10-questions-to-guide-interpretations-and-avoid-false-conclusions/</guid>
+      <description>Problem The authors aim to address the problem of false conclusions arisng during inference of joint species distribution models – specifically, false conclusions of biotic interactions.
+Approach The authors conduct a review of joint species distribution modelling to identify (from caveats and other issues ear-marked in the source papers) potential factors that confound interpretation of analyses. Next, they develop a series of questions that can be asked by the analyst and also the reviewer to guide interpretation of conclusions – are the conclusions about biotic interactions plausible?</description>
+    </item>
+    
+    <item>
+      <title>New Perspectives in Statistics Education</title>
+      <link>/posts/new-perspectives-in-statistics-education/</link>
+      <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/new-perspectives-in-statistics-education/</guid>
+      <description>Upcoming events: Statistical Society of Australia (SSA), Biostatistics bonanza. August 23.
+Sue Finch: “Back to basics? Identifying educational needs through statistical consulting” People who come to consulting come with real need - come with an applied problem. How can we use this to inform new generation of statistical training for researchers?
+Break down research cycle using PPDAC cycle used within statistical education (Wild and Pfannkuch). Process of statistical thinking when carrying out a statistical inquiry.</description>
+    </item>
+    
+    <item>
+      <title>Baranyi and da Silva (2017) The use of predictive models to optimize risk of decisions</title>
+      <link>/posts/baranyi-and-da-silva-2017-the-use-of-predictive-models-to-optimize-risk-of-decisions/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/baranyi-and-da-silva-2017-the-use-of-predictive-models-to-optimize-risk-of-decisions/</guid>
+      <description>Application domain: Microbiology decision support for predicting food borne Bacteria growth and reduce the need for microbiological testing. Approach/framework: risk assessment and decision-analytic framework.
+Aims and objectives of the paper:
+ The focus of this paper is not the above interpreted risk, assigned to an a-posteriori event, but the risk of an a-priory decision, that we also call choice or bet in what follows.
+  In this paper we explain, backed by examples, why predictive models should be used in combination with a cost-bene fit assessment.</description>
+    </item>
+    
+    <item>
+      <title>Retreat QRP session</title>
+      <link>/posts/retreat-qrp-session/</link>
+      <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/retreat-qrp-session/</guid>
+      <description>Summary and purpose of the workshop: We ran a workshop where we hosted small discussions attempting to propose questionable research practices that arise in ecological and conservation research using non-frequentist and/or non hypothetico-deductive inquiry.
+The purpose of the workshop was two-fold:
+To bring awareness to our research group of QRPs for the types of work relevant to the group, and to consider how reproducibility issues might affect us, even if reproducibility research seems irrelevant.</description>
+    </item>
+    
+    <item>
+      <title>John Blischak reproducibility and workflowr</title>
+      <link>/posts/john-blischak-reproducibility-and-workflowr/</link>
+      <pubDate>Mon, 16 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/john-blischak-reproducibility-and-workflowr/</guid>
+      <description>Institutional road blocks against full reproducibility - methods sections are insufficient. But good software practice is helpful for future you, your labmates when you leave.
+Lowndes et al (2017) Peng et al (2011)
+Strategies for computational repro Record computing environment  sessionInfo() ## R version 3.5.0 (2018-04-23) ## Platform: x86_64-apple-darwin15.6.0 (64-bit) ## Running under: macOS Sierra 10.12.6 ## ## Matrix products: default ## BLAS: /Library/Frameworks/R.framework/Versions/3.5/Resources/lib/libRblas.0.dylib ## LAPACK: /Library/Frameworks/R.framework/Versions/3.5/Resources/lib/libRlapack.dylib ## ## locale: ## [1] en_AU.</description>
+    </item>
+    
+    <item>
+      <title>Seaman &amp; Weber (2015) Undisclosed Flexibility in Computing and Reporting Structural Equation Models in Communication Science.</title>
+      <link>/posts/seaman-c-s-weber-r-2015-undisclosed-flexibility-in-computing-and-reporting-structural-equation-models-in-communication-science/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/seaman-c-s-weber-r-2015-undisclosed-flexibility-in-computing-and-reporting-structural-equation-models-in-communication-science/</guid>
+      <description>Summary This paper is a systematic review (or ‘methodological review’ in their tersm) of both QRPs and bad modelling practice in structural equation modelling within the field of communication. They don’t use the term ‘Questionable Research Practices’, however, they do explicitly look at practices falling under the QRP banner, including cherry-picking, HARKing, and researcher degrees of freedom. Importantly, this paper is really useful to me because they examine these questionable research practices in a modelling framework outside of the non-hypothetico-deductive scientific model.</description>
+    </item>
+    
+    <item>
+      <title>Schmolke et al (2010) Ecological models supporting environmental decision making: a strategy for the future</title>
+      <link>/posts/schmolke-et-al-2010-ecological-models-supporting-environmental-decision-making-a-strategy-for-the-future/</link>
+      <pubDate>Tue, 26 Jun 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/schmolke-et-al-2010-ecological-models-supporting-environmental-decision-making-a-strategy-for-the-future/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>de Vos Are Environmental Models Transparent and Reproducible?</title>
+      <link>/posts/de-vos-are-environmental-models-transparent-and-reproducible/</link>
+      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/de-vos-are-environmental-models-transparent-and-reproducible/</guid>
+      <description>Problem: Why is transparency and reproducibility of environmental models important? Transparency and reproducibility are quintessential for facilitating assessment of model quality and suitability by both peer-reviewers, readers, and future users:  Page 1, 2018-06-20:  Environmental models are in fact applications of shared theories on how real-world systems are functioning.
+ Because “Environmental models are in fact applications of shared theories on how real-world systems are functioning”, it is essential that “the underlying scientific theories they need to be evaluated and discussed among peers.</description>
+    </item>
+    
+    <item>
+      <title>QRPs Study Planning</title>
+      <link>/posts/qrps-study-planning/</link>
+      <pubDate>Thu, 14 Jun 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/qrps-study-planning/</guid>
+      <description>QRPs for non-hypothesis testing research in Ecology and Conservation Decision Making Problem and Background:
+The reproducibility literature has focused exclusively on hypothesis-testing, whether that be Bayesian or frequentist. This also applies to initial research focusing on ecology and evolution. However, Fidler (2016) correctly identifies that in applied ecological research, particularly in conservation science, non-hypothesis testing methods, such as decision-theory, cost-effectiveness analysis, optimization and other scientific computing methods are common. These approaches come with their own set of reproducibility issues.</description>
+    </item>
+    
+    <item>
+      <title>Advisory Committee Meeting</title>
+      <link>/posts/advisory-committee-meeting/</link>
+      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/advisory-committee-meeting/</guid>
+      <description>Chapter 2, QRPs Scope Trying to cover the scope of the entire decision process might be too large for just one chapter. Just examining QRPs for system modelling is quite a task. PV suggested restricting the focus to decision tools and focussing on one application area, such as conservation planning / reserve design. This would also give more traction and uptake among ecologists. Conservation planning isn&amp;rsquo;t using the term &amp;lsquo;reproducibility&amp;rsquo; to describe their problems.</description>
+    </item>
+    
+    <item>
+      <title>Arguments against the existance and extent of the reproducibility crisis</title>
+      <link>/posts/arguments-against-the-existance-and-extent-of-the-reproducibility-crisis/</link>
+      <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/arguments-against-the-existance-and-extent-of-the-reproducibility-crisis/</guid>
+      <description>Despite a growing body of large-scale meta-analyses across many different disciplines, debate as to whether there is a “crisis” persists. Fanelli et al. (2018) use a failed replication of a large-scale meta-analysis to argue that the “crisis” is mistaken, and should instead be re-branded as a narrative of “epochal changes and empowerment of science” (Jamieson 2018). In a ‘post-truth’ era of ‘alternative-facts’, how scientists communicate research on the robustness of science and its self-correcting mechanisms is certainly important (Sutherland and Wordley 2017).</description>
+    </item>
     
     <item>
       <title>Fraser et al 2018 QRPs in Ecology and Evolution</title>
-      <link>/post/fraser-et-al-2018-qrps-in-ecology-and-evolution/</link>
+      <link>/posts/fraser-et-al-2018-qrps-in-ecology-and-evolution/</link>
       <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/fraser-et-al-2018-qrps-in-ecology-and-evolution/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Fraser, H. S., Parker, T. H., Nakagawa, S., Barnett, A., Fidler, F. (2018) Questionable Research Practices in Ecology and Evolution. doi: 10.17605/OSF.IO/AJYQG.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;“Transformation process” of science communication is susceptible to confusion and corruption, has triggered both reflection and meta-research in other disciplines.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Forstmeier et al [8]:&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Individual research practice is embedded in a broader culture, and promoite conditions of publication bias and type 1 errors. ‘Questionable research practices’ are fostered under conditions of publication bias, inflating false postive rates in the literature.&lt;/p&gt;
-&lt;p&gt;Within Ecology and evolution research, there is a dearth of replications of existing research. Existing advice predominantly focuses on practices that individual researchers can implement. There is increasing initiatives at broader scales, at the journal level, for example, to improve reporting standards.&lt;/p&gt;
-&lt;p&gt;Psychology and Medicine have both properly documented the prevalence of QRPs. &lt;span class=&#34;citation&#34;&gt;(2018)&lt;/span&gt; represents the first study to document the prevalence of QRPs in EcoEvo.&lt;/p&gt;
-&lt;div id=&#34;what-are-qrps&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;What are QRPs?&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;p-hacking&lt;/code&gt;:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;A set of activities: checking the statistical significance of results before deciding whether to collect more data; stopping data collection early because results reached statistical significance; deciding whether to exclude data points (e.g., outliers) only after checking the impact on statistical significance and not reporting the impact of the data exclusion; adjusting statistical models, for instance by including or excluding covariates based on the resulting strength of the main effect of interest; and rounding of a p value to meet a statistical significance threshold (e.g., presenting 0.053 as p &amp;lt; .05).&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;cherry picking&lt;/code&gt;:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;includes failing to report dependent or response variables or relationships that did not reach statistical significance or other threshold and/or failing to report conditions or treatments that did not reach statistical significance or other threshold.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;HARK-ing&lt;/code&gt; (hypothesizing after results are known):&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;includes presenting ad hoc and/or unexpected findings as though they had been predicted all along [16]; and presenting exploratory work as though it was confirmatory hypothesis testing [17].&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;–&amp;gt; Jian: ideally, exploratory work should be published / presented as just that, and offer potential hypotheses / mechanisms explaining the findings that future researchers can test.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;publication-bias-publish-or-perish-culture&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Publication bias, publish-or-perish culture&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Publication bias in this context refers to a bias towards publishing statistically significant, ‘positive’ results and not publishing statistically non-significant (‘negative’ or null results).&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;It has been documented for decads in disciplines like psychology. Moreover, the increase in the proportion of statistiaclly significant results has been increasing over the last 25 years.&lt;/p&gt;
-&lt;p&gt;What is the relationship between QRP prevalence and publication bias + publish/perish culture? It is thought that these broader set of conditions may be impacting on the frequency with which researchers use QRPs (Agnoli) (Fidler).&lt;/p&gt;
-&lt;p&gt;# Relevance to my research&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;building-a-picture-of-the-different-levels-of-research&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Building a picture of the different levels of research&lt;/h2&gt;
-&lt;p&gt;Most research focused on the individual researcher - reference for this? No. I get this impression, too. But would be good to evaluate this claim by looking at the literature systematically.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;non-nhst-qrps&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Non-NHST QRPs&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;p-hacking: point about “adjusting statistical models (e.g. by including or excluding covariates based on resulting strength of the main effect of interest)”. This is presumably referencing GLMS / GAMs and other models where there are fit statistics with p-values, etc. What is a parallel offence for other sorts of models, e.g. causal models?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div id=&#34;refs&#34; class=&#34;references&#34;&gt;
-&lt;div id=&#34;ref-Fraser:2018cl&#34;&gt;
-&lt;p&gt;Fraser, Hannah Stephanie, Timothy H Parker, Shinichi Nakagawa, A Barnett, and Fiona Fidler. 2018. “Questionable Research Practices in Ecology and Evolution,” March, 1–24. doi:&lt;a href=&#34;https://doi.org/10.17605/OSF.IO/AJYQG&#34;&gt;10.17605/OSF.IO/AJYQG&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</description>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/fraser-et-al-2018-qrps-in-ecology-and-evolution/</guid>
+      <description>Fraser, H. S., Parker, T. H., Nakagawa, S., Barnett, A., Fidler, F. (2018) Questionable Research Practices in Ecology and Evolution. doi: 10.17605/OSF.IO/AJYQG.
+“Transformation process” of science communication is susceptible to confusion and corruption, has triggered both reflection and meta-research in other disciplines.
+Forstmeier et al [8]:
+Individual research practice is embedded in a broader culture, and promoite conditions of publication bias and type 1 errors. ‘Questionable research practices’ are fostered under conditions of publication bias, inflating false postive rates in the literature.</description>
     </item>
     
     <item>
       <title>Retreat Reproducibility Session</title>
-      <link>/post/retreat-reproducibility-session/</link>
+      <link>/posts/retreat-reproducibility-session/</link>
       <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/retreat-reproducibility-session/</guid>
-      <description>&lt;div id=&#34;session-planning&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Session Planning&lt;/h1&gt;
-&lt;p&gt;Focus: Reproducibility in practice - QRPs.&lt;/p&gt;
-&lt;p&gt;Session aim: To help spread awareness among Qaecologists and Cebranalysts about reproducibility issues in our research practices. And then possibly provide people with the tools / solutions to overcome some of these issues.&lt;/p&gt;
-&lt;p&gt;Format: not a lecture, not an unstructured discussion.&lt;/p&gt;
-&lt;p&gt;Length 90 minutes.&lt;/p&gt;
-&lt;div id=&#34;introduction-15-minutes&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Introduction: &lt;code&gt;15 minutes&lt;/code&gt;&lt;/h3&gt;
-&lt;p&gt;Introductory talk with a few slides . Led by Fiona and Hannah.&lt;/p&gt;
-&lt;p&gt;Intro by Fiona, perhaps talking about why reproducibility is important to us as ecologists, the state of reproducibility in eco/evo, an in the context of other dsciplines? Then onto Hannah highlighting the findings in the pre-print? Highlighting common QRPs in broader biological science and in ecology. OR whatever it is they want to discuss!&lt;/p&gt;
-&lt;p&gt;I might like to add a slide discussing an aspect of my research - on QRPs for non-NHST type research in ecology. A lot of people in the group might think that reproducibility doesn’t really apply to them because they doin’t work in the realm of NHST and p-values. They build predictive models, or use some other type of model, for example. So I want to highlight this gap, and get the group thinking about how QRPs might manifest in these types of research.&lt;/p&gt;
-&lt;p&gt;Another point that Jian raised is that there are lots of Bayesians in the gorup who might not think that reproducibility issues affect them… important we bring their awareness to the fact that it does.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;examples-of-self-confessed-qrps-4-x-1-2-mins-10-mins&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Examples of self-confessed QRPs &lt;code&gt;4 x 1-2 mins = 10 mins&lt;/code&gt;&lt;/h3&gt;
-&lt;p&gt;Approximately four senior researchers giving rexamples of times that they have done any of these QRPs.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;break-out-discussion-groups-tbd-35-mins&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Break-out discussion groups: &lt;code&gt;TBD: 35 mins?&lt;/code&gt;&lt;/h3&gt;
-&lt;p&gt;Next we will break into smaller discussion groups to talk about QRPs in ecology. The aim is to identify QRPs that are relevant to us, identify possible solutions and ways for getting around them. These might be ideas for group training, approaches to analyses, or even cultural shift (that might seem too hard, but worth identifying).&lt;/p&gt;
-&lt;p&gt;We will pre-identify some areas of focus and divide the break-out groups along those lines. Perhaps we can also take suggestions from the floor and add / remove any more that are relevant. The groups will be lead by the researchers who spoke earlier (And possibly, Hannah / Fiona / Elise, if we are short on facilitators). People can be involved in any break-out group they’d like to.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;summary-and-group-discussion-tbd-30-mins&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Summary and Group Discussion: &lt;code&gt;TBD: 30 mins?&lt;/code&gt;&lt;/h3&gt;
-&lt;p&gt;Come back together to summarise. How do we facilitate this, and synthesise the findings of the session in a way that will tangibly benefit the group?&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;what-can-i-extract-for-my-research&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;What can I extract for my research?&lt;/h1&gt;
-&lt;p&gt;What can research outputs can I obtain for my PhD from this? Decided that the retreat should not be research-output focused, but instead should be focused on providing value to the group as a whole. So if the session aligns with my objectives for my PhD, then this should be OK. But can’t dictate too heavily the direction of the session purely based on my research output needs.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Could be just about collating ideas.&lt;/li&gt;
-&lt;li&gt;Survey? What are the ethics of this.. Can we modify Hannah’s ethics approval?&lt;/li&gt;
-&lt;li&gt;Discussion piece? Flow on issue with group collaboration is Authorship.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-</description>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/retreat-reproducibility-session/</guid>
+      <description>Session Planning Focus: Reproducibility in practice - QRPs.
+Session aim: To help spread awareness among Qaecologists and Cebranalysts about reproducibility issues in our research practices. And then possibly provide people with the tools / solutions to overcome some of these issues.
+Format: not a lecture, not an unstructured discussion.
+Length 90 minutes.
+Introduction: 15 minutes Introductory talk with a few slides . Led by Fiona and Hannah.
+Intro by Fiona, perhaps talking about why reproducibility is important to us as ecologists, the state of reproducibility in eco/evo, an in the context of other dsciplines?</description>
     </item>
     
     <item>
       <title>Gardner et al. 2018 Decision Complacency and Conservation Planning</title>
-      <link>/post/gardner-et-al-2018-decision-complacency-and-conservation-planning/</link>
+      <link>/posts/gardner-et-al-2018-decision-complacency-and-conservation-planning/</link>
       <pubDate>Wed, 09 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/gardner-et-al-2018-decision-complacency-and-conservation-planning/</guid>
-      <description>&lt;p&gt;Gardner et al. &lt;span class=&#34;citation&#34;&gt;(2018)&lt;/span&gt; add to knowledge-doing gap literature by defining and exemplifying what they call “Decision Complacency”&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The non-use of evidence or systematic processes to make decisions.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Contextualising decision complacency in the knowledge-doing gap&lt;/strong&gt;:&lt;/p&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;&lt;em&gt;Researcher-practitioner divide&lt;/em&gt;: the case where researchers do not meet the needs of practitioners such that the information provided by conservation scientists does not allow decision-makers or practitioners to make sufficiently evidence-based decisions&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Evidence Complacency&lt;/em&gt;: Sutherland and Wordley &lt;span class=&#34;citation&#34;&gt;(2017)&lt;/span&gt; describe a different angle of the researcher-practitioner divide where practitioners don’t use or seek available evidence, and/or don’t test the impact of their actions. The result is sub-optimal decision-making, and risks undermining the ability to meet conservation goals.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Decision Complacency&lt;/em&gt;: However, “once evidence is collated and synthesised it must be transformed into decisios using some sort of decision-support system to i. frame the decision-context ii. process the evidence in a systematic and transparent amnner that minimises the decision-makers cognitive biases.”&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div id=&#34;case-study-lemur-conservation-strategy-2013---2016&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Case Study: Lemur Conservation Strategy 2013 - 2016&lt;/h2&gt;
-&lt;p&gt;The paper then illustrates a real-world example of “decision complacency” using an emergency conservation prioritisation and action plan developed using expert workshops. The workshop outputs were a site-prioritisation, and action-plans for each prioritised sites.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;site prioritisation&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The paper illustrates that yes, empirical evidence including lemur richness and the nhe number of endangered / critically endangered lemur species, etc. So yes, evidence was used. However, importantly, no systematic approaches were used to establish a) a comprehensive pool of candidate sites, or to b) select the final priority list.&lt;/p&gt;
-&lt;p&gt;The authors assess the ‘performance’ of the prioritisation, and found that there was some redundancy in species representation for the final prioritisation delivered by the workshop. By optimising representation, and replacing two redundant sites with two unique sites, representation was shifted from 91 - 99%.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;action plans&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Action plans for priotity sites used expert knowledge of participants who had site-specific experience. However, no systematic approaches were employed to process that evidence into decisions.&lt;/p&gt;
-&lt;p&gt;The authors argue that they are unlikely to be as “effective as they might have been had a systematic approach been used to list all potential actions, gather evidence about them, and objectively evaluate the likely effectiveness of each.” Moreover, action-planning could have benefited from learning by monitoring and evaluating the actions implemented in the 1992 predecessor Lemur action plan. This was a missed opportunity.&lt;/p&gt;
-&lt;div id=&#34;decision-complacency-and-expert-judgment&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Decision Complacency and Expert Judgment&lt;/h3&gt;
-&lt;p&gt;By not using decision support tools, the site prioritisation and action plans were developed wholly on the basis of expert judgment. The authors do not dismiss the use of expert judgment, and in fact it is “necessary to produce any such action plan”, however, they do note that expert judgment and decisions are influenced by a range of cognitive biases &lt;em&gt;“if elicited without the use of rigorous methods”&lt;/em&gt;. In the optimal allocation of funds, “decisions should be based on syustematic and transparent processes that objectively identify priority sites and evaluate the relative strengths of proposed strategies rather than the subjective judgment of those with a vested interest in the funding of particular actions and places”.&lt;/p&gt;
-&lt;p&gt;Although the “correctness” of decisions / choosing the most effective suite of actions is important, I’d like to add that transparency and objectivity provided by a systematic decision-making process is also important. The authors also point out that there is the possibility for conscious or unconsciously self-serving decision-making. I add that it is this potential and its perception by the public, or vocal commentators of environmental decision-making, that warrants rigorously transparent and systematic decision support systems.&lt;/p&gt;
-&lt;p&gt;Yes, decision-makers often lack empirical data, and rely on multiple forms of evidence (including, experience, intuition and expert judgment), and moreover there is the need for rapid development of conservation plans in the face of uncertainty. However, the authors point out the plethora of existing systematic conservation decision making tools and approaches for systematic, objective optimal decision-making.&lt;/p&gt;
-&lt;p&gt;The technical nature of such tools should not preclude their use in real-world contexts. This is not a legitiamte argument. There are many commonly implemented technical tools available to be used in workshop settings.&lt;/p&gt;
-&lt;p&gt;Next-steps for this area of research are to understand &lt;em&gt;why&lt;/em&gt; decision-makers don’t use available DSS’s and DST’s, however, this can’t be achieved if we don’t name and characterise the problem. The authors argue that the term ‘decision complacency’ “better encapsulates the multiple facets of conservation decision-making”&amp;quot; than the Sutherland and Wordley &lt;span class=&#34;citation&#34;&gt;(2017)&lt;/span&gt; alternative. I would agree with this, and indeed this notion of ‘decision complacency’ has helped me conceptualise the flow of evidence and information in conservation decision-making. I’ll discuss this below.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;relevence-to-my-research&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Relevence to my research&lt;/h2&gt;
-&lt;div id=&#34;decision-science-informatics&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Decision-science “informatics”?&lt;/h3&gt;
-&lt;p&gt;I’m starting to build a mental picture of processes / information-flow around knowledge / decision generation in conservation science and practice. The extension of the concept from ‘evidence’ to ‘decision complacency’ clarifies, for me, the flow of information between researchers practitioners, and the subsequent transformation into decisions with decision-support systems. Could we describe this as a type of ‘decision-informatics’? In doing so, does this allow for the recognition and subsequent addressing of deficiencies in ways knowledge and evidence is generated, collated, synthesised, and transformed into decisions? And therefore, can we ultimately improve the ability of DSS’s and DST’s to meet conservation objectives?&lt;/p&gt;
-&lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;https://github.com/egouldo/notebook_elise_gould/blob/master/static/img/notebook-2018_05_09.JPG&#34; /&gt;
-
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Bias and the evidence-base. DSS’s don’t exist in a vaccuum&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The paper makes the point that unless we use Decision Support Systems to systematically and objectively make conservation decisions, our decisions will be plagued by conscious / unconscious cognitive biases. This is a really important point, however, I would argue that cognitive bias is also likely to rear its head (and hamper reproducibility) even when decisions are embedded in DSS’s. AND, it’s not just expert knowledge that is subject to bias, but also empirical knowledge. My task is to identify where sources of bias (cognitive and otherwise) may arise in CDM (conservation decision making) processes. I’m also interested in looking at the bigger picture, at a ‘decision-science informatics’ level… how do biases / errors in the evidence base filter through to the final decisions…? I don’t think you can properly identify and address issues of reproducibility if you are just considering the DSS / DST in a vaccuum.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;ideas-for-experiments&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Ideas for experiments&lt;/h3&gt;
-&lt;p&gt;This paper presented a really cool deconstruction of a conservation decision making problem to illustrate their newly defined concept of “Decision Complacency”. I wonder if I could do something similar, but for a more complex problem / technical decision process, and following a decision process from beginning to end rather than just exmaining the outputs… LR and HF, woodlands?&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;purpose-of-evaluating-the-reproducibility-of-decision-tools&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Purpose of evaluating the reproducibility of decision-tools&lt;/h3&gt;
-&lt;p&gt;Role of reproducibility evaluations for conservation science?&lt;/p&gt;
-&lt;p&gt;But the role of reproducibility in decision science came to mind when considering the authors’ assertion that systematic processes for making conservation decisions generating decisions that better meet conservation goals than unstructured, unsubjective processes relying solely on expert knowledge and intuition. I can’t think of any peer-reviewed evidence (that I know of!) demonstrating greater efficacy of decisions developed in a DSS as opposed to those relying solely off of the mental models of practitioners and decision-makers.&lt;/p&gt;
-&lt;p&gt;Which brings me to the function of reproducibility tests for applied ecology / conservation decision making… If we can’t reproduce a decision from a DSS, can we infer that a DSS is no better than a mental model for making conservation decisions? And does a failure to reproduce a decision mean that we don’t need the tool? No. Structured processes are important because they provide transparency and therefrore credibility around environmental decisions. Which is incredibly important, in this era of political scepticism around science (e.g. climate change) backed by powerful lobby groups. Think FF’s term “Credibility Revolution”… So at least a DSS represents knowledge in a transparent and objective manner.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;to-follow-up&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;To follow up&lt;/h3&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;&lt;span class=&#34;citation&#34;&gt;(Sutherland and Wordley 2017)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;citation&#34;&gt;(Segan et al. 2011)&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;references&#34; class=&#34;section level1 unnumbered&#34;&gt;
-&lt;h1&gt;References&lt;/h1&gt;
-&lt;div id=&#34;refs&#34; class=&#34;references&#34;&gt;
-&lt;div id=&#34;ref-Gardner:2018dm&#34;&gt;
-&lt;p&gt;Gardner, Charlie J, Patrick O Waeber, Onja H Razafindratsima, and Lucienne Wilmé. 2018. “Decision complacency and conservation planning.” &lt;em&gt;Conservation Biology&lt;/em&gt;, May, 1–10. doi:&lt;a href=&#34;https://doi.org/10.1111/cobi.13124&#34;&gt;10.1111/cobi.13124&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;ref-Segan:vd&#34;&gt;
-&lt;p&gt;Segan, D B, M C Bottrill, PWJ Baxter, HP Possingham Conservation Biology, and 2011. 2011. “Using conservation evidence to guide management.” &lt;em&gt;JSTOR&lt;/em&gt;. &lt;a href=&#34;http://www.jstor.org/stable/27976443&#34; class=&#34;uri&#34;&gt;http://www.jstor.org/stable/27976443&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;ref-Sutherland:2017hc&#34;&gt;
-&lt;p&gt;Sutherland, William J, and Claire F R Wordley. 2017. “Evidence complacency hampers conservation.” &lt;em&gt;Nature Ecology &amp;amp; Evolution&lt;/em&gt;, August. Springer US, 1–2. doi:&lt;a href=&#34;https://doi.org/10.1038/s41559-017-0244-1&#34;&gt;10.1038/s41559-017-0244-1&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</description>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/gardner-et-al-2018-decision-complacency-and-conservation-planning/</guid>
+      <description>Gardner et al. (2018) add to knowledge-doing gap literature by defining and exemplifying what they call “Decision Complacency”
+ The non-use of evidence or systematic processes to make decisions.
+ Contextualising decision complacency in the knowledge-doing gap:
+Researcher-practitioner divide: the case where researchers do not meet the needs of practitioners such that the information provided by conservation scientists does not allow decision-makers or practitioners to make sufficiently evidence-based decisions Evidence Complacency: Sutherland and Wordley (2017) describe a different angle of the researcher-practitioner divide where practitioners don’t use or seek available evidence, and/or don’t test the impact of their actions.</description>
     </item>
     
     <item>
       <title>Cullina et al 2018 Navigating the unfolding open data landscape in ecology and evolution</title>
-      <link>/post/cullina-et-al-2018-navigating-the-unfolding-open-data-landscape-in-ecology-and-evolution/</link>
+      <link>/posts/cullina-et-al-2018-navigating-the-unfolding-open-data-landscape-in-ecology-and-evolution/</link>
       <pubDate>Fri, 13 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/cullina-et-al-2018-navigating-the-unfolding-open-data-landscape-in-ecology-and-evolution/</guid>
-      <description>&lt;p&gt;The open data movement has the capacity to provide new and powerful insights into complex systems, in ecology and evolution. However, in ecology and evolution there has not been great uptake / implementation of open data to the extent seen in other disciplines (e.g. medicine, climate sciences).&lt;/p&gt;
-&lt;p&gt;Why open data?&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;identify broader eco evo processes across space, time, species&lt;/li&gt;
-&lt;li&gt;reanalysing data using new statistical approaches&lt;/li&gt;
-&lt;li&gt;error checking&lt;/li&gt;
-&lt;li&gt;using existing data to answer new questions&lt;/li&gt;
-&lt;li&gt;era of the Anthropocene: large, complicated questions with high degree of uncertainty requires combined data from multiple sources, and multidsciplinary data synthesis.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Aim of paper: to provide ecologists and evolutionary biologists with tools to navigate this emerging open data landscape. So that we may increase the use of open data and facilitate robust and comprehensive analysis and inference.&lt;/p&gt;
-&lt;div id=&#34;state-of-the-open-data-landscape&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;State of the open data landscape&lt;/h1&gt;
-&lt;p&gt;Data are fragmented. They exist in a multitude of locations, often in the supplementary materials sections of the papers they accompany, personal websites, or perhaps they are published in a data repository. But there are many data repositories. There is a register of data repositories &lt;a href=&#34;r3data.org&#34; class=&#34;uri&#34;&gt;r3data.org&lt;/a&gt;. But there is no unified system of searching all of these repositories and data sources, meaning that locating appropriate data is extremely difficult.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Long tail of science.&lt;/strong&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Dispersed scientic research that is conducted by many individual researchers/teams, and is often of a limited spatial and temporal scale. Data produced in the long tail tend to be small in volume, and less standardized within the same eld of study. The majority of scientic funding is spent on this type of research.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;I believe the above “long tail of science” compounded by a lack of unified data infrastructure to be a significant barrier to the advancement of ecology and conservation, and perhaps even science more broadly.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Impediment to meta-research, impeding validation of existing evidence and knowledge through reproductions and replications.&lt;/li&gt;
-&lt;li&gt;lost opportunities - unable to answer novel questions and new hypotheses, perhaps at new scales&lt;/li&gt;
-&lt;li&gt;Wasted money - are people paying for new data when existing data could do the job?&lt;/li&gt;
-&lt;li&gt;Impediment to longitudinal studies or retrospective evaluations&lt;/li&gt;
-&lt;li&gt;Source of uncertainty in models for applied contexts - the data’s out there we just can’t find it, or get our hands on it, or it’s in the wrong format!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div id=&#34;transitioning-to-open-science&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Transitioning to Open Science&lt;/h1&gt;
-&lt;div id=&#34;citation&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Citation&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Need for giving value equal status to research objects such that they are equivalent in status to a journal paper. “First class research objects”&lt;/li&gt;
-&lt;li&gt;Give your data a DOI so people can cite it!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div id=&#34;misinterpretation-and-potential-biases&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Misinterpretation and potential biases&lt;/h2&gt;
-&lt;p&gt;drumroll… METADATA!!!&lt;/p&gt;
-&lt;p&gt;Despite good descriptions of a dataset (how data were collected, where, and when, how were they processed and analysed?), a lot of ecological datasets lack complete information to enable a full understanding of what the data describe.&lt;/p&gt;
-&lt;p&gt;Why? Reuse is not in the authors mind, really! I’ll add that it takes TIME to properly describe your data. And familiarity and access to a good set of tools and workflows for doing so. Moreover, we lack a standardised method of describing our data.&lt;/p&gt;
-&lt;p&gt;Another issue the paper raises is that details about the subtleties of the study-system cannot be described or are difficult to describe in metadata. Paper suggests contacting authors to overcome this issue.&lt;/p&gt;
-&lt;p&gt;Another important point of consideration is that: “working with a large amount of data requires careful consideration of the possible biases, statistical issues and inferences that can be drawn when using these data.”&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;For example, one recent study 32 identified multidimensional biases, gaps and uncertainties in global plant occurrence information data in the GBIF database, while another work 33 examined spatial biases in collected data sets used in two different meta-analysis that (wrongly) concluded that there was no net loss of biodiversity due to anthropogenic disturbances.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;the-future-of-open-data-in-ecoevo&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;The future of open data in EcoEvo&lt;/h1&gt;
-&lt;p&gt;“However, the major historical drawbacks of ecological research (the challenge to standardize, validate and generalize findings) often limit the relevance of ecological findings for most urgent societal and scientific needs.” &lt;strong&gt;Page 5&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;So in the era of the Anthropocene, the transition to open data in EcoEvo is one of pressing concern. (Can put EcoEvo decision spin on this here).&lt;/p&gt;
-&lt;p&gt;Essentially the open data landscape in EcoEvo is in its infancy.&lt;/p&gt;
-&lt;p&gt;## Future direction:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;need uptake by the EcoEvo research community: As the resources are increasingly adopted it should provide the impetus for improvements&lt;/li&gt;
-&lt;li&gt;Increase the reuse of open data… paper argues this can be done by awareness raising.. a) that ecoEvo open data repositories exist, and b) by increasing awareness of how to find / where to look for open data.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I think this is an important first step. More needs to be done in terms of unified infrastructure, methods, tools for collecting, locating, accessing and synthesizing open data.&lt;/p&gt;
-&lt;/div&gt;
-</description>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/cullina-et-al-2018-navigating-the-unfolding-open-data-landscape-in-ecology-and-evolution/</guid>
+      <description>The open data movement has the capacity to provide new and powerful insights into complex systems, in ecology and evolution. However, in ecology and evolution there has not been great uptake / implementation of open data to the extent seen in other disciplines (e.g. medicine, climate sciences).
+Why open data?
+ identify broader eco evo processes across space, time, species reanalysing data using new statistical approaches error checking using existing data to answer new questions era of the Anthropocene: large, complicated questions with high degree of uncertainty requires combined data from multiple sources, and multidsciplinary data synthesis.</description>
     </item>
     
     <item>
       <title>Nakagawa and Parker 2015</title>
-      <link>/post/nakagawa-and-parker-2015/</link>
+      <link>/posts/nakagawa-and-parker-2015/</link>
       <pubDate>Thu, 12 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/nakagawa-and-parker-2015/</guid>
-      <description>&lt;div id=&#34;why-do-we-replicate&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Why do we replicate?&lt;/h2&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Assess the validity of prior findings&lt;/li&gt;
-&lt;li&gt;probe the generality of those findings&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div id=&#34;levels-of-replication&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Levels of replication&lt;/h2&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Exact (also known as “direct”): highest fidelity to the original work. But in ecology, usually can only be ‘close’ replications.&lt;/li&gt;
-&lt;li&gt;Partial: there is a spectrum of partial replications, from close to limited. These have slight procedural differences.&lt;/li&gt;
-&lt;li&gt;Conceptual: uses distinctly different study designs to test the same hypotheses.&lt;/li&gt;
-&lt;li&gt;Quasi-replication (cross-species or system)&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div id=&#34;assessing-validity&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Assessing validity&lt;/h2&gt;
-&lt;/div&gt;
-&lt;div id=&#34;probing-generality&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Probing generality&lt;/h2&gt;
-&lt;p&gt;Conceptual replications: when results concur, we can define generality. If they conflict, we cannot draw robust inferences about &lt;em&gt;why&lt;/em&gt; this occurs.&lt;/p&gt;
-&lt;p&gt;The majority of large-scale meta-analyses&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;incentives-to-encourage-replication-in-ecology-and-evolution&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Incentives to encourage replication in ecology and evolution&lt;/h2&gt;
-&lt;/div&gt;
-</description>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/nakagawa-and-parker-2015/</guid>
+      <description>Why do we replicate? Assess the validity of prior findings probe the generality of those findings   Levels of replication Exact (also known as “direct”): highest fidelity to the original work. But in ecology, usually can only be ‘close’ replications. Partial: there is a spectrum of partial replications, from close to limited. These have slight procedural differences. Conceptual: uses distinctly different study designs to test the same hypotheses. Quasi-replication (cross-species or system)   Assessing validity  Probing generality Conceptual replications: when results concur, we can define generality.</description>
     </item>
     
     <item>
       <title>meeting april 12 2018</title>
-      <link>/post/meeting-april-12-2018/</link>
+      <link>/posts/meeting-april-12-2018/</link>
       <pubDate>Thu, 12 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/meeting-april-12-2018/</guid>
-      <description>&lt;p&gt;Planning the projects and the scope of the Phd (and the format for the thesis):&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Perfectly acceptable to have disparate projects / papers comprising the thesis, and bound together with a good introduction and conclusion.&lt;/li&gt;
-&lt;li&gt;Don’t have to choose between different projects.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Good to try and sit with that tension, and not having to resolve it by having a neat / tightly fitting narrative thesis.&lt;/p&gt;
-&lt;p&gt;Hannah: working on structured decision making tool with Libby. Would appreciate having guidance on how to avoid reproducibility issues / QRPs during the process.&lt;/p&gt;
-&lt;p&gt;Thursdays sit in with Fiona and Hannah.&lt;/p&gt;
-&lt;p&gt;Where to start to begin picking up momentum again: - just start at the easiest point…. Have done a lot of work on the systematic review plan, let’s start there.&lt;/p&gt;
-&lt;p&gt;Time for advisory committee meeting: - send email off…. week of the 28th of May.&lt;/p&gt;
-</description>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/meeting-april-12-2018/</guid>
+      <description>Planning the projects and the scope of the Phd (and the format for the thesis):
+ Perfectly acceptable to have disparate projects / papers comprising the thesis, and bound together with a good introduction and conclusion. Don’t have to choose between different projects.  Good to try and sit with that tension, and not having to resolve it by having a neat / tightly fitting narrative thesis.
+Hannah: working on structured decision making tool with Libby.</description>
+    </item>
+    
+    <item>
+      <title>About me and this electronic notebook</title>
+      <link>/about/</link>
+      <pubDate>Tue, 03 Apr 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/about/</guid>
+      <description>I am a PhD student at the Quantitative and Applied Ecology Group (QAECO) and Centre of Excellence for Biosecurity and Risk Analysis (CEBRA), University of Melbourne. This is my research notebook for all things related to my PhD.
+My research interests include:
+ Ecological modelling Structured Decision Making Plant ecology vegetation management reproducibility data science R  I&amp;rsquo;ve used the template from https://github.com/sirselim/electronic_lab_notebook to set up this electronic lab notebook using blogdown and the static site generator hugo.</description>
     </item>
     
     <item>
       <title>meeting</title>
-      <link>/post/meeting/</link>
+      <link>/posts/meeting/</link>
       <pubDate>Thu, 22 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/meeting/</guid>
-      <description>&lt;ol&gt;
-&lt;li&gt;Investigating appropriate systematic review methodologies&lt;/li&gt;
-&lt;li&gt;Developing a framework / list of non-NHST reproducibility issues (QRP&amp;rsquo;s and other sources of bias) for decision-support tools&lt;/li&gt;
-&lt;li&gt;&amp;ndash;&amp;gt; informing the coding criteria for systematic review&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Fiona link.l&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/meeting/</guid>
+      <description> Investigating appropriate systematic review methodologies Developing a framework / list of non-NHST reproducibility issues (QRP&amp;rsquo;s and other sources of bias) for decision-support tools &amp;ndash;&amp;gt; informing the coding criteria for systematic review    Fiona link.l  </description>
     </item>
     
     <item>
       <title>Fidler 2017 Metaresearch in ecology</title>
-      <link>/post/fidler-2017-metaresearch-in-ecology/</link>
+      <link>/posts/fidler-2017-metaresearch-in-ecology/</link>
       <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/fidler-2017-metaresearch-in-ecology/</guid>
-      <description>
-
-&lt;p&gt;&lt;strong&gt;Fidler, F., Chee, Y. E., Wintle, B. A., Burgman, M. A., McCarthy, M. A., Gordon, A. (2017) Metaresearch for Evaluating Reproducibility in Ecology and Evolution. BioScience doi: 10.1093/biosci/biw159.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Demonstrate that ecology and evolution as disciplines are at risk of a having low rates of reproducibility, aka a &amp;lsquo;reproducibility crisis&amp;rsquo; as others have termed it. The paper sets out to identify the different ways in which ecology is likely to have a reproducibility problem. &lt;em&gt;Likely&lt;/em&gt; rather than &lt;em&gt;does&lt;/em&gt; because there needs to be more research to quantify the extent of the reproducibility problem in ecology.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Publication bias&lt;/li&gt;
-&lt;li&gt;QRP&amp;rsquo;s&amp;hellip; confounded by a &amp;ldquo;publish or perish&amp;rdquo; culture.&lt;/li&gt;
-&lt;li&gt;Incomplete reporting of methods and analyses&lt;/li&gt;
-&lt;li&gt;Insufficient incentives to share materials, data and code (but this is changing, especially with the TOP guidelines).&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;The authors then call for four types of &amp;ldquo;metaresearch projects&amp;rdquo; in ecology and evolution that aim to take indicator measures of the likely reproducibility in ecology and evolution research.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;re-analysis projects&lt;/li&gt;
-&lt;li&gt;quantifying publication bias&lt;/li&gt;
-&lt;li&gt;measuring questionable research practices in ecology and evolution&lt;/li&gt;
-&lt;li&gt;assessing the completeness and transparency of methodological and statistical reporting in journals&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;I think that my systematic review should speak to this last category.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Page 7
-We propose extensive journal surveys: systematically recording statistical practices and methodology descriptions in published journal articles (substantially extending and updating Fidler et al. 2006) and also documenting the sharing and reusability of materials, codes, and data. Incomplete reporting is a barrier not only to direct replication and meta-analysis but also to direct re-analysis projects (in which no new data are collected but a published study’s data are subjected to independent statistical analysis following original protocols). Some aspects of statistical reporting accuracy can now be checked using automated procedures, such as statcheck (Nuijten et al. 2015). Such projects would help highlight the areas of journal’s statistical reporting policies that are most in need of attention.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&#34;parallel-offences-in-decision-support&#34;&gt;Parallel offences in decision support&lt;/h3&gt;
-
-&lt;p&gt;Although the paper is largely focused on reproducibility issues for hypothesis testing, in particular NHST, the authors note that there are other reproducibility issues to consider. For example:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Page 5
-Outside the domain of hypothesis testing (in either its Bayesian or Frequentist form), there are other types of reproducibility issues to consider. Conservation science, for example, can involve elements of decision theory, cost-effectiveness analysis, optimization, and scientific computing methods. Computational reproducibility (see box 1; Stodden 2015) of such research is equally crucial for detecting errors, testing software reliability, and verifying its fitness for reuse (Ince et al. 2012).&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I would add expert judgment to this list above.&lt;/p&gt;
-
-&lt;p&gt;So a task for me is to think ahout parallel offences in Decision Support frameworks. Non-NHST reproducibility issues need further treatment given the prevalence of non-NHST frameworks in conservation science / applied ecology toolboxes.&lt;/p&gt;
-</description>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/fidler-2017-metaresearch-in-ecology/</guid>
+      <description>Fidler, F., Chee, Y. E., Wintle, B. A., Burgman, M. A., McCarthy, M. A., Gordon, A. (2017) Metaresearch for Evaluating Reproducibility in Ecology and Evolution. BioScience doi: 10.1093/biosci/biw159.
+Demonstrate that ecology and evolution as disciplines are at risk of a having low rates of reproducibility, aka a &amp;lsquo;reproducibility crisis&amp;rsquo; as others have termed it. The paper sets out to identify the different ways in which ecology is likely to have a reproducibility problem.</description>
     </item>
     
     <item>
       <title>bioinformatics workshop dockerisation</title>
-      <link>/post/bioinformatics-workshop-dockerisation/</link>
+      <link>/posts/bioinformatics-workshop-dockerisation/</link>
       <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/bioinformatics-workshop-dockerisation/</guid>
-      <description>
-
-&lt;p&gt;Slides are here: &lt;a href=&#34;http://melbournebioinformatics.github.io/MelBioInf_docs/tutorials/docker/media/index.html#47&#34; target=&#34;_blank&#34;&gt;http://melbournebioinformatics.github.io/MelBioInf_docs/tutorials/docker/media/index.html#47&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Docker: libraries and operating system included as well (as application).
-ALl dependencies distributed. AND docker containers are cross-platform. == Portable.
-Distributable: can store images on the docker cloud.&lt;/p&gt;
-
-&lt;p&gt;Docker containers can&amp;rsquo;t access host-system&amp;rsquo;s files (good for security), but limits some use-cases (especially where command line utilities used).&lt;/p&gt;
-
-&lt;p&gt;Docker containers are very lightweight (no overhead like what virtual machines have). Docker can share libraries&amp;hellip; so if have 3 containers running ubuntu, they all share this code, whereas VM&amp;rsquo;s have to have 3 versions, one for each instance.&lt;/p&gt;
-
-&lt;p&gt;What is the differnce between images and containers?
-docker image &amp;ndash;&amp;gt; container.
-akin to: class &amp;ndash;&amp;gt; object.&lt;/p&gt;
-
-&lt;h1 id=&#34;running-docker-containers&#34;&gt;Running docker containers&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;Run a container&lt;/strong&gt;
-&lt;code&gt;docker run &amp;lt;image&amp;gt;&lt;/code&gt; main command you&amp;rsquo;ll be using in docker.&lt;/p&gt;
-
-&lt;p&gt;**Finding iages: **
-&lt;code&gt;docker images&lt;/code&gt; lists all the local images&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;A note on flags:&lt;/em&gt;
-Flags coming before the iamge name act on the container, those coming after the image name act on the image.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Port mapping:&lt;/strong&gt;
-If you want to use a web-app inside a container, then you need to map the ports inside the host to the ports inside docker &amp;ndash; docker doesn&amp;rsquo;t have automatic access to any ports on the host.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;-p 80:8080&lt;/code&gt; Before the colon, is the host port (e.g. on your computer, or in this case the instance which we&amp;rsquo;ve ssh&amp;rsquo;d into), after the colon is the port inside the container.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;docker processes:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;docker ps&lt;/code&gt; ps as in processes. This lists the containers currently running and the ports on the host and on the container where they are listening in on each other.&lt;/p&gt;
-
-&lt;p&gt;Note to kill any process in the foreground shell you can hit &lt;code&gt;ctrl+c&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;docker ps -a&lt;/code&gt; will show you terminated containers.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Running in &amp;lsquo;detached&amp;rsquo; mode&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;use the &lt;code&gt;-d&lt;/code&gt; flag as an argument to &lt;code&gt;run&lt;/code&gt; to let the process run in the background, this gives you access to the shell. If you need to kill a docker process running in detached mode you run the following:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;docker stop &amp;lt;process ID&amp;gt;&lt;/code&gt;, which you can obtain from the command &lt;code&gt;docker ps&lt;/code&gt; (you don&amp;rsquo;t have to use the full ID generated when you&amp;rsquo;ve run the image).&lt;/p&gt;
-
-&lt;h2 id=&#34;giving-docker-containers-access-to-files&#34;&gt;Giving docker containers access to files&lt;/h2&gt;
-
-&lt;p&gt;Two main methods, one using binding, and two using volumes.
-You might like to do this if you need to save output on a host system (because when you kill a container, any outputs inside the container are also lost). You also might like to give it data to process.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Volume&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Create filespaceon the host, that the host doesn&amp;rsquo;t have access to, that only the image can access.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Binding&lt;/strong&gt;
-If you want access, via the host, then you should use a bind mount.
-Note that bind mounts only accept absolute filepaths (i.e. starts with a slash), not relative filepaths.&lt;/p&gt;
-
-&lt;p&gt;Note that you can only run &lt;code&gt;-v&lt;/code&gt; when you are creating a container. You can&amp;rsquo;t run it on an already running container&amp;hellip;&lt;/p&gt;
-
-&lt;h2 id=&#34;running-commands-on-already-running-containers&#34;&gt;Running commands on already running containers&lt;/h2&gt;
-
-&lt;p&gt;&lt;code&gt;Exec&lt;/code&gt; command, runs a command inside a container, once it&amp;rsquo;s running.
-&lt;code&gt;docker exec &amp;lt;CONTAINER ID&amp;gt; &amp;lt;COMMAND&amp;gt;&lt;/code&gt;
-e.g. &lt;code&gt;docker exec bd2ac6cce96f ls&lt;/code&gt;
-&lt;code&gt;docker exec -it bd2ac6cce96f bash&lt;/code&gt; run interactive bash sessions inside a container &amp;ndash; allows you to run a container interactiveyl!!&lt;/p&gt;
-
-&lt;h1 id=&#34;building-your-own-images&#34;&gt;Building your own images&lt;/h1&gt;
-
-&lt;p&gt;You build an image with a docker file. A bit like a shell script or a yaml file.&lt;/p&gt;
-
-&lt;p&gt;The main commands inside a docker file are:
-&lt;code&gt;FROM&lt;/code&gt;: Start with Ubuntu, Galaxy, any image&amp;hellip; can be anything. Your image inherits form them. Can find an image close to what you want, and then alter it with a few commands to get what you want.
-&lt;code&gt;RUN&lt;/code&gt;: Executes any shell command.
-&lt;code&gt;COPY&lt;/code&gt;: Copies some files from host to image. Very important because otherwise is just the basic downloaded image. You want your files form your repo in there for example.
-&lt;code&gt;ENTRYPOINT&lt;/code&gt;: executable file that is run when you start a docker image
-&lt;code&gt;WORKDIR&lt;/code&gt;: Sets the working directory, a lot like &lt;code&gt;cd&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;A note on building images:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Docker saves the state of the image after each line&amp;hellip; SO this helps when building your image, identifying WHERE things are going wrong. This is good, so that if your docker image doesn&amp;rsquo;t build due to some error, you don&amp;rsquo;t have to start building the image from scratch all over again - saves time.&lt;/p&gt;
-
-&lt;p&gt;Note that you have to MOVE INTO the directory where you&amp;rsquo;ve downloaded freebayes
-then you have to think about installing&amp;hellip;
-Github file says use sudo&amp;hellip; but we don&amp;rsquo;t have to because Docker runs by root, with admin priveleges.
-you have to run make&lt;/p&gt;
-
-&lt;p&gt;Once you&amp;rsquo;ve made the dockerfile, you have to create the image, using &lt;code&gt;docker run&lt;/code&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;security-hpc&#34;&gt;Security &amp;amp; HPC&lt;/h1&gt;
-
-&lt;p&gt;Don&amp;rsquo;t give people docker access if you don&amp;rsquo;t want the user to access all the files on the system (there are exploits to allow this).&lt;/p&gt;
-
-&lt;p&gt;There are alternatives to docker, e.g. &lt;a href=&#34;http://singularity.lbl.gov/&#34; target=&#34;_blank&#34;&gt;Singularity&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/bioinformatics-workshop-dockerisation/</guid>
+      <description>Slides are here: http://melbournebioinformatics.github.io/MelBioInf_docs/tutorials/docker/media/index.html#47
+Docker: libraries and operating system included as well (as application). ALl dependencies distributed. AND docker containers are cross-platform. == Portable. Distributable: can store images on the docker cloud.
+Docker containers can&amp;rsquo;t access host-system&amp;rsquo;s files (good for security), but limits some use-cases (especially where command line utilities used).
+Docker containers are very lightweight (no overhead like what virtual machines have). Docker can share libraries&amp;hellip; so if have 3 containers running ubuntu, they all share this code, whereas VM&amp;rsquo;s have to have 3 versions, one for each instance.</description>
     </item>
     
     <item>
       <title>reproducibility for decision support tools</title>
-      <link>/post/reproducibility-for-decision-support-tools/</link>
+      <link>/posts/reproducibility-for-decision-support-tools/</link>
       <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/reproducibility-for-decision-support-tools/</guid>
-      <description>
-
-&lt;p&gt;I&amp;rsquo;ve set aside this document for developing a parallel framework of reproducibility issues not just outside of NHST, but particular to Decision Support Tools in ecology and conservation.&lt;/p&gt;
-
-&lt;p&gt;WHY? Because the majority of work addressing reproducibility in and outside of ecology has focused on hypothesis testing (NHST, predominantly).
-And non-NHST methods are important tools in the Decision Support toolbox for conservation science and applied ecology.&lt;/p&gt;
-
-&lt;p&gt;From this, I hope to:
-a) develop the coding criteria for the systematic review
-b) propose some sort of gold-standard protocol for developing reproducible decision support tools&lt;/p&gt;
-
-&lt;h2 id=&#34;questionable-research-practices&#34;&gt;Questionable Research Practices&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;P-hacking / Cherry-picking&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Is there some a priori preferred decision, perhaps the stakeholder or even the analyst prefers? What happens if the tool doesn&amp;rsquo;t support this? Is the tool &amp;ldquo;hacked&amp;rdquo; until it does support the preferred decision?
-Are there particular modelling approaches or tools that are more or less immune to this type of hacking?&lt;/p&gt;
-
-&lt;h2 id=&#34;decision-tool-frameworks&#34;&gt;Decision Tool Frameworks&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;distinguishing decision from process modelling&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Is the process of making the decision given focus, its own process for implementing, or is it just taken as a given? I.e. is the process distinguished from the predicting of impacts of alternative actions / policy scenarios?&lt;/p&gt;
-
-&lt;p&gt;Many tools, particularly in conservation prioritisation problems, present the results of some process model / oprojection analyses, but without detailing how the choice between alternative actions / scenarios should occur. I think this is problematic, because, at this point, values and risk-attitudes of the decision-maker can influence the chosen alternative.&lt;/p&gt;
-
-&lt;p&gt;** decision-maker / stakeholder values and risk-attitudes**&lt;/p&gt;
-
-&lt;p&gt;Thus, another criterion might be, are values / risk attitudes given attention in the absence of some technical method for deciding between alternatives? (and even then, what values / preferences are embedded into the &amp;lsquo;objective&amp;rsquo; tool&amp;hellip;?).&lt;/p&gt;
-
-&lt;h1 id=&#34;references&#34;&gt;References:&lt;/h1&gt;
-
-&lt;p&gt;Fidler, F., Chee, Y. E., Wintle, B. A., Burgman, M. A., McCarthy, M. A., Gordon, A. (2017) Metaresearch for Evaluating Reproducibility in Ecology and Evolution. BioScience doi: 10.1093/biosci/biw159.&lt;/p&gt;
-</description>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/reproducibility-for-decision-support-tools/</guid>
+      <description>I&amp;rsquo;ve set aside this document for developing a parallel framework of reproducibility issues not just outside of NHST, but particular to Decision Support Tools in ecology and conservation.
+WHY? Because the majority of work addressing reproducibility in and outside of ecology has focused on hypothesis testing (NHST, predominantly). And non-NHST methods are important tools in the Decision Support toolbox for conservation science and applied ecology.
+From this, I hope to: a) develop the coding criteria for the systematic review b) propose some sort of gold-standard protocol for developing reproducible decision support tools</description>
     </item>
     
     <item>
       <title>meeting 15 March 2018</title>
-      <link>/post/meeting-15-march-2018/</link>
+      <link>/posts/meeting-15-march-2018/</link>
       <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/meeting-15-march-2018/</guid>
-      <description>
-
-&lt;p&gt;Libby, Hannah present.&lt;/p&gt;
-
-&lt;h1 id=&#34;exploring-systematic-review-methods&#34;&gt;Exploring systematic review methods&lt;/h1&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Add my notes from CJ meeting here.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Also see: BES - will be discussed in coding club / reading club.
-SER (Society of ecological restoration) -&amp;gt; Australian Chapter, SERA.
-Other disciplines where science / evidence is used in making decision s(Ecotoxicology / Biosecurity).&lt;/p&gt;
-
-&lt;p&gt;Authors who have worked on systematic reviews in ecology (@TODO):
-- Catherine Pickering
-- Robin Hale
-- W J Sutherland&lt;/p&gt;
-
-&lt;h1 id=&#34;developing-questions-for-the-review-and-the-thesis&#34;&gt;Developing Questions for the review, and the thesis&lt;/h1&gt;
-
-&lt;p&gt;Seeing 3 areas of focus emerging:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;What constitutes reproducibility&amp;hellip; for this context, how do we evaluate it?&lt;/li&gt;
-&lt;li&gt;Reporting standards / transparency, especially around particular decision points. Libby: Is it just on the model dev phase you would look at, or other steps, such as conceptual model dev?&lt;/li&gt;
-&lt;li&gt;Incorporation and synthesis of evidence in DST development, and the issue of modeller&amp;rsquo;s choice (i.e. in the absence of available / appropriate evidence, modeller&amp;rsquo;s often use themselves as experts, choosing a particular probability distribution for a given variable, for example). Libby notes that this is a subset of point 2, above, that these choices need to be documented in a transparent fashion.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;There is arguably a question around how to do this &amp;lsquo;reproducibly&amp;rsquo;&amp;hellip; how do we set standards for incorporating evidence into decision-tools.&lt;/p&gt;
-
-&lt;p&gt;What types of systematic bias emerge because of the state of the evidence base? Issues that come to mind
-How do these forms of systematic feed into reproducibility or lack thereof of DST&amp;rsquo;s?&lt;/p&gt;
-
-&lt;p&gt;Multiple levels..&lt;/p&gt;
-
-&lt;h1 id=&#34;possible-experiments&#34;&gt;Possible Experiments&lt;/h1&gt;
-
-&lt;p&gt;CJ approached Libby and Elise for advice / potential collaborations on demonstrating the benefit of environmental water allocations across Victoria.
-At this point the project is loosely defined, with lots of scope to work on something of mutual benefit to CJ and Elise. Also the opportunity for funding / resources. Because there are multiple river systems, this presents the opoortunity for some sort of reproducibility / replication experiment.&lt;/p&gt;
-
-&lt;p&gt;Give a problem brief, with 2 - 3 objectives, to a group of researchers (~5) and ask that they develop a decision support tool. Choose which ever approach / method they like.
-Give a survey afterwards, asking them to describe what they did and why. If they can&amp;rsquo;t remember then it&amp;rsquo;s probably not replicable / reproducible.
-Alternatively, ask them to write up the methods section hand over at the end.
-How to entice?
-- Authorship
-- paid - there are funds availble.
-Who? Target differnt modellers / people taking different approach to decision support / analysis
-- Anca, Tom, Mick&amp;hellip;.
-- Less &amp;ldquo;tech heavy&amp;rdquo;, people taking other approaches, Terry Walshe? CEED, UQ folk working on environmental decisions
-How - to implement?
-Chris to be present in the room, can consult with Chris at any point (Record, does this represent a decision point)
-How - to evaluate? How would this also benefit Chris?
-It would be a sort of sensitivity analysis, tell him about the robustness of different models, but also proceses. Can show that the decision is reasonably robust to different processes / tools.&lt;/p&gt;
-
-&lt;h1 id=&#34;elise-s-todo-s-for-next-week&#34;&gt;Elise&amp;rsquo;s Todo&amp;rsquo;s for next week:&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Start thinking about the structure of the review - what questions would you ask?&lt;/li&gt;
-&lt;li&gt;What questions do you want to ask in the thesis?&lt;/li&gt;
-&lt;li&gt;3 month review - set up a doodle poll to set up meeting. JUST GET IT DONE, Elise!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/meeting-15-march-2018/</guid>
+      <description>Libby, Hannah present.
+Exploring systematic review methods Add my notes from CJ meeting here.
+Also see: BES - will be discussed in coding club / reading club. SER (Society of ecological restoration) -&amp;gt; Australian Chapter, SERA. Other disciplines where science / evidence is used in making decision s(Ecotoxicology / Biosecurity).
+Authors who have worked on systematic reviews in ecology (@TODO): - Catherine Pickering - Robin Hale - W J Sutherland</description>
     </item>
     
     <item>
       <title>reading club reproducibility</title>
-      <link>/post/reading-club-reproducibility/</link>
+      <link>/posts/reading-club-reproducibility/</link>
       <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/reading-club-reproducibility/</guid>
-      <description>
-
-&lt;p&gt;BES Reproducibility guidelines.&lt;/p&gt;
-
-&lt;p&gt;Good for YOU, and for reproducibility.&lt;/p&gt;
-
-&lt;p&gt;Uptake in education: Fiona new reproducibility subject at the University.&lt;/p&gt;
-
-&lt;h1 id=&#34;setting-up-a-project-programming&#34;&gt;Setting up a project / programming&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Archive old papers + code: local folder (Nick)&lt;/li&gt;
-&lt;li&gt;RANDOM SEED&amp;hellip; forgetting to set. Compounded by long run-times and large file-sizes.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Accessibility&amp;hellip; Barriers to startign work on reproducibility, but also, what are the bare minimum standards&amp;hellip;
--&amp;gt; Little changes each new time.&lt;/p&gt;
-
-&lt;p&gt;Statistical abstinence vs. safe statistics (avoid stats, and take to experts, OR tools to make safer). We are expected to wear lots of hats, good coding, good stats, field skills.&lt;/p&gt;
-
-&lt;h1 id=&#34;version-control&#34;&gt;Version Control&lt;/h1&gt;
-
-&lt;p&gt;Git - main purpose is NOT reproducibility. It&amp;rsquo;s main purpose is for collaborative development of operating system code.
-Not designed to be user-friendly for our purpose. Is genuineliy intimidating.&lt;/p&gt;
-
-&lt;p&gt;Combining git and dropbox. If you accidentally delete stuff without committing you&amp;rsquo;ve got another layer of dropbox.&lt;/p&gt;
-
-&lt;p&gt;COST of reproducibility - grand-writing, do you budget / account for time in implementing reproducibility. UK model: designated resources (people eg. software engineer). Known to everyone because is affiliated through an overseeing council.&lt;/p&gt;
-
-&lt;p&gt;Saves you time later!!! &amp;ldquo;technical debt&amp;rdquo;, programming term. Investing time now saves heartache later.&lt;/p&gt;
-
-&lt;p&gt;Other things not given time, but to be considered:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Reproducible reports&lt;/li&gt;
-&lt;li&gt;Debugging / defensive coding&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/reading-club-reproducibility/</guid>
+      <description>BES Reproducibility guidelines.
+Good for YOU, and for reproducibility.
+Uptake in education: Fiona new reproducibility subject at the University.
+Setting up a project / programming  Archive old papers + code: local folder (Nick) RANDOM SEED&amp;hellip; forgetting to set. Compounded by long run-times and large file-sizes.  Accessibility&amp;hellip; Barriers to startign work on reproducibility, but also, what are the bare minimum standards&amp;hellip; -&amp;gt; Little changes each new time.
+Statistical abstinence vs.</description>
     </item>
     
     <item>
       <title>systematic review methodologies for conservation and ecology</title>
-      <link>/post/systematic-review-methodologies-for-conservation-and-ecology/</link>
+      <link>/posts/systematic-review-methodologies-for-conservation-and-ecology/</link>
       <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/systematic-review-methodologies-for-conservation-and-ecology/</guid>
-      <description>
-
-&lt;h2 id=&#34;systematic-review-methods&#34;&gt;Systematic Review Methods&lt;/h2&gt;
-
-&lt;p&gt;Nakagawa and Poulin [-@Nakagawa:2012fl] recommend following the PRISMA statement, at least for meta-analyses in ecology and evolution.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;PRISMA&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Checklist here: &lt;a href=&#34;http://www.prisma-statement.org/documents/PRISMA%202009%20checklist.pdf&#34; target=&#34;_blank&#34;&gt;http://www.prisma-statement.org/documents/PRISMA%202009%20checklist.pdf&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Cochrane Review&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Manual broken down into two phases of the review:
-1. Developing Protocol of the review
-2. Conducting Review&lt;/p&gt;
-
-&lt;p&gt;Writing review protocol
-- Formulating review questions, predefining objectives.
-- Medicine focused, emphasis on reporting adverse effects, on consumer needs
-- Choosing &amp;lsquo;outcomes&amp;rsquo;of interest (Mandatory). Assessing risk of bias of studies included in the review. This is for randomized studies.
-What would this look like for DST&amp;rsquo;s? Lack of overarching decision process framework?
-- Assessing statistical heterogeneity (Mandatory) - again how to apply to the results of DST&amp;rsquo;s?&lt;/p&gt;
-
-&lt;p&gt;I don&amp;rsquo;t think this is going to be appropriate for my review. Might be okay if you&amp;rsquo;re reviewing ecological studies focusing on the dynamics / understanding of some ecosystem. But not so useful for applied ecological work.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Campbell Systemtaic Review&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;examples-of-systematic-reviews-of-decision-support-tools&#34;&gt;Examples of Systematic Reviews of Decision Support Tools&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;PULLIN, A. S., STEWART, G. B. (2006) Guidelines for Systematic Review in Conservation and Environmental Management. Conservation Biology. 20, 1647–1656.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Present a summary of newly developed guidelines for use specifically in systematic review and dissemination in conservation and environmental management. &lt;a href=&#34;www.cebc.bham.ac.uk&#34; target=&#34;_blank&#34;&gt;www.cebc.bham.ac.uk&lt;/a&gt;. Based their guidel,ines on existing models (e.g. Corhane reviews), tested them and modified them for use in this context. Divide the review process into three phases:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Question Formulation&lt;/li&gt;
-&lt;li&gt;Conducting the Review&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Reporting and Dissemination of results&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Question formulation
-Emphasis on developing practice / policy relevant question, and advocate for consultation with decision-makers / stakeholders. Think this is less relevant to me, because we&amp;rsquo;re not looking at a single decision problem? E.g. Effectiveness of Rhododendron control methodologies in Europe.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Break the question down into sub-elements:
-a. Subject: unit of study (ecosystem, habitat, species)
-b. Intervention: proposed management regime, policy, action.
-c. outcome: e.g. proposed objectives of the management intervention, and their performance measures.
-d. comparator: comparing intervention with no intervention, or are alternative interventions being compared&lt;/p&gt;
-
-&lt;p&gt;Developing the protocol:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Develop a document that guides the review. Make available for scrutiny and comment at an early stage&lt;/li&gt;
-&lt;li&gt;Search strategy - constructed from search terms extracted from the subject, intervention and outcome elements of the question.
-Some good guidance here, need high-sensitivity at the expense of specificity in searches, because &amp;ldquo;ecology lacks mesh-heading indexes and integrated databases&amp;rdquo; such as those in medicine and public health. (Why ecology should start working towards semantic / annotated informatics!!).&lt;/li&gt;
-&lt;li&gt;Will therefore typically see large numbers of references rejected in ecology.&lt;/li&gt;
-&lt;li&gt;ensure strategy is documented such that it is repeatable and transparent, ensuring the validity can be judged by readers.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Conducting the review&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;a. searching&lt;/p&gt;
-
-&lt;p&gt;WIDE net. Want to minimise publication bias, therefore include published and unpublished data. HOW? Hand-searching!! of specific sources. Local databases with a regional focus. MUST ensure the repeatability of search methods, however.&lt;/p&gt;
-
-&lt;p&gt;b. selecting relevant data&lt;/p&gt;
-
-&lt;p&gt;Conservative approach: &amp;ldquo;retain data if there is reasonable doubt over its relevance&amp;rdquo;&amp;rdquo;&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;examine title first&lt;/li&gt;
-&lt;li&gt;title and abstract (employing second reviewer, on a random sub-sample, ensuring decisions are comparable &amp;ldquo;by performing a kappa analysis, which adjusts the proportion of records for which there was agreement by the amount of agreement expected by chance alone. If comparability not achieved, then the criteria should be further developed and the process repeated&amp;rdquo;).&lt;/li&gt;
-&lt;li&gt;Remaining articles to be viewed in full to determine whether they contain relevant and usable data. Record whether full-text able to be obtained or not. Repeat the independent checking of a subsample by kappa analysis. Make short lists of articles and data sets available for stakeholders and subject experts. They should be invited to identify relevant data sources they believe are missing from the list.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;c. assessing quality&lt;/p&gt;
-
-&lt;p&gt;What level of confidence should be placed in datasets? Aim to reduce systematic errors or bias.Used &amp;ldquo;quality hierarchy&amp;rdquo; / &amp;ldquo;hierarchy of methodology&amp;rdquo;. Involves assessing four sources of systematic bias: 1, selection bias, 2, performance bias, 3 detection bias, 4, attrition bias. But how do these apply to decision support tools?&lt;/p&gt;
-
-&lt;p&gt;d. data extraction&lt;/p&gt;
-
-&lt;p&gt;Narrative synthesis
-Tables of study / population characteristics, data quality, relevant outcomes (all defined a priori).&lt;/p&gt;
-
-&lt;p&gt;quantitative analysis
-Extracting variables&amp;hellip; Well what variables would I extract??&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Reporting and dissemination&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;A number of systematic reviews exist in the Medicine literature, investigating decision support tools in a clinical / surgical context.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;[@Witteman2015] Witteman, H. O., Dansokho, S. C., Colquhoun, H., Coulter, A., Dugas, M., Fagerlin, A., Giguere, A. M., Glouberman, S., Haslett, L., Hoffman, A., Ivers, N., Légaré, F., Légaré, J., Levin, C., Lopez, K., Montori, V. M., Provencher, T., Renaud, J.-S., Sparling, K., Stacey, D., et al. (2015) User-centered design and the development of patient decision aids: protocol for a systematic review. Syst Rev. 4, 11.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;I think this is some pre-registration paper describing their planned review. They developed their own protocol for a systematic review on development of patient decision aids, specifically they were looking for empirical evidence for including patients in developing the tools. Used a combination of Cochrane Handbook guidelines, and followed the PRISMA methods for reporting.
-Developed their research questions and data extraction plan by turning to the user-centred design conceptual framework.&lt;/p&gt;
-
-&lt;p&gt;Inclusion / Exclusion Criteria:
-Clustered their articles into three groups.
-1. articles describing development of a DT in this context
-2. articles explicitly describing the user/human-centred approach (this is arguably akin to my question about DT&amp;rsquo;s developed within an overarching DS framework)
-3. Articles describing evaluation of a tool - which development practices are associated with better outcomes.&lt;/p&gt;
-
-&lt;p&gt;Assessing the quality of each article: followed mixed-methods review guidlines.&lt;/p&gt;
-
-&lt;p&gt;Evidence synthesis and analysis:
-question 1: descriptive statistics, i.e. frequency of use of different practice used in development
-question 2: as above but for those articles focusing on user-centred design
-question 3: Used some descriptive statistics, but also tried to develop their own measures of &amp;ldquo;better outcomes&amp;rdquo;.&lt;/p&gt;
-
-&lt;h1 id=&#34;references&#34;&gt;References&lt;/h1&gt;
-</description>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/systematic-review-methodologies-for-conservation-and-ecology/</guid>
+      <description>Systematic Review Methods Nakagawa and Poulin [-@Nakagawa:2012fl] recommend following the PRISMA statement, at least for meta-analyses in ecology and evolution.
+PRISMA
+Checklist here: http://www.prisma-statement.org/documents/PRISMA%202009%20checklist.pdf
+Cochrane Review
+Manual broken down into two phases of the review: 1. Developing Protocol of the review 2. Conducting Review
+Writing review protocol - Formulating review questions, predefining objectives. - Medicine focused, emphasis on reporting adverse effects, on consumer needs - Choosing &amp;lsquo;outcomes&amp;rsquo;of interest (Mandatory). Assessing risk of bias of studies included in the review.</description>
     </item>
     
     <item>
       <title>French 2012 meta-analysis for expert judgment</title>
-      <link>/post/french-2012-meta-analysis-for-expert-judgment/</link>
+      <link>/posts/french-2012-meta-analysis-for-expert-judgment/</link>
       <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/french-2012-meta-analysis-for-expert-judgment/</guid>
-      <description>
-
-&lt;p&gt;&lt;strong&gt;French, S. (2012) Expert Judgment, Meta-analysis, and Participatory Risk Analysis. Decision Analysis. 9, 119–127.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;problem-background-and-paper-goals&#34;&gt;Problem / background and paper goals&lt;/h1&gt;
-
-&lt;h4 id=&#34;page-2-highlights-french-20s-202012-20expert-20judgment-20meta-analysis-20participatory-20risk-20analysis-page-2&#34;&gt;&lt;a href=&#34;highlights://French%20S%202012%20Expert%20Judgment,%20Meta-analysis,%20Participatory%20Risk%20Analysis#page=2&#34; target=&#34;_blank&#34;&gt;Page 2&lt;/a&gt;&lt;/h4&gt;
-
-&lt;p&gt;[@French:2012di] describes three types of expert elicitation problems. The third forms the focus of the paper:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;The expert problem: where the decision-maker does not have the domain knowledge and elicits judgments from a group of experts.&lt;/li&gt;
-&lt;li&gt;The group decision problem: where the expert group itself is jointly responseible for the decision.&lt;/li&gt;
-&lt;li&gt;The textbook problem: give judgments for others to use in the future, for as yet undefined circumstances, without the focus of a specific-decision problem. In this instance, the issue is not just that there is no decisio-context, but that the judgments will be used for other, as yet undefined decision-contexts.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;The group is simply required to give their judgments for
-others to use in future, as yet undefined circumstances. Thus, the emphasis here
-is on reporting their judgments in a manner that offers the greatest potential
-for future use.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;At present, there is no agreed robust methodology for the text-book solution. French explores the following two themes in the paper:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;code&gt;the need to report expert studies in a “scientific” manner,&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;the technical issues faced by metaanalyses specifically designed to draw together previously published expert studies&lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;There are established methodologies for meta-analyses, but these focus on drawing out inferences from several publisehd empirical studies. There are no established methodologies for meta-analyses of expert judgment before this review.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;these meta-analytic techniques for expert
-studies should differ considerably from those developed for combining empirical
-studies, because expert judgment data and empirical data have very different
-qualities.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&#34;page-3-highlights-french-20s-202012-20expert-20judgment-20meta-analysis-20participatory-20risk-20analysis-page-3&#34;&gt;&lt;a href=&#34;highlights://French%20S%202012%20Expert%20Judgment,%20Meta-analysis,%20Participatory%20Risk%20Analysis#page=3&#34; target=&#34;_blank&#34;&gt;Page 3&lt;/a&gt;&lt;/h4&gt;
-
-&lt;p&gt;An important element of the text-book problem to consider, is that:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Reports and expert judgments from studies for earlier decisions may be reused in
-later analyses to support a different decision, a factor that may confound some
-of the issues in dealing with the expert and group decision problems with those
-relating to the textbook problem.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I think this is a pretty common feature of decision-support tools, also. We use, either empirical data, or expert judgmetns from earlier decisions, or even other studies to support a different decision. Is there an inherent problem with this?&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;existing-standards-methodologies-for-reporting-expert-judgments&#34;&gt;Existing standards / methodologies for reporting expert judgments&lt;/h1&gt;
-
-&lt;p&gt;At the time of the review, the below standards are &lt;code&gt;the only significant guidance on how this might be done.&lt;/code&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;• Scrutability/accountability. All data, including experts’ names and
-assessments, and all processing tools should be open to peer review, and results
-must be reproducible by competent reviewers.
-• Empirical control. Quantitative expert assessments should be subject to empirical quality controls.
-• Neutrality. The method for combining and evaluating expert opinion should
-encourage experts to state their true opinions and must not bias results. •
-Fairness. Experts should not be prejudged prior to processing the results of
-their assessments.&lt;/p&gt;
-
-&lt;p&gt;In contrast, the research community and scientific journals have developed and
-enforced a wide range of principles to govern the peer review, publication, and
-use of empirical studies, alongside which has grown a recognition of the
-importance of evidence-based decision making (Pfeffer and Sutton 2006, Shemilt
-et al. 2010).
-The latter developments began within medicine, but the imperatives of basing
-decisions on evidence are now changing thinking in many domains.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;methodologies-of-meta-analysis-for-expert-judgment&#34;&gt;Methodologies of meta-analysis for expert judgment&lt;/h1&gt;
-
-&lt;p&gt;Methodologies of meta-analysis are established for drawing out inferences from multiple empirical studies. However, methods for expert judgment data are not yet considered.&lt;/p&gt;
-
-&lt;p&gt;French discusses that argument that evidence-based decision making should draw on supposedly &amp;ldquo;objective&amp;rdquo;, i.e. empirical data. Although for some, expert opinion on its own is not considered a reliable source of evidence, yet, the concurrence of experts is a &amp;ldquo;recognised form of model validation&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;Moreover, &lt;code&gt;expert input is common in model selection and in providing parameter values&lt;/code&gt;, in economic decision models, at least. See Cooper et al. (2007). This is an important consideration for our context - exactly where in the decision model development process does expert judgment &amp;lsquo;creep&amp;rsquo; in?&lt;/p&gt;
-
-&lt;h4 id=&#34;page-4-highlights-french-20s-202012-20expert-20judgment-20meta-analysis-20participatory-20risk-20analysis-page-4&#34;&gt;&lt;a href=&#34;highlights://French%20S%202012%20Expert%20Judgment,%20Meta-analysis,%20Participatory%20Risk%20Analysis#page=4&#34; target=&#34;_blank&#34;&gt;Page 4&lt;/a&gt;&lt;/h4&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Following my Bayesian leanings, I would argue that expert judgment should inform
-a meta-analysis providing that the relative quality of the expert input to that
-of empirical data is appropriately assessed. And
-therein lays the rub: How do we assess that relative quality? We need
-meta-analytic techniques that draw together both empirical and expert judgmental
-data.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;However, French argues that given the differences between meta-analyses for expert judgment and empirical studies (Table 1), &lt;code&gt;almost all of the meta-analytic techniques for empirical data&lt;/code&gt; are of &lt;code&gt;questionable value for expert judgment data&lt;/code&gt;. Mostly because of the correllation between experts (Table 1). Excepting forest plots, and Excalibr software used during expert elicitation.&lt;/p&gt;
-
-&lt;h4 id=&#34;page-5-highlights-french-20s-202012-20expert-20judgment-20meta-analysis-20participatory-20risk-20analysis-page-5&#34;&gt;&lt;a href=&#34;highlights://French%20S%202012%20Expert%20Judgment,%20Meta-analysis,%20Participatory%20Risk%20Analysis#page=5&#34; target=&#34;_blank&#34;&gt;Page 5&lt;/a&gt;&lt;/h4&gt;
-
-&lt;p&gt;On questioning the notion that expert evidence is not &amp;ldquo;objective&amp;rdquo;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;We have discussed expert judgment studies as if they are based solely on expert
-judgment. This is not always the case. In some cases, experts consult their
-computer models or do some back of the envelope calculations before giving an
-opinion. Either way, their probability statements may be the complex result of
-combining their personal opinions about parameters, the validity of models, and
-modeling error.
-Moreover, the models are a complex expression of the experts’ selection of human
-knowledge.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;What is expert knowledge? A complex synthesis of different sources of knowledge.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;case-studies&#34;&gt;Case studies:&lt;/h2&gt;
-
-&lt;p&gt;Issues when performing expert judgment elicitaiton in the textbook problem:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;lack of provenance for probability estimates &lt;a href=&#34;highlights://French%20S%202012%20Expert%20Judgment,%20Meta-analysis,%20Participatory%20Risk%20Analysis#page=6&#34; target=&#34;_blank&#34;&gt;Page 6&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&#34;page-7-highlights-french-20s-202012-20expert-20judgment-20meta-analysis-20participatory-20risk-20analysis-page-7&#34;&gt;&lt;a href=&#34;highlights://French%20S%202012%20Expert%20Judgment,%20Meta-analysis,%20Participatory%20Risk%20Analysis#page=7&#34; target=&#34;_blank&#34;&gt;Page 7&lt;/a&gt;&lt;/h4&gt;
-
-&lt;p&gt;All subpanels of the IPCC have standards for their reporting, involving:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;uncertainty modelling&lt;/li&gt;
-&lt;li&gt;elicitation&lt;/li&gt;
-&lt;li&gt;communication&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;However:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;The guidance material is, however, almost entirely silent on aggregating expert
-judgments per se. Aggregation is achieved via ensembles (mixtures) of models.&lt;/p&gt;
-
-&lt;p&gt;Expert judgment may be used to provide probability distributions encoding
-uncertainties in each model, and then models that predict the same quantities
-are drawn into ensembles, which in this context may be viewed as an approach to
-metaanalysis.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Could you describe a decision tool as a form of meta-analysis then?&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;future-direction-for-reporting-and-meta-analyses-of-expert-judgments&#34;&gt;Future Direction for reporting and meta-analyses of expert judgments:&lt;/h1&gt;
-
-&lt;h4 id=&#34;page-8-highlights-french-20s-202012-20expert-20judgment-20meta-analysis-20participatory-20risk-20analysis-page-8&#34;&gt;&lt;a href=&#34;highlights://French%20S%202012%20Expert%20Judgment,%20Meta-analysis,%20Participatory%20Risk%20Analysis#page=8&#34; target=&#34;_blank&#34;&gt;Page 8&lt;/a&gt;&lt;/h4&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Indeed, I might argue that the absence of any serious debate about the validity
-of Cooke’s (1991) principles suggests that as a community of risk and decision
-analysts we do not care. Nor do we know how to learn from several earlier
-studies.&lt;/p&gt;
-
-&lt;p&gt;Thus, two strands of development are needed:
-1. reporting standards for expert judgment studies that allow them to be audited and evaluated,
-2. and meta-analytic methodologies for expert judgment data.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&#34;1-reporting-standards&#34;&gt;1. Reporting Standards&lt;/h2&gt;
-
-&lt;p&gt;How do we create an archive for expert judgment studies?&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;In case of empirical studies: there are plenty of dubious ones out there. But in
-the case of empirical studies there are also peer-reviewed, quality-assured
-journals that are much more trustworthy, carefully indexed, and backed up by
-archives of the underlying data sets. We need to create the same sort of archive
-for expert judgment studies.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Cooke&amp;rsquo;s principles provide a starting point&amp;hellip; but:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;His ideas need deep discussion, possible modification and extension, and then
-adoption by us all in our protocols for designing, running, and reporting expert
-judgment studies.&lt;/p&gt;
-
-&lt;p&gt;In establishing the principles we need recognize that it must be possible to
-audit studies against them so that peer-review methodologies can be defined and
-implemented. The principles must be operational. We also need to establish one
-or more archives in which studies can be deposited: Cooke and Goossens (2007)
-provided a prototype, but it may need modification, and there certainly needs to
-be some organizational ownership of such archives so that their future existence
-has some assurance.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&#34;meta-analytic-methods&#34;&gt;Meta-analytic methods&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Turning to the other strand of developments, we need to develop techniques that,
-in a specific context, allow us to select relevant expert studies and then
-produce a meta-analysis that establishes what may reasonably be learned from
-these. Table 1 indicates that we cannot simply adopt standard meta-analytic
-techniques, but will need to develop some afresh&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;And these procedures will need authority, perhaps by some organization as the Cochrane society.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&#34;highlights://French%20S%202012%20Expert%20Judgment,%20Meta-analysis,%20Participatory%20Risk%20Analysis#page=9&#34; target=&#34;_blank&#34;&gt;Page 9&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;We might also look to current developments in combining scenario planning
-approaches with decision analysis (Wright and Goodwin 1999; Montibeller et al.
-2006; Stewart et al. 2010, 2012).&lt;/p&gt;
-
-&lt;p&gt;We might construct scenarios such that each reflects the import of one of the
-selected expert judgment studies. This would avoid the complex issue of
-aggregating judgments across several studies, albeit at the cost of placing the
-onus of learning from the several scenarios on the intuition and understanding
-of the decision makers.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;The text-book problem or the archive problem? On terming the issue:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Maybe the “archive problem” would be a better term. It would recognize that the
-issues that we are discussing relate to formal expert opinion and how it should
-be carefully documented, archived, and subsequently used.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;takeaway-messages-and-importance-to-my-research&#34;&gt;Takeaway messages and importance to my research:&lt;/h1&gt;
-
-&lt;h2 id=&#34;synthesising-empirical-and-expert-data-extrapolating-to-new-decision-contexts&#34;&gt;Synthesising empirical and expert data, extrapolating to new decision contexts&lt;/h2&gt;
-
-&lt;p&gt;See section above on methodologies for meta-analyses of expert judgment.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Expert input often used during model selection and also on estimation of parameter values.&lt;/li&gt;
-&lt;li&gt;Providing probability distributions encoding uncertainties in each model (e.g. to parameterise a Baye&amp;rsquo;s Net)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The need to draw in many pieces of evidence derived from previous expert judgment is most likely to occur in the:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&amp;ldquo;formulation phase&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;defining &amp;ldquo;prior probability distributions&amp;rdquo; Page 8, (French et al. 2009).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;expert-judgment-creep&#34;&gt;Expert-judgment creep&lt;/h2&gt;
-
-&lt;p&gt;As decision-analysts, often we use expert judgment without:&lt;/p&gt;
-
-&lt;p&gt;a) explicitly reporting or even acknowledging so,
-b) and therefore without structured / formal accepted procedures for doing so.&lt;/p&gt;
-
-&lt;p&gt;When does this even occur? I believe it occurs often during the development of the conceptual model / structural form of the causal model, and also when there is missing knowledge in the literature, particularly when empirical evidence / data is lacking, or in the &amp;lsquo;wrong shape&amp;rsquo; (AND THIS IS WHY SEMANTIC ANNOTATION OF DATASETS WOULD BE USEFUL&amp;hellip; AND A SEMANTIC WEB INTERFACE / SEARCH ENGINE FOR PEER-REVIEWED LITERATURE).&lt;/p&gt;
-</description>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/french-2012-meta-analysis-for-expert-judgment/</guid>
+      <description>French, S. (2012) Expert Judgment, Meta-analysis, and Participatory Risk Analysis. Decision Analysis. 9, 119–127.
+Problem / background and paper goals Page 2 [@French:2012di] describes three types of expert elicitation problems. The third forms the focus of the paper:
+ The expert problem: where the decision-maker does not have the domain knowledge and elicits judgments from a group of experts. The group decision problem: where the expert group itself is jointly responseible for the decision.</description>
     </item>
     
     <item>
       <title>meeting Fiona Hannah 1st March 2018</title>
-      <link>/post/meeting-fiona-hannah-1st-march-18/</link>
+      <link>/posts/meeting-fiona-hannah-1st-march-18/</link>
       <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/meeting-fiona-hannah-1st-march-18/</guid>
-      <description>
-
-&lt;p&gt;To date:&lt;/p&gt;
-
-&lt;p&gt;Have been trying to determine the scope of the project. Want to look at the reproducibility of decision support tools&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;what elements of existing reproducibility literature apply to this context?&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;do we need a new set of criteria? Much of the repro literature especially in ecology seems to be focused on NHST, but this statistical tool is rarely used in decision science, instead it might often rely on the outputs of other studies that utilise them.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;But is focusing on DSTs in ecology even warranted, what distinguishes DSTs from ecological models in general?&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Are some problems more reproducible than others? more &amp;lsquo;robust&amp;rsquo;? My hypothesis: if lots of time spent on specifying objectives, values, preferences, and developing the conceptual model of the system, then decision outcome will be more robust. I.e. the overarching decision framework in which the DST development is embedded is important, and leads to more transparent and reproducible decisions.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Hence, question to test: are DSTs developed in a decision framework, such as SDM, more reproducible than those that aren&amp;rsquo;t?&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;And what is the COST of reproducibility? tradeoff between time and resources, and reproducibility.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;first-chapter-idea&#34;&gt;First chapter idea:&lt;/h1&gt;
-
-&lt;p&gt;data-based / quantitative review of reproducibility issues in the context of DSTs for ecology.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;identify the magnitude of the reproducibility crisis for DSTs in ecology&lt;/li&gt;
-&lt;li&gt;Are DSTs developed in a decision framework more reproducible? (How to test)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&#34;next-steps&#34;&gt;Next steps:&lt;/h1&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Generate criteria for reproducibility&lt;/li&gt;
-&lt;li&gt;Really nut out how issues of reproducibility are unique to DSTs in ecology context&lt;/li&gt;
-&lt;li&gt;Investigate systematic review methods: PRISMA, Cochrane reviews, and Campbel collaboration (social science )&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Fiona: Victoria&amp;rsquo;s paper. expert elicitation. And her coding list.
-Look at what people are reporting in journals is an easier place to start.
-PRISMA - systematic reviews. double coding. Cochrane reviews also another goldstandard.
-Campbel collaboration -&amp;gt; equivalent social science. check their guidelines.&lt;/p&gt;
-</description>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/meeting-fiona-hannah-1st-march-18/</guid>
+      <description>To date:
+Have been trying to determine the scope of the project. Want to look at the reproducibility of decision support tools
+ what elements of existing reproducibility literature apply to this context?
+ do we need a new set of criteria? Much of the repro literature especially in ecology seems to be focused on NHST, but this statistical tool is rarely used in decision science, instead it might often rely on the outputs of other studies that utilise them.</description>
+    </item>
+    
+    <item>
+      <title>Meeting Hannah</title>
+      <link>/posts/meeting-hannah/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/meeting-hannah/</guid>
+      <description>See Steve&amp;rsquo;s guidelines around meta-analysis from medicine. Hannah&amp;rsquo;s criteria. Conservation Biology guidelines. Guidelines / checkpoints are just around transparency. No actual checking of reproducibility.
+How do decisions vs. models differ? What is particular about my problem context? values, preferences. Process vs. decision model - problem is often split into two. Decision tools as models more complex, involve not just a model of the system / domain (including decision elements), but capturing objectives, alternatives, eliciting expert judgment, involving many stakeholders.</description>
+    </item>
+    
+    <item>
+      <title>Madin (2007) Advancing ecological research with ontologies</title>
+      <link>/posts/madin-2007-advancing-ecological-research-with-ontologies/</link>
+      <pubDate>Sat, 24 Feb 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/madin-2007-advancing-ecological-research-with-ontologies/</guid>
+      <description>(Madin et al. 2008)
+Why are ontologies relevant to ecology? Issue of effectively locating scientific data is hampered because our current approaches for describing it rely on the “ad hoc use of user-supplied keywords, and do not ensure that such terms are defined and used consistently.” The same is true when searching for relevant data, “users supply their own search terms, which are then matched against keywords assigned to datasets”. Ecology is particularly prone to this problem, and many terms often have multiple and variable meanings in different contexts.</description>
+    </item>
+    
+    <item>
+      <title>meeting</title>
+      <link>/posts/meeting/</link>
+      <pubDate>Thu, 22 Feb 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/meeting/</guid>
+      <description> Activities in the last week  Trying to map out the landscape of reproducibility, in particular, within ecology.  What is the magnitude of the reproducibility crisis, do people even think we have one? What&amp;rsquo;s being done? Mostly focused on efforts by individuals or research groups, as well as institutional efforts, particularly emerging in the bioinformatics discipline and focusing on computational analysis workflows and data management.
+ Is there really a differnce  </description>
+    </item>
+    
+    <item>
+      <title>Hart - Towards a more reproducible ecology</title>
+      <link>/posts/hart-towards-a-more-reproducible-ecology/</link>
+      <pubDate>Tue, 20 Feb 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/hart-towards-a-more-reproducible-ecology/</guid>
+      <description>Borregaard, M. K., Hart, E. M. (2018) Towards a more reproducible ecology. httpwww.ecography.orgblogtowards-more-reproducible-ecology, 1–9.
+This is an editorial intro to the special edition of ecography dedicated to reproducible methods in ecology..
+Page 1 Page 1, Red, Text, 2018-02-20: State of ecological research and analyses has changed.
+Page 1, Red, Highlight, 2018-02-20:  A new paradigm has emerged, where individual scientists download, curate and share large amounts of data and analyse it using reproducible software packages and scripts written in languages such as R, Python and Julia.</description>
+    </item>
+    
+    <item>
+      <title>reproducibility criteria</title>
+      <link>/posts/reproducibility-criteria/</link>
+      <pubDate>Tue, 20 Feb 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/reproducibility-criteria/</guid>
+      <description>I need to start thinking about how we define reproducibility for a) ecological models b) ecological models in the context of decision support.
+Reviewing Fiona&amp;rsquo;s article on metaresearch on ecology would be a good place to start thinking about reproducibility in ecology.
+-&amp;gt; Reproducibility in ecology&amp;hellip; why important? &amp;ldquo;the inherent complexity of the inference chain needed to advance ecology as well as the importance of ecological results to challenges important to society&amp;rdquo; https://eco.</description>
+    </item>
+    
+    <item>
+      <title>Guerrero et al 2017 Using SDM to set restoration objectives</title>
+      <link>/posts/guerrero-et-al-2017-using-sdm-to-set-restoration-objectives/</link>
+      <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/guerrero-et-al-2017-using-sdm-to-set-restoration-objectives/</guid>
+      <description>Guerrero, A. M., Shoo, L., Iacona, G., Standish, R. J., Catterall, C. P., Rumpff, L., de Bie, K., White, Z., Matzek, V., Wilson, K. A. (2017) Using structured decision-making to set restoration objectives when multiple values and preferences exist. Restoration Ecology. 25, 858–865.
+Problem: achieving restoration targets is impeded by difficulty in identifying and working towards targets, because objective setting is beset by multiple / conflicting values and preferences, and there are often time-lags in a restoration action and its desired outcome.</description>
+    </item>
+    
+    <item>
+      <title>meeting Feb 15 2018</title>
+      <link>/posts/meeting-feb-15-2018/</link>
+      <pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/meeting-feb-15-2018/</guid>
+      <description>activities -&amp;gt; working towards the research proposal -&amp;gt; also on first chapter
+Reading: - trying to identify difficulties / issues in modelling applied ecological problems in general - e.g. projecting performance of conservation actions, building the evidence base in restoration ecology as new techniques emerge.
+-&amp;gt; aims, trying to identify why reproducibility is important for ecological models / DSTs
+defining reproducibility for ecological models (still need to justify this)</description>
+    </item>
+    
+    <item>
+      <title>McPherson et al 2018 A simulation tool to scrutinise the behaviour of functional diversity metrics</title>
+      <link>/posts/mcpherson-et-al-2018-a-simulation-tool-to-scrutinise-the-behaviour-of-functional-diversity-metrics/</link>
+      <pubDate>Thu, 18 Jan 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/mcpherson-et-al-2018-a-simulation-tool-to-scrutinise-the-behaviour-of-functional-diversity-metrics/</guid>
+      <description>\cite{MEE3:MEE312855}
+Problem
+More and more indices of diversity are created with time. Accurately quantifying functional diversity is important because we want to know how biodiversity loss affects ecosystem functioning.
+Functional diversity is the &amp;ldquo;values and range of functionally important traits in a community&amp;rdquo;.
+The authors describe four dimensions to functional diversity:
+ functional richness evenness divergence redundancy  And they each characterise how organisms interact with ecosystem functioning.
+Although the choice of index should be guided by the functional diversity component of interest, there are multiple indices available for each component, and then there are synthetic indices that summarise all four components as a whole.</description>
+    </item>
+    
+    <item>
+      <title>Matzek et al (2017) Emerging approaches to successful ecologicall restoration</title>
+      <link>/posts/matzek-et-al-2017-emerging-approaches-to-successful-ecologicall-restoration/</link>
+      <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/matzek-et-al-2017-emerging-approaches-to-successful-ecologicall-restoration/</guid>
+      <description>Matzek, V., Gornish, E. S., Hulvey, K. B. (2017) Emerging approaches to successful ecological restoration: five imperatives to guide innovation (eds E. Gornish, V. Matzek, &amp;amp; K. Hulvey). Restoration Ecology. 25, S110–S113.
+New techniques, approaches, and technologies are emerging and being applied in habitat restoration. This is because restoration goals are shifting towards resilience and dynamism, and because the need for efficient resource use is of increasing concern.
+The paper serves as an introduction / review to the special issue of the journal.</description>
+    </item>
+    
+    <item>
+      <title>first chapter</title>
+      <link>/posts/first-chapter/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/first-chapter/</guid>
+      <description>Libby has suggested an idea for the first chapter. It would be a data-based review of reproducibility issues facing decision support tools and ecological models. It would require not simply applying existing criteria for reproducibility, but would require generating criteria appropriate to DST&amp;rsquo;s and ecological models. Maybe some existing criteria apply. Maybe some don&amp;rsquo;t.
+First chapter initial steps:
+ identify why reproducibility is important for ecological models / decision support tools Generate a list of reproducibility criteria: - review issues facing devt of ecological models - review literature on reproducibility in ecology / conservation in general Generate a set of DST&amp;rsquo;s / models to apply the list to Figure out a way of scoring the models Apply the list and score the models  Questions:</description>
+    </item>
+    
+    <item>
+      <title>Law et al. (2017) Biol Con</title>
+      <link>/posts/law-et-al-2017-biol-con/</link>
+      <pubDate>Fri, 15 Dec 2017 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/law-et-al-2017-biol-con/</guid>
+      <description>Law, E. A., Ferraro, P. J., Arcese, P., Bryan, B. A., Davis, K., Gordon, A., Holden, M. H., Iacona, G., Martinez, R. M., McAlpine, C. A., Rhodes, J. R., Sze, J. S., Wilson, K. A. (2017) Projecting the performance of conservation interventions. BIOC doi: 10.1016/j.biocon.2017.08.029.
+Problem: Projecting the performance of conservation interventions Successful decision-making for environmental management requires reliable evidence for both the performance and efficacy of proposed conservation actions.</description>
+    </item>
+    
+    <item>
+      <title>first post</title>
+      <link>/posts/first-post/</link>
+      <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/first-post/</guid>
+      <description>Readings: Reproducibility – how to define for this context. Ecology / decision support tools.
+Reproducibility of ecological models used for decision support tools.
+Interested in the sorts of decisions that we make as modellers… e.g. what performance measures do we use, there are so many different ways of valuing the objectives. And depending on which measure you use, you might judge the outcomes of each of the different strategies under consideration differently….</description>
     </item>
     
   </channel>

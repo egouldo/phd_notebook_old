@@ -1,23 +1,75 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Reading on research notebook</title>
+    <title>Reading on Electronic Lab Notebook</title>
     <link>/categories/reading/</link>
-    <description>Recent content in Reading on research notebook</description>
+    <description>Recent content in Reading on Electronic Lab Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Elise Gould</copyright>
-    <lastBuildDate>Tue, 15 May 2018 00:00:00 +0000</lastBuildDate>
+    <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
+    <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
+    <copyright>(c) 2018 -- All rights reserved.</copyright>
+    <lastBuildDate>Tue, 31 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/reading/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Dormann et al (2018) Biotic interactions in species distribution modelling\: 10 questions to guide interpretations and avoid false conclusions</title>
+      <link>/posts/dormann-et-al-2018-biotic-interactions-in-species-distribution-modelling-10-questions-to-guide-interpretations-and-avoid-false-conclusions/</link>
+      <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/dormann-et-al-2018-biotic-interactions-in-species-distribution-modelling-10-questions-to-guide-interpretations-and-avoid-false-conclusions/</guid>
+      <description>Problem The authors aim to address the problem of false conclusions arisng during inference of joint species distribution models – specifically, false conclusions of biotic interactions.
+Approach The authors conduct a review of joint species distribution modelling to identify (from caveats and other issues ear-marked in the source papers) potential factors that confound interpretation of analyses. Next, they develop a series of questions that can be asked by the analyst and also the reviewer to guide interpretation of conclusions – are the conclusions about biotic interactions plausible?</description>
+    </item>
+    
+    <item>
+      <title>Baranyi and da Silva (2017) The use of predictive models to optimize risk of decisions</title>
+      <link>/posts/baranyi-and-da-silva-2017-the-use-of-predictive-models-to-optimize-risk-of-decisions/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/baranyi-and-da-silva-2017-the-use-of-predictive-models-to-optimize-risk-of-decisions/</guid>
+      <description>Application domain: Microbiology decision support for predicting food borne Bacteria growth and reduce the need for microbiological testing. Approach/framework: risk assessment and decision-analytic framework.
+Aims and objectives of the paper:
+ The focus of this paper is not the above interpreted risk, assigned to an a-posteriori event, but the risk of an a-priory decision, that we also call choice or bet in what follows.
+  In this paper we explain, backed by examples, why predictive models should be used in combination with a cost-bene fit assessment.</description>
+    </item>
+    
+    <item>
+      <title>Seaman &amp; Weber (2015) Undisclosed Flexibility in Computing and Reporting Structural Equation Models in Communication Science.</title>
+      <link>/posts/seaman-c-s-weber-r-2015-undisclosed-flexibility-in-computing-and-reporting-structural-equation-models-in-communication-science/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/seaman-c-s-weber-r-2015-undisclosed-flexibility-in-computing-and-reporting-structural-equation-models-in-communication-science/</guid>
+      <description>Summary This paper is a systematic review (or ‘methodological review’ in their tersm) of both QRPs and bad modelling practice in structural equation modelling within the field of communication. They don’t use the term ‘Questionable Research Practices’, however, they do explicitly look at practices falling under the QRP banner, including cherry-picking, HARKing, and researcher degrees of freedom. Importantly, this paper is really useful to me because they examine these questionable research practices in a modelling framework outside of the non-hypothetico-deductive scientific model.</description>
+    </item>
+    
+    <item>
+      <title>Schmolke et al (2010) Ecological models supporting environmental decision making: a strategy for the future</title>
+      <link>/posts/schmolke-et-al-2010-ecological-models-supporting-environmental-decision-making-a-strategy-for-the-future/</link>
+      <pubDate>Tue, 26 Jun 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/schmolke-et-al-2010-ecological-models-supporting-environmental-decision-making-a-strategy-for-the-future/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>de Vos Are Environmental Models Transparent and Reproducible?</title>
+      <link>/posts/de-vos-are-environmental-models-transparent-and-reproducible/</link>
+      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/de-vos-are-environmental-models-transparent-and-reproducible/</guid>
+      <description>Problem: Why is transparency and reproducibility of environmental models important? Transparency and reproducibility are quintessential for facilitating assessment of model quality and suitability by both peer-reviewers, readers, and future users:  Page 1, 2018-06-20:  Environmental models are in fact applications of shared theories on how real-world systems are functioning.
+ Because “Environmental models are in fact applications of shared theories on how real-world systems are functioning”, it is essential that “the underlying scientific theories they need to be evaluated and discussed among peers.</description>
+    </item>
+    
+    <item>
       <title>Fraser et al 2018 QRPs in Ecology and Evolution</title>
-      <link>/post/fraser-et-al-2018-qrps-in-ecology-and-evolution/</link>
+      <link>/posts/fraser-et-al-2018-qrps-in-ecology-and-evolution/</link>
       <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/fraser-et-al-2018-qrps-in-ecology-and-evolution/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/fraser-et-al-2018-qrps-in-ecology-and-evolution/</guid>
       <description>Fraser, H. S., Parker, T. H., Nakagawa, S., Barnett, A., Fidler, F. (2018) Questionable Research Practices in Ecology and Evolution. doi: 10.17605/OSF.IO/AJYQG.
 “Transformation process” of science communication is susceptible to confusion and corruption, has triggered both reflection and meta-research in other disciplines.
 Forstmeier et al [8]:
@@ -26,10 +78,10 @@ Individual research practice is embedded in a broader culture, and promoite cond
     
     <item>
       <title>Gardner et al. 2018 Decision Complacency and Conservation Planning</title>
-      <link>/post/gardner-et-al-2018-decision-complacency-and-conservation-planning/</link>
+      <link>/posts/gardner-et-al-2018-decision-complacency-and-conservation-planning/</link>
       <pubDate>Wed, 09 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/gardner-et-al-2018-decision-complacency-and-conservation-planning/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/gardner-et-al-2018-decision-complacency-and-conservation-planning/</guid>
       <description>Gardner et al. (2018) add to knowledge-doing gap literature by defining and exemplifying what they call “Decision Complacency”
  The non-use of evidence or systematic processes to make decisions.
  Contextualising decision complacency in the knowledge-doing gap:
@@ -38,10 +90,10 @@ Researcher-practitioner divide: the case where researchers do not meet the needs
     
     <item>
       <title>Cullina et al 2018 Navigating the unfolding open data landscape in ecology and evolution</title>
-      <link>/post/cullina-et-al-2018-navigating-the-unfolding-open-data-landscape-in-ecology-and-evolution/</link>
+      <link>/posts/cullina-et-al-2018-navigating-the-unfolding-open-data-landscape-in-ecology-and-evolution/</link>
       <pubDate>Fri, 13 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/cullina-et-al-2018-navigating-the-unfolding-open-data-landscape-in-ecology-and-evolution/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/cullina-et-al-2018-navigating-the-unfolding-open-data-landscape-in-ecology-and-evolution/</guid>
       <description>The open data movement has the capacity to provide new and powerful insights into complex systems, in ecology and evolution. However, in ecology and evolution there has not been great uptake / implementation of open data to the extent seen in other disciplines (e.g. medicine, climate sciences).
 Why open data?
  identify broader eco evo processes across space, time, species reanalysing data using new statistical approaches error checking using existing data to answer new questions era of the Anthropocene: large, complicated questions with high degree of uncertainty requires combined data from multiple sources, and multidsciplinary data synthesis.</description>
@@ -49,19 +101,29 @@ Why open data?
     
     <item>
       <title>Nakagawa and Parker 2015</title>
-      <link>/post/nakagawa-and-parker-2015/</link>
+      <link>/posts/nakagawa-and-parker-2015/</link>
       <pubDate>Thu, 12 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/nakagawa-and-parker-2015/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/nakagawa-and-parker-2015/</guid>
       <description>Why do we replicate? Assess the validity of prior findings probe the generality of those findings   Levels of replication Exact (also known as “direct”): highest fidelity to the original work. But in ecology, usually can only be ‘close’ replications. Partial: there is a spectrum of partial replications, from close to limited. These have slight procedural differences. Conceptual: uses distinctly different study designs to test the same hypotheses. Quasi-replication (cross-species or system)   Assessing validity  Probing generality Conceptual replications: when results concur, we can define generality.</description>
     </item>
     
     <item>
+      <title>Fidler 2017 Metaresearch in ecology</title>
+      <link>/posts/fidler-2017-metaresearch-in-ecology/</link>
+      <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/fidler-2017-metaresearch-in-ecology/</guid>
+      <description>Fidler, F., Chee, Y. E., Wintle, B. A., Burgman, M. A., McCarthy, M. A., Gordon, A. (2017) Metaresearch for Evaluating Reproducibility in Ecology and Evolution. BioScience doi: 10.1093/biosci/biw159.
+Demonstrate that ecology and evolution as disciplines are at risk of a having low rates of reproducibility, aka a &amp;lsquo;reproducibility crisis&amp;rsquo; as others have termed it. The paper sets out to identify the different ways in which ecology is likely to have a reproducibility problem.</description>
+    </item>
+    
+    <item>
       <title>French 2012 meta-analysis for expert judgment</title>
-      <link>/post/french-2012-meta-analysis-for-expert-judgment/</link>
+      <link>/posts/french-2012-meta-analysis-for-expert-judgment/</link>
       <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/french-2012-meta-analysis-for-expert-judgment/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/french-2012-meta-analysis-for-expert-judgment/</guid>
       <description>French, S. (2012) Expert Judgment, Meta-analysis, and Participatory Risk Analysis. Decision Analysis. 9, 119–127.
 Problem / background and paper goals Page 2 [@French:2012di] describes three types of expert elicitation problems. The third forms the focus of the paper:
  The expert problem: where the decision-maker does not have the domain knowledge and elicits judgments from a group of experts. The group decision problem: where the expert group itself is jointly responseible for the decision.</description>
@@ -69,20 +131,20 @@ Problem / background and paper goals Page 2 [@French:2012di] describes three typ
     
     <item>
       <title>Madin (2007) Advancing ecological research with ontologies</title>
-      <link>/post/madin-2007-advancing-ecological-research-with-ontologies/</link>
+      <link>/posts/madin-2007-advancing-ecological-research-with-ontologies/</link>
       <pubDate>Sat, 24 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/madin-2007-advancing-ecological-research-with-ontologies/</guid>
-      <description>(???)
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/madin-2007-advancing-ecological-research-with-ontologies/</guid>
+      <description>(Madin et al. 2008)
 Why are ontologies relevant to ecology? Issue of effectively locating scientific data is hampered because our current approaches for describing it rely on the “ad hoc use of user-supplied keywords, and do not ensure that such terms are defined and used consistently.” The same is true when searching for relevant data, “users supply their own search terms, which are then matched against keywords assigned to datasets”. Ecology is particularly prone to this problem, and many terms often have multiple and variable meanings in different contexts.</description>
     </item>
     
     <item>
       <title>Hart - Towards a more reproducible ecology</title>
-      <link>/post/hart-towards-a-more-reproducible-ecology/</link>
+      <link>/posts/hart-towards-a-more-reproducible-ecology/</link>
       <pubDate>Tue, 20 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/hart-towards-a-more-reproducible-ecology/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/hart-towards-a-more-reproducible-ecology/</guid>
       <description>Borregaard, M. K., Hart, E. M. (2018) Towards a more reproducible ecology. httpwww.ecography.orgblogtowards-more-reproducible-ecology, 1–9.
 This is an editorial intro to the special edition of ecography dedicated to reproducible methods in ecology..
 Page 1 Page 1, Red, Text, 2018-02-20: State of ecological research and analyses has changed.
@@ -91,20 +153,20 @@ Page 1, Red, Highlight, 2018-02-20:  A new paradigm has emerged, where individua
     
     <item>
       <title>Guerrero et al 2017 Using SDM to set restoration objectives</title>
-      <link>/post/guerrero-et-al-2017-using-sdm-to-set-restoration-objectives/</link>
+      <link>/posts/guerrero-et-al-2017-using-sdm-to-set-restoration-objectives/</link>
       <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/guerrero-et-al-2017-using-sdm-to-set-restoration-objectives/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/guerrero-et-al-2017-using-sdm-to-set-restoration-objectives/</guid>
       <description>Guerrero, A. M., Shoo, L., Iacona, G., Standish, R. J., Catterall, C. P., Rumpff, L., de Bie, K., White, Z., Matzek, V., Wilson, K. A. (2017) Using structured decision-making to set restoration objectives when multiple values and preferences exist. Restoration Ecology. 25, 858–865.
 Problem: achieving restoration targets is impeded by difficulty in identifying and working towards targets, because objective setting is beset by multiple / conflicting values and preferences, and there are often time-lags in a restoration action and its desired outcome.</description>
     </item>
     
     <item>
       <title>McPherson et al 2018 A simulation tool to scrutinise the behaviour of functional diversity metrics</title>
-      <link>/post/mcpherson-et-al-2018-a-simulation-tool-to-scrutinise-the-behaviour-of-functional-diversity-metrics/</link>
+      <link>/posts/mcpherson-et-al-2018-a-simulation-tool-to-scrutinise-the-behaviour-of-functional-diversity-metrics/</link>
       <pubDate>Thu, 18 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/mcpherson-et-al-2018-a-simulation-tool-to-scrutinise-the-behaviour-of-functional-diversity-metrics/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/mcpherson-et-al-2018-a-simulation-tool-to-scrutinise-the-behaviour-of-functional-diversity-metrics/</guid>
       <description>\cite{MEE3:MEE312855}
 Problem
 More and more indices of diversity are created with time. Accurately quantifying functional diversity is important because we want to know how biodiversity loss affects ecosystem functioning.
@@ -116,10 +178,10 @@ Although the choice of index should be guided by the functional diversity compon
     
     <item>
       <title>Matzek et al (2017) Emerging approaches to successful ecologicall restoration</title>
-      <link>/post/matzek-et-al-2017-emerging-approaches-to-successful-ecologicall-restoration/</link>
+      <link>/posts/matzek-et-al-2017-emerging-approaches-to-successful-ecologicall-restoration/</link>
       <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/post/matzek-et-al-2017-emerging-approaches-to-successful-ecologicall-restoration/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/matzek-et-al-2017-emerging-approaches-to-successful-ecologicall-restoration/</guid>
       <description>Matzek, V., Gornish, E. S., Hulvey, K. B. (2017) Emerging approaches to successful ecological restoration: five imperatives to guide innovation (eds E. Gornish, V. Matzek, &amp;amp; K. Hulvey). Restoration Ecology. 25, S110–S113.
 New techniques, approaches, and technologies are emerging and being applied in habitat restoration. This is because restoration goals are shifting towards resilience and dynamism, and because the need for efficient resource use is of increasing concern.
 The paper serves as an introduction / review to the special issue of the journal.</description>
@@ -127,23 +189,12 @@ The paper serves as an introduction / review to the special issue of the journal
     
     <item>
       <title>Law et al. (2017) Biol Con</title>
-      <link>/post/law-et-al-2017-biol-con/</link>
+      <link>/posts/law-et-al-2017-biol-con/</link>
       <pubDate>Fri, 15 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/post/law-et-al-2017-biol-con/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/law-et-al-2017-biol-con/</guid>
       <description>Law, E. A., Ferraro, P. J., Arcese, P., Bryan, B. A., Davis, K., Gordon, A., Holden, M. H., Iacona, G., Martinez, R. M., McAlpine, C. A., Rhodes, J. R., Sze, J. S., Wilson, K. A. (2017) Projecting the performance of conservation interventions. BIOC doi: 10.1016/j.biocon.2017.08.029.
 Problem: Projecting the performance of conservation interventions Successful decision-making for environmental management requires reliable evidence for both the performance and efficacy of proposed conservation actions.</description>
-    </item>
-    
-    <item>
-      <title>first post</title>
-      <link>/post/first-post/</link>
-      <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/post/first-post/</guid>
-      <description>Readings: Reproducibility – how to define for this context. Ecology / decision support tools.
-Reproducibility of ecological models used for decision support tools.
-Interested in the sorts of decisions that we make as modellers… e.g. what performance measures do we use, there are so many different ways of valuing the objectives. And depending on which measure you use, you might judge the outcomes of each of the different strategies under consideration differently….</description>
     </item>
     
   </channel>

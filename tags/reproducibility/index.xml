@@ -1,23 +1,66 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Reproducibility on research notebook</title>
+    <title>Reproducibility on Electronic Lab Notebook</title>
     <link>/tags/reproducibility/</link>
-    <description>Recent content in Reproducibility on research notebook</description>
+    <description>Recent content in Reproducibility on Electronic Lab Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Elise Gould</copyright>
-    <lastBuildDate>Tue, 15 May 2018 00:00:00 +0000</lastBuildDate>
+    <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
+    <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
+    <copyright>(c) 2018 -- All rights reserved.</copyright>
+    <lastBuildDate>Tue, 31 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/reproducibility/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>New Perspectives in Statistics Education</title>
+      <link>/posts/new-perspectives-in-statistics-education/</link>
+      <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/new-perspectives-in-statistics-education/</guid>
+      <description>Upcoming events: Statistical Society of Australia (SSA), Biostatistics bonanza. August 23.
+Sue Finch: “Back to basics? Identifying educational needs through statistical consulting” People who come to consulting come with real need - come with an applied problem. How can we use this to inform new generation of statistical training for researchers?
+Break down research cycle using PPDAC cycle used within statistical education (Wild and Pfannkuch). Process of statistical thinking when carrying out a statistical inquiry.</description>
+    </item>
+    
+    <item>
+      <title>John Blischak reproducibility and workflowr</title>
+      <link>/posts/john-blischak-reproducibility-and-workflowr/</link>
+      <pubDate>Mon, 16 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/john-blischak-reproducibility-and-workflowr/</guid>
+      <description>Institutional road blocks against full reproducibility - methods sections are insufficient. But good software practice is helpful for future you, your labmates when you leave.
+Lowndes et al (2017) Peng et al (2011)
+Strategies for computational repro Record computing environment  sessionInfo() ## R version 3.5.0 (2018-04-23) ## Platform: x86_64-apple-darwin15.6.0 (64-bit) ## Running under: macOS Sierra 10.12.6 ## ## Matrix products: default ## BLAS: /Library/Frameworks/R.framework/Versions/3.5/Resources/lib/libRblas.0.dylib ## LAPACK: /Library/Frameworks/R.framework/Versions/3.5/Resources/lib/libRlapack.dylib ## ## locale: ## [1] en_AU.</description>
+    </item>
+    
+    <item>
+      <title>de Vos Are Environmental Models Transparent and Reproducible?</title>
+      <link>/posts/de-vos-are-environmental-models-transparent-and-reproducible/</link>
+      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/de-vos-are-environmental-models-transparent-and-reproducible/</guid>
+      <description>Problem: Why is transparency and reproducibility of environmental models important? Transparency and reproducibility are quintessential for facilitating assessment of model quality and suitability by both peer-reviewers, readers, and future users:  Page 1, 2018-06-20:  Environmental models are in fact applications of shared theories on how real-world systems are functioning.
+ Because “Environmental models are in fact applications of shared theories on how real-world systems are functioning”, it is essential that “the underlying scientific theories they need to be evaluated and discussed among peers.</description>
+    </item>
+    
+    <item>
+      <title>Advisory Committee Meeting</title>
+      <link>/posts/advisory-committee-meeting/</link>
+      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/advisory-committee-meeting/</guid>
+      <description>Chapter 2, QRPs Scope Trying to cover the scope of the entire decision process might be too large for just one chapter. Just examining QRPs for system modelling is quite a task. PV suggested restricting the focus to decision tools and focussing on one application area, such as conservation planning / reserve design. This would also give more traction and uptake among ecologists. Conservation planning isn&amp;rsquo;t using the term &amp;lsquo;reproducibility&amp;rsquo; to describe their problems.</description>
+    </item>
+    
+    <item>
       <title>Fraser et al 2018 QRPs in Ecology and Evolution</title>
-      <link>/post/fraser-et-al-2018-qrps-in-ecology-and-evolution/</link>
+      <link>/posts/fraser-et-al-2018-qrps-in-ecology-and-evolution/</link>
       <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/fraser-et-al-2018-qrps-in-ecology-and-evolution/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/fraser-et-al-2018-qrps-in-ecology-and-evolution/</guid>
       <description>Fraser, H. S., Parker, T. H., Nakagawa, S., Barnett, A., Fidler, F. (2018) Questionable Research Practices in Ecology and Evolution. doi: 10.17605/OSF.IO/AJYQG.
 “Transformation process” of science communication is susceptible to confusion and corruption, has triggered both reflection and meta-research in other disciplines.
 Forstmeier et al [8]:
@@ -26,10 +69,10 @@ Individual research practice is embedded in a broader culture, and promoite cond
     
     <item>
       <title>Retreat Reproducibility Session</title>
-      <link>/post/retreat-reproducibility-session/</link>
+      <link>/posts/retreat-reproducibility-session/</link>
       <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/retreat-reproducibility-session/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/retreat-reproducibility-session/</guid>
       <description>Session Planning Focus: Reproducibility in practice - QRPs.
 Session aim: To help spread awareness among Qaecologists and Cebranalysts about reproducibility issues in our research practices. And then possibly provide people with the tools / solutions to overcome some of these issues.
 Format: not a lecture, not an unstructured discussion.
@@ -40,10 +83,10 @@ Intro by Fiona, perhaps talking about why reproducibility is important to us as 
     
     <item>
       <title>Cullina et al 2018 Navigating the unfolding open data landscape in ecology and evolution</title>
-      <link>/post/cullina-et-al-2018-navigating-the-unfolding-open-data-landscape-in-ecology-and-evolution/</link>
+      <link>/posts/cullina-et-al-2018-navigating-the-unfolding-open-data-landscape-in-ecology-and-evolution/</link>
       <pubDate>Fri, 13 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/cullina-et-al-2018-navigating-the-unfolding-open-data-landscape-in-ecology-and-evolution/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/cullina-et-al-2018-navigating-the-unfolding-open-data-landscape-in-ecology-and-evolution/</guid>
       <description>The open data movement has the capacity to provide new and powerful insights into complex systems, in ecology and evolution. However, in ecology and evolution there has not been great uptake / implementation of open data to the extent seen in other disciplines (e.g. medicine, climate sciences).
 Why open data?
  identify broader eco evo processes across space, time, species reanalysing data using new statistical approaches error checking using existing data to answer new questions era of the Anthropocene: large, complicated questions with high degree of uncertainty requires combined data from multiple sources, and multidsciplinary data synthesis.</description>
@@ -51,29 +94,29 @@ Why open data?
     
     <item>
       <title>Nakagawa and Parker 2015</title>
-      <link>/post/nakagawa-and-parker-2015/</link>
+      <link>/posts/nakagawa-and-parker-2015/</link>
       <pubDate>Thu, 12 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/nakagawa-and-parker-2015/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/nakagawa-and-parker-2015/</guid>
       <description>Why do we replicate? Assess the validity of prior findings probe the generality of those findings   Levels of replication Exact (also known as “direct”): highest fidelity to the original work. But in ecology, usually can only be ‘close’ replications. Partial: there is a spectrum of partial replications, from close to limited. These have slight procedural differences. Conceptual: uses distinctly different study designs to test the same hypotheses. Quasi-replication (cross-species or system)   Assessing validity  Probing generality Conceptual replications: when results concur, we can define generality.</description>
     </item>
     
     <item>
       <title>Fidler 2017 Metaresearch in ecology</title>
-      <link>/post/fidler-2017-metaresearch-in-ecology/</link>
+      <link>/posts/fidler-2017-metaresearch-in-ecology/</link>
       <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/fidler-2017-metaresearch-in-ecology/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/fidler-2017-metaresearch-in-ecology/</guid>
       <description>Fidler, F., Chee, Y. E., Wintle, B. A., Burgman, M. A., McCarthy, M. A., Gordon, A. (2017) Metaresearch for Evaluating Reproducibility in Ecology and Evolution. BioScience doi: 10.1093/biosci/biw159.
 Demonstrate that ecology and evolution as disciplines are at risk of a having low rates of reproducibility, aka a &amp;lsquo;reproducibility crisis&amp;rsquo; as others have termed it. The paper sets out to identify the different ways in which ecology is likely to have a reproducibility problem.</description>
     </item>
     
     <item>
       <title>bioinformatics workshop dockerisation</title>
-      <link>/post/bioinformatics-workshop-dockerisation/</link>
+      <link>/posts/bioinformatics-workshop-dockerisation/</link>
       <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/bioinformatics-workshop-dockerisation/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/bioinformatics-workshop-dockerisation/</guid>
       <description>Slides are here: http://melbournebioinformatics.github.io/MelBioInf_docs/tutorials/docker/media/index.html#47
 Docker: libraries and operating system included as well (as application). ALl dependencies distributed. AND docker containers are cross-platform. == Portable. Distributable: can store images on the docker cloud.
 Docker containers can&amp;rsquo;t access host-system&amp;rsquo;s files (good for security), but limits some use-cases (especially where command line utilities used).
@@ -82,10 +125,10 @@ Docker containers are very lightweight (no overhead like what virtual machines h
     
     <item>
       <title>reproducibility for decision support tools</title>
-      <link>/post/reproducibility-for-decision-support-tools/</link>
+      <link>/posts/reproducibility-for-decision-support-tools/</link>
       <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/reproducibility-for-decision-support-tools/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/reproducibility-for-decision-support-tools/</guid>
       <description>I&amp;rsquo;ve set aside this document for developing a parallel framework of reproducibility issues not just outside of NHST, but particular to Decision Support Tools in ecology and conservation.
 WHY? Because the majority of work addressing reproducibility in and outside of ecology has focused on hypothesis testing (NHST, predominantly). And non-NHST methods are important tools in the Decision Support toolbox for conservation science and applied ecology.
 From this, I hope to: a) develop the coding criteria for the systematic review b) propose some sort of gold-standard protocol for developing reproducible decision support tools</description>
@@ -93,10 +136,10 @@ From this, I hope to: a) develop the coding criteria for the systematic review b
     
     <item>
       <title>reading club reproducibility</title>
-      <link>/post/reading-club-reproducibility/</link>
+      <link>/posts/reading-club-reproducibility/</link>
       <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/reading-club-reproducibility/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/reading-club-reproducibility/</guid>
       <description>BES Reproducibility guidelines.
 Good for YOU, and for reproducibility.
 Uptake in education: Fiona new reproducibility subject at the University.
@@ -106,10 +149,10 @@ Statistical abstinence vs.</description>
     
     <item>
       <title>French 2012 meta-analysis for expert judgment</title>
-      <link>/post/french-2012-meta-analysis-for-expert-judgment/</link>
+      <link>/posts/french-2012-meta-analysis-for-expert-judgment/</link>
       <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/french-2012-meta-analysis-for-expert-judgment/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/french-2012-meta-analysis-for-expert-judgment/</guid>
       <description>French, S. (2012) Expert Judgment, Meta-analysis, and Participatory Risk Analysis. Decision Analysis. 9, 119–127.
 Problem / background and paper goals Page 2 [@French:2012di] describes three types of expert elicitation problems. The third forms the focus of the paper:
  The expert problem: where the decision-maker does not have the domain knowledge and elicits judgments from a group of experts. The group decision problem: where the expert group itself is jointly responseible for the decision.</description>
@@ -117,10 +160,10 @@ Problem / background and paper goals Page 2 [@French:2012di] describes three typ
     
     <item>
       <title>meeting Fiona Hannah 1st March 2018</title>
-      <link>/post/meeting-fiona-hannah-1st-march-18/</link>
+      <link>/posts/meeting-fiona-hannah-1st-march-18/</link>
       <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/meeting-fiona-hannah-1st-march-18/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/meeting-fiona-hannah-1st-march-18/</guid>
       <description>To date:
 Have been trying to determine the scope of the project. Want to look at the reproducibility of decision support tools
  what elements of existing reproducibility literature apply to this context?
@@ -129,20 +172,20 @@ Have been trying to determine the scope of the project. Want to look at the repr
     
     <item>
       <title>Meeting Hannah</title>
-      <link>/post/meeting-hannah/</link>
+      <link>/posts/meeting-hannah/</link>
       <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/meeting-hannah/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/meeting-hannah/</guid>
       <description>See Steve&amp;rsquo;s guidelines around meta-analysis from medicine. Hannah&amp;rsquo;s criteria. Conservation Biology guidelines. Guidelines / checkpoints are just around transparency. No actual checking of reproducibility.
 How do decisions vs. models differ? What is particular about my problem context? values, preferences. Process vs. decision model - problem is often split into two. Decision tools as models more complex, involve not just a model of the system / domain (including decision elements), but capturing objectives, alternatives, eliciting expert judgment, involving many stakeholders.</description>
     </item>
     
     <item>
       <title>Hart - Towards a more reproducible ecology</title>
-      <link>/post/hart-towards-a-more-reproducible-ecology/</link>
+      <link>/posts/hart-towards-a-more-reproducible-ecology/</link>
       <pubDate>Tue, 20 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/hart-towards-a-more-reproducible-ecology/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/hart-towards-a-more-reproducible-ecology/</guid>
       <description>Borregaard, M. K., Hart, E. M. (2018) Towards a more reproducible ecology. httpwww.ecography.orgblogtowards-more-reproducible-ecology, 1–9.
 This is an editorial intro to the special edition of ecography dedicated to reproducible methods in ecology..
 Page 1 Page 1, Red, Text, 2018-02-20: State of ecological research and analyses has changed.
@@ -151,10 +194,10 @@ Page 1, Red, Highlight, 2018-02-20:  A new paradigm has emerged, where individua
     
     <item>
       <title>reproducibility criteria</title>
-      <link>/post/reproducibility-criteria/</link>
+      <link>/posts/reproducibility-criteria/</link>
       <pubDate>Tue, 20 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/reproducibility-criteria/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/reproducibility-criteria/</guid>
       <description>I need to start thinking about how we define reproducibility for a) ecological models b) ecological models in the context of decision support.
 Reviewing Fiona&amp;rsquo;s article on metaresearch on ecology would be a good place to start thinking about reproducibility in ecology.
 -&amp;gt; Reproducibility in ecology&amp;hellip; why important? &amp;ldquo;the inherent complexity of the inference chain needed to advance ecology as well as the importance of ecological results to challenges important to society&amp;rdquo; https://eco.</description>
@@ -162,10 +205,10 @@ Reviewing Fiona&amp;rsquo;s article on metaresearch on ecology would be a good p
     
     <item>
       <title>first chapter</title>
-      <link>/post/first-chapter/</link>
+      <link>/posts/first-chapter/</link>
       <pubDate>Mon, 18 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/post/first-chapter/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/first-chapter/</guid>
       <description>Libby has suggested an idea for the first chapter. It would be a data-based review of reproducibility issues facing decision support tools and ecological models. It would require not simply applying existing criteria for reproducibility, but would require generating criteria appropriate to DST&amp;rsquo;s and ecological models. Maybe some existing criteria apply. Maybe some don&amp;rsquo;t.
 First chapter initial steps:
  identify why reproducibility is important for ecological models / decision support tools Generate a list of reproducibility criteria: - review issues facing devt of ecological models - review literature on reproducibility in ecology / conservation in general Generate a set of DST&amp;rsquo;s / models to apply the list to Figure out a way of scoring the models Apply the list and score the models  Questions:</description>
