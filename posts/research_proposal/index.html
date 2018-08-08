@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="utf-8">
+  <title>PhD Research Proposal: Reproducibility and Transparency of Decisions in Ecology and Conservation</title>
+  <meta name="description" content="PhD Research Proposal: Reproducibility and Transparency of Decisions in Ecology and Conservation">
+  <meta name="author" content="Elise Gould">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <noscript>
+    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/css/fonts.css">
+  </noscript>
+  
+  
+  <style type="text/css" media="screen">
+    /*!
+Pure v1.0.0
+Copyright 2013 Yahoo!
+Licensed under the BSD License.
+https://github.com/yahoo/pure/blob/master/LICENSE.md
+*/
+/*!
+normalize.css v^3.0 | MIT License | git.io/normalize
+Copyright (c) Nicolas Gallagher and Jonathan Neal
+*/
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */img,legend{border:0}legend,td,th{padding:0}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,optgroup,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}pre,textarea{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}table{border-collapse:collapse;border-spacing:0}.hidden,[hidden]{display:none!important}.pure-img{max-width:100%;height:auto;display:block}
+  </style>
+  <style type="text/css" media="screen">
+    /*!
+Pure v1.0.0
+Copyright 2013 Yahoo!
+Licensed under the BSD License.
+https://github.com/yahoo/pure/blob/master/LICENSE.md
+*/
+.pure-menu{box-sizing:border-box}.pure-menu-fixed{position:fixed;left:0;top:0;z-index:3}.pure-menu-item,.pure-menu-list{position:relative}.pure-menu-list{list-style:none;margin:0;padding:0}.pure-menu-item{padding:0;margin:0;height:100%}.pure-menu-heading,.pure-menu-link{display:block;text-decoration:none;white-space:nowrap}.pure-menu-horizontal{width:100%;white-space:normal}.pure-menu-horizontal .pure-menu-list{display:inline-block}.pure-menu-horizontal .pure-menu-heading,.pure-menu-horizontal .pure-menu-item,.pure-menu-horizontal .pure-menu-separator{display:inline-block;zoom:1;vertical-align:middle}.pure-menu-item .pure-menu-item{display:block}.pure-menu-children{display:none;position:absolute;left:100%;top:0;margin:0;padding:0;z-index:3}.pure-menu-horizontal .pure-menu-children{left:0;top:auto;width:inherit}.pure-menu-active>.pure-menu-children,.pure-menu-allow-hover:hover>.pure-menu-children{display:block;position:absolute}.pure-menu-has-children>.pure-menu-link:after{padding-left:.5em;content:"\25B8";font-size:small}.pure-menu-horizontal .pure-menu-has-children>.pure-menu-link:after{content:"\25BE"}.pure-menu-scrollable{overflow-y:scroll;overflow-x:hidden}.pure-menu-scrollable .pure-menu-list{display:block}.pure-menu-horizontal.pure-menu-scrollable .pure-menu-list{display:inline-block}.pure-menu-horizontal.pure-menu-scrollable{white-space:nowrap;overflow-y:hidden;overflow-x:auto;-ms-overflow-style:none;-webkit-overflow-scrolling:touch;padding:.5em 0}.pure-menu-horizontal.pure-menu-scrollable::-webkit-scrollbar{display:none}.pure-menu-horizontal .pure-menu-children .pure-menu-separator,.pure-menu-separator{background-color:#ccc;height:1px;margin:.3em 0}.pure-menu-horizontal .pure-menu-separator{width:1px;height:1.3em;margin:0 .3em}.pure-menu-horizontal .pure-menu-children .pure-menu-separator{display:block;width:auto}.pure-menu-heading{text-transform:uppercase;color:#565d64}.pure-menu-link{color:#777}.pure-menu-children{background-color:#fff}.pure-menu-disabled,.pure-menu-heading,.pure-menu-link{padding:.5em 1em}.pure-menu-disabled{opacity:.5}.pure-menu-disabled .pure-menu-link:hover{background-color:transparent}.pure-menu-active>.pure-menu-link,.pure-menu-link:focus,.pure-menu-link:hover{background-color:#eee}.pure-menu-selected .pure-menu-link,.pure-menu-selected .pure-menu-link:visited{color:#000}
+
+  </style>
+  <style type="text/css" media="screen">
+    /*!
+Pure v1.0.0
+Copyright 2013 Yahoo!
+Licensed under the BSD License.
+https://github.com/yahoo/pure/blob/master/LICENSE.md
+*/
+.pure-g{letter-spacing:-.31em;text-rendering:optimizespeed;font-family:FreeSans,Arimo,"Droid Sans",Helvetica,Arial,sans-serif;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row wrap;-ms-flex-flow:row wrap;flex-flow:row wrap;-webkit-align-content:flex-start;-ms-flex-line-pack:start;align-content:flex-start}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){table .pure-g{display:block}}.opera-only :-o-prefocus,.pure-g{word-spacing:-.43em}.pure-u,.pure-u-1,.pure-u-1-1,.pure-u-1-12,.pure-u-1-2,.pure-u-1-24,.pure-u-1-3,.pure-u-1-4,.pure-u-1-5,.pure-u-1-6,.pure-u-1-8,.pure-u-10-24,.pure-u-11-12,.pure-u-11-24,.pure-u-12-24,.pure-u-13-24,.pure-u-14-24,.pure-u-15-24,.pure-u-16-24,.pure-u-17-24,.pure-u-18-24,.pure-u-19-24,.pure-u-2-24,.pure-u-2-3,.pure-u-2-5,.pure-u-20-24,.pure-u-21-24,.pure-u-22-24,.pure-u-23-24,.pure-u-24-24,.pure-u-3-24,.pure-u-3-4,.pure-u-3-5,.pure-u-3-8,.pure-u-4-24,.pure-u-4-5,.pure-u-5-12,.pure-u-5-24,.pure-u-5-5,.pure-u-5-6,.pure-u-5-8,.pure-u-6-24,.pure-u-7-12,.pure-u-7-24,.pure-u-7-8,.pure-u-8-24,.pure-u-9-24{display:inline-block;zoom:1;letter-spacing:normal;word-spacing:normal;vertical-align:top;text-rendering:auto}.pure-g [class*=pure-u]{font-family:sans-serif}.pure-u-1-24{width:4.1667%}.pure-u-1-12,.pure-u-2-24{width:8.3333%}.pure-u-1-8,.pure-u-3-24{width:12.5%}.pure-u-1-6,.pure-u-4-24{width:16.6667%}.pure-u-1-5{width:20%}.pure-u-5-24{width:20.8333%}.pure-u-1-4,.pure-u-6-24{width:25%}.pure-u-7-24{width:29.1667%}.pure-u-1-3,.pure-u-8-24{width:33.3333%}.pure-u-3-8,.pure-u-9-24{width:37.5%}.pure-u-2-5{width:40%}.pure-u-10-24,.pure-u-5-12{width:41.6667%}.pure-u-11-24{width:45.8333%}.pure-u-1-2,.pure-u-12-24{width:50%}.pure-u-13-24{width:54.1667%}.pure-u-14-24,.pure-u-7-12{width:58.3333%}.pure-u-3-5{width:60%}.pure-u-15-24,.pure-u-5-8{width:62.5%}.pure-u-16-24,.pure-u-2-3{width:66.6667%}.pure-u-17-24{width:70.8333%}.pure-u-18-24,.pure-u-3-4{width:75%}.pure-u-19-24{width:79.1667%}.pure-u-4-5{width:80%}.pure-u-20-24,.pure-u-5-6{width:83.3333%}.pure-u-21-24,.pure-u-7-8{width:87.5%}.pure-u-11-12,.pure-u-22-24{width:91.6667%}.pure-u-23-24{width:95.8333%}.pure-u-1,.pure-u-1-1,.pure-u-24-24,.pure-u-5-5{width:100%}
+  </style>
+  
+  
+  <style type="text/css" media="screen">
+    /*!
+Pure v1.0.0
+Copyright 2013 Yahoo!
+Licensed under the BSD License.
+https://github.com/yahoo/pure/blob/master/LICENSE.md
+*/
+@media screen and (min-width:35.5em){.pure-u-sm-1,.pure-u-sm-1-1,.pure-u-sm-1-12,.pure-u-sm-1-2,.pure-u-sm-1-24,.pure-u-sm-1-3,.pure-u-sm-1-4,.pure-u-sm-1-5,.pure-u-sm-1-6,.pure-u-sm-1-8,.pure-u-sm-10-24,.pure-u-sm-11-12,.pure-u-sm-11-24,.pure-u-sm-12-24,.pure-u-sm-13-24,.pure-u-sm-14-24,.pure-u-sm-15-24,.pure-u-sm-16-24,.pure-u-sm-17-24,.pure-u-sm-18-24,.pure-u-sm-19-24,.pure-u-sm-2-24,.pure-u-sm-2-3,.pure-u-sm-2-5,.pure-u-sm-20-24,.pure-u-sm-21-24,.pure-u-sm-22-24,.pure-u-sm-23-24,.pure-u-sm-24-24,.pure-u-sm-3-24,.pure-u-sm-3-4,.pure-u-sm-3-5,.pure-u-sm-3-8,.pure-u-sm-4-24,.pure-u-sm-4-5,.pure-u-sm-5-12,.pure-u-sm-5-24,.pure-u-sm-5-5,.pure-u-sm-5-6,.pure-u-sm-5-8,.pure-u-sm-6-24,.pure-u-sm-7-12,.pure-u-sm-7-24,.pure-u-sm-7-8,.pure-u-sm-8-24,.pure-u-sm-9-24{display:inline-block;zoom:1;letter-spacing:normal;word-spacing:normal;vertical-align:top;text-rendering:auto}.pure-u-sm-1-24{width:4.1667%}.pure-u-sm-1-12,.pure-u-sm-2-24{width:8.3333%}.pure-u-sm-1-8,.pure-u-sm-3-24{width:12.5%}.pure-u-sm-1-6,.pure-u-sm-4-24{width:16.6667%}.pure-u-sm-1-5{width:20%}.pure-u-sm-5-24{width:20.8333%}.pure-u-sm-1-4,.pure-u-sm-6-24{width:25%}.pure-u-sm-7-24{width:29.1667%}.pure-u-sm-1-3,.pure-u-sm-8-24{width:33.3333%}.pure-u-sm-3-8,.pure-u-sm-9-24{width:37.5%}.pure-u-sm-2-5{width:40%}.pure-u-sm-10-24,.pure-u-sm-5-12{width:41.6667%}.pure-u-sm-11-24{width:45.8333%}.pure-u-sm-1-2,.pure-u-sm-12-24{width:50%}.pure-u-sm-13-24{width:54.1667%}.pure-u-sm-14-24,.pure-u-sm-7-12{width:58.3333%}.pure-u-sm-3-5{width:60%}.pure-u-sm-15-24,.pure-u-sm-5-8{width:62.5%}.pure-u-sm-16-24,.pure-u-sm-2-3{width:66.6667%}.pure-u-sm-17-24{width:70.8333%}.pure-u-sm-18-24,.pure-u-sm-3-4{width:75%}.pure-u-sm-19-24{width:79.1667%}.pure-u-sm-4-5{width:80%}.pure-u-sm-20-24,.pure-u-sm-5-6{width:83.3333%}.pure-u-sm-21-24,.pure-u-sm-7-8{width:87.5%}.pure-u-sm-11-12,.pure-u-sm-22-24{width:91.6667%}.pure-u-sm-23-24{width:95.8333%}.pure-u-sm-1,.pure-u-sm-1-1,.pure-u-sm-24-24,.pure-u-sm-5-5{width:100%}}@media screen and (min-width:48em){.pure-u-md-1,.pure-u-md-1-1,.pure-u-md-1-12,.pure-u-md-1-2,.pure-u-md-1-24,.pure-u-md-1-3,.pure-u-md-1-4,.pure-u-md-1-5,.pure-u-md-1-6,.pure-u-md-1-8,.pure-u-md-10-24,.pure-u-md-11-12,.pure-u-md-11-24,.pure-u-md-12-24,.pure-u-md-13-24,.pure-u-md-14-24,.pure-u-md-15-24,.pure-u-md-16-24,.pure-u-md-17-24,.pure-u-md-18-24,.pure-u-md-19-24,.pure-u-md-2-24,.pure-u-md-2-3,.pure-u-md-2-5,.pure-u-md-20-24,.pure-u-md-21-24,.pure-u-md-22-24,.pure-u-md-23-24,.pure-u-md-24-24,.pure-u-md-3-24,.pure-u-md-3-4,.pure-u-md-3-5,.pure-u-md-3-8,.pure-u-md-4-24,.pure-u-md-4-5,.pure-u-md-5-12,.pure-u-md-5-24,.pure-u-md-5-5,.pure-u-md-5-6,.pure-u-md-5-8,.pure-u-md-6-24,.pure-u-md-7-12,.pure-u-md-7-24,.pure-u-md-7-8,.pure-u-md-8-24,.pure-u-md-9-24{display:inline-block;zoom:1;letter-spacing:normal;word-spacing:normal;vertical-align:top;text-rendering:auto}.pure-u-md-1-24{width:4.1667%}.pure-u-md-1-12,.pure-u-md-2-24{width:8.3333%}.pure-u-md-1-8,.pure-u-md-3-24{width:12.5%}.pure-u-md-1-6,.pure-u-md-4-24{width:16.6667%}.pure-u-md-1-5{width:20%}.pure-u-md-5-24{width:20.8333%}.pure-u-md-1-4,.pure-u-md-6-24{width:25%}.pure-u-md-7-24{width:29.1667%}.pure-u-md-1-3,.pure-u-md-8-24{width:33.3333%}.pure-u-md-3-8,.pure-u-md-9-24{width:37.5%}.pure-u-md-2-5{width:40%}.pure-u-md-10-24,.pure-u-md-5-12{width:41.6667%}.pure-u-md-11-24{width:45.8333%}.pure-u-md-1-2,.pure-u-md-12-24{width:50%}.pure-u-md-13-24{width:54.1667%}.pure-u-md-14-24,.pure-u-md-7-12{width:58.3333%}.pure-u-md-3-5{width:60%}.pure-u-md-15-24,.pure-u-md-5-8{width:62.5%}.pure-u-md-16-24,.pure-u-md-2-3{width:66.6667%}.pure-u-md-17-24{width:70.8333%}.pure-u-md-18-24,.pure-u-md-3-4{width:75%}.pure-u-md-19-24{width:79.1667%}.pure-u-md-4-5{width:80%}.pure-u-md-20-24,.pure-u-md-5-6{width:83.3333%}.pure-u-md-21-24,.pure-u-md-7-8{width:87.5%}.pure-u-md-11-12,.pure-u-md-22-24{width:91.6667%}.pure-u-md-23-24{width:95.8333%}.pure-u-md-1,.pure-u-md-1-1,.pure-u-md-24-24,.pure-u-md-5-5{width:100%}}@media screen and (min-width:64em){.pure-u-lg-1,.pure-u-lg-1-1,.pure-u-lg-1-12,.pure-u-lg-1-2,.pure-u-lg-1-24,.pure-u-lg-1-3,.pure-u-lg-1-4,.pure-u-lg-1-5,.pure-u-lg-1-6,.pure-u-lg-1-8,.pure-u-lg-10-24,.pure-u-lg-11-12,.pure-u-lg-11-24,.pure-u-lg-12-24,.pure-u-lg-13-24,.pure-u-lg-14-24,.pure-u-lg-15-24,.pure-u-lg-16-24,.pure-u-lg-17-24,.pure-u-lg-18-24,.pure-u-lg-19-24,.pure-u-lg-2-24,.pure-u-lg-2-3,.pure-u-lg-2-5,.pure-u-lg-20-24,.pure-u-lg-21-24,.pure-u-lg-22-24,.pure-u-lg-23-24,.pure-u-lg-24-24,.pure-u-lg-3-24,.pure-u-lg-3-4,.pure-u-lg-3-5,.pure-u-lg-3-8,.pure-u-lg-4-24,.pure-u-lg-4-5,.pure-u-lg-5-12,.pure-u-lg-5-24,.pure-u-lg-5-5,.pure-u-lg-5-6,.pure-u-lg-5-8,.pure-u-lg-6-24,.pure-u-lg-7-12,.pure-u-lg-7-24,.pure-u-lg-7-8,.pure-u-lg-8-24,.pure-u-lg-9-24{display:inline-block;zoom:1;letter-spacing:normal;word-spacing:normal;vertical-align:top;text-rendering:auto}.pure-u-lg-1-24{width:4.1667%}.pure-u-lg-1-12,.pure-u-lg-2-24{width:8.3333%}.pure-u-lg-1-8,.pure-u-lg-3-24{width:12.5%}.pure-u-lg-1-6,.pure-u-lg-4-24{width:16.6667%}.pure-u-lg-1-5{width:20%}.pure-u-lg-5-24{width:20.8333%}.pure-u-lg-1-4,.pure-u-lg-6-24{width:25%}.pure-u-lg-7-24{width:29.1667%}.pure-u-lg-1-3,.pure-u-lg-8-24{width:33.3333%}.pure-u-lg-3-8,.pure-u-lg-9-24{width:37.5%}.pure-u-lg-2-5{width:40%}.pure-u-lg-10-24,.pure-u-lg-5-12{width:41.6667%}.pure-u-lg-11-24{width:45.8333%}.pure-u-lg-1-2,.pure-u-lg-12-24{width:50%}.pure-u-lg-13-24{width:54.1667%}.pure-u-lg-14-24,.pure-u-lg-7-12{width:58.3333%}.pure-u-lg-3-5{width:60%}.pure-u-lg-15-24,.pure-u-lg-5-8{width:62.5%}.pure-u-lg-16-24,.pure-u-lg-2-3{width:66.6667%}.pure-u-lg-17-24{width:70.8333%}.pure-u-lg-18-24,.pure-u-lg-3-4{width:75%}.pure-u-lg-19-24{width:79.1667%}.pure-u-lg-4-5{width:80%}.pure-u-lg-20-24,.pure-u-lg-5-6{width:83.3333%}.pure-u-lg-21-24,.pure-u-lg-7-8{width:87.5%}.pure-u-lg-11-12,.pure-u-lg-22-24{width:91.6667%}.pure-u-lg-23-24{width:95.8333%}.pure-u-lg-1,.pure-u-lg-1-1,.pure-u-lg-24-24,.pure-u-lg-5-5{width:100%}}@media screen and (min-width:80em){.pure-u-xl-1,.pure-u-xl-1-1,.pure-u-xl-1-12,.pure-u-xl-1-2,.pure-u-xl-1-24,.pure-u-xl-1-3,.pure-u-xl-1-4,.pure-u-xl-1-5,.pure-u-xl-1-6,.pure-u-xl-1-8,.pure-u-xl-10-24,.pure-u-xl-11-12,.pure-u-xl-11-24,.pure-u-xl-12-24,.pure-u-xl-13-24,.pure-u-xl-14-24,.pure-u-xl-15-24,.pure-u-xl-16-24,.pure-u-xl-17-24,.pure-u-xl-18-24,.pure-u-xl-19-24,.pure-u-xl-2-24,.pure-u-xl-2-3,.pure-u-xl-2-5,.pure-u-xl-20-24,.pure-u-xl-21-24,.pure-u-xl-22-24,.pure-u-xl-23-24,.pure-u-xl-24-24,.pure-u-xl-3-24,.pure-u-xl-3-4,.pure-u-xl-3-5,.pure-u-xl-3-8,.pure-u-xl-4-24,.pure-u-xl-4-5,.pure-u-xl-5-12,.pure-u-xl-5-24,.pure-u-xl-5-5,.pure-u-xl-5-6,.pure-u-xl-5-8,.pure-u-xl-6-24,.pure-u-xl-7-12,.pure-u-xl-7-24,.pure-u-xl-7-8,.pure-u-xl-8-24,.pure-u-xl-9-24{display:inline-block;zoom:1;letter-spacing:normal;word-spacing:normal;vertical-align:top;text-rendering:auto}.pure-u-xl-1-24{width:4.1667%}.pure-u-xl-1-12,.pure-u-xl-2-24{width:8.3333%}.pure-u-xl-1-8,.pure-u-xl-3-24{width:12.5%}.pure-u-xl-1-6,.pure-u-xl-4-24{width:16.6667%}.pure-u-xl-1-5{width:20%}.pure-u-xl-5-24{width:20.8333%}.pure-u-xl-1-4,.pure-u-xl-6-24{width:25%}.pure-u-xl-7-24{width:29.1667%}.pure-u-xl-1-3,.pure-u-xl-8-24{width:33.3333%}.pure-u-xl-3-8,.pure-u-xl-9-24{width:37.5%}.pure-u-xl-2-5{width:40%}.pure-u-xl-10-24,.pure-u-xl-5-12{width:41.6667%}.pure-u-xl-11-24{width:45.8333%}.pure-u-xl-1-2,.pure-u-xl-12-24{width:50%}.pure-u-xl-13-24{width:54.1667%}.pure-u-xl-14-24,.pure-u-xl-7-12{width:58.3333%}.pure-u-xl-3-5{width:60%}.pure-u-xl-15-24,.pure-u-xl-5-8{width:62.5%}.pure-u-xl-16-24,.pure-u-xl-2-3{width:66.6667%}.pure-u-xl-17-24{width:70.8333%}.pure-u-xl-18-24,.pure-u-xl-3-4{width:75%}.pure-u-xl-19-24{width:79.1667%}.pure-u-xl-4-5{width:80%}.pure-u-xl-20-24,.pure-u-xl-5-6{width:83.3333%}.pure-u-xl-21-24,.pure-u-xl-7-8{width:87.5%}.pure-u-xl-11-12,.pure-u-xl-22-24{width:91.6667%}.pure-u-xl-23-24{width:95.8333%}.pure-u-xl-1,.pure-u-xl-1-1,.pure-u-xl-24-24,.pure-u-xl-5-5{width:100%}}
+  </style>
+  
+
+  
+  <style type="text/css" media="screen">
+    html {
+	min-height:100%;
+	width:100%;
+	position:relative;
+}
+
+body {
+	background-color: rgb(252,252,252);
+	color: #484848;
+}
+
+.nav-menu {
+  margin-top: 5px;
+  padding-bottom: 5px;
+	border-bottom: 1px solid #e3e3e3;
+}
+
+.pure-menu-heading {
+  text-transform: none;
+  font-size: large;
+}
+
+.header {
+	text-align: left;
+	color: #484848;
+	margin-bottom: .5em;
+}
+
+.header ul li {
+		height: auto;
+}
+
+.header ul li a {
+	font-weight: bold;
+	color: #484848;
+	font-family: "Source Sans Pro", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.header {
+	font-weight: bold;
+	color: #484848;
+	font-family: "Source Sans Pro", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.site-title {
+	color: #484848;
+  text-transform: none;
+  font-weight: normal;
+	font-family: "Source Sans Pro", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.pull-right {
+	float: right;
+}
+
+.posts-name {
+	text-transform: capitalize;
+	font-weight: bold;
+	padding-left: 1em;
+	margin-top: 1em;
+	font-family: "Source Sans Pro", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.posts {
+	font-family: verdana,arial,helvetica,sans-serif;
+	list-style-type:none;
+	padding-left: 1em;
+}
+
+.posts li p {
+	margin-top: 0;
+}
+
+.posts li {
+	margin-bottom: 1em;
+}
+
+.posts li a {
+	color:#369;
+	text-decoration:none;
+}
+
+.post-list {
+  font-size: large;
+}
+
+.footnote {
+	font-family: verdana,arial,helvetica,sans-serif;
+	color:#888;
+	font-size:x-small;
+	margin-bottom:0;
+}
+
+.footnote a {
+	color: #888 !important
+}
+
+.footnote a:hover{
+	text-decoration:underline;
+	color:#369;
+}
+
+.footer {
+	position:absolute;
+	z-index:2;
+	height:auto;
+	width:100%;
+	bottom:0;
+}
+
+.footer-content {
+	border-top: 1px solid #e3e3e3;
+	font-size: 80%;
+	color: #bbb;
+}
+
+.footer-content a {
+	color: #bbb;
+}
+
+.footer-content ul {
+	height: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	display: inline-block;
+	padding-left: 0;
+}
+
+#gototop-btn {
+	display: inline-block;
+}
+
+#foot-name {
+  color: #484848;
+	text-transform: none;
+}
+
+#foot-copyright {
+	padding-left: 1em;
+	padding-bottom: 0.5em;
+	margin: 0;
+}
+
+.post {
+	font-family: proxima-nova,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+	color:#484848;
+	letter-spacing:normal;
+	padding-left: .5em;
+}
+
+.post h1,h2,h3,h4,h5,h6 {
+	font-weight: bold;
+	letter-spacing:normal;
+}
+
+.post-content {
+	z-index:9;
+	overflow:auto;
+	padding:0;
+	padding-bottom:3em;
+	font-size:16px;
+	line-height:1.4;
+}
+
+.post-content img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* ------------------------------------ */
+/* these sections screw up other themes */ 
+/*.post-content code {
+  background-color: #EEE;
+}
+
+.post code {
+  background-color: #EEE;
+} */
+/* to here */
+/* ------------------------------------ */
+
+.post a {
+	color:#c05b4d;
+	text-decoration: none;
+}
+
+.post a:hover {
+	color:#a5473a;
+	text-decoration: underline;
+}
+
+.post h1 {
+	font-size:28px;
+}
+
+.post h2 {
+	font-size:25px;
+}
+
+.post h3 {
+	font-size:23px;
+}
+
+.post h4 {
+	font-size:21px;
+}
+
+.post h5 {
+	font-size:19px;
+}
+
+.post h6 {
+	font-size:18px;
+}
+
+.post-title{
+		margin-top: 0;
+		margin-bottom: 2em;
+}
+
+.post-title h1 {
+	font-weight:bold;
+	font-size:39px;
+	line-height: 40px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+@media screen and (max-width:767px){
+	.desktop {
+		display: none;
+	}
+	.mobile {
+		display: block;
+	}
+	#toggle-btn {
+		display: inline-block;
+		float: right;
+		padding: .5em 1em;
+		text-decoration: none;
+		color: #484848;
+		font-weight: bold;
+	}
+	#toggle-content li {
+		clear: both;
+		height: auto;
+		background-color: rgb(249,249,249);
+	}
+	#toggle-home {
+		display: inline-block;
+	}
+}
+
+@media screen and (min-width:768px){
+	.mobile {
+		display:none;
+	}
+	.desktop {
+		display: block;
+	}
+}
+
+blockquote {
+	font-family: Georgia, serif;
+	font-size: 16px;
+	font-style: italic;
+	width: 850px;
+	margin: 0.25em 0;
+	padding: 0.35em 40px;
+	line-height: 1.45;
+	position: relative;
+	color: #383838;
+	}
+	
+	blockquote:before {
+	display: block;
+	padding-left: 10px;
+	content: "\201C";
+	font-size: 80px;
+	position: absolute;
+	left: -10px;
+	top: -20px;
+	color: #7a7a7a;
+	}
+	
+	blockquote cite {
+	color: #999999;
+	font-size: 11px;
+	display: block;
+	margin-top: 5px;
+	}
+	 
+	blockquote cite:before {
+	content: "\2014 \2009";
+	}
+
+<style>
+	.col2 {
+	  columns: 2 200px;         /* number of columns and width in pixels*/
+	  -webkit-columns: 2 200px; /* chrome, safari */
+	  -moz-columns: 2 200px;    /* firefox */
+	}
+	.col5 {
+	  columns: 5 100px;
+	  -webkit-columns: 5 100px;
+	  -moz-columns: 5 100px;
+	}
+ </style>
+
+ <style>
+ #images  {
+	 width: 1250px;
+	 height: 185px;
+ }
+ #images img {
+	 float: left;
+	 width: auto;
+	 height: 160px;
+	 margin: 0 0 0 15px;
+ }
+</style>
+
+<style type="text/css">
+th {
+  background-color:#b1b1b1;
+  border-top:1px solid black;
+  border-bottom:1px solid black;
+  padding:12px;}
+
+td{
+  background-color:#e7e7e7;
+  border-bottom:1px dotted black;
+  padding:2px;}
+
+table{ 
+  border-collapse:collapse;
+  margin:10px 150px
+  border: 1px solid black;}
+</style>
+  </style>
+  
+  <style type="text/css" media="screen"> 
+    
+      /*
+
+Zenburn style from voldmar.ru (c) Vladimir Epifanov <voldmar@voldmar.ru>
+based on dark.css by Ivan Sagalaev
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #3f3f3f;
+  color: #dcdcdc;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-tag {
+  color: #e3ceab;
+}
+
+.hljs-template-tag {
+  color: #dcdcdc;
+}
+
+.hljs-number {
+  color: #8cd0d3;
+}
+
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute {
+  color: #efdcbc;
+}
+
+.hljs-literal {
+  color: #efefaf;
+}
+
+.hljs-subst {
+  color: #8f8f8f;
+}
+
+.hljs-title,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-section,
+.hljs-type {
+  color: #efef8f;
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link {
+  color: #dca3a3;
+}
+
+.hljs-deletion,
+.hljs-string,
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #cc9393;
+}
+
+.hljs-addition,
+.hljs-comment,
+.hljs-quote,
+.hljs-meta {
+  color: #7f9f7f;
+}
+
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+ 
+    
+  </style>
+  
+
+  
+  <link rel="shortcut icon" 
+   
+    href="/img/favicon.ico"
+  
+  type="image/x-icon">
+
+  
+  
+
+  <meta name="generator" content="Hugo 0.31.1" />
+
+  
+  
+</head>
+<body>
+
+<div class="header pure-g">
+    <div class="pure-u-1-24 pure-u-md-1-6"></div>
+    <div class="pure-u-11-12 pure-u-md-2-3">
+        <div class="desktop pure-menu pure-menu-horizontal nav-menu">
+            
+            <a href="/" class="site-title pure-menu-heading">Electronic Lab Notebook</a>
+            <ul class="pure-menu-list pull-right">
+				
+                
+                <li class="pure-menu-item">
+                    <a href="/categories/meeting" class="pure-menu-link">Meeting</a>
+                </li>
+                
+                <li class="pure-menu-item">
+                    <a href="/categories/planning" class="pure-menu-link">Planning</a>
+                </li>
+                
+                <li class="pure-menu-item">
+                    <a href="/categories/reading" class="pure-menu-link">Reading</a>
+                </li>
+                
+                <li class="pure-menu-item">
+                    <a href="/categories/synthesis" class="pure-menu-link">Synthesis</a>
+                </li>
+                
+                <li class="pure-menu-item">
+                    <a href="/categories/systematic-review" class="pure-menu-link">Systematic-Review</a>
+                </li>
+                
+                <li class="pure-menu-item">
+                    <a href="/categories/talk" class="pure-menu-link">Talk</a>
+                </li>
+                
+                <li class="pure-menu-item">
+                    <a href="/categories/workshop" class="pure-menu-link">Workshop</a>
+                </li>
+                
+				
+                <li class="pure-menu-item">
+                    <a href="/about/" class="pure-menu-link">About</a>
+                </li>
+            </ul>
+        </div>
+        <div class="mobile pure-menu nav-menu">
+            <a href="/" class="site-title pure-menu-heading" id="toggle-home">Electronic Lab Notebook</a>
+            <a href="#" id="toggle-btn">&#9776;</a>
+            <ul class="pure-menu-list" id="toggle-content" style="display:none;">
+                
+				
+                
+                <li class="pure-menu-item">
+                    <a href="/categories/meeting" class="pure-menu-link">Meeting</a>
+                </li>
+                
+                <li class="pure-menu-item">
+                    <a href="/categories/planning" class="pure-menu-link">Planning</a>
+                </li>
+                
+                <li class="pure-menu-item">
+                    <a href="/categories/reading" class="pure-menu-link">Reading</a>
+                </li>
+                
+                <li class="pure-menu-item">
+                    <a href="/categories/synthesis" class="pure-menu-link">Synthesis</a>
+                </li>
+                
+                <li class="pure-menu-item">
+                    <a href="/categories/systematic-review" class="pure-menu-link">Systematic-Review</a>
+                </li>
+                
+                <li class="pure-menu-item">
+                    <a href="/categories/talk" class="pure-menu-link">Talk</a>
+                </li>
+                
+                <li class="pure-menu-item">
+                    <a href="/categories/workshop" class="pure-menu-link">Workshop</a>
+                </li>
+                
+				
+                <li class="pure-menu-item">
+                    <a href="/about" class="pure-menu-link">About</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="pure-u-1-24 pure-u-md-1-6"></div>
+</div>
+
+
+<div class="pure-g">
+  <div class="pure-u-1-24 pure-u-md-1-6"></div>
+  <div class="pure-u-11-12 pure-u-md-2-3">
+    <div class="post">
+
+      <div class="post-title">
+        <p class="footnote">
+        <time class="">05-23-2018</time>
+        
+        
+        |
+        
+        
+        tags: [ <a href="/tags/project">project</a> ]
+        
+
+        
+        categories: [<a href="/categories/planning">planning</a> ]
+        
+
+        
+        </p>
+        <h1>PhD Research Proposal: Reproducibility and Transparency of Decisions in Ecology and Conservation</h1>
+      </div>
+
+      <div class="post-content">
+        <p><em>Keywords:</em></p>
+<ul>
+<li>conservation</li>
+<li>decision-making</li>
+<li>ecology</li>
+<li>reproducibility</li>
+<li>structured decision-making</li>
+</ul>
+<div id="introduction" class="section level1">
+<h1>Introduction</h1>
+<p>Successful biodiversity conservation and management is underpinned by effective and robust decision-making <span class="citation">(Mukherjee et al. 2018)</span>. Decision-makers are tasked with allocating limited resources in the face of uncertainty about the effectiveness of alternative management interventions, and incomplete or inadequate scientific information. Moreover, environmental decisions often must be made in complex socio-economic and political contexts, with multiple stakeholders and multiple and/or competing objectives. Formal, structured approaches to decision-making under uncertainty, such as Structured Decision Making, are both implicitly and explicitly espoused as a pathway to more robust and reproducible conservation decisions <span class="citation">(e.g. J. L. Moore and Runge 2012; Converse et al. 2013; Schreiber et al. 2004)</span>. However, this claim to reproducibility remains untested, and a more nuanced consideration of what exactly reproducibility means in this application is lacking. Given that science is said to be in the grips of a “reproducibility crisis”, and that biased and unfair scrutiny in the broader socio-political climate of “alternative facts” threatens credibility of scientific knowledge <span class="citation">(Baillieul, Grenier, and Setti 2018)</span>, it is both essential and timely that the reproducibility of decision-support in ecology and conservation is given rigorous research attention.</p>
+<p>Failure to reproduce a large proportion of published studies in the fields of psychology and medicine has received considerable attention and provoked heated discussion among researchers in the broader scientific community. Scientific credibility is underpinned by the assumption that findings are both real and replicable <span class="citation">(Nakagawa and Parker 2015)</span>. As the recent “reproducibility crisis” debate illustrates, this assumption is often incorrect <span class="citation">(Baker 2016)</span>. For example, the Open Science Collaboration’s Psychology Reproducibility Project reported that less than half of published results could be reproduced <span class="citation">(Open Science Collaboration 2015)</span>. Although large-scale direct replications are largely absent in ecology <span class="citation">(Nakagawa and Parker 2015)</span>, an initial assessment of the conditions found to foster reproducibility problems provide evidence that ecology as a discipline is at risk of a “reproducibility crisis” <span class="citation">(Fidler et al. 2017)</span>.</p>
+<div id="research-scope-reproducibility-of-decisions-versus-reproducibility-for-decision-decisions" class="section level2">
+<h2>Research scope: reproducibility <em>of</em> decisions versus reproducibility <em>for</em> decision decisions</h2>
+<p>Reproducibility research in ecology has largely focused on the primary evidence-base. I draw on the conservation decision-making (CDM) literature to distinguish between knowledge generated at the level of the individual study level (“primary evidence base”), and the translation of that information into a decision <span class="citation">(Dicks, Walsh, and Sutherland 2014)</span>, whereby evidence is collated, synthesised, and transformed into decisions, ideally using some formal decision support system <span class="citation">(Gardner et al. 2018)</span>. Most decision support systems developed using a structured framework utilise one or more “decision tools” at various steps in the decision-making process, comprising conceptual or mechanistic models, representing all or part of the system in question <span class="citation">(Dicks, Walsh, and Sutherland 2014, see discussion point in Chapter 3 for a definition of the distinction between tools and systems)</span>.</p>
+<p>One exception to the focus on the primary evidence base, is Morrison et al.’s <span class="citation">(2016)</span>replication study of the Population Viability Analysis literature. They discuss the potential implications of the non-reproducibility of studies and models on the decision-making process. Firstly, non-reproducible predictions undermine the credibility of the original model, and therefore any decisions informed by that evidence. Any predictions are therefore unreliable, and may result in finite resources being directed inefficiently, and in opportunity costs. Thirdly, the effectiveness of an intervention may not be able to be evaluated against the predictions of the model if they are not reproducible. The ability to compare the outcome of an intervention against model predictions, and hence to measure progress towards the conservation objectives, is especially important in ecology and conservation: true randomized experimental design is often infeasible, such that the performance of a conservation action is measured against the counter-factual, which is often estimated using predictive models <span class="citation">(Law et al. 2017)</span>. Finally, if the original model predictions cannot be reproduced, the decision-maker is prevented from comparing and evaluating revised models with updated parameters against previous models. This is relevant for contexts where decision-making is informed by ongoing monitoring programmes, such as in adaptive management-based conservation.</p>
+<p>This work is a good initial consideration of how reproducibility issues might impact decisions, and it echoes work in the conservation decision-making (CDM) literature underscoring the importance of a ‘robust’ evidence-base for informing management <span class="citation">(Dicks, Walsh, and Sutherland 2014; Law et al. 2017; Sutherland and Wordley 2017; Gardner et al. 2018)</span>. While reproducibility for decisions – or the reproducibility of either raw evidence and/or decision-tools generating information informing decisions – is important, it fails to consider the broader decision process in which conservation decisions are made, and explicitly assumes that if the evidence-base is reproducible, then this should translate to reproducible decisions. Yet, decision-making is a “human enterprise” shaped by values and expectations <span class="citation">(Mukherjee et al. 2018)</span> and failing to integrate the human elements of decision-making in conservation may lead to sub-optimal outcomes <span class="citation">(N. J. Bennett et al. 2017)</span>. For this reason, I argue that reproducibility research in ecology and conservation should certainly continue advancing for the primary evidence-base, however, the scope of research should extend beyond evidence-generation, to examine the systematic use and synthesis of that evidence to inform decision-making. The focus of my PhD will therefore be on the reproducibility of decisions: or whether the entire decision-process can be repeated to reproduce the same decision.</p>
+<p>Below I propose some examples of ‘decision-points’ within the broader decision process that may impede the reproducibility of a decision. These are points of departure or variation occurring within the development of a DSS that may result in a different decision-outcome, should the process be repeated – either by the same analyst in the future, or by another independent analyst.</p>
+<ol style="list-style-type: decimal">
+<li>Problem formulation is a critical phase of the decision process but is often neglected or at least poorly documented when it comes to published applications of decision support systems in ecology and conservation. Human values shape preferences about the acceptability of decision outcomes in terms of fulfilling conservation objectives and should therefore be properly captured in objectives and performance measures <span class="citation">(Conroy and Peterson 2013)</span>. Decision modelling outputs may be sensitive to the specification of the performance measure <span class="citation">(2014)</span>. Failing to properly incorporate decision-maker and stakeholder values may therefore influence the reproducibility of a decision, resulting in sub-optimal decisions that do not adequately meet the true objectives.</li>
+<li>Scenario analyses are often used to make a case for implementing one management strategy over others. However, Law et al. <span class="citation">(2017)</span> emphasise that the selection of scenarios may influence inferences about the appropriate course of action – choosing scenarios that are impossible or highly improbable may yield the impression that a particularly positive or negative outcome is likely. Thus, it is not only the modelling inputs into decisions that should be scrutinised in terms of reproducibility, but also the choice scenarios we wish to run through them.</li>
+</ol>
+</div>
+<div id="research-aims-and-objectives" class="section level2">
+<h2>Research aims and objectives</h2>
+<p>This major goal of this PhD is to investigate the transparency and reproducibility of decisions generated from structured approaches to conservation decision-making (such as Structured Decision Making, SDM). The first aim of this research is to expand and develop a conceptual understanding of “reproducibility” that is fit for application in conservation decision-making. Existing approaches to reproducibility almost exclusively focus on hypothesis-testing based research, however in applied ecology and conservation technical approaches draw primarily on decision-analytic tools and methods for decision-making. This typology of reproducibility will be sensitive to the particularities of the data, methods and questions commonly encountered within this context. By taking decision-support systems (DSS’s) as its unit of interest, this research aims to identify critical points in the decision process that threaten the reproducibility of ecological decisions and undermine conservation success. Secondly, I aim to systematically review the published literature on decision support systems to evaluate the magnitude and extent of the “reproducibility crisis” in translational research of ecology and conservation. This review will allow the development of a set of guidelines or a check list for improving the transparency and reproducibility of decision support systems in ecology and conservation. Finally, I aim to use real-world decision problem case studies to investigate the replication of decision support systems.</p>
+</div>
+</div>
+<div id="reproducibility-for-decision-support-in-ecology-and-conservation-towards-a-formal-typology" class="section level1">
+<h1>Reproducibility for decision support in ecology and conservation: towards a formal typology</h1>
+<div id="surveying-the-reproducibility-literature-in-ecology-and-conservation" class="section level2">
+<h2>Surveying the reproducibility literature in ecology and conservation</h2>
+<p>There appear to be two strands of reproducibility research in ecology. The first, termed “reproducible research” by some <span class="citation">(Peng 2009; Gandrud 2016)</span>, targets the research practices of individuals, and considers reproducibility to be largely computational in nature. It draws on the computational biology and scientific computing literature to proffer technological solutions with an emphasis on software and data management practices. It is closely linked to work within the open data movement in ecology. The second and more recently emerging major strand of reproducibility research draws on meta-research approaches within psychology, medicine, and science more broadly.</p>
+<p>“Reproducible research” focuses on the data analysis pipeline for a single analysis or study, taking the starting point for reproducibility to be where analysis is ready to begin (data is on hand and probably digitised). These approaches seem to resonate among ecologists, with much reflection and discussion in the grey literature, particularly in blog and twitter format. Practices for improving computational reproducibility have included version control with incremental changes, functional programming and unit-testing Wilson et al. <span class="citation">(2014)</span>. Others have emphasised the use of literature programming techniques and containerised analyses that link code to their inferences in a single document <span class="citation">(Baumer and Udwin 2015; Gandrud 2016)</span>. Noble et al. <span class="citation">(2009)</span> describe how to organise computational biology projects while the British Ecological Society have published complete guides to reproducible code and data management <span class="citation">(British Ecological Society 2014; Croucher et al. 2017)</span>.</p>
+<p>The “open data” movement within ecology, and science more broadly, assumes more of a systems-level view of reproducibility: situating the reproducibility of individual studies within the broader life-cycle of scientific research. Some computational ecology research in this context is still targeted at improving the research practices of individuals, however, the overarching aim is to improve the computational reproducibility or research in order to facilitate large-scale meta-analyses <span class="citation">(Merali 2010)</span>, longitudinal studies and data synthesis <span class="citation">(E. White et al. 2013)</span>. Solutions arising from the open data movement are a mixture of technological and policy-based. For instance, White et al. <span class="citation">(2013)</span> discuss the particularities of ecological data and describe methods for ensuring data is re-usable to others; while Ram <span class="citation">(2013)</span> illustrates how git and GitHub can facilitate greater reproducibility and increased transparency. Similarly, Whitlock <span class="citation">(2011)</span> describes the technical and cultural issues that must be addressed to increase data-archiving practices in ecology and evolution, including journal policy. For most in the open data movement, the responsibility for reproducibility is shared among individual researchers, journal editors and reviewers for improving reproducibility via openness practices and policy <span class="citation">(Morueta-Holme et al. 2018)</span>.</p>
+<p>Meta-research approaches include the identification of the types of, and evaluation of the extent of questionable research practices (QRPs) across whole disciplines <span class="citation">(e.g. 2018)</span>, as well as understanding the broader set of conditions fostering their occurrence and prevalence, such as a lack of transparency and publication bias in a publish-or-perish environment <span class="citation">(Parker et al. 2016)</span>. Large-scale meta-analyses are a new and emerging technique for evaluating whole fields for reproducibility, but have not been undertaken in ecology and evolution to date <span class="citation">(Fidler et al. 2017)</span>, even though traditional meta-analyses are not new <span class="citation">(G. Stewart 2010)</span>. Conceptual understandings of reproducibility extend beyond computational reproducibility, with numerous ‘typologies’ of reproducibility being suggested. Within such typologies, each type of reproducibility is understood as performing its own epistemic function. Solutions to mitigating reproducibility issues tend to target a community of practice, or the incentive structure, rather than individuals. For example, pre-registration of study designs may protect against QRPs including ‘p-hacking’, selective reporting and cherry-picking or HARKing (hypothesizing after results are known) <span class="citation">(Parker et al. 2016)</span>. Tools for Transparency in Ecology and Evolution (<a href="https://osf.io/g65cb/" class="uri">https://osf.io/g65cb/</a>) provide a checklist to authors, reviewers and journal editors for improving reporting transparency. There is increasing uptake of checklists, including <em>Nature Ecology and Evolution</em> <span class="citation">(“A checklist for our community” 2018)</span> and new guidelines for statistical practice for <em>Conservation Letters</em> <span class="citation">(Fidler et al. 2018)</span>.</p>
+</div>
+<div id="unpacking-reproducibility-of-decisions" class="section level2">
+<h2>Unpacking “reproducibility <em>of</em> decisions”</h2>
+<p>The term “reproducibility” broadly encompasses the ability to “replicate an experiment or study and/or its outcomes” <span class="citation">(Fidler et al. 2017)</span>. In ecology and conservation decision-making, researchers the terms ‘repeatable’, ‘replicable’ and ‘reproducible’ are often used interchangeably and transparency is frequently touted as both a key-feature of environmental decision-support systems, and as central to delivering reproducible decisions <span class="citation">(Kim et al. 2016)</span>. However, the discussion of reproducibility in these contexts usually stops here, and there is no further discussion as to some definition of the term. McIntosh et al. <span class="citation">(2011)</span> elaborate further than most to explain the link between transparency and reproducibility in formal decision support for ecology:</p>
+<blockquote>
+<p>Transparent because rational explanations can be provided to support decisions, and because the user/stakeholder/citizen can reproduce the decision procedure, play with the weights, and perform sensitivity analysis to assess decision strength and robustness.</p>
+</blockquote>
+<p>Examining this statement reveals that, at least for these authors, reproducibility is simply the repeatability of the decision procedure, or is reproducible ‘in-principle’. A study is replicable in principle if its methods, procedures and analysis are described transparently with sufficient detail to be repeated; whereas a study is replicable in practice if the original results can be reproduced exactly or with sufficient similarity (Fidler and Wilcox, 2018 in prep.). The repeatability of a decision procedure does not necessarily ensure that the resultant “decision” from the procedure can be reproduced; the above statement seems to imply that the transparency of structured approaches to decision making guarantees in-practice reproducibility, because it is reproducible in-principle. This assumption needs to be further investigated, especially given how commonly the inherent methodological transparency of SDM and other decision-analytic approaches is used as a justification for their use.</p>
+<p>The above use of the term ‘robustness’ in the context of reproducibility of decisions also demands attention. Transparency and in-principle reproducibility of decisions generated from formal approaches to decision-making are commonly associated with delivering ‘robust’ decisions or management approaches <span class="citation">(e.g. Schreiber et al. 2004)</span>. Few explicitly define what a ‘robust decision is’ – they are implicitly synonomous with ‘good’ or ‘accurate’, or else, are described as being ‘robust to uncertainty’ <span class="citation">(J. L. Moore and Runge 2012; Converse et al. 2013)</span>. That is, robust management decisions are those that can tolerate some acceptable degree of uncertainty before the optimal decision changes <span class="citation">(Regan et al. 2005)</span>.</p>
+<p>Given the linguistic uncertainty around the properties of “reproducibility”, “transparency” and “robustness” of decision support systems in ecology and conservation, a more thorough treatment should be given to defining the reproducibility of decisions. There are a number of existing typologies of reproducibility <span class="citation">(e.g. Nakagawa and Parker 2015; Patil, Peng, and Leek 2016; Gómez, Juristo, and Vegas 2010)</span> that may serve as the basis for formally defining a conceptual framework for the reproducibility of decisions. Each typology describes the different ways in which a replication study may differ from the original, with some being more finely specified than others. For example, Patil et al.’s <span class="citation">(2016)</span> typology is useful for highly computational analyses, outlining points of difference including the population, question, hypothesis, experimental design, experimenter, analysis plan, analyst, code, and estimate and claim. Gomez’ <span class="citation">(2010)</span> typology is less finely grained in terms of the classes of difference between a replicate and original; specifying site, experimenter, apparatus, operationalisations, and population properties.</p>
+<p>Gomez’ typology systematically considers how varying different subsets of those classes serves different epistemic functions, whereas Pattil et al. give minimal consideration of the epistemic functions of different types of reproducibility, distinguishing only between what they term “reproducible” and “replicable” studies (“reproducible”: <em>Given a population, hypothesis, experimental design, experimenter, data, analysis plan, and code you get the same parameter estimates in a new analysis</em>, versus. “replicable”: <em>Given a population, hypothesis, experimental design, and analysis plan you get consistent estimates when you recollect data and redo the analysis</em>). In contrast, both Gomez’ and Nakagawa and Parker’s typologies centre on the epistemic functions of generality and validity, which exist on a continuum. Nakagawa provide examples as to how these concepts might apply to ecological phenomena.</p>
+<p>What Pattil et al. term ‘reproducible’, has been defined as “reproducible research”, or a set of minimum standards requiring that data and code is made available for others to verify results of the original study and for re-use of the data (Peng 2009). This type of “computational reproducibility” is advocated for as the minimum standard when there is a lack of time or resources for intensive replications <span class="citation">(Patil, Peng, and Leek 2016; Williams, Bagwell, and Zozus 2017)</span>. As described earlier, “reproducible research” with an emphasis on computational reproducibility comprises the bulk of the reproducibility literature in ecology, perhaps because replications in ecology have typically been considered infeasible due to the inherent spatio-temporal variation in nature, or even unethical for work on threatened species (Nakagawa and Parker 2015).</p>
+<hr />
+<p><strong>Chapter One: Defining a typology of reproducibility for decision support systems in conservation and ecology</strong></p>
+<p>A major aim of this PhD is to devise a typology of reproducibility that is applicable to decision support systems in ecology and conservation. A formal definition of the type, measure and purpose of reproducibility of decisions is necessary for evaluating the reproducibility of decision support systems. I aim to draw on work emerging within the second more recent strand of reproducibility research in ecology and conservation, advancing conceptual understandings beyond “computational reproducibility” and “reproducible research”. I propose that the typology will synthesise some combination of existing typologies, such as the three described above. For example, Pattil et al.’s (2016) points of difference may prove useful for considering phases of the SDM process relying on complex mathematical models; while Gomez (2010) and Nakagawa and Parker (2015) may aid in understanding the epistemic functions of different types of reproducibility of decisions.</p>
+<p>Most formal decision-support systems for ecology and conservation lie outside of the typical hypothetico-deductive model of science. Although the concept of reproducibility is not inherently specific to that model, the causes and solutions to the reproducibility crisis have focused exclusively on this mode. For instance, QRP’s including p hacking, cherry picking, and HARKing are specific to Null-hypothesis significance testing (NHST) (Fraser et al. 2018). Solutions to the reproducibility crisis, such as preregistration of analysis plans, are specifically targeted at addressing the cognitive biases that foster these QRPs, and so also adhere to this model of science. Measures of reproducibility, such as those employed by the COS reproducibility project have also focused on the hypothetico-deductive model of science, but not all.</p>
+<p>The first step in building the typology is to define what constitutes a ‘successful’ replication of a decision support system. An obvious candidate is the final decision outcome, or the decision recommended at the end of the decision process. However, this will need careful consideration, depending on the type of replication being undertaken. For instance, suppose a ‘conceptual replication’ be undertaken to reproduce a decision support system for a particular decision-context. If the problem formulation phase is not constrained, it is possible that the set of potential decision alternatives might not even match those in the original study. This may occur because analysts vary in their ability to properly elicit the problem specification from decision-makers. The fundamental objective(s) might not be properly specified, or else the analyst might be be subject to ‘evidence complacency’ <span class="citation">(see Sutherland and Wordley 2017)</span> or be anchored by the alternatives proposed by the decision-maker, ignoring existing evidence and knowledge about the full range of potential decision alternatives for a given problem. The replicate and the original study would not be comparable in this situation, if the decision outcome is the measure of reproducibility.</p>
+<p>Following that, key points of divergence in the decision process should be identified. I suspect these will map closely onto the different phases of the decision-framework being used. This is to facilitate the identification of different types of reproducibility, each serving different epistemic functions. For each type of reproducibility deemed relevant to conservation decision-making, the set of constraints and conditions constituting a successful replication must be carefully specified, in reference to its epistemic function. Some thought will also need to be given to how the epistemic functions are relevant to the context of conservation decision-making. For example, the importance of validity seems obvious – a replication supporting the validity of a decision recommended by the original DSS would also lend credibility to the decision process that led to that decision. However the relevance of generality to this context is not so obvious – does a conceptual replication that converges on the same decision as the original DSS give validity to the original decision, and / or does it tell us something about the applicability of the particular suite of tools built into the DSS for a given decision-context?</p>
+<p>At present, the format this work will assume is unclear. It could be embedded in other chapters (Chapter 3; systematic review, or Chapters 4 and 5: the replication case study), or constitute a standalone chapter.</p>
+<hr />
+</div>
+</div>
+<div id="identifying-reproducibility-issues-for-decision-support-in-ecology-and-conservation-non-hypothesis-testing-based-research" class="section level1">
+<h1>Identifying reproducibility issues for decision support in ecology and conservation: non-hypothesis testing based research</h1>
+<p>The reproducibility literature has focused exclusively on hypothesis-testing, whether that be Bayesian or frequentist. This also applies to initial research focusing on ecology and evolution. However, Fidler <span class="citation">(2016)</span> correctly identifies that in applied ecological research, particularly in conservation science, non-hypothesis testing methods, such as decision-theory, cost-effectiveness analysis, optimization and other scientific computing methods are common. These approaches come with their own set of reproducibility issues. However, a full understanding of the types of reproducibility issues, as well as their impact on either the evidence-base, or the decisions informed by the evidence-base, is yet to emerge.</p>
+<p>In what is likely the first reproducibility study in conservation, Morrison et al. <span class="citation">(2016)</span> evaluate the Population Viability Analysis (PVA) literature by performing direct tests of repeatability and reproducibility: they found that poor model parameter reporting practices meant a large number could not even not even be reproduced in-principle, let alone in-practice. This work marks an important step towards identifying reproducibility issues relevant not only to PVA-based research, but also to CDM more broadly. Outside of ecology, where reproducibility research has received much more attention and focus, I could only identify a single paper that considered non-NHST based work in the reproducibility discussion. Crutzen and Peters <span class="citation">(2017)</span> suggest re-terming “power” and “underpowered” studies as being “undersamplesized”, in a move to embrace the disciplinary shift away from NHST towards inferences based on confidence intervals for effect size estimates. They exemplify such research as studies aiming to obtain accurate power estimates. Although their treatment of the issue is rather cursory, it is promising to see the scope of reproducibility research expanding to non-NHST approaches in broader science. However, it is pertinent that reproducibility research in ecology and CDM: we cannot evaluate the reproducibility of this body of work without first identifying relevant types of reproducibility issues.</p>
+<hr />
+<p><strong>Chapter Two: QRPs for non-hypothesis testing research</strong></p>
+<p>The first output for this research is to generate a “roadmap” of reproducibility issues, biases and questionable research practices (QRPs) that are encountered when developing Decision Support Systems in ecology and conservation. In this chapter I will attempt to identify where exactly in the DSS development process particular biases or ‘decision-points’ are likely to occur. This work should serve as a launching point for proposing standards and technical solutions targeted at individual (or teams of) researchers / analysts, with the broader objective of minimising the extent and magnitude of questionable research practices for DSS.</p>
+<p>This chapter will constitute (from what I am aware of) the first attempt to investigate reproducibility issues for non-hypothesis testing based research. To this extent, the knowledge resulting from this chapter should also be applicable to other fields of science beyond ecology and conservation where translational research and non-hypothesis testing methods are prevalent. It will also build on the work of Fraser et al. <span class="citation">(2018)</span> in advancing research on reproducibility and transparency in ecology.</p>
+<p><em>Methods for generating the roadmap</em></p>
+<ol style="list-style-type: decimal">
+<li>Sketch out the SDM / DSS development process, but breakdown into modelling steps if necessary. As a starting point, I will take the Structured Decision Making process as the overarching framework for building a Decision Support System. a. Does this process differ for different tools / decision frameworks?</li>
+<li>Identify sources of bias AND QRPs that others have identified in ecology and evolution, but also in other scientific disciplines and translational research fields a. at the individual DSS level b. at a higher level, e.g. in the evidence-base d. Are these biases / QRPs applicable to DSS’s? e. are there other biases unique to DSS’s that haven’t been considered? f. Is their occurrence specific to the type of tool or application under consideration? i.e. are some tools more robust to biases / QRPs than others?</li>
+<li>Map these biases / QRPs onto 1, where do they occur at the various decision-points?</li>
+</ol>
+<p>I plan on utilising the outputs of the reproducibility discussion session planned for the Qaecera Retreat. The aim of the session is to initiate awareness and discussion among Qaecologists and Cebranalysts about reproducibility in our research practices, with the subsequent aim of equipping people with solutions to minimise or overcome these issues. The format for the session will involve structured / facilitated discussion in small break-out groups. Given the collaborative nature of this work, participants will be invited to co-author the paper after the retreat. This might also incentivise people to attend the session!</p>
+<hr />
+</div>
+<div id="evaluating-the-transparency-and-likely-reproducibility-of-decisions-in-ecology-and-conservation" class="section level1">
+<h1>Evaluating the Transparency and likely reproducibility of decisions in ecology and conservation</h1>
+<p>Fidler et al. <span class="citation">(2017)</span>call for an assessment of the completeness and transparency of methodological and statistical reporting in journals for ecology. Such assessments should take the form of extensive journal surveys, with the aim of highlighting deficiencies in journal’s reporting policies.</p>
+<p>Why is it important: Incomplete reporting impedes direct replication, meta-analysis, and also direct re-analysis projects. From personal experience, I have reason to believe that incomplete reporting is rife in environmental decision support systems. In working with Bayesian Belief Networks for catchment management, it was impossible to re-build all but one system model from the published literature. At best, the causal structure of the model is reproducible, but only one published study I encountered contained sufficient information so as to reproduce its parameterisation. Importantly, there is also the issue of understanding modeller choices about how and why variables were parameterised. This information is rarely recorded, and often the source of empirical data used in parameterisation is not reported. The next chapter of my research will take up this call, where I will conduct a systematic review aiming to systematically evaluate the decision support literature in ecology and conservation for its transparency and likely reproducibility.</p>
+<hr />
+<p><strong>Chapter Three: Systematic Review</strong></p>
+<p>The roadmap of QRPs developed in Chapter Two will inform both the scoping and evaluation criteria for the systematic review. The results of the review will be used to generate a ‘reproducibility check-list’ or set of criteria for DSS in ecology and conservation. The check-list will be aimed at individual researchers, but with the hope of being adopted by relevant journals. The check-list will need to balance a sufficiently acceptable set of standards against resource constraints on individual researchers in order to prevent the check-list from deterring important DSS work from being published.</p>
+<p><em>Methods:</em></p>
+<p>I will follow guidelines for undertaking a systematic review in the format and procedure established by Collaboration for Environmental Evidence (CEE) Evidence Synthesis <span class="citation">(Centre for Environmental Evidence, n.d.)</span>. I chose this method of systematic review partially because the topic area is relevant (environmental management), and partially because of the comprehensiveness of the guidelines: the guidelines provides detailed and systematic methods for developing the search strategy, inclusion / exclusion criteria, and coding criteria for evaluating the literature, including pilot searches for refining criteria. The other draw card was the enforced development and pre-registration of the protocol for conducting the review in order to prevent ‘mission creep’ as the review progresses.</p>
+<p>In addition, I will use the PRISMA (Preferred Reporting Items for Systematic Reviews, <span class="citation">(Moher et al. 2015)</span>) statement for reporting, as recommended by Nakagawa and Poulin <span class="citation">(2012)</span>. The PRISMA check-list contains a check-list of 27 reporting items, as well as a flow diagram that visualizes the database searching procedure as well as decisions for including and evaluating studies. The aim of the statement is to increase the transparency of the literature review process.</p>
+<p><em>Review scope:</em></p>
+<p>I distinguish between ‘decision <em>frameworks</em>’ and ‘decision <em>tools</em>’: frameworks may be considered the structured set of procedures governing the approach to an entire decision process - i.e. from problem formulation, to modelling the consequences of decision alternatives, to evaluating alternatives. Structured Decision Making (SDM) is an example of a decision framework <span class="citation">(Bower et al. 2017)</span>. Decision tools may be understood as the particular procedures or methods used to solve or provide inputs to inform a particular phase in the overarching decision framework. For example, Bayesian Networks, Population Viability Analyses and Multi- Criteria Decision Analysis constitute decision tools. This review will investigate the reproducibility of decisions generated from ‘decision <em>frameworks</em>’, rather than just the reproducibility of ‘decision <em>tools</em>’.</p>
+<p><em>Analysis and Reporting:</em></p>
+<p>By focusing on decision frameworks more broadly – rather than a particular framework, like SDM – I hope to be able to evaluate whether different frameworks might influence the transparency and likely reproducibility of resultant decisions. This should also provide a means of testing the claim that SDMs are increase transparency, and therefore the reproducibility of decisions. Importantly, in not restricting the scope too heavily, this provides a way for dealing with linguistic ambiguity around the language of decision support in ecology and conservation. For example, there is considerable slippage between the terms ‘decision support system’ and ‘decision support tools.’ Although SDM approaches are very common in conservation, restricting the inclusion of studies to nominally SDM studies will likely omit much research that might be decision-analytic in approach, and therefore still constitute a comparable structured or formal framework for decision-making. Following a pilot test of the searching and inclusion criteria, the scope might be revised (i.e. if too many papers are returned).</p>
+<p>I am presently unclear on what analyses to conduct. But they will probably include the presentation of some descriptive statistics based around critical evaluation criteria.</p>
+<hr />
+<p><strong>Chapter Four: case studies in replicating DSS’s</strong></p>
+<p>The final chapters will involve the use of case studies of real-world ecological and conservation decisions. The objective of the case studies is to demonstrate an application of one or several types of reproducibility proposed in the typology in Chapter One. It would also serve as a proof-of-concept for replicating a decision support system. Depending on the degree of complexity and size of the case studies, I could compare a selection of different DSS problems. The exact form of the case studies / experiments will depend on the results from previous chapters, so their specification here remains purposefully vague.</p>
+<p><em>Environmental water allocations</em></p>
+<p>Chris Jones has been tasked with demonstrating the benefit of environmental water allocations across Victoria and is seeking collaboration to develop this project. It encompasses multiple river systems, each with multiple management agencies, and so presents the opportunity for a replication experiment, perhaps taking a ‘red card’ approach <span class="citation">(Fidler et al. 2017)</span>. This could involve giving a problem brief with 2 - 3 objectives, for example, to different teams of researchers, asking them to develop a decision support system, choosing which ever approach or tools that they like. They could be surveyed afterwards, asking them to describe what they did and why. Alternatively, they could write up their methods section for submission afterwards. One issue is that we need to entice people to participate. This could be using funds (which are available). Another approach would be to offer co-authorship.</p>
+<p>Importantly, because this is a real-world problem, I will need to ensure that Chris also benefits from this work. Given that Chris’ goals are currently unclear, it is difficult to specify now. However, it could potentially serve as a form of sensitivity analysis, providing evidence about the robustness of different models, but also about the processes used to derive those models. This type of replication analysis would be able to test whether the decision is reasonably robust to different processes, or tools.</p>
+<p><em>Threatened Woodland Recovery Planning</em></p>
+<p>This project aims to develop recovery plans for threatened woodland communities by generalising across communities without losing critical aspects of the structure and functioning of each community. The form that this work might take is unclear to me, however, the decision problem poses an interesting case study for work on reproducibility in both ecology and conservation decision-making, because it allows us to explore questions around the role of replications in terms of generality.</p>
+<hr />
+</div>
+<div id="timeline-of-activities-and-goals" class="section level1">
+<h1>Timeline of activities and goals</h1>
+<p>Attached.</p>
+</div>
+<div id="references" class="section level1 unnumbered">
+<h1>References</h1>
+<div id="refs" class="references">
+<div id="ref-Nature:2018ud">
+<p>“A checklist for our community.” 2018. <em>Nature Ecology &amp; Evolution</em> 2 (6). Nature Publishing Group: 913–13. doi:<a href="https://doi.org/10.1038/s41559-018-0574-7">10.1038/s41559-018-0574-7</a>.</p>
+</div>
+<div id="ref-Baillieul:2018jd">
+<p>Baillieul, John, Gerry Grenier, and Gianluca Setti. 2018. “Reflections on the Future of Research Curation and Research Reproducibility [Point of View].” <em>Proceedings of the IEEE</em> 106 (5): 779–83. doi:<a href="https://doi.org/10.1109/JPROC.2018.2816618">10.1109/JPROC.2018.2816618</a>.</p>
+</div>
+<div id="ref-Nature:un">
+<p>Baker, Monya. 2016. “Is There a Reproducibility Crisis?” <em>Nature.com</em>. <a href="https://www.nature.com/polopoly_fs/1.19970.1469695948!/menu/main/topColumns/topLeftColumn/pdf/533452a.pdf?origin=ppub" class="uri">https://www.nature.com/polopoly_fs/1.19970.1469695948!/menu/main/topColumns/topLeftColumn/pdf/533452a.pdf?origin=ppub</a>.</p>
+</div>
+<div id="ref-Baumer:2015hc">
+<p>Baumer, Benjamin, and Dana Udwin. 2015. “R Markdown.” <em>Wiley Interdisciplinary Reviews: Computational Statistics</em> 7 (3): 167–77. doi:<a href="https://doi.org/10.1002/wics.1348">10.1002/wics.1348</a>.</p>
+</div>
+<div id="ref-Bennett:2017jh">
+<p>Bennett, Nathan J, Robin Roth, Sarah C Klain, Kai Chan, Patrick Christie, Douglas A Clark, Georgina Cullman, et al. 2017. “Conservation social science: Understanding and integrating human dimensions to improve conservation.” <em>Biological Conservation</em> 205 (C). The Authors: 93–108. doi:<a href="https://doi.org/10.1016/j.biocon.2016.10.006">10.1016/j.biocon.2016.10.006</a>.</p>
+</div>
+<div id="ref-Bower:2017im">
+<p>Bower, Shannon D, Jacob W Brownscombe, Kim Birnie-Gauvin, Matthew I Ford, Andrew D Moraga, Ryan J P Pusiak, Eric D Turenne, Aaron J Zolderdo, Steven J Cooke, and Joseph R Bennett. 2017. “Making Tough Choices: Picking the Appropriate Conservation Decision-Making Tool.” <em>Conservation Letters</em> 11 (2): e12418–7. doi:<a href="https://doi.org/10.1111/conl.12418">10.1111/conl.12418</a>.</p>
+</div>
+<div id="ref-CEE:M-Sg3G8U">
+<p>Centre for Environmental Evidence. n.d. <em><strong><span style="font-style:normal;">Guidelines and Standards for Evidence Synthesis in Environmental Management</span></strong></em>. Edited by ANDREW S PULLIN, G K Frampton, B Livoreil, and G Petrokofsky. Volume 5. <a href="www.environmentalevidence.org/information-for-authors" class="uri">www.environmentalevidence.org/information-for-authors</a>.</p>
+</div>
+<div id="ref-Conroy:2013tc">
+<p>Conroy, Michael J, and J T Peterson. 2013. <em>Decision Making in Natural Resource Management: A Structured, Adaptive Approach</em>. Wiley Blackwell.</p>
+</div>
+<div id="ref-Converse:2013wp">
+<p>Converse, Sarah J, Clinton T Moore, Martin J Folk, and Michael C Runge. 2013. “A matter of tradeoffs: Reintroduction as a multiple objective decision.” <em>Journal of Wildlife Management</em> 77 (6). Wiley-Blackwell: 1145–56. <a href="https://search.ebscohost.com/login.aspx?direct=true&amp;db=eih&amp;AN=89305806&amp;site=ehost-live" class="uri">https://search.ebscohost.com/login.aspx?direct=true&amp;db=eih&amp;AN=89305806&amp;site=ehost-live</a>.</p>
+</div>
+<div id="ref-BES:tGdddZne">
+<p>Croucher, Mike, Laura Graham, Tamora James, Anna Krystalli, and Francois Michonneau. 2017. <em>A Guide to Reproducible Code in Ecology and Evolution</em>. Edited by Natalie Cooper and Pen-Yuan Hsing. British Ecological Society.</p>
+</div>
+<div id="ref-Crutzen:2017kn">
+<p>Crutzen, Rik, and Gjalt-Jorn Y Peters. 2017. “Targeting Next Generations to Change the Common Practice of Underpowered Research.” <em>Frontiers in Psychology</em> 8 (July): 67–64. doi:<a href="https://doi.org/10.3389/fpsyg.2017.01184">10.3389/fpsyg.2017.01184</a>.</p>
+</div>
+<div id="ref-Dicks:2014gf">
+<p>Dicks, Lynn V, Jessica C Walsh, and William J Sutherland. 2014. “Organising evidence for environmental management decisions: a 4S hierarchy.” <em>Trends in Ecology &amp; Evolution</em> 29 (11). Elsevier Ltd: 607–13. doi:<a href="https://doi.org/10.1016/j.tree.2014.09.004">10.1016/j.tree.2014.09.004</a>.</p>
+</div>
+<div id="ref-Fidler:2016wv">
+<p>Fidler, Fiona, Yung En Chee, Bonnie Wintle, Mark A Burgman, Michael A McCarthy, and Ascelin Gordon. 2016. “Why and how to evaluate reproducibility of ecological research.” <em>BioScience</em>, June, 1–27. <a href="https://osf.io/g7vha/" class="uri">https://osf.io/g7vha/</a>.</p>
+</div>
+<div id="ref-Fidler:2017he">
+<p>Fidler, Fiona, Yung En Chee, Brendan A Wintle, Mark A Burgman, Michael A McCarthy, and Ascelin Gordon. 2017. “Metaresearch for Evaluating Reproducibility in Ecology and Evolution.” <em>BioScience</em>, January, biw159–8. doi:<a href="https://doi.org/10.1093/biosci/biw159">10.1093/biosci/biw159</a>.</p>
+</div>
+<div id="ref-Fidler:2018ho">
+<p>Fidler, Fiona, Hannah Fraser, Michael A McCarthy, and Edward T Game. 2018. “Improving the transparency of statistical reporting in Conservation Letters.” <em>Conservation Letters</em> 11 (2). Wiley/Blackwell (10.1111): e12453–4. doi:<a href="https://doi.org/10.1111/conl.12453">10.1111/conl.12453</a>.</p>
+</div>
+<div id="ref-Fraser:2018cl">
+<p>Fraser, Hannah Stephanie, Timothy H Parker, Shinichi Nakagawa, A Barnett, and Fiona Fidler. 2018. “Questionable Research Practices in Ecology and Evolution,” March, 1–24. doi:<a href="https://doi.org/10.17605/OSF.IO/AJYQG">10.17605/OSF.IO/AJYQG</a>.</p>
+</div>
+<div id="ref-Gandrud:2016ux">
+<p>Gandrud, Christopher. 2016. <em>Reproducible Research with R and R Studio, Second Edition</em>. CRC Press. <a href="http://books.google.com.au/books?id=Ce35CQAAQBAJ&amp;pg=PA10&amp;dq=intitle:Reproducible+Research+with+R+and+RStudio+Second+Edition&amp;hl=&amp;cd=1&amp;source=gbs_api" class="uri">http://books.google.com.au/books?id=Ce35CQAAQBAJ&amp;pg=PA10&amp;dq=intitle:Reproducible+Research+with+R+and+RStudio+Second+Edition&amp;hl=&amp;cd=1&amp;source=gbs_api</a>.</p>
+</div>
+<div id="ref-Gardner:2018dm">
+<p>Gardner, Charlie J, Patrick O Waeber, Onja H Razafindratsima, and Lucienne Wilmé. 2018. “Decision complacency and conservation planning.” <em>Conservation Biology</em>, May, 1–10. doi:<a href="https://doi.org/10.1111/cobi.13124">10.1111/cobi.13124</a>.</p>
+</div>
+<div id="ref-Giljohann:2014tv">
+<p>Giljohann, K M, K M Giljohann, M A McCarthy, M A McCarthy, L T Kelly, and L T Kelly. 2014. “Choice of biodiversity index drives optimal fire management decisions.” <em>Ecological Modelling</em>. <a href="http://www.esajournals.org/doi/abs/10.1890/14-0257.1" class="uri">http://www.esajournals.org/doi/abs/10.1890/14-0257.1</a>.</p>
+</div>
+<div id="ref-gomez:2010rp">
+<p>Gómez, Omar S, Natalia Juristo, and Sira Vegas. 2010. “Replications Types in Experimental Disciplines.” In <em>Proceedings of the 2010 Acm-Ieee International Symposium on Empirical Software Engineering and Measurement</em>, 3. ACM.</p>
+</div>
+<div id="ref-Kim:2016gf">
+<p>Kim, Milena Kiatkoski, Louisa Evans, Lea M Scherl, and Helene Marsh. 2016. “Applying Governance Principles to Systematic Conservation Decision-Making in Queensland.” <em>Environmental Policy and Governance</em> 26 (6): 452–67. doi:<a href="https://doi.org/10.1002/eet.1731">10.1002/eet.1731</a>.</p>
+</div>
+<div id="ref-Law:2017ia">
+<p>Law, Elizabeth A, Paul J Ferraro, Peter Arcese, Brett A Bryan, Katrina Davis, Ascelin Gordon, Matthew H Holden, et al. 2017. “Projecting the performance of conservation interventions.” <em>BIOC</em> 215 (September). Elsevier: 142–51. doi:<a href="https://doi.org/10.1016/j.biocon.2017.08.029">10.1016/j.biocon.2017.08.029</a>.</p>
+</div>
+<div id="ref-McIntosh:2011ew">
+<p>McIntosh, B S, J C Ascough II, M Twery, J Chew, A Elmahdi, D Haase, J J Harou, et al. 2011. “Environmental decision support systems (EDSS) development - Challenges and best practices.” <em>Environmental Modelling &amp; Software</em> 26 (12). Elsevier Ltd: 1389–1402. doi:<a href="https://doi.org/10.1016/j.envsoft.2011.09.009">10.1016/j.envsoft.2011.09.009</a>.</p>
+</div>
+<div id="ref-Merali:2010tw">
+<p>Merali, Z. 2010. <em>Error: why scientific programming does not compute</em>. Nature. <a href="http://scholar.google.com/scholar?q=related:0nzms2QeCT0J:scholar.google.com/&amp;hl=en&amp;num=20&amp;as_sdt=0,5" class="uri">http://scholar.google.com/scholar?q=related:0nzms2QeCT0J:scholar.google.com/&amp;hl=en&amp;num=20&amp;as_sdt=0,5</a>.</p>
+</div>
+<div id="ref-Moher:2015">
+<p>Moher, David, Larissa Shamseer, Mike Clarke, Davina Ghersi, Alessandro Liberati, Mark Petticrew, Paul Shekelle, and Lesley A Stewart. 2015. “Preferred reporting items for systematic review and meta-analysis protocols (PRISMA-P) 2015 statement.” <em>Systematic Reviews</em> 4 (1): 1. doi:<a href="https://doi.org/10.1186/2046-4053-4-1">10.1186/2046-4053-4-1</a>.</p>
+</div>
+<div id="ref-Moore:2012ii">
+<p>Moore, Joslin L, and Michael C Runge. 2012. “Combining Structured Decision Making and Value-of-Information Analyses to Identify Robust Management Strategies” 26 (5): 810–20. doi:<a href="https://doi.org/10.1111/j.1523-1739.2012.01907.x">10.1111/j.1523-1739.2012.01907.x</a>.</p>
+</div>
+<div id="ref-Morrison:2016cd">
+<p>Morrison, Clare, Cassandra Wardle, and J Guy Castley. 2016. “Repeatability and Reproducibility of Population Viability Analysis (PVA) and the Implications for Threatened Species Management.” <em>Frontiers in Ecology and Evolution</em> 4 (August): 875–7. doi:<a href="https://doi.org/10.3389/fevo.2016.00098">10.3389/fevo.2016.00098</a>.</p>
+</div>
+<div id="ref-MoruetaHolme:2018bi">
+<p>Morueta-Holme, Naia, Meagan F Oldfather, Rachael L Olliff-Yang, Andrew P Weitz, Carrie R Levine, Matthew M Kling, Erin C Riordan, et al. 2018. “Best practices for reporting climate data in ecology.” <em>Nature Climate Change</em>, January. Springer US, 1–3. doi:<a href="https://doi.org/10.1038/s41558-017-0060-2">10.1038/s41558-017-0060-2</a>.</p>
+</div>
+<div id="ref-Mukherjee:2018cb">
+<p>Mukherjee, Nibedita, Aiora Zabala, Jean Huge, Tobias Ochieng Nyumba, Blal Adem Esmail, and William J Sutherland. 2018. “Comparison of techniques for eliciting views and judgements in decision-making.” <em>Methods in Ecology and Evolution</em> 9 (1): 54–63. doi:<a href="https://doi.org/10.1111/2041-210X.12940">10.1111/2041-210X.12940</a>.</p>
+</div>
+<div id="ref-Nakagawa:2015bn">
+<p>Nakagawa, Shinichi, and Timothy H Parker. 2015. “Replicating research in ecology and evolution: feasibility, incentives, and the cost-benefit conundrum.” <em>BMC Biology</em>, October. BMC Biology, 1–6. doi:<a href="https://doi.org/10.1186/s12915-015-0196-3">10.1186/s12915-015-0196-3</a>.</p>
+</div>
+<div id="ref-Nakagawa:2012fl">
+<p>Nakagawa, Shinichi, and Robert Poulin. 2012. “Meta-analytic insights into evolutionary ecology: an introduction and synthesis.” <em>Evolutionary Ecology</em> 26 (5): 1085–99. doi:<a href="https://doi.org/10.1007/s10682-012-9593-z">10.1007/s10682-012-9593-z</a>.</p>
+</div>
+<div id="ref-Noble:2009da">
+<p>Noble, William Stafford. 2009. “A Quick Guide to Organizing Computational Biology Projects.” <em>PLoS Computational Biology</em> 5 (7): e1000424. doi:<a href="https://doi.org/10.1371/journal.pcbi.1000424.g001">10.1371/journal.pcbi.1000424.g001</a>.</p>
+</div>
+<div id="ref-OpenScienceCollaboration:2015cn">
+<p>Open Science Collaboration. 2015. “Estimating the reproducibility of psychological science.” <em>Science (New York, N.Y.)</em> 349 (6251): aac4716–aac4716. doi:<a href="https://doi.org/10.1126/science.aac4716">10.1126/science.aac4716</a>.</p>
+</div>
+<div id="ref-Parker:2016hc">
+<p>Parker, Timothy H, Wolfgang Forstmeier, Julia Koricheva, Fiona Fidler, Jarrod D Hadfield, Yung En Chee, Clint D Kelly, Jessica Gurevitch, and Shinichi Nakagawa. 2016. “Transparency in Ecology and Evolution: Real Problems, Real Solutions.” <em>Trends in Ecology &amp; Evolution</em> 31 (9). Elsevier: 711–19. doi:<a href="https://doi.org/10.1016/j.tree.2016.07.002">10.1016/j.tree.2016.07.002</a>.</p>
+</div>
+<div id="ref-Patil:2016tm">
+<p>Patil, P, R D Peng, and J Leek. 2016. “A statistical definition for reproducibility and replicability.” <em>bioRxiv</em>. <a href="http://www.biorxiv.org/content/early/2016/07/29/066803.abstract" class="uri">http://www.biorxiv.org/content/early/2016/07/29/066803.abstract</a>.</p>
+</div>
+<div id="ref-Peng:2009vn">
+<p>Peng, R D. 2009. “Reproducible research and biostatistics.” <em>Biostatistics</em> 10 (3): 405–8.</p>
+</div>
+<div id="ref-Anonymous:a1kBf1q9">
+<p>Ram, Karthik. 2013. “Git can facilitate greater reproducibility and increased transparency in science.” <em>Source Code for Biology and Medicine</em> 8 (1). BioMed Central: 7. doi:<a href="https://doi.org/10.1186/1751-0473-8-7">10.1186/1751-0473-8-7</a>.</p>
+</div>
+<div id="ref-Regan:2005wn">
+<p>Regan, H M, Y Ben-Haim, B Langford, and et al. 2005. “Robust decision-making under severe uncertainty for conservation management.” <em>Ecological Applications</em> 15 (4). Eco Soc America: 1471–7. <a href="http://www.esajournals.org/doi/abs/10.1890/03-5419" class="uri">http://www.esajournals.org/doi/abs/10.1890/03-5419</a>.</p>
+</div>
+<div id="ref-Schreiber:2004to">
+<p>Schreiber, E Sabine G, E Sabine G Schreiber, Andrew R Bearlin, Andrew R Bearlin, Simon J Nicol, Simon J Nicol, Charles R Todd, and Charles R Todd. 2004. “Adaptive management: a synthesis of current understanding and effective application.” <em>Ecological Management &amp; Restoration</em> 5 (3). Wiley Online Library: 177–82. <a href="http://onlinelibrary.wiley.com/doi/10.1111/j.1442-8903.2004.00206.x/full" class="uri">http://onlinelibrary.wiley.com/doi/10.1111/j.1442-8903.2004.00206.x/full</a>.</p>
+</div>
+<div id="ref-Stewart:2010fh">
+<p>Stewart, G. 2010. “Meta-analysis in applied ecology.” <em>Biology Letters</em> 6 (1): 78–81. doi:<a href="https://doi.org/10.1098/rsbl.2009.0546">10.1098/rsbl.2009.0546</a>.</p>
+</div>
+<div id="ref-Sutherland:2017hc">
+<p>Sutherland, William J, and Claire F R Wordley. 2017. “Evidence complacency hampers conservation.” <em>Nature Ecology &amp; Evolution</em> 1 (9). Springer US: 1–2. doi:<a href="https://doi.org/10.1038/s41559-017-0244-1">10.1038/s41559-017-0244-1</a>.</p>
+</div>
+<div id="ref-White:2013ea">
+<p>White, Ethan, Elita Baldridge, Zachary Brym, Kenneth Locey, Daniel McGlinn, and Sarah Supp. 2013. “Nine simple ways to make it easier to (re)use your data.” <em>Ideas in Ecology and Evolution</em> 6 (2): 1–10. doi:<a href="https://doi.org/10.4033/iee.2013.6b.6.f">10.4033/iee.2013.6b.6.f</a>.</p>
+</div>
+<div id="ref-Whitlock:cl">
+<p>Whitlock, MC. 2011. “Data archiving in ecology and evolution: best practices.” <em>Elsevier</em>. doi:<a href="https://doi.org/10.1016/j.tree.2010.11.006">10.1016/j.tree.2010.11.006</a>.</p>
+</div>
+<div id="ref-Williams:2017bg">
+<p>Williams, Mary, Jacqueline Bagwell, and Meredith Nahm Zozus. 2017. “Data management plans, the missing perspective.” <em>Journal of Biomedical Informatics</em> 71 (July): 130–42. doi:<a href="https://doi.org/10.1016/j.jbi.2017.05.004">10.1016/j.jbi.2017.05.004</a>.</p>
+</div>
+<div id="ref-Wilson:2014ck">
+<p>Wilson, Greg, D A Aruliah, C Titus Brown, Neil P Chue Hong, Matt Davis, Richard T Guy, Steven H D Haddock, et al. 2014. “Best Practices for Scientific Computing.” <em>PLoS Biology</em> 12 (1): e1001745. doi:<a href="https://doi.org/10.1371/journal.pbio.1001745">10.1371/journal.pbio.1001745</a>.</p>
+</div>
+</div>
+</div>
+
+      </div>
+      
+      <div class="post-content">
+        <div id="disqus_thread"></div>
+<script>
+(function() {
+var d = document, s = d.createElement('script');
+s.src = 'https://electronic-lab-notebook.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+      </div>
+      
+    </div>
+  </div>
+  <div class="pure-u-1-24 pure-u-md-1-6"></div>
+</div>
+
+<div class="footer pure-g">
+  <div class="pure-u-1-24 pure-u-md-1-6"></div>
+  <div class="pure-u-11-12 pure-u-md-2-3">
+    <div class="footer-content">
+      <div class="pure-menu pure-menu-horizontal">
+        <ul>
+          
+          <li class="pure-menu-item" id="foot-name">© Elise Gould</li>
+          
+
+          
+          <li class="pure-menu-item">
+            <a href="mailto:elise.gould@unimelb.edu.au" class="pure-menu-link">Email</a>
+          </li>
+          
+
+          
+          <li class="pure-menu-item">
+            <a href="https://github.com/egouldo" class="pure-menu-link">GitHub</a>
+          </li>
+          
+
+          
+          <li class="pure-menu-item">
+            <a href="https://twitter.com/EliseGould" class="pure-menu-link">Twitter</a>
+          </li>
+          
+
+          
+
+        </ul>
+        <a href="#" class="pure-menu-link pull-right" id="gototop-btn">↑↑</a>
+        
+      </div>
+      
+      <p id="foot-copyright">(c) 2018 -- All rights reserved.</p>
+      
+    </div>
+  </div>
+  <div class="pure-u-1-24 pure-u-md-1-6"></div>
+</div>
+
+
+
+  <script src="/highlight/highlight.min.js"></script>
+  
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+  
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/vim.min.js"></script>
+  
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/shell.min.js"></script>
+  
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>
+  
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/markdown.min.js"></script>
+  
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+  
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+   
+  <script>hljs.initHighlighting();</script>
+
+
+<script type="text/javascript">
+  go();
+  window.addEventListener('resize', go);
+  function go(){
+    var d=document.querySelector(".desktop")
+    if(document.documentElement.clientWidth > 768) {
+      d.style.display="";
+    } else {
+      d.style.display="none";
+    }
+  }
+</script>
+<script type="text/javascript">
+  var a=document.querySelector("#toggle-btn"),b=document.querySelector("#toggle-content");a.addEventListener("click",function(){""==b.style.display?(b.style.display="none",a.innerHTML="☰"):(b.style.display="",a.innerHTML="X")});</script>
+
+
+</body>
+</html>
+

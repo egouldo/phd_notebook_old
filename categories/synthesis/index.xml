@@ -24,6 +24,26 @@
     </item>
     
     <item>
+      <title>proposal out-takes</title>
+      <link>/posts/proposal_outtakes/</link>
+      <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/proposal_outtakes/</guid>
+      <description>Unpacking what this (“reproducibility issues”) means … what do we need to know? what is my task a. how to measure the likely reproducibility of a study b. what is the function / role of different types of replications in terms of what they tell us about the broader state of the literature (validity, generalisations) c.
+how widespread the reproducibility issues identified in part I. The work from the first aim will help to inform the scoping rules and coding criteria for the systematic review.</description>
+    </item>
+    
+    <item>
+      <title>Decision Science Vocabulary</title>
+      <link>/posts/decision_science_vocabulary/</link>
+      <pubDate>Wed, 16 May 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/decision_science_vocabulary/</guid>
+      <description>Decision Making: &amp;quot; p.56: For the purposes of this paper, we define decision-making as the process of identifying options and selecting a feasible solution, based on evidence combined with the decisionmaker’s values and experience (DeFries &amp;amp; Nagendra, 2017). – Highlighted 21 May 2018&amp;quot; (Mukherjee et al. 2018)
+When is a tool a tool or a system? See heading “decision support systems” in (Dicks, Walsh, and Sutherland 2014) Dicks, L. V., Walsh, J.</description>
+    </item>
+    
+    <item>
       <title>reproducibility for decision support tools</title>
       <link>/posts/reproducibility-for-decision-support-tools/</link>
       <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
@@ -32,6 +52,15 @@
       <description>I&amp;rsquo;ve set aside this document for developing a parallel framework of reproducibility issues not just outside of NHST, but particular to Decision Support Tools in ecology and conservation.
 WHY? Because the majority of work addressing reproducibility in and outside of ecology has focused on hypothesis testing (NHST, predominantly). And non-NHST methods are important tools in the Decision Support toolbox for conservation science and applied ecology.
 From this, I hope to: a) develop the coding criteria for the systematic review b) propose some sort of gold-standard protocol for developing reproducible decision support tools</description>
+    </item>
+    
+    <item>
+      <title>QRP and Biases Roadmap</title>
+      <link>/posts/qrp_roadmap/</link>
+      <pubDate>Wed, 15 Feb 2017 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/qrp_roadmap/</guid>
+      <description>Goal I want to generate a “roadmap” of the sources of bias and questionable research practices (QRPs) that I think are frequently encountered when developing D in applied ecology / conservation. These biases will reduce the reproducibility of of a given decision support tool. Identifying where in the DST development process particular biases are likely to occur should serve as a launching point for proposing solutions towards minimising their occurrence and therefore increasing the reproducibility of DSTs.</description>
     </item>
     
   </channel>

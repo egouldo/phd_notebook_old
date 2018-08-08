@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Research Proposal on Electronic Lab Notebook</title>
-    <link>/categories/research-proposal/</link>
-    <description>Recent content in Research Proposal on Electronic Lab Notebook</description>
+    <title>Reproducibility Roadmap on Electronic Lab Notebook</title>
+    <link>/tags/reproducibility-roadmap/</link>
+    <description>Recent content in Reproducibility Roadmap on Electronic Lab Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
     <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
     <copyright>(c) 2018 -- All rights reserved.</copyright>
-    <lastBuildDate>Wed, 15 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 May 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/research-proposal/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/reproducibility-roadmap/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>proposal out-takes</title>
+      <link>/posts/proposal_outtakes/</link>
+      <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/proposal_outtakes/</guid>
+      <description>Unpacking what this (“reproducibility issues”) means … what do we need to know? what is my task a. how to measure the likely reproducibility of a study b. what is the function / role of different types of replications in terms of what they tell us about the broader state of the literature (validity, generalisations) c.
+how widespread the reproducibility issues identified in part I. The work from the first aim will help to inform the scoping rules and coding criteria for the systematic review.</description>
+    </item>
     
     <item>
       <title>QRP and Biases Roadmap</title>

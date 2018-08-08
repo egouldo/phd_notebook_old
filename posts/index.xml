@@ -126,6 +126,36 @@ The reproducibility literature has focused exclusively on hypothesis-testing, wh
     </item>
     
     <item>
+      <title>PhD Research Proposal: Reproducibility and Transparency of Decisions in Ecology and Conservation</title>
+      <link>/posts/research_proposal/</link>
+      <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/research_proposal/</guid>
+      <description>Keywords:
+ conservation decision-making ecology reproducibility structured decision-making  Introduction Successful biodiversity conservation and management is underpinned by effective and robust decision-making (Mukherjee et al. 2018). Decision-makers are tasked with allocating limited resources in the face of uncertainty about the effectiveness of alternative management interventions, and incomplete or inadequate scientific information. Moreover, environmental decisions often must be made in complex socio-economic and political contexts, with multiple stakeholders and multiple and/or competing objectives.</description>
+    </item>
+    
+    <item>
+      <title>proposal out-takes</title>
+      <link>/posts/proposal_outtakes/</link>
+      <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/proposal_outtakes/</guid>
+      <description>Unpacking what this (“reproducibility issues”) means … what do we need to know? what is my task a. how to measure the likely reproducibility of a study b. what is the function / role of different types of replications in terms of what they tell us about the broader state of the literature (validity, generalisations) c.
+how widespread the reproducibility issues identified in part I. The work from the first aim will help to inform the scoping rules and coding criteria for the systematic review.</description>
+    </item>
+    
+    <item>
+      <title>Decision Science Vocabulary</title>
+      <link>/posts/decision_science_vocabulary/</link>
+      <pubDate>Wed, 16 May 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/decision_science_vocabulary/</guid>
+      <description>Decision Making: &amp;quot; p.56: For the purposes of this paper, we define decision-making as the process of identifying options and selecting a feasible solution, based on evidence combined with the decisionmaker’s values and experience (DeFries &amp;amp; Nagendra, 2017). – Highlighted 21 May 2018&amp;quot; (Mukherjee et al. 2018)
+When is a tool a tool or a system? See heading “decision support systems” in (Dicks, Walsh, and Sutherland 2014) Dicks, L. V., Walsh, J.</description>
+    </item>
+    
+    <item>
       <title>Fraser et al 2018 QRPs in Ecology and Evolution</title>
       <link>/posts/fraser-et-al-2018-qrps-in-ecology-and-evolution/</link>
       <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
@@ -309,6 +339,16 @@ How do decisions vs. models differ? What is particular about my problem context?
     </item>
     
     <item>
+      <title>PhD Timeline and Milestones</title>
+      <link>/posts/phd_timeline/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/phd_timeline/</guid>
+      <description>Timeline   Milestones Milestones are documented in the RHD manual, page 4: https://app.lms.unimelb.edu.au/bbcswebdav/pid-6166800-dt-content-rid-24849943_3/orgs/COM_01654/RHD%20Handbook%20v%202017%2008%2016%20LMS%20version%202.pdf
+Candidature and Confirmation: Probationary Candidate: You start your PhD as a probationary candidate and within 12 months (we recommend the ideal time of 9 to 10 months) you will go through the confirmation procedure, formalising your candidature. Purpose of Confirmation: The main purpose of the confirmation process is to determine if you have developed a detailed research plan together with your supervisor(s), to assess whether this research plan meets the requirements of the degree, and to assess if adequate progress has been made.</description>
+    </item>
+    
+    <item>
       <title>Madin (2007) Advancing ecological research with ontologies</title>
       <link>/posts/madin-2007-advancing-ecological-research-with-ontologies/</link>
       <pubDate>Sat, 24 Feb 2018 00:00:00 +0000</pubDate>
@@ -429,6 +469,15 @@ Problem: Projecting the performance of conservation interventions Successful dec
       <description>Readings: Reproducibility – how to define for this context. Ecology / decision support tools.
 Reproducibility of ecological models used for decision support tools.
 Interested in the sorts of decisions that we make as modellers… e.g. what performance measures do we use, there are so many different ways of valuing the objectives. And depending on which measure you use, you might judge the outcomes of each of the different strategies under consideration differently….</description>
+    </item>
+    
+    <item>
+      <title>QRP and Biases Roadmap</title>
+      <link>/posts/qrp_roadmap/</link>
+      <pubDate>Wed, 15 Feb 2017 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/qrp_roadmap/</guid>
+      <description>Goal I want to generate a “roadmap” of the sources of bias and questionable research practices (QRPs) that I think are frequently encountered when developing D in applied ecology / conservation. These biases will reduce the reproducibility of of a given decision support tool. Identifying where in the DST development process particular biases are likely to occur should serve as a launching point for proposing solutions towards minimising their occurrence and therefore increasing the reproducibility of DSTs.</description>
     </item>
     
   </channel>

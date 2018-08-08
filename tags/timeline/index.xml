@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Timeline on research notebook</title>
+    <title>Timeline on Electronic Lab Notebook</title>
     <link>/tags/timeline/</link>
-    <description>Recent content in Timeline on research notebook</description>
+    <description>Recent content in Timeline on Electronic Lab Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Elise Gould</copyright>
+    <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
+    <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
+    <copyright>(c) 2018 -- All rights reserved.</copyright>
     <lastBuildDate>Wed, 28 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/timeline/index.xml" rel="self" type="application/rss+xml" />
@@ -14,10 +16,10 @@
     
     <item>
       <title>PhD Timeline and Milestones</title>
-      <link>/project/phd_timeline/</link>
+      <link>/posts/phd_timeline/</link>
       <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/project/phd_timeline/</guid>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/phd_timeline/</guid>
       <description>Timeline   Milestones Milestones are documented in the RHD manual, page 4: https://app.lms.unimelb.edu.au/bbcswebdav/pid-6166800-dt-content-rid-24849943_3/orgs/COM_01654/RHD%20Handbook%20v%202017%2008%2016%20LMS%20version%202.pdf
 Candidature and Confirmation: Probationary Candidate: You start your PhD as a probationary candidate and within 12 months (we recommend the ideal time of 9 to 10 months) you will go through the confirmation procedure, formalising your candidature. Purpose of Confirmation: The main purpose of the confirmation process is to determine if you have developed a detailed research plan together with your supervisor(s), to assess whether this research plan meets the requirements of the degree, and to assess if adequate progress has been made.</description>
     </item>

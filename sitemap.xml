@@ -108,6 +108,21 @@
   </url>
   
   <url>
+    <loc>/posts/research_proposal/</loc>
+    <lastmod>2018-05-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/proposal_outtakes/</loc>
+    <lastmod>2018-05-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/decision_science_vocabulary/</loc>
+    <lastmod>2018-05-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/fraser-et-al-2018-qrps-in-ecology-and-evolution/</loc>
     <lastmod>2018-05-15T00:00:00+00:00</lastmod>
   </url>
@@ -193,6 +208,11 @@
   </url>
   
   <url>
+    <loc>/posts/phd_timeline/</loc>
+    <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/madin-2007-advancing-ecological-research-with-ontologies/</loc>
     <lastmod>2018-02-24T00:00:00+00:00</lastmod>
   </url>
@@ -245,6 +265,11 @@
   <url>
     <loc>/posts/first-post/</loc>
     <lastmod>2017-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/qrp_roadmap/</loc>
+    <lastmod>2017-02-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -499,6 +524,12 @@
   </url>
   
   <url>
+    <loc>/tags/project/</loc>
+    <lastmod>2018-05-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/publication-bias/</loc>
     <lastmod>2018-06-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -537,6 +568,12 @@
   <url>
     <loc>/tags/reproducibility-crisis/</loc>
     <lastmod>2018-05-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/reproducibility-roadmap/</loc>
+    <lastmod>2018-05-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -615,6 +652,12 @@
   <url>
     <loc>/tags/theory/</loc>
     <lastmod>2017-12-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/timeline/</loc>
+    <lastmod>2018-02-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
