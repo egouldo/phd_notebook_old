@@ -9,10 +9,20 @@
     <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
     <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
     <copyright>(c) 2018 -- All rights reserved.</copyright>
-    <lastBuildDate>Tue, 14 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/reading/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Simonsohn (2014) </title>
+      <link>/posts/simonsohn-2014/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/simonsohn-2014/</guid>
+      <description>Relationship to frequentist analyses, and the potential for P-hacking Simsonohn (2014) ran two computational experiments looking at the effects of p-hacking practices on the chance of a type I error for both Bayesian confidence intervals and Bayes Factors. He compared the Bayesian methods to the frequentist methods for each.
+Bayesian confidence intervals are mathematically equivalent to frequentist confidence intervals. The only real difference is that their philosophical interpretation is different (and under both inference frameworks, normality is assumed).</description>
+    </item>
     
     <item>
       <title>Morgan et al 2017 Use (and abuse) of expert elicitation in support of decision making for public policy</title>
@@ -32,6 +42,18 @@
       <guid>/posts/dormann-et-al-2018-biotic-interactions-in-species-distribution-modelling-10-questions-to-guide-interpretations-and-avoid-false-conclusions/</guid>
       <description>Problem The authors aim to address the problem of false conclusions arisng during inference of joint species distribution models – specifically, false conclusions of biotic interactions.
 Approach The authors conduct a review of joint species distribution modelling to identify (from caveats and other issues ear-marked in the source papers) potential factors that confound interpretation of analyses. Next, they develop a series of questions that can be asked by the analyst and also the reviewer to guide interpretation of conclusions – are the conclusions about biotic interactions plausible?</description>
+    </item>
+    
+    <item>
+      <title>Baranyi and da Silva (2017) The use of predictive models to optimize risk of decisions</title>
+      <link>/posts/baranyi-and-da-silva-2017-the-use-of-predictive-models-to-optimize-risk-of-decisions/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/baranyi-and-da-silva-2017-the-use-of-predictive-models-to-optimize-risk-of-decisions/</guid>
+      <description>Application domain: Microbiology decision support for predicting food borne Bacteria growth and reduce the need for microbiological testing. Approach/framework: risk assessment and decision-analytic framework.
+Aims and objectives of the paper:
+ The focus of this paper is not the above interpreted risk, assigned to an a-posteriori event, but the risk of an a-priory decision, that we also call choice or bet in what follows.
+  In this paper we explain, backed by examples, why predictive models should be used in combination with a cost-bene fit assessment.</description>
     </item>
     
     <item>

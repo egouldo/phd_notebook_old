@@ -9,7 +9,7 @@
     <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
     <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
     <copyright>(c) 2018 -- All rights reserved.</copyright>
-    <lastBuildDate>Thu, 18 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,9 +17,27 @@
     <item>
       <title>Accuracy</title>
       <link>/tags/accuracy/</link>
-      <pubDate>Thu, 18 Jan 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
       <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/accuracy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayes Factor</title>
+      <link>/tags/bayes-factor/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/tags/bayes-factor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayesian</title>
+      <link>/tags/bayesian/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/tags/bayesian/</guid>
       <description></description>
     </item>
     
@@ -44,7 +62,7 @@
     <item>
       <title>Confidence Interval</title>
       <link>/tags/confidence-interval/</link>
-      <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
       <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/confidence-interval/</guid>
       <description></description>
@@ -80,7 +98,7 @@
     <item>
       <title>Decision Analysis</title>
       <link>/tags/decision-analysis/</link>
-      <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
       <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/decision-analysis/</guid>
       <description></description>
@@ -89,7 +107,7 @@
     <item>
       <title>Decision Science</title>
       <link>/tags/decision-science/</link>
-      <pubDate>Wed, 16 May 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
       <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/decision-science/</guid>
       <description></description>
@@ -98,7 +116,7 @@
     <item>
       <title>Decision Support</title>
       <link>/tags/decision-support/</link>
-      <pubDate>Tue, 26 Jun 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
       <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/decision-support/</guid>
       <description></description>
@@ -164,6 +182,15 @@
       <pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate>
       <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/expert-judgment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>False Positive</title>
+      <link>/tags/false-positive/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/tags/false-positive/</guid>
       <description></description>
     </item>
     
@@ -294,9 +321,18 @@
     </item>
     
     <item>
+      <title>Optimisation</title>
+      <link>/tags/optimisation/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/tags/optimisation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>P Value</title>
       <link>/tags/p-value/</link>
-      <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
       <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/p-value/</guid>
       <description></description>
@@ -323,7 +359,7 @@
     <item>
       <title>Practice</title>
       <link>/tags/practice/</link>
-      <pubDate>Wed, 09 May 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
       <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/practice/</guid>
       <description></description>
@@ -359,7 +395,7 @@
     <item>
       <title>Qrp</title>
       <link>/tags/qrp/</link>
-      <pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
       <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/qrp/</guid>
       <description></description>
@@ -503,7 +539,7 @@
     <item>
       <title>Transparency</title>
       <link>/tags/transparency/</link>
-      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
       <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/transparency/</guid>
       <description></description>
