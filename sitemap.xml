@@ -83,11 +83,6 @@
   </url>
   
   <url>
-    <loc>/posts/baranyi-and-da-silva-2017-the-use-of-predictive-models-to-optimize-risk-of-decisions/</loc>
-    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/posts/retreat-qrp-session/</loc>
     <lastmod>2018-07-20T00:00:00+00:00</lastmod>
   </url>
@@ -293,8 +288,16 @@
   </url>
   
   <url>
+    <loc>/posts/2018-07-25-baranyi-and-da-silva-2017-the-use-of-predictive-models-to-optimize-risk-of-decisions/</loc>
+  </url>
+  
+  <url>
+    <loc>/posts/2018-08-22-bayesianism-and-questionable-research-practices/</loc>
+  </url>
+  
+  <url>
     <loc>/tags/accuracy/</loc>
-    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -341,19 +344,19 @@
   
   <url>
     <loc>/tags/decision-analysis/</loc>
-    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <lastmod>2018-03-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/decision-science/</loc>
-    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/decision-support/</loc>
-    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -498,12 +501,6 @@
   <url>
     <loc>/tags/open-science/</loc>
     <lastmod>2018-07-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/optimisation/</loc>
-    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -665,7 +662,7 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

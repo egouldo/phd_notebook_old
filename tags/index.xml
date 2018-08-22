@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Electronic Lab Notebook</title>
+    <title>Tags on Elise Gould: PhD Research Notebook</title>
     <link>/tags/</link>
-    <description>Recent content in Tags on Electronic Lab Notebook</description>
+    <description>Recent content in Tags on Elise Gould: PhD Research Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
     <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
     <copyright>(c) 2018 -- All rights reserved.</copyright>
-    <lastBuildDate>Wed, 25 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,7 +17,7 @@
     <item>
       <title>Accuracy</title>
       <link>/tags/accuracy/</link>
-      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 18 Jan 2018 00:00:00 +0000</pubDate>
       <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/accuracy/</guid>
       <description></description>
@@ -80,7 +80,7 @@
     <item>
       <title>Decision Analysis</title>
       <link>/tags/decision-analysis/</link>
-      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
       <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/decision-analysis/</guid>
       <description></description>
@@ -89,7 +89,7 @@
     <item>
       <title>Decision Science</title>
       <link>/tags/decision-science/</link>
-      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 16 May 2018 00:00:00 +0000</pubDate>
       <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/decision-science/</guid>
       <description></description>
@@ -98,7 +98,7 @@
     <item>
       <title>Decision Support</title>
       <link>/tags/decision-support/</link>
-      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 26 Jun 2018 00:00:00 +0000</pubDate>
       <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/decision-support/</guid>
       <description></description>
@@ -290,15 +290,6 @@
       <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
       <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/tags/open-science/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Optimisation</title>
-      <link>/tags/optimisation/</link>
-      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
-      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
-      <guid>/tags/optimisation/</guid>
       <description></description>
     </item>
     

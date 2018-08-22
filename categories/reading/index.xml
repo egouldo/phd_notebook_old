@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Reading on Electronic Lab Notebook</title>
+    <title>Reading on Elise Gould: PhD Research Notebook</title>
     <link>/categories/reading/</link>
-    <description>Recent content in Reading on Electronic Lab Notebook</description>
+    <description>Recent content in Reading on Elise Gould: PhD Research Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
@@ -32,18 +32,6 @@
       <guid>/posts/dormann-et-al-2018-biotic-interactions-in-species-distribution-modelling-10-questions-to-guide-interpretations-and-avoid-false-conclusions/</guid>
       <description>Problem The authors aim to address the problem of false conclusions arisng during inference of joint species distribution models – specifically, false conclusions of biotic interactions.
 Approach The authors conduct a review of joint species distribution modelling to identify (from caveats and other issues ear-marked in the source papers) potential factors that confound interpretation of analyses. Next, they develop a series of questions that can be asked by the analyst and also the reviewer to guide interpretation of conclusions – are the conclusions about biotic interactions plausible?</description>
-    </item>
-    
-    <item>
-      <title>Baranyi and da Silva (2017) The use of predictive models to optimize risk of decisions</title>
-      <link>/posts/baranyi-and-da-silva-2017-the-use-of-predictive-models-to-optimize-risk-of-decisions/</link>
-      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
-      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
-      <guid>/posts/baranyi-and-da-silva-2017-the-use-of-predictive-models-to-optimize-risk-of-decisions/</guid>
-      <description>Application domain: Microbiology decision support for predicting food borne Bacteria growth and reduce the need for microbiological testing. Approach/framework: risk assessment and decision-analytic framework.
-Aims and objectives of the paper:
- The focus of this paper is not the above interpreted risk, assigned to an a-posteriori event, but the risk of an a-priory decision, that we also call choice or bet in what follows.
-  In this paper we explain, backed by examples, why predictive models should be used in combination with a cost-bene fit assessment.</description>
     </item>
     
     <item>

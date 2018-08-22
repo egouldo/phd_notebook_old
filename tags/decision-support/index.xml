@@ -1,30 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Decision Support on Electronic Lab Notebook</title>
+    <title>Decision Support on Elise Gould: PhD Research Notebook</title>
     <link>/tags/decision-support/</link>
-    <description>Recent content in Decision Support on Electronic Lab Notebook</description>
+    <description>Recent content in Decision Support on Elise Gould: PhD Research Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
     <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
     <copyright>(c) 2018 -- All rights reserved.</copyright>
-    <lastBuildDate>Wed, 25 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/decision-support/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Baranyi and da Silva (2017) The use of predictive models to optimize risk of decisions</title>
-      <link>/posts/baranyi-and-da-silva-2017-the-use-of-predictive-models-to-optimize-risk-of-decisions/</link>
-      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
-      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
-      <guid>/posts/baranyi-and-da-silva-2017-the-use-of-predictive-models-to-optimize-risk-of-decisions/</guid>
-      <description>Application domain: Microbiology decision support for predicting food borne Bacteria growth and reduce the need for microbiological testing. Approach/framework: risk assessment and decision-analytic framework.
-Aims and objectives of the paper:
- The focus of this paper is not the above interpreted risk, assigned to an a-posteriori event, but the risk of an a-priory decision, that we also call choice or bet in what follows.
-  In this paper we explain, backed by examples, why predictive models should be used in combination with a cost-bene fit assessment.</description>
-    </item>
     
     <item>
       <title>Schmolke et al (2010) Ecological models supporting environmental decision making: a strategy for the future</title>
