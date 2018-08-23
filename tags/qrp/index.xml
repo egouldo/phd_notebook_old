@@ -9,10 +9,19 @@
     <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
     <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
     <copyright>(c) 2018 -- All rights reserved.</copyright>
-    <lastBuildDate>Wed, 22 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/qrp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Meeting 23 August</title>
+      <link>/posts/meeting-23-august/</link>
+      <pubDate>Thu, 23 Aug 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/meeting-23-august/</guid>
+      <description>Tasks from last week: Develop QRP list across all methods. Figure out what is general between each of the methods. Then come up with a list of QRPs specific to the method under consideration. Also think about the overarching decision / analytic process for each of the methods. Could the QRP occur at multiple points along the workflow / model building pipeline? Sampling protocol - begin writing code, journal selection. Think about elicitation measures, what they could be, and how they could be the same across each of the methods  Other things to discuss today:</description>
+    </item>
     
     <item>
       <title>Bayesianism and questionable research practices</title>

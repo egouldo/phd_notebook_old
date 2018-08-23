@@ -53,6 +53,11 @@
   </url>
   
   <url>
+    <loc>/posts/meeting-23-august/</loc>
+    <lastmod>2018-08-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/bayesianism-and-questionable-research-practices/</loc>
     <lastmod>2018-08-22T00:00:00+00:00</lastmod>
   </url>
@@ -316,7 +321,7 @@
   
   <url>
     <loc>/tags/bayesian/</loc>
-    <lastmod>2018-08-22T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -477,7 +482,7 @@
   
   <url>
     <loc>/categories/meeting/</loc>
-    <lastmod>2018-08-18T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -549,7 +554,7 @@
   
   <url>
     <loc>/categories/planning/</loc>
-    <lastmod>2018-06-14T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -561,7 +566,7 @@
   
   <url>
     <loc>/posts/</loc>
-    <lastmod>2018-08-22T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -591,7 +596,7 @@
   
   <url>
     <loc>/tags/qrp/</loc>
-    <lastmod>2018-08-22T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
