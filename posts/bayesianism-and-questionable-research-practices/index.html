@@ -622,7 +622,13 @@ based on dark.css by Ivan Sagalaev
       </div>
 
       <div class="post-content">
-        <ul>
+        <script src="/rmarkdown-libs/htmlwidgets/htmlwidgets.js"></script>
+<script src="/rmarkdown-libs/viz/viz.js"></script>
+<link href="/rmarkdown-libs/DiagrammeR-styles/styles.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/grViz-binding/grViz.js"></script>
+
+
+<ul>
 <li><em>What are the different model types / applications used in ecology / conservation?</em></li>
 <li><em>what is the process for deriving, evaluating, and reporting these models?</em></li>
 <li><em>At what point in the process might QRPs arise?</em></li>
@@ -750,6 +756,63 @@ read_csv(&quot;../../static/files/data/Bayesian_qrps.csv&quot;) %&gt;% knitr::ka
 <li>report all models, including the null model and alternative models</li>
 <li>Do not interpret in frequentist framework (remember that the relative plausibility of different models should be interpreted as conditioned on the data… not on some “hypothetical truth” <span class="citation">(J. N. Rouder 2014)</span>).</li>
 </ul>
+<pre class="r"><code>library(DiagrammeR)
+library(tidyverse)
+nodes &lt;- DiagrammeR::create_node_df(7, label = c(&quot;Data Collection&quot;, 
+                                                 &quot;Model Development and Fitting&quot;, 
+                                                 &quot;Test for Convergence&quot;, 
+                                                 &quot;Model Checking&quot;, 
+                                                 &quot;Pass&quot;, 
+                                                 &quot;Model Comparison&quot;, 
+                                                 &quot;Robustness Analysis&quot;))
+from &lt;- 1:length(nodes$label[-7])
+to &lt;- lead(from,default = length(nodes$label))
+edges &lt;- DiagrammeR::create_edge_df(from = from, to = to)
+
+#Add in Yes / No
+nodes &lt;- nodes %&gt;%
+        bind_rows(create_node_df(2, label = c(&quot;Yes&quot;, &quot;No&quot;)) %&gt;%
+                          dplyr::mutate(id = id + 7))
+edges &lt;- edges %&gt;%
+        bind_rows(create_edge_df(from = c(3,9,5,9,3,8,4,8), to = c(9,2,9,2,8,4,8,5)))
+
+graph &lt;- DiagrammeR::create_graph(nodes_df = nodes, edges_df = edges)
+DiagrammeR::render_graph(graph, layout = &quot;tree&quot;)</code></pre>
+<div id="htmlwidget-1" style="width:672px;height:480px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"diagram":"digraph {\n\ngraph [layout = \"neato\",\n       outputorder = \"edgesfirst\",\n       bgcolor = \"white\"]\n\nnode [fontname = \"Helvetica\",\n      fontsize = \"10\",\n      shape = \"circle\",\n      fixedsize = \"true\",\n      width = \"0.5\",\n      style = \"filled\",\n      fillcolor = \"aliceblue\",\n      color = \"gray70\",\n      fontcolor = \"gray50\"]\n\nedge [fontname = \"Helvetica\",\n     fontsize = \"8\",\n     len = \"1.5\",\n     color = \"gray80\",\n     arrowsize = \"0.5\"]\n\n  \"1\" [label = \"Data Collection\", fillcolor = \"#F0F8FF\", fontcolor = \"#000000\", pos = \"2,6!\"] \n  \"2\" [label = \"Model Development and Fitting\", fillcolor = \"#F0F8FF\", fontcolor = \"#000000\", pos = \"3,1!\"] \n  \"3\" [label = \"Test for Convergence\", fillcolor = \"#F0F8FF\", fontcolor = \"#000000\", pos = \"3,6!\"] \n  \"4\" [label = \"Model Checking\", fillcolor = \"#F0F8FF\", fontcolor = \"#000000\", pos = \"1,5!\"] \n  \"5\" [label = \"Pass\", fillcolor = \"#F0F8FF\", fontcolor = \"#000000\", pos = \"1,3!\"] \n  \"6\" [label = \"Model Comparison\", fillcolor = \"#F0F8FF\", fontcolor = \"#000000\", pos = \"0.5,2!\"] \n  \"7\" [label = \"Robustness Analysis\", fillcolor = \"#F0F8FF\", fontcolor = \"#000000\", pos = \"0.5,1!\"] \n  \"8\" [label = \"Yes\", fillcolor = \"#F0F8FF\", fontcolor = \"#000000\", pos = \"1.5,4!\"] \n  \"9\" [label = \"No\", fillcolor = \"#F0F8FF\", fontcolor = \"#000000\", pos = \"3,2!\"] \n  \"1\"->\"2\" \n  \"2\"->\"3\" \n  \"3\"->\"4\" \n  \"4\"->\"5\" \n  \"5\"->\"6\" \n  \"6\"->\"7\" \n  \"3\"->\"9\" \n  \"9\"->\"2\" \n  \"5\"->\"9\" \n  \"9\"->\"2\" \n  \"3\"->\"8\" \n  \"8\"->\"4\" \n  \"4\"->\"8\" \n  \"8\"->\"5\" \n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<pre class="r"><code>##### ggdag
+library(ggdag)</code></pre>
+<pre><code>## 
+## Attaching package: &#39;ggdag&#39;</code></pre>
+<pre><code>## The following object is masked from &#39;package:ggplot2&#39;:
+## 
+##     expand_scale</code></pre>
+<pre><code>## The following object is masked from &#39;package:stats&#39;:
+## 
+##     filter</code></pre>
+<pre class="r"><code>ggdag::dagify(robustnessanalysis ~ modelcomparison,
+              modelcomparison ~ pass,
+              pass ~ modelchecking + yes,
+              modelchecking ~ testforconvergence + yes1,
+              testforconvergence ~ modeldevelopmentandfitting,
+              modeldevelopmentandfitting ~ datacollection + no,
+              yes1 ~ testforconvergence,
+              yes ~ modelchecking,
+              no ~ testforconvergence,
+              labels = c(
+                      &quot;robustnessanalysis&quot; = &quot;Robustness\n Analysis&quot;,
+                      &quot;modelcomparison&quot; = &quot;Model Comparison\n and Selection&quot;,
+                      &quot;pass&quot; = &quot;Pass?&quot;,
+                      &quot;modelchecking&quot; = &quot;Model\n Checking&quot;,
+                      &quot;modeldevelopmentandfitting&quot; = &quot;Model Development\n and Fitting&quot;,
+                      &quot;yes1&quot; = &quot;yes&quot;,
+                      &quot;yes&quot; = &quot;yes&quot;
+              )) %&gt;% 
+        ggdag(use_labels = &quot;label&quot;, edge_type = &quot;link&quot;, layout = &quot;tree&quot;)</code></pre>
+<pre><code>## Warning in layout_as_tree(structure(list(10, TRUE, c(0, 1, 1, 2, 3, 4, 5, :
+## At structural_properties.c:3346 :graph contains a cycle, partial result is
+## returned</code></pre>
+<p><img src="/posts/2018-08-22-bayesianism-and-questionable-research-practices_files/figure-html/bayesian-reporting-workflow-2.png" width="672" /></p>
 <div id="bayesian-methods-equally-suscpetible-and-invalidated-by-p-hacking-as-frequentist-methods" class="section level2">
 <h2>Bayesian methods equally suscpetible and invalidated by p-hacking as frequentist methods</h2>
 <p>The probability of finding a type I error increases substantially due to undisclosed flexibility in data collection <span class="citation">(Simmons, Nelson, and Simonsohn 2011)</span>. Bayesian methods have been proposed as a remedy to these questionable research practices: “We have diverse views about how best to improve reproducibility, and many of us believe that other ways of summarizing the data, such as Bayes factors or other posterior summaries based on clearly articulated model assumptions, are preferable to P values” <span class="citation">(Benjamin et al. 2018)</span>. However Simonsohn <span class="citation">(2014)</span> demonstrates that this misconception is false, finding that both Bayesian confidence intervals and Bayes factors are equally suscpetible and invalidated to the same degree by “p-hacking” practices as their frequentist inference equivalents.</p>
