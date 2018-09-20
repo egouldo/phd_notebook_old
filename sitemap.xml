@@ -53,11 +53,6 @@
   </url>
   
   <url>
-    <loc>/posts/modelling-workflows-researcher-degrees-of-freedom-and-transparency/</loc>
-    <lastmod>2018-09-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/posts/meeting-23-august/</loc>
     <lastmod>2018-08-23T00:00:00+00:00</lastmod>
   </url>
@@ -313,6 +308,14 @@
   </url>
   
   <url>
+    <loc>/posts/2018-09-03-modelling-workflows-researcher-degrees-of-freedom-and-transparency/</loc>
+  </url>
+  
+  <url>
+    <loc>/posts/2018-09-20-meeting/</loc>
+  </url>
+  
+  <url>
     <loc>/tags/accuracy/</loc>
     <lastmod>2018-08-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -343,7 +346,7 @@
   
   <url>
     <loc>/tags/computational-reproducibility/</loc>
-    <lastmod>2018-09-03T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -480,14 +483,14 @@
   </url>
   
   <url>
-    <loc>/categories/meeting/</loc>
-    <lastmod>2018-08-23T00:00:00+00:00</lastmod>
+    <loc>/tags/meeting/</loc>
+    <lastmod>2018-02-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/meeting/</loc>
-    <lastmod>2018-02-15T00:00:00+00:00</lastmod>
+    <loc>/categories/meeting/</loc>
+    <lastmod>2018-08-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -505,7 +508,7 @@
   
   <url>
     <loc>/tags/modelling/</loc>
-    <lastmod>2018-09-03T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -535,7 +538,7 @@
   
   <url>
     <loc>/tags/open-science/</loc>
-    <lastmod>2018-09-03T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -571,7 +574,7 @@
   
   <url>
     <loc>/posts/</loc>
-    <lastmod>2018-09-03T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -601,7 +604,7 @@
   
   <url>
     <loc>/tags/qrp/</loc>
-    <lastmod>2018-09-03T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -625,7 +628,7 @@
   
   <url>
     <loc>/tags/reproducibility/</loc>
-    <lastmod>2018-09-03T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -685,19 +688,19 @@
   
   <url>
     <loc>/categories/synthesis/</loc>
-    <lastmod>2018-09-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/systematic-review/</loc>
-    <lastmod>2018-03-15T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/systematic-review/</loc>
     <lastmod>2018-06-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/systematic-review/</loc>
+    <lastmod>2018-03-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -727,7 +730,7 @@
   
   <url>
     <loc>/tags/transparency/</loc>
-    <lastmod>2018-09-03T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
