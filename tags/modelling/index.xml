@@ -9,10 +9,19 @@
     <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
     <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
     <copyright>(c) 2018 -- All rights reserved.</copyright>
-    <lastBuildDate>Tue, 31 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/modelling/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Choose your own adventure: researcher degrees of freedom and questionable research practices in ecological modelling for decision support</title>
+      <link>/posts/modelling-workflows-researcher-degrees-of-freedom-and-transparency/</link>
+      <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/modelling-workflows-researcher-degrees-of-freedom-and-transparency/</guid>
+      <description>Abstract: Initial meta-science research in ecology and evolution suggests that the discipline is not immune to the sorts of reproducibility issues highlighted in other scientific disciplines, such as Psychology and Medicine. A recent study has revealed rates of self-reported Questionable Reserach Practices (QRPs) in ecology and evolution comprable to other disciplines. QRPs include practices such as cherry-picking, p-hacking and hypothesising after results are known (HARKing), and result in low rates of reproducibility, contributing to biased accounts of the subject domain in the body of literature.</description>
+    </item>
     
     <item>
       <title>Dormann et al (2018) Biotic interactions in species distribution modelling\: 10 questions to guide interpretations and avoid false conclusions</title>

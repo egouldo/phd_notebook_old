@@ -9,10 +9,33 @@
     <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
     <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
     <copyright>(c) 2018 -- All rights reserved.</copyright>
-    <lastBuildDate>Thu, 23 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/planning/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Meeting 20 September 2018</title>
+      <link>/posts/meeting/</link>
+      <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/meeting/</guid>
+      <description>Present: HF, LR, EG.
+Divying up the Thesis Stepping back after a couple of talks and much RA-ing… Today we discussed the division of the QRP research material I have been working on in terms of research outputs / papers. We then discussed the overall plan for the thesis, and reflected back on the original plan discussed at the pre-confirmation meeting.
+The QRP material is to be divided into two papers:</description>
+    </item>
+    
+    <item>
+      <title>Thesis Bootcamp</title>
+      <link>/posts/thesis-bootcamp/</link>
+      <pubDate>Wed, 19 Sep 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/thesis-bootcamp/</guid>
+      <description>Date of the Bootcamp: 19th - 21st October https://gradresearch.unimelb.edu.au/preparing-my-thesis/writing-the-thesis https://gradresearch.unimelb.edu.au/preparing-my-thesis/thesis-with-publication
+Please provide a brief description of your research area/interests as relevant to your thesis: 
+PhD Title: Transparency and Reproducibility of Decision Support Tools in Ecology and Conservation. This includes fields, such as: meta-research / meta-science, open science, conservation decision-making, structured decision making and decision theory / decision analysis, as well as ecological modelling.
+Why would you like to participate in the Thesis Boot Camp?</description>
+    </item>
     
     <item>
       <title>Meeting 23 August</title>
@@ -58,7 +81,8 @@ The reproducibility literature has focused exclusively on hypothesis-testing, wh
       <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
       <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/posts/phd_timeline/</guid>
-      <description>Timeline   Milestones Milestones are documented in the RHD manual, page 4: https://app.lms.unimelb.edu.au/bbcswebdav/pid-6166800-dt-content-rid-24849943_3/orgs/COM_01654/RHD%20Handbook%20v%202017%2008%2016%20LMS%20version%202.pdf
+      <description>Timeline &amp;lt;iframe src=“https://egouldo.shinyapps.io/shiny_phd_timeline/” style = &amp;quot;border: none; width: 900px; height: 1000px&amp;gt;
+ Milestones Milestones are documented in the RHD manual, page 4: https://app.lms.unimelb.edu.au/bbcswebdav/pid-6166800-dt-content-rid-24849943_3/orgs/COM_01654/RHD%20Handbook%20v%202017%2008%2016%20LMS%20version%202.pdf
 Candidature and Confirmation: Probationary Candidate: You start your PhD as a probationary candidate and within 12 months (we recommend the ideal time of 9 to 10 months) you will go through the confirmation procedure, formalising your candidature. Purpose of Confirmation: The main purpose of the confirmation process is to determine if you have developed a detailed research plan together with your supervisor(s), to assess whether this research plan meets the requirements of the degree, and to assess if adequate progress has been made.</description>
     </item>
     

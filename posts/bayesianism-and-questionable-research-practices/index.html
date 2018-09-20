@@ -644,8 +644,8 @@ based on dark.css by Ivan Sagalaev
 <h1>Types of Bayesian methods / analyses</h1>
 <ul>
 <li>Bayesian Hierarchical Models: further sub-types used in ecology include spatial regression, N-mixture models, and Hidden Markov Models <span class="citation">(Conn et al. 2018)</span></li>
-<li>Bayesian estimation <span class="citation">(U. Simonsohn 2014)</span> <em>is this used in ecology?</em></li>
-<li>Bayes factors <span class="citation">(U. Simonsohn 2014)</span> <em>is this used in ecology?</em></li>
+<li>Bayesian estimation <span class="citation">(Simonsohn 2014)</span> <em>is this used in ecology?</em></li>
+<li>Bayes factors <span class="citation">(Simonsohn 2014)</span> <em>is this used in ecology?</em></li>
 <li>Bayesian P values (and other metrics used in model checking) <span class="citation">(Conn et al. 2018)</span></li>
 </ul>
 <pre class="r"><code>suppressPackageStartupMessages(library(tidyverse))
@@ -665,7 +665,7 @@ read_csv(&quot;../../static/files/data/Bayesian_qrps.csv&quot;) %&gt;% knitr::ka
 <tr class="odd">
 <td align="left">Bayesian estimation</td>
 <td align="left">P-hacking: inc data-peeking, dropping conditions or covariates, dropping outliers</td>
-<td align="left"><span class="citation">(U. Simonsohn 2014)</span></td>
+<td align="left"><span class="citation">(Simonsohn 2014)</span></td>
 <td align="left">Y</td>
 <td align="left">inflates risk of type I error to the same magnitude as frequentist methods</td>
 <td align="left">NA</td>
@@ -700,7 +700,7 @@ read_csv(&quot;../../static/files/data/Bayesian_qrps.csv&quot;) %&gt;% knitr::ka
 <td align="left"><span class="citation">(Conn et al. 2018)</span></td>
 <td align="left">Y</td>
 <td align="left">NA</td>
-<td align="left">“As in the case of “P hacking” (Head et al. 2015), care should be taken to choose appropriate goodness of fit measures without first peeking at results (i.e., employing multiple discrepancy measures and only reporting those that indicate adequate fit).” <span class="citation">(Conn et al. 2018)</span>. Their paper demonstrates that different model checking methods may be better at diagnosing the particular causes or regions in the model where there is a lack of fit. THe plethora of choices for model checking givse rise to researcher degrees of freedom, and hence the very real potential for P-hacking and its equivalents.</td>
+<td align="left">“As in the case of “P hacking” (Head et al. 2015), care should be taken to choose appropriate goodness of fit measures without first peeking at results (i.e., employing multiple discrepancy measures and only reporting those that indicate adequate fit).&quot; <span class="citation">(Conn et al. 2018)</span>. Their paper demonstrates that different model checking methods may be better at diagnosing the particular causes or regions in the model where there is a lack of fit. THe plethora of choices for model checking givse rise to researcher degrees of freedom, and hence the very real potential for P-hacking and its equivalents.</td>
 </tr>
 <tr class="even">
 <td align="left">Bayesian Hierarchical Modelling</td>
@@ -754,7 +754,7 @@ read_csv(&quot;../../static/files/data/Bayesian_qrps.csv&quot;) %&gt;% knitr::ka
 <p><strong>Model Selection and Comparison</strong></p>
 <ul>
 <li>report all models, including the null model and alternative models</li>
-<li>Do not interpret in frequentist framework (remember that the relative plausibility of different models should be interpreted as conditioned on the data… not on some “hypothetical truth” <span class="citation">(J. N. Rouder 2014)</span>).</li>
+<li>Do not interpret in frequentist framework (remember that the relative plausibility of different models should be interpreted as conditioned on the data… not on some “hypothetical truth” <span class="citation">(Rouder 2014)</span>).</li>
 </ul>
 <pre class="r"><code>library(DiagrammeR)
 library(tidyverse)
@@ -822,10 +822,24 @@ library(ggdag)</code></pre>
 <h2>Criticisms of Bayesian P values used in model checking</h2>
 <p><strong>type II error rates</strong></p>
 <blockquote>
-<p>Posterior predictive checks are straightforward to implement. Unfortunately, Bayesian P values based on these checks tend to be conservative in the sense that the distribution of P values calculated under a null model (i.e., when the data generating model and estimation model are the same) is often dome shaped instead of the uniform distribution expected of frequentist P values (Robins et al. 2000). This feature arises because data are used twice: once to approximate the posterior distribution and to simulate the reference distribution for the discrepancy measure, and a second time to calculate the tail probability (Bayarri and Berger 2000).</p>
+<p>Posterior predictive checks are straightforward to implement. Unfortunately,
+Bayesian P values based on these checks tend to be conservative in the sense
+that the distribution of P values calculated under a null model (i.e., when the
+data generating model and estimation model are the same) is often dome shaped
+instead of the uniform distribution expected of frequentist P values (Robins et
+al. 2000). This feature arises because data are used twice: once to approximate
+the posterior distribution and to simulate the reference distribution for the
+discrepancy measure, and a second time to calculate the tail probability
+(Bayarri and Berger 2000).</p>
 </blockquote>
 <blockquote>
-<p>As such, the power of posterior predictive Bayesian P values to detect significant differences in the discrepancy measure is low. Evidently, the degree of conservatism can vary across data, models, and discrepancy functions, making it difficult to interpret or compare Bayesian P values across models. In an extreme example, Zhang (2014) found that posterior predictive P values almost never rejected a model, even when the model used to fit the data differed considerably from the model used to generate it.</p>
+<p>As such, the power of posterior predictive Bayesian P values to detect
+significant differences in the discrepancy measure is low. Evidently, the degree
+of conservatism can vary across data, models, and discrepancy functions, making
+it difficult to interpret or compare Bayesian P values across models. In an
+extreme example, Zhang (2014) found that posterior predictive P values almost
+never rejected a model, even when the model used to fit the data differed
+considerably from the model used to generate it.</p>
 </blockquote>
 </div>
 <div id="failure-to-report-model-checking-evaluation-diagnostics" class="section level2">
@@ -849,13 +863,19 @@ library(ggdag)</code></pre>
 <li>A misunderstanding of the information conveyed in MCMC convergence diagnostics</li>
 </ol>
 <blockquote>
-<p>Perhaps there is a mistaken belief among authors and reviewers that convergence to a stationary distribution, combined with a lack of prior sensitivity, implies that a model fits the data. In reality, convergence diagnostics such as trace plots only allow us to check the algorithm for fitting the model, not the model itself.</p>
+<p>Perhaps there is a mistaken belief among authors
+and reviewers that convergence to a stationary distribution, combined with a
+lack of prior sensitivity, implies that a model fits the data. In reality,
+convergence diagnostics such as trace plots only allow us to check the algorithm
+for fitting the model, not the model itself.</p>
 </blockquote>
 <ol start="2" style="list-style-type: decimal">
 <li>Structural disensitive / burden to engage in model evaluation</li>
 </ol>
 <blockquote>
-<p>Finally, it may just be a case of fatigue: it takes considerable effort to envision and code complex hierarchical models of ecological systems, and the extra step of model checking may seem burdensome.</p>
+<p>Finally, it may just be a case of fatigue: it takes considerable effort to
+envision and code complex hierarchical models of ecological systems, and the
+extra step of model checking may seem burdensome.</p>
 </blockquote>
 <ul>
 <li>[ ] I believe the TRACE papers and other “Good Environmental Modeling Practice” papers discuss this same problem for non-Bayesian ecological models. Perhaps the technical burden of fitting Bayesian models is even more cumbersome than for other ecological modelling practices? This point is something to follow up on.</li>
@@ -870,19 +890,19 @@ library(ggdag)</code></pre>
 <h1>References</h1>
 <div id="refs" class="references">
 <div id="ref-Benjamin:2018gh">
-<p>Benjamin, Daniel J, James O Berger, Magnus Johannesson, Brian A Nosek, E J Wagenmakers, Richard Berk, Kenneth A Bollen, et al. 2018. “Redefine statistical significance.” <em>Nature Human Behaviour</em>, January. Springer US, 1–5. doi:<a href="https://doi.org/10.1038/s41562-017-0189-z">10.1038/s41562-017-0189-z</a>.</p>
+<p>Benjamin, Daniel J, James O Berger, Magnus Johannesson, Brian A Nosek, E J Wagenmakers, Richard Berk, Kenneth A Bollen, et al. 2018. “Redefine statistical significance.” <em>Nature Human Behaviour</em>, January. Springer US, 1–5. <a href="https://doi.org/10.1038/s41562-017-0189-z" class="uri">https://doi.org/10.1038/s41562-017-0189-z</a>.</p>
 </div>
 <div id="ref-Conn:2018hd">
-<p>Conn, Paul B, Devin S Johnson, Perry J Williams, Sharon R Melin, and Mevin B Hooten. 2018. “A guide to Bayesian model checking for ecologists.” <em>Ecological Monographs</em> 9 (June): 341–17. doi:<a href="https://doi.org/10.1002/ecm.1314">10.1002/ecm.1314</a>.</p>
+<p>Conn, Paul B, Devin S Johnson, Perry J Williams, Sharon R Melin, and Mevin B Hooten. 2018. “A guide to Bayesian model checking for ecologists.” <em>Ecological Monographs</em> 9 (June): 341–17. <a href="https://doi.org/10.1002/ecm.1314" class="uri">https://doi.org/10.1002/ecm.1314</a>.</p>
 </div>
 <div id="ref-Rouder:2014jf">
-<p>Rouder, Jeffrey N. 2014. “Optional stopping: No problem for Bayesians.” <em>Psychonomic Bulletin &amp; Review</em> 21 (2): 301–8. doi:<a href="https://doi.org/10.3758/s13423-014-0595-4">10.3758/s13423-014-0595-4</a>.</p>
+<p>Rouder, Jeffrey N. 2014. “Optional stopping: No problem for Bayesians.” <em>Psychonomic Bulletin &amp; Review</em> 21 (2): 301–8. <a href="https://doi.org/10.3758/s13423-014-0595-4" class="uri">https://doi.org/10.3758/s13423-014-0595-4</a>.</p>
 </div>
 <div id="ref-Simmons:2011iw">
-<p>Simmons, Joseph P, Leif D Nelson, and Uri Simonsohn. 2011. “False-Positive Psychology.” <em>Psychological Science</em> 22 (11). SAGE PublicationsSage CA: Los Angeles, CA: 1359–66. doi:<a href="https://doi.org/10.1177/0956797611417632">10.1177/0956797611417632</a>.</p>
+<p>Simmons, Joseph P, Leif D Nelson, and Uri Simonsohn. 2011. “False-Positive Psychology.” <em>Psychological Science</em> 22 (11). SAGE PublicationsSage CA: Los Angeles, CA: 1359–66. <a href="https://doi.org/10.1177/0956797611417632" class="uri">https://doi.org/10.1177/0956797611417632</a>.</p>
 </div>
 <div id="ref-Simonsohn:2014ka">
-<p>Simonsohn, U. 2014. “Posterior-hacking: Selective reporting invalidates Bayesian results also.” <em>SSRN Electronic Journal</em>. doi:<a href="https://doi.org/10.2139/ssrn.2374040">10.2139/ssrn.2374040</a>.</p>
+<p>Simonsohn, U. 2014. “Posterior-hacking: Selective reporting invalidates Bayesian results also.” <em>SSRN Electronic Journal</em>. <a href="https://doi.org/10.2139/ssrn.2374040" class="uri">https://doi.org/10.2139/ssrn.2374040</a>.</p>
 </div>
 </div>
 </div>
