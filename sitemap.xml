@@ -53,6 +53,26 @@
   </url>
   
   <url>
+    <loc>/post/updated-literature-workflow/</loc>
+    <lastmod>2018-10-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/cebra-workshop/</loc>
+    <lastmod>2018-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/wang-et-al-2018-researcher-reqeusts-for-inappropriate-analysis-and-reporting-a-u-s-survey-of-consulting-biostatisticians/</loc>
+    <lastmod>2018-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/open-science-in-applied-and-use-inspired-basic-research/</loc>
+    <lastmod>2018-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/meeting-2018-sep-20/</loc>
     <lastmod>2018-09-20T00:00:00+00:00</lastmod>
   </url>
@@ -395,7 +415,7 @@
   
   <url>
     <loc>/tags/decision-support/</loc>
-    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <lastmod>2018-09-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -443,7 +463,7 @@
   
   <url>
     <loc>/tags/expert-judgment/</loc>
-    <lastmod>2018-08-18T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -490,14 +510,14 @@
   </url>
   
   <url>
-    <loc>/tags/meeting/</loc>
-    <lastmod>2018-02-15T00:00:00+00:00</lastmod>
+    <loc>/categories/meeting/</loc>
+    <lastmod>2018-09-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/meeting/</loc>
-    <lastmod>2018-09-20T00:00:00+00:00</lastmod>
+    <loc>/tags/meeting/</loc>
+    <lastmod>2018-02-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -569,7 +589,7 @@
   
   <url>
     <loc>/categories/planning/</loc>
-    <lastmod>2018-09-20T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -580,8 +600,14 @@
   </url>
   
   <url>
+    <loc>/post/</loc>
+    <lastmod>2018-10-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/posts/</loc>
-    <lastmod>2018-09-20T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -611,7 +637,7 @@
   
   <url>
     <loc>/tags/qrp/</loc>
-    <lastmod>2018-09-19T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -623,7 +649,7 @@
   
   <url>
     <loc>/categories/reading/</loc>
-    <lastmod>2018-08-22T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -635,7 +661,7 @@
   
   <url>
     <loc>/tags/reproducibility/</loc>
-    <lastmod>2018-09-03T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -694,20 +720,26 @@
   </url>
   
   <url>
+    <loc>/tags/subjective-decision/</loc>
+    <lastmod>2018-10-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/synthesis/</loc>
     <lastmod>2018-09-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/systematic-review/</loc>
-    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
+    <loc>/categories/systematic-review/</loc>
+    <lastmod>2018-03-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/systematic-review/</loc>
-    <lastmod>2018-03-15T00:00:00+00:00</lastmod>
+    <loc>/tags/systematic-review/</loc>
+    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -755,7 +787,7 @@
   
   <url>
     <loc>/categories/workshop/</loc>
-    <lastmod>2018-07-20T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

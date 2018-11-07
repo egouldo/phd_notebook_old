@@ -9,10 +9,21 @@
     <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
     <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
     <copyright>(c) 2018 -- All rights reserved.</copyright>
-    <lastBuildDate>Wed, 22 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/reading/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Wang et al 2018 Researcher Reqeusts for Inappropriate Analysis and Reporting: A U.S. Survey of Consulting Biostatisticians</title>
+      <link>/posts/wang-et-al-2018-researcher-reqeusts-for-inappropriate-analysis-and-reporting-a-u-s-survey-of-consulting-biostatisticians/</link>
+      <pubDate>Wed, 10 Oct 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/wang-et-al-2018-researcher-reqeusts-for-inappropriate-analysis-and-reporting-a-u-s-survey-of-consulting-biostatisticians/</guid>
+      <description>See this twitter post: https://twitter.com/EricTopol/status/1049448246894948352
+The list of QRPs that were included in the survey is as follows, [Table 1][@Wang:2018ba]
+ Falsify the statistical significance (such as the P value) to support a desired result Change data to achieve the desired outcome (such as the prevalence rate of cancer or another disease) Remove or alter some dta records (observations) to better support the research hypothesis Interpret the statistical findings on the basis of expectations, not the actual results Do not fully describe the treatment under study because protocol was not exactly followed Do not report the presence of key missing data that could bias the results Ignore violations of assumptions because results may change to negative Modify a measurement scale to achieve some desired results rather than adhering to the original scale as validated Report power on the basis of a post hoc calculation, but make it seem like an a priori statement Request to properly adjust for multiple testing when “a priori, originally planned secondary outcomes” are shifted to an “a posteriori primary outcome status” Conduct too many post hoc tests, but purposefully do not adjust alpha levels to make results look more impressive than they really are Remove categories of a variable to report more favourable results Do not mention interim analyses to avoid “too much testing” Report results before data have been cleaned up and validated Do not discuss the duration of follow-up because it was inconsistent Stress only the significant findings, but underreport nonsignificant ones Do not report the model statistics (including effect size in ANOVA or \(R^2\) in linear regression) because they seemed too small to indicate any meaningful changes Do not show plot because it did not show as strong as an effect as you had hoped  The table illustrates that QRPs with a lower proportion of people who thought the practice was “most severe” increase in prevalence (general trend).</description>
+    </item>
     
     <item>
       <title>Simonsohn (2014) </title>

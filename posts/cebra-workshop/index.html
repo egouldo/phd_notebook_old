@@ -3,8 +3,8 @@
 <head>
   
   <meta charset="utf-8">
-  <title>About me and this electronic notebook</title>
-  <meta name="description" content="About me and this electronic notebook">
+  <title>CEBRA-workshop</title>
+  <meta name="description" content="CEBRA-workshop">
   <meta name="author" content="Elise Gould">
   
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -603,48 +603,38 @@ based on dark.css by Ivan Sagalaev
 
       <div class="post-title">
         <p class="footnote">
-        <time class="">04-03-2018</time>
+        <time class="">10-11-2018</time>
         
         
+        |
+        
+        
+        tags: [ <a href="/tags/subjective-decision">subjective decision</a> <a href="/tags/expert-judgment">expert judgment</a> <a href="/tags/qrp">QRP</a> <a href="/tags/reproducibility">reproducibility</a> ]
         
 
+        
+        categories: [<a href="/categories/workshop">workshop</a> ]
         
 
         
         </p>
-        <h1>About me and this electronic notebook</h1>
+        <h1>CEBRA-workshop</h1>
       </div>
 
       <div class="post-content">
-        
-
-<p><img src="/./about_files/in_the_field_profile.JPG" alt="Safety first in the field" width="30%" height="30%"/></p>
-
-<p>I am a PhD student at the Quantitative and Applied Ecology Group (QAECO) and Centre of Excellence for Biosecurity and Risk Analysis (CEBRA), University of Melbourne. This is my research notebook for all things related to my PhD.</p>
-
-<p>My research interests include:</p>
-
-<ul>
-<li>Ecological modelling</li>
-<li>Structured Decision Making</li>
-<li>Plant ecology</li>
-<li>vegetation management</li>
-<li>reproducibility</li>
-<li>data science</li>
-<li>R</li>
-</ul>
-
-<p>I&rsquo;ve used the template from <a href="https://github.com/sirselim/electronic_lab_notebook">https://github.com/sirselim/electronic_lab_notebook</a> to set up this electronic lab notebook using <a href="https://github.com/rstudio/blogdown">blogdown</a> and the static site generator <a href="https://gohugo.io/">hugo</a>.</p>
-
-<p>When I&rsquo;m not working you can find me riding (or carrying!) my bike in this weird sport called &lsquo;cyclocross&rsquo;:</p>
-
-<p><img src="/./about_files/bunnyhopthepatriarchy.jpg" alt="Cyclocross. That weird cycling discipline where you sometimes carry your bike instead of riding it." width="30%" height="30%"/></p>
-
-<h3 id="about-this-notebook">About this notebook</h3>
-
-<p>The theme used it this example is a slightly modified version of <a href="https://github.com/aos/temple">temple</a>, which is a minimal, distraction free theme suitable for electronic notebooking (in my opinion). If interested, you can find a large list of hugo themes here: <a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a></p>
-
-<p>The overall setup requires each notebook entry (post) to be assigned at least one category, i.e. Experiment, Reading, Writing. All entries will then be grouped under these headings at the top of the page. The &lsquo;home&rsquo; page of the notebook contains all recent entries, with the most recent date first. Entries can also be tagged (i.e. R, regression, analysis, literature, &hellip;) which allows further refinement in terms of grouping posts and searching for specfic topics.</p>
+        <p>Personal reflections on the CEBRA-SDM (pest-management climate modelling) workshop, emphasis on reproducibility.</p>
+<div id="discussion-with-je-and-jc" class="section level2">
+<h2>Discussion with JE and JC</h2>
+<p>Did I get what I need from the workshop, is it useful to me?</p>
+<p>I’m going to assist James in collating all the butcher’s paper. From this I can attempt to generate a roadmap of the numerous subjective judgments people make during SDM. Then I will be able to map onto those decision points potential QRP analogues. So the outputs won’t be direwctly relevant, I’ll have to do some further work with them.</p>
+<p>Then thinking about the concept of reproducibility to this particular application. Will a decision tree aid in making reproducible decisinos? Well it depends on the type of reproducibility you are referring to. If the tool forces you to document your subjective decisions, then your model is essentially “in-principle” reproducible – and provided you provide the data and the code, then you can also have computational reproducibility.</p>
+<p>I made the point to J that it might also make a decision tool and its resultant decisions more replicable, by virtue of the fact that it’s forcing people to explicitly consider and justify each of their subjective judgments. Yet, as she – and I think correctly – noted, because these are subjective judgments, and is there no consensus in the SDM literature on the best way to do things (and not even considering variable selection, etc. etc.), the decision tree can’t make a tool or its decisions more <em>replicable</em>.</p>
+<p>This aspect of the conversation brought to mind the concept of “reducible” and “irreducible” uncertainty. In the absence of consensus or protocol about what the best option is at a given decision-point in the SDM modelling process, there will always be variation due to subjective judgment. So in this sense, these subjective judgments contribute some degree to irreducible uncertainty. There is going to have to be a section in the literature review on uncertainy. I think that is the key concept underpinning reproducibility of decision support tools. How is the idea of reducible / irreducible uncertainty relevant to the QRP paper? Well, we assume that some portion of the distribution around some estimate is always uncertain (esp. in ecology), but subjective uncertainty essentially increases, or at least contributes to irreducible uncertainty. So then, is the “best”, “most reproducible” model, the one that removes the most subjective uncertainty as possible? And then how do you tell if you have the best one?</p>
+<p>The problem with this is that the “truth” is never known.. and in bio-security risk assessment and management (e.g. esp. when trying to prioritise surveillance efforts for an incursion that hasn’t, and might not ever occur). So in this pre-incursion scenario, there might not ever be any observations to validate models, for example. In early-detection scenarios, we only eiver have the counter-factual.</p>
+<p>multi-dimensional uncertainties - J’s honours student. One way sensitivity or robustness analysis examining the effect of researcher degrees of freedom / subjective uncertainty on the resultant decisions recommended by a decision tool. Will there be a paper out on this?</p>
+<p>SO I asked J then, does the concept of reproducibility and replicability even make sense for decision support tools, or SDM in general? she says parts of it make sense, but then other elements do not. Not in her words, but the concept of computational reproducibility seemed to be worthwhile, and transparency (mostly) ensures this. However, she rejected the applicability of pre-registration and says it is impossible in SDM. Beyond computational reproducibility, the notion of replication doesn’t really seem to make sense for J. So I think somewhere, the discussion needs to take place, about the role of replication in ecology and conservation, particularly in the applied / translational side of research. What is a typology of replication / reproducibility suitable for applied ecology and conservation science? Is there a place for replication of a decision tool? If not, how do you know that the decision the tool recommends is good? In answer to this question J brought up the concept of robustness, and said that she would trust some people’s models over others. So I think for the QRP paper, there is something in there about the perceived robustness / confidence or trust in the model. There wasn’t time to discuss it, but I would be interested in knowning what evidence she and others would use to evaluate their own trust / confidence in the outputs of an SDM. She did say that (given transparency), she would use particular elements of how the model was developped to evaluate the “robustness” of the model. So again, the notion of ‘robustness’ is another term that comes up in place of reproducibility or replicability. This underscores to me the importance of unifying the concepts of uncertainty, robustness and reproducibility into a single discussion. I think this is going to be in the typology of reproducibility paper. And I also wonder whether it’s worth doing a revtools text-mining approach of literature ala August to look for clustering of papers around uncertainty, robustness, repeatability, transparency and reproducibility?</p>
+<p>She also brought up the example of how people visually interpret habitat / climate suitabiilty maps - some people see differences while other people see similarities more easily (“lumpers” and “splitters”), e.g. some people will say two maps look similar but another will be unable to see those similarities at all. This brings up the problem of how to compare two different maps when it comes to the QRP survey.</p>
+</div>
 
       </div>
       

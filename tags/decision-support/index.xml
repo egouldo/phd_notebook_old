@@ -9,10 +9,21 @@
     <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
     <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
     <copyright>(c) 2018 -- All rights reserved.</copyright>
-    <lastBuildDate>Wed, 25 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/decision-support/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>open science in applied and use-inspired basic research</title>
+      <link>/posts/open-science-in-applied-and-use-inspired-basic-research/</link>
+      <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/open-science-in-applied-and-use-inspired-basic-research/</guid>
+      <description>Stokes, D.E. (2011) Pasteur’s quadrant: Basic science and technological innovation. Brookings Institution PRess.
+Pre-registration difficult when doing research outside of traditional confirmatory research, qualitative methods, exploratory research. How to make a priori hypotheses as transparent as possible.
+Transparency is not enough. Problem of how to communicate your research to outsiders… how to ensure that they can make appropriate inferences. Translational value –&amp;gt; how do we incorporate practices that maximise this value?</description>
+    </item>
     
     <item>
       <title>Baranyi and da Silva (2017) The use of predictive models to optimize risk of decisions</title>

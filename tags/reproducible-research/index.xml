@@ -22,7 +22,7 @@
       <guid>/posts/john-blischak-reproducibility-and-workflowr/</guid>
       <description>Institutional road blocks against full reproducibility - methods sections are insufficient. But good software practice is helpful for future you, your labmates when you leave.
 Lowndes et al (2017) Peng et al (2011)
-Strategies for computational repro Record computing environment  sessionInfo() ## R version 3.5.1 (2018-07-02) ## Platform: x86_64-apple-darwin15.6.0 (64-bit) ## Running under: macOS High Sierra 10.13.6 ## ## Matrix products: default ## BLAS: /Library/Frameworks/R.framework/Versions/3.5/Resources/lib/libRblas.0.dylib ## LAPACK: /Library/Frameworks/R.framework/Versions/3.5/Resources/lib/libRlapack.dylib ## ## locale: ## [1] en_AU.</description>
+Strategies for computational repro Record computing environment  sessionInfo() ## R version 3.5.1 (2018-07-02) ## Platform: x86_64-apple-darwin15.6.0 (64-bit) ## Running under: macOS 10.14 ## ## Matrix products: default ## BLAS: /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib ## LAPACK: /Library/Frameworks/R.framework/Versions/3.5/Resources/lib/libRlapack.dylib ## ## locale: ## [1] en_AU.</description>
     </item>
     
   </channel>

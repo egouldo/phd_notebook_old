@@ -9,10 +9,43 @@
     <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
     <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
     <copyright>(c) 2018 -- All rights reserved.</copyright>
-    <lastBuildDate>Thu, 20 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CEBRA-workshop</title>
+      <link>/posts/cebra-workshop/</link>
+      <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/cebra-workshop/</guid>
+      <description>Personal reflections on the CEBRA-SDM (pest-management climate modelling) workshop, emphasis on reproducibility.
+Discussion with JE and JC Did I get what I need from the workshop, is it useful to me?
+I’m going to assist James in collating all the butcher’s paper. From this I can attempt to generate a roadmap of the numerous subjective judgments people make during SDM. Then I will be able to map onto those decision points potential QRP analogues.</description>
+    </item>
+    
+    <item>
+      <title>Wang et al 2018 Researcher Reqeusts for Inappropriate Analysis and Reporting: A U.S. Survey of Consulting Biostatisticians</title>
+      <link>/posts/wang-et-al-2018-researcher-reqeusts-for-inappropriate-analysis-and-reporting-a-u-s-survey-of-consulting-biostatisticians/</link>
+      <pubDate>Wed, 10 Oct 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/wang-et-al-2018-researcher-reqeusts-for-inappropriate-analysis-and-reporting-a-u-s-survey-of-consulting-biostatisticians/</guid>
+      <description>See this twitter post: https://twitter.com/EricTopol/status/1049448246894948352
+The list of QRPs that were included in the survey is as follows, [Table 1][@Wang:2018ba]
+ Falsify the statistical significance (such as the P value) to support a desired result Change data to achieve the desired outcome (such as the prevalence rate of cancer or another disease) Remove or alter some dta records (observations) to better support the research hypothesis Interpret the statistical findings on the basis of expectations, not the actual results Do not fully describe the treatment under study because protocol was not exactly followed Do not report the presence of key missing data that could bias the results Ignore violations of assumptions because results may change to negative Modify a measurement scale to achieve some desired results rather than adhering to the original scale as validated Report power on the basis of a post hoc calculation, but make it seem like an a priori statement Request to properly adjust for multiple testing when “a priori, originally planned secondary outcomes” are shifted to an “a posteriori primary outcome status” Conduct too many post hoc tests, but purposefully do not adjust alpha levels to make results look more impressive than they really are Remove categories of a variable to report more favourable results Do not mention interim analyses to avoid “too much testing” Report results before data have been cleaned up and validated Do not discuss the duration of follow-up because it was inconsistent Stress only the significant findings, but underreport nonsignificant ones Do not report the model statistics (including effect size in ANOVA or \(R^2\) in linear regression) because they seemed too small to indicate any meaningful changes Do not show plot because it did not show as strong as an effect as you had hoped  The table illustrates that QRPs with a lower proportion of people who thought the practice was “most severe” increase in prevalence (general trend).</description>
+    </item>
+    
+    <item>
+      <title>open science in applied and use-inspired basic research</title>
+      <link>/posts/open-science-in-applied-and-use-inspired-basic-research/</link>
+      <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/open-science-in-applied-and-use-inspired-basic-research/</guid>
+      <description>Stokes, D.E. (2011) Pasteur’s quadrant: Basic science and technological innovation. Brookings Institution PRess.
+Pre-registration difficult when doing research outside of traditional confirmatory research, qualitative methods, exploratory research. How to make a priori hypotheses as transparent as possible.
+Transparency is not enough. Problem of how to communicate your research to outsiders… how to ensure that they can make appropriate inferences. Translational value –&amp;gt; how do we incorporate practices that maximise this value?</description>
+    </item>
     
     <item>
       <title>Meeting 20 September 2018</title>
@@ -169,7 +202,7 @@ To bring awareness to our research group of QRPs for the types of work relevant 
       <guid>/posts/john-blischak-reproducibility-and-workflowr/</guid>
       <description>Institutional road blocks against full reproducibility - methods sections are insufficient. But good software practice is helpful for future you, your labmates when you leave.
 Lowndes et al (2017) Peng et al (2011)
-Strategies for computational repro Record computing environment  sessionInfo() ## R version 3.5.1 (2018-07-02) ## Platform: x86_64-apple-darwin15.6.0 (64-bit) ## Running under: macOS High Sierra 10.13.6 ## ## Matrix products: default ## BLAS: /Library/Frameworks/R.framework/Versions/3.5/Resources/lib/libRblas.0.dylib ## LAPACK: /Library/Frameworks/R.framework/Versions/3.5/Resources/lib/libRlapack.dylib ## ## locale: ## [1] en_AU.</description>
+Strategies for computational repro Record computing environment  sessionInfo() ## R version 3.5.1 (2018-07-02) ## Platform: x86_64-apple-darwin15.6.0 (64-bit) ## Running under: macOS 10.14 ## ## Matrix products: default ## BLAS: /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib ## LAPACK: /Library/Frameworks/R.framework/Versions/3.5/Resources/lib/libRlapack.dylib ## ## locale: ## [1] en_AU.</description>
     </item>
     
     <item>
