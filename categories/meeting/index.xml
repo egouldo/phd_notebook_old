@@ -9,10 +9,32 @@
     <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
     <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
     <copyright>(c) 2018 -- All rights reserved.</copyright>
-    <lastBuildDate>Thu, 20 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/meeting/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Meeting December 13</title>
+      <link>/posts/meeting-december-13/</link>
+      <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/meeting-december-13/</guid>
+      <description>Present: FF, HF, LR, EG
+Recap, what we talked about 1. Scope and framing of the thesis Agreed that broad framing “reproducibility of decisions” is good to retain. Need to be be careful about explicitly framing the scope of the thesis in this framing, however.
+FF reminded me of another (crucial!) point as to why biasing conditions might be unique in a decision-making context: DM under time-constraints – need to act (quickly)!</description>
+    </item>
+    
+    <item>
+      <title>confirmationnotes</title>
+      <link>/posts/confirmation-notes/</link>
+      <pubDate>Mon, 10 Dec 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/confirmation-notes/</guid>
+      <description>Here are my notes of the issues raised during the confirmation meeting to be followed up, and some initial thoughts / responses to them.
+1. Scope: reproducibility of decisions vs. reproducibility for decisions. PV took issue with the framing / scope of the PhD – namely that tackling reproducibility of decisions is too big of a task for the PhD. Need to first evaluate reproducibility for decisions first.
+I agree with PV’s point that looking at reproducibility of decisions is too big of a task for this PhD.</description>
+    </item>
     
     <item>
       <title>Meeting 20 September 2018</title>

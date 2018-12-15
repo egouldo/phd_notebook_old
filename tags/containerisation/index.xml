@@ -9,10 +9,22 @@
     <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
     <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
     <copyright>(c) 2018 -- All rights reserved.</copyright>
-    <lastBuildDate>Wed, 21 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/containerisation/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ropensci</title>
+      <link>/posts/ropensci/</link>
+      <pubDate>Thu, 15 Nov 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/ropensci/</guid>
+      <description>Problem Replication effort:
+There are many sources of error (as to why claim is not supported, or approximate result[significance in same direction, effect size]):
+ actual data is not reflected in code files Can’t match the environment: Missing packages etc, etc, etc  One model of addressing these issues is using Docker:
+Docker goes some way to solving this…. BUT: It’s really hard to get docker up and running - you need specialised knowledge of how to get your code and data etc.</description>
+    </item>
     
     <item>
       <title>bioinformatics workshop dockerisation</title>

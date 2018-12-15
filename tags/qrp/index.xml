@@ -9,10 +9,55 @@
     <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
     <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
     <copyright>(c) 2018 -- All rights reserved.</copyright>
-    <lastBuildDate>Thu, 11 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/qrp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Estimating background QRP rate</title>
+      <link>/posts/estimating-background-qrp-rate/</link>
+      <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/estimating-background-qrp-rate/</guid>
+      <description>Problem:
+Have you ever done this… if so, how many times have you done this? Frequency of engagement among researchers.
+This tells us a few things:
+Tells us about how common these practices are. If it’s a common practice, and/or, if people are doing this repeatedly, then it’s likely that this is a more acceptabile practice (THAT person should have rated the practice as being defensible, and it’s likely that the broader sample of researchers will also think that the practice is more acceptible).</description>
+    </item>
+    
+    <item>
+      <title>Meeting December 13</title>
+      <link>/posts/meeting-december-13/</link>
+      <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/meeting-december-13/</guid>
+      <description>Present: FF, HF, LR, EG
+Recap, what we talked about 1. Scope and framing of the thesis Agreed that broad framing “reproducibility of decisions” is good to retain. Need to be be careful about explicitly framing the scope of the thesis in this framing, however.
+FF reminded me of another (crucial!) point as to why biasing conditions might be unique in a decision-making context: DM under time-constraints – need to act (quickly)!</description>
+    </item>
+    
+    <item>
+      <title>pre-print Sound Inference in Compliacted Research: A Multi-Strategy Approach</title>
+      <link>/posts/pre-print-sound-inference-in-compliacted-research-a-multi-strategy-approach/</link>
+      <pubDate>Sun, 25 Nov 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/pre-print-sound-inference-in-compliacted-research-a-multi-strategy-approach/</guid>
+      <description>Whole article: addresses the problem of people categorically dismissing pre-registration, especially in ecology.
+Pre-reg can address all sorts of biases, examples of complicated research and what this might mean were good.
+Conceptual Framework: Also good, liked their use of Loken and Gelman. Have been leaning towards this thinking for my own rok.
+What do you think about trying this in a case study paper? A demonstration of pre-reg for ‘complicated research’ would that be a useful contribution?</description>
+    </item>
+    
+    <item>
+      <title>QRPs in non-hypothesis testing research</title>
+      <link>/posts/qrps-in-non-hypothesis-testing-research/</link>
+      <pubDate>Thu, 15 Nov 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/qrps-in-non-hypothesis-testing-research/</guid>
+      <description>QRP research is NHST focussed To date, there has been limited research on QRPs and other aspects of reproducibility for non-NHST research.
+Partly because: The majority of QRP research has been undertaken in Psychology, where almost all statistical testing is NHST. But this is not true for other fields eg, in applied ecology and conservation, my area of expertise, where we often use predictive modelling to systematically inform environmental decision-making. Instead, we use decision-theoretic frameworks, return-on-investment analyses, Bayesian Network models.</description>
+    </item>
     
     <item>
       <title>CEBRA-workshop</title>

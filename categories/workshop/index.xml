@@ -9,10 +9,20 @@
     <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
     <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
     <copyright>(c) 2018 -- All rights reserved.</copyright>
-    <lastBuildDate>Thu, 11 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/workshop/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ACEMS workshop: modelling, experiments, data - what constitutes scientific evidence?</title>
+      <link>/posts/acems-workshop-modelling-experiments-data-what-constitutes-scientific-evidence/</link>
+      <pubDate>Wed, 12 Dec 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/acems-workshop-modelling-experiments-data-what-constitutes-scientific-evidence/</guid>
+      <description>James McCaw: How models change the value of observational data? Empirical vs. theory driven research Physics is quintessential example of theory driven area. Psychology, if completely empirical and basic laws are unknown, psychology is trying to discover what the law is. Mathematical laws are used to analyse the data
+Immunology - also a deeply theoretical or conceptually driven field. But the way that the science is done is completely empirical. Theory motivated, qualitative, conceptual model, analyse the data using ANOVA etc.</description>
+    </item>
     
     <item>
       <title>CEBRA-workshop</title>

@@ -108,11 +108,110 @@ I am a teaching instructor for the following courses at University X:
     </item>
     
     <item>
+      <title>Estimating background QRP rate</title>
+      <link>/posts/estimating-background-qrp-rate/</link>
+      <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/estimating-background-qrp-rate/</guid>
+      <description>Problem:
+Have you ever done this… if so, how many times have you done this? Frequency of engagement among researchers.
+This tells us a few things:
+Tells us about how common these practices are. If it’s a common practice, and/or, if people are doing this repeatedly, then it’s likely that this is a more acceptabile practice (THAT person should have rated the practice as being defensible, and it’s likely that the broader sample of researchers will also think that the practice is more acceptible).</description>
+    </item>
+    
+    <item>
+      <title>Meeting December 13</title>
+      <link>/posts/meeting-december-13/</link>
+      <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/meeting-december-13/</guid>
+      <description>Present: FF, HF, LR, EG
+Recap, what we talked about 1. Scope and framing of the thesis Agreed that broad framing “reproducibility of decisions” is good to retain. Need to be be careful about explicitly framing the scope of the thesis in this framing, however.
+FF reminded me of another (crucial!) point as to why biasing conditions might be unique in a decision-making context: DM under time-constraints – need to act (quickly)!</description>
+    </item>
+    
+    <item>
+      <title>ACEMS workshop: modelling, experiments, data - what constitutes scientific evidence?</title>
+      <link>/posts/acems-workshop-modelling-experiments-data-what-constitutes-scientific-evidence/</link>
+      <pubDate>Wed, 12 Dec 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/acems-workshop-modelling-experiments-data-what-constitutes-scientific-evidence/</guid>
+      <description>James McCaw: How models change the value of observational data? Empirical vs. theory driven research Physics is quintessential example of theory driven area. Psychology, if completely empirical and basic laws are unknown, psychology is trying to discover what the law is. Mathematical laws are used to analyse the data
+Immunology - also a deeply theoretical or conceptually driven field. But the way that the science is done is completely empirical. Theory motivated, qualitative, conceptual model, analyse the data using ANOVA etc.</description>
+    </item>
+    
+    <item>
+      <title>confirmationnotes</title>
+      <link>/posts/confirmation-notes/</link>
+      <pubDate>Mon, 10 Dec 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/confirmation-notes/</guid>
+      <description>Here are my notes of the issues raised during the confirmation meeting to be followed up, and some initial thoughts / responses to them.
+1. Scope: reproducibility of decisions vs. reproducibility for decisions. PV took issue with the framing / scope of the PhD – namely that tackling reproducibility of decisions is too big of a task for the PhD. Need to first evaluate reproducibility for decisions first.
+I agree with PV’s point that looking at reproducibility of decisions is too big of a task for this PhD.</description>
+    </item>
+    
+    <item>
+      <title>pre-print Sound Inference in Compliacted Research: A Multi-Strategy Approach</title>
+      <link>/posts/pre-print-sound-inference-in-compliacted-research-a-multi-strategy-approach/</link>
+      <pubDate>Sun, 25 Nov 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/pre-print-sound-inference-in-compliacted-research-a-multi-strategy-approach/</guid>
+      <description>Whole article: addresses the problem of people categorically dismissing pre-registration, especially in ecology.
+Pre-reg can address all sorts of biases, examples of complicated research and what this might mean were good.
+Conceptual Framework: Also good, liked their use of Loken and Gelman. Have been leaning towards this thinking for my own rok.
+What do you think about trying this in a case study paper? A demonstration of pre-reg for ‘complicated research’ would that be a useful contribution?</description>
+    </item>
+    
+    <item>
+      <title>test post</title>
+      <link>/posts/test-post/</link>
+      <pubDate>Thu, 22 Nov 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/test-post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>QRPs in non-hypothesis testing research</title>
+      <link>/posts/qrps-in-non-hypothesis-testing-research/</link>
+      <pubDate>Thu, 15 Nov 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/qrps-in-non-hypothesis-testing-research/</guid>
+      <description>QRP research is NHST focussed To date, there has been limited research on QRPs and other aspects of reproducibility for non-NHST research.
+Partly because: The majority of QRP research has been undertaken in Psychology, where almost all statistical testing is NHST. But this is not true for other fields eg, in applied ecology and conservation, my area of expertise, where we often use predictive modelling to systematically inform environmental decision-making. Instead, we use decision-theoretic frameworks, return-on-investment analyses, Bayesian Network models.</description>
+    </item>
+    
+    <item>
+      <title>Ropensci</title>
+      <link>/posts/ropensci/</link>
+      <pubDate>Thu, 15 Nov 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/ropensci/</guid>
+      <description>Problem Replication effort:
+There are many sources of error (as to why claim is not supported, or approximate result[significance in same direction, effect size]):
+ actual data is not reflected in code files Can’t match the environment: Missing packages etc, etc, etc  One model of addressing these issues is using Docker:
+Docker goes some way to solving this…. BUT: It’s really hard to get docker up and running - you need specialised knowledge of how to get your code and data etc.</description>
+    </item>
+    
+    <item>
+      <title>from Replication Crisis to Credibility Revolution</title>
+      <link>/posts/from-replication-crisis-to-credibility-revolution/</link>
+      <pubDate>Wed, 14 Nov 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/from-replication-crisis-to-credibility-revolution/</guid>
+      <description>Simine Vazire Credibility Revolution – 2008 economic paper.
+Self-correction Simine’s meta-science research: How to become more credible science? What does that mean?
+Demarcation problem - science diff. from pseudo-science, how? Merton’s norms: - self-correction - how do you know? What does that mean? How would you design a self-correcting system? what values, priorities to be instilled?
+Universalism - claim validity should not depend on status of person making it. Communality - open access, no secrecy.</description>
+    </item>
+    
+    <item>
       <title>updated-literature-workflow</title>
-      <link>/post/updated-literature-workflow/</link>
+      <link>/posts/updated-literature-workflow/</link>
       <pubDate>Tue, 16 Oct 2018 00:00:00 +0000</pubDate>
       <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
-      <guid>/post/updated-literature-workflow/</guid>
+      <guid>/posts/updated-literature-workflow/</guid>
       <description>Capture papers annotations
 Highlights workflow Colours for each different type of annotation References to follow up Metadata
 Summarise .md and exporting to DEVONthink.
@@ -308,7 +407,7 @@ To bring awareness to our research group of QRPs for the types of work relevant 
       <guid>/posts/john-blischak-reproducibility-and-workflowr/</guid>
       <description>Institutional road blocks against full reproducibility - methods sections are insufficient. But good software practice is helpful for future you, your labmates when you leave.
 Lowndes et al (2017) Peng et al (2011)
-Strategies for computational repro Record computing environment  sessionInfo() ## R version 3.5.1 (2018-07-02) ## Platform: x86_64-apple-darwin15.6.0 (64-bit) ## Running under: macOS 10.14 ## ## Matrix products: default ## BLAS: /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib ## LAPACK: /Library/Frameworks/R.framework/Versions/3.5/Resources/lib/libRlapack.dylib ## ## locale: ## [1] en_AU.</description>
+Strategies for computational repro Record computing environment  sessionInfo() ## R version 3.5.1 (2018-07-02) ## Platform: x86_64-apple-darwin15.6.0 (64-bit) ## Running under: macOS 10.14.1 ## ## Matrix products: default ## BLAS: /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib ## LAPACK: /Library/Frameworks/R.framework/Versions/3.5/Resources/lib/libRlapack.dylib ## ## locale: ## [1] en_AU.</description>
     </item>
     
     <item>

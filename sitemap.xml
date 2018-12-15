@@ -53,7 +53,52 @@
   </url>
   
   <url>
-    <loc>/post/updated-literature-workflow/</loc>
+    <loc>/posts/estimating-background-qrp-rate/</loc>
+    <lastmod>2018-12-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/meeting-december-13/</loc>
+    <lastmod>2018-12-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/acems-workshop-modelling-experiments-data-what-constitutes-scientific-evidence/</loc>
+    <lastmod>2018-12-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/confirmation-notes/</loc>
+    <lastmod>2018-12-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/pre-print-sound-inference-in-compliacted-research-a-multi-strategy-approach/</loc>
+    <lastmod>2018-11-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/test-post/</loc>
+    <lastmod>2018-11-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/qrps-in-non-hypothesis-testing-research/</loc>
+    <lastmod>2018-11-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/ropensci/</loc>
+    <lastmod>2018-11-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/from-replication-crisis-to-credibility-revolution/</loc>
+    <lastmod>2018-11-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/updated-literature-workflow/</loc>
     <lastmod>2018-10-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -349,6 +394,12 @@
   </url>
   
   <url>
+    <loc>/categories/analysis/</loc>
+    <lastmod>2018-12-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/bayes-factor/</loc>
     <lastmod>2018-08-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -362,6 +413,7 @@
   
   <url>
     <loc>/categories/</loc>
+    <lastmod>2018-12-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -373,7 +425,7 @@
   
   <url>
     <loc>/tags/computational-reproducibility/</loc>
-    <lastmod>2018-09-03T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -391,13 +443,13 @@
   
   <url>
     <loc>/tags/containerisation/</loc>
-    <lastmod>2018-03-21T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/data-science/</loc>
-    <lastmod>2018-03-21T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -499,7 +551,7 @@
   
   <url>
     <loc>/tags/informatics/</loc>
-    <lastmod>2018-06-26T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -510,14 +562,14 @@
   </url>
   
   <url>
-    <loc>/categories/meeting/</loc>
-    <lastmod>2018-09-20T00:00:00+00:00</lastmod>
+    <loc>/tags/meeting/</loc>
+    <lastmod>2018-02-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/meeting/</loc>
-    <lastmod>2018-02-15T00:00:00+00:00</lastmod>
+    <loc>/categories/meeting/</loc>
+    <lastmod>2018-12-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -565,7 +617,7 @@
   
   <url>
     <loc>/tags/open-science/</loc>
-    <lastmod>2018-09-03T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -589,7 +641,7 @@
   
   <url>
     <loc>/categories/planning/</loc>
-    <lastmod>2018-10-16T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -600,14 +652,8 @@
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2018-10-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/posts/</loc>
-    <lastmod>2018-10-11T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -637,7 +683,7 @@
   
   <url>
     <loc>/tags/qrp/</loc>
-    <lastmod>2018-10-11T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -649,7 +695,7 @@
   
   <url>
     <loc>/categories/reading/</loc>
-    <lastmod>2018-10-10T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -661,19 +707,19 @@
   
   <url>
     <loc>/tags/reproducibility/</loc>
-    <lastmod>2018-10-11T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/reproducibility-crisis/</loc>
-    <lastmod>2018-05-25T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/reproducibility-roadmap/</loc>
-    <lastmod>2018-05-22T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -732,14 +778,14 @@
   </url>
   
   <url>
-    <loc>/categories/systematic-review/</loc>
-    <lastmod>2018-03-15T00:00:00+00:00</lastmod>
+    <loc>/tags/systematic-review/</loc>
+    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/systematic-review/</loc>
-    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
+    <loc>/categories/systematic-review/</loc>
+    <lastmod>2018-03-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -751,7 +797,7 @@
   
   <url>
     <loc>/categories/talk/</loc>
-    <lastmod>2018-08-14T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -787,7 +833,7 @@
   
   <url>
     <loc>/categories/workshop/</loc>
-    <lastmod>2018-10-11T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
