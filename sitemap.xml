@@ -53,11 +53,6 @@
   </url>
   
   <url>
-    <loc>/posts/estimating-background-qrp-rate/</loc>
-    <lastmod>2018-12-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/posts/meeting-december-13/</loc>
     <lastmod>2018-12-14T00:00:00+00:00</lastmod>
   </url>
@@ -388,14 +383,16 @@
   </url>
   
   <url>
-    <loc>/tags/accuracy/</loc>
-    <lastmod>2018-08-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>/posts/2018-12-14-estimating-background-qrp-rate/</loc>
   </url>
   
   <url>
-    <loc>/categories/analysis/</loc>
-    <lastmod>2018-12-14T00:00:00+00:00</lastmod>
+    <loc>/posts/2018-12-18-meeting-dec-2018/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/accuracy/</loc>
+    <lastmod>2018-08-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -413,7 +410,6 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2018-12-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
