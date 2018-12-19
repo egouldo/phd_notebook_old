@@ -15,15 +15,12 @@
     
     
     <item>
-      <title>Estimating background QRP rate</title>
+      <title>Modelling QRP Engagement as an Occupancy-Detection Problem</title>
       <link>/posts/estimating-background-qrp-rate/</link>
       <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
       <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
       <guid>/posts/estimating-background-qrp-rate/</guid>
-      <description>WORK IN PROGRESS – DRAFT Problem:
-Have you ever done this… if so, how many times have you done this? Frequency of engagement among researchers.
-This tells us a few things:
-Tells us about how common these practices are. If it’s a common practice, and/or, if people are doing this repeatedly, then it’s likely that this is a more acceptabile practice (THAT person should have rated the practice as being defensible, and it’s likely that the broader sample of researchers will also think that the practice is more acceptible).</description>
+      <description>Status: WORK IN PROGRESS – DRAFT Problem 1: Estimating the percentage of researchers who engage in a particular QRP provides some information about the extent of the practice, and its potential impact on the literature. However, it doesn’t allow us to get an estimate of how many studies or papers might have been affected by this QRP – this is what we really care about, and the proportion of researchers engaging in a practice will not translate very accurately (or precisely) to the proportion of the literature effected.</description>
     </item>
     
   </channel>
