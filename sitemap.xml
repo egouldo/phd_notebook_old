@@ -393,6 +393,14 @@
   </url>
   
   <url>
+    <loc>/posts/2018-12-20-adaptive-pre-registration/</loc>
+  </url>
+  
+  <url>
+    <loc>/posts/2018-12-21-meeting-20-dec-2018/</loc>
+  </url>
+  
+  <url>
     <loc>/tags/accuracy/</loc>
     <lastmod>2018-08-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -567,14 +575,14 @@
   </url>
   
   <url>
-    <loc>/categories/meeting/</loc>
-    <lastmod>2018-12-18T00:00:00+00:00</lastmod>
+    <loc>/tags/meeting/</loc>
+    <lastmod>2018-02-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/meeting/</loc>
-    <lastmod>2018-02-15T00:00:00+00:00</lastmod>
+    <loc>/categories/meeting/</loc>
+    <lastmod>2018-12-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -783,14 +791,14 @@
   </url>
   
   <url>
-    <loc>/categories/systematic-review/</loc>
-    <lastmod>2018-03-15T00:00:00+00:00</lastmod>
+    <loc>/tags/systematic-review/</loc>
+    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/systematic-review/</loc>
-    <lastmod>2018-06-20T00:00:00+00:00</lastmod>
+    <loc>/categories/systematic-review/</loc>
+    <lastmod>2018-03-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
