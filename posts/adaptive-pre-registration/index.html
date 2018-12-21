@@ -3,8 +3,8 @@
 <head>
   
   <meta charset="utf-8">
-  <title>Reading</title>
-  <meta name="description" content="Reading">
+  <title>Adaptive Pre-registration</title>
+  <meta name="description" content="Adaptive Pre-registration">
   <meta name="author" content="Elise Gould">
   
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -499,8 +499,6 @@ based on dark.css by Ivan Sagalaev
 
   
   
-  <link href="/categories/reading/index.xml" rel="alternate" type="application/rss+xml" title="Elise Gould: PhD Research Notebook Feed" />
-  
 
   <meta name="generator" content="Hugo 0.48" />
 
@@ -606,303 +604,125 @@ based on dark.css by Ivan Sagalaev
 </div>
 
 
-
 <div class="pure-g">
   <div class="pure-u-1-24 pure-u-md-1-6"></div>
   <div class="pure-u-11-12 pure-u-md-2-3">
-    <div class="post-content">
-      <p class="posts-name">Reading:</p>
+    <div class="post">
 
-      <ul class="posts">
+      <div class="post-title">
+        <p class="footnote">
+        <time class="">12-20-2018</time>
         
         
+        |
         
-        <li>
-          
-          <a class="post-list" href="/posts/adaptive-pre-registration/">Adaptive Pre-registration</a>
+        
+        tags: [ <a href="/tags/qrp">QRP</a> ]
+        
 
-          <p class="footnote">
-          <time datetime="12-20-2018">
-            12-20-2018
-          </time>
-          </p>
-        </li>
         
+        categories: [<a href="/categories/reading">reading</a> ]
         
-        
-        <li>
-          
-          <a class="post-list" href="/posts/pre-print-sound-inference-in-compliacted-research-a-multi-strategy-approach/">pre-print Sound Inference in Compliacted Research: A Multi-Strategy Approach</a>
 
-          <p class="footnote">
-          <time datetime="11-25-2018">
-            11-25-2018
-          </time>
-          </p>
-        </li>
         
-        
-        
-        <li>
-          
-          <a class="post-list" href="/posts/wang-et-al-2018-researcher-reqeusts-for-inappropriate-analysis-and-reporting-a-u-s-survey-of-consulting-biostatisticians/">Wang et al 2018 Researcher Reqeusts for Inappropriate Analysis and Reporting: A U.S. Survey of Consulting Biostatisticians</a>
+        </p>
+        <h1>Adaptive Pre-registration</h1>
+      </div>
 
-          <p class="footnote">
-          <time datetime="10-10-2018">
-            10-10-2018
-          </time>
-          </p>
-        </li>
-        
-        
-        
-        <li>
-          
-          <a class="post-list" href="/posts/simonsohn-2014/">Simonsohn (2014) </a>
+      <div class="post-content">
+        <ol style="list-style-type: decimal">
+<li>Context, situate paper</li>
+<li>Discuss definition of RDF / QRPs</li>
+<li>Challenges and Barriers</li>
+<li>Strategies for Adaptive Pre-registration</li>
+</ol>
+<div id="why-i-chose-this-paper" class="section level2">
+<h2>Why I chose this paper</h2>
+<ul>
+<li>Neat explanation of researcher degrees of freedom (analagous to QRP’s), that makes sense in the context of non-hypothesis testing research.</li>
+<li>clear articulation of challenges to pre-registration in complicated research, and creative strategies.</li>
+<li>In the past when we’ve had conversations about pre-registration, it hasn’t been very clear how we might move forward to implementing that in this field.</li>
+<li>The strategies outlined here are clear and creative (multi-verse!), however, they’re focussed on reserach in psychology, but think some of these strategies would be useful for the methods we use in applied ecology and conservation, particularly in modelling work.</li>
+<li>Hope that when people were reading the paper you were thinking about your own work, and whether these challenges were true, whether there are barriers that weren’t addressed in the paper, and whether these strategies are useful to you. Could you see yourself trying any of them out, or are they too high-level and abstract?</li>
+</ul>
+</div>
+<div id="challenges-barriers" class="section level2">
+<h2>Challenges, Barriers</h2>
+<p>Did the paper miss any challenges or barriers to pre-registration? Can you provide examples applicable to the barriers in ecology and conservation?</p>
+<ol style="list-style-type: decimal">
+<li>Difficult to create decision inventory in advance – can’t always know what those analytic decisions are going to be</li>
+<li>Difficult to make a plan for every item without seeing some features of the data.</li>
+</ol>
+<p>I thought the second was particularly relevant to ecological modelling and qaeco activities.</p>
+<ul>
+<li>pre-processing data</li>
+<li>screening for outliers or other checks of the data, checking model assumptions are met, etc.</li>
+</ul>
+</div>
+<div id="adaptive-pre-registration-strategies" class="section level2">
+<h2>Adaptive pre-registration strategies</h2>
+<p>single deterministic -&gt; adaptive pre-registration: creating decision-independence for ‘complex research’ paradigms.</p>
+<ol style="list-style-type: decimal">
+<li>Standardisation</li>
+<li>Blind analysis</li>
+<li>Data partitioning and hold out samples</li>
+<li>Supporting Studies</li>
+<li>Coordinated data analysis</li>
+<li><p>Multi-verse analysis</p></li>
+<li><p>Standardisation:</p></li>
+</ol>
+<ul>
+<li>within lab: SOP’s, e.g. pruning random effects from multi-level models that fail to converge / non-positive definite matrices.</li>
+<li>field-wide: choosing construct / measurable attributes - analagous problem, diversity indices? Performance criteria for monitoring programs? <strong>feasible? or constraining creativity and proper analysis suited to the problem at hand?</strong></li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li>Blind analysis</li>
+</ol>
+<ul>
+<li>triple blind analysis: data analyst has the condition hidden. Plausible? possible you might know what treatment is which if you are familiar with the system / problem&gt;</li>
+<li>cell scrambling</li>
+<li>outlier checking, separate the data preparer from the blinded analyst and hide the variable labels</li>
+</ul>
+<ol start="3" style="list-style-type: decimal">
+<li>Data partitioning</li>
+</ol>
+<ul>
+<li>using a data partition to make decisions about how you design some aspect of the data analysis, e.g., pre-processing, variable model selection… <strong>Likely to be costly in ecology, is this tractible? is it even a good idea, still the chance for picking the variable that makes your model look the best, but actually isn’t ecologically plausible – risks invalidating decision independence?</strong></li>
+<li>What about the example of running an exploratory study on part of the dataset.. does this also invalidate decision independence?</li>
+</ul>
+<ol start="4" style="list-style-type: decimal">
+<li>Supporting Studies</li>
+</ol>
+<p>Supporting studies or pre-experiments are already applied (on occasion). E.g. Freya’s virtual ecology paper aiming to optimise field data collection design. Think this ticks the box for requiring researchers to pre-specify most analytic and modelling choices ahead of data-collection.</p>
+<ol start="6" style="list-style-type: decimal">
+<li>Multi-verse analysis</li>
+</ol>
+<p>This is cool. But also wonder what it would like in implemntation.. What methods do we use already that fit this criteria? Robustness analysis? Envelope ensemble modelling?</p>
+</div>
+<div id="notes-from-discussion" class="section level1">
+<h1>Notes from Discussion</h1>
+<ul>
+<li>Sentiment</li>
+<li>all roads lead to pilot studies</li>
+</ul>
+</div>
 
-          <p class="footnote">
-          <time datetime="08-22-2018">
-            08-22-2018
-          </time>
-          </p>
-        </li>
-        
-        
-        
-        <li>
-          
-          <a class="post-list" href="/posts/morgan-et-al-2017-use-and-abuse-of-expert-elicitation-in-support-of-decision-making-for-public-policy/">Morgan et al 2017 Use (and abuse) of expert elicitation in support of decision making for public policy</a>
+      </div>
+      
+      <div class="post-content">
+        <div id="disqus_thread"></div>
+<script>
+(function() {
+var d = document, s = d.createElement('script');
+s.src = 'https://electronic-lab-notebook.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
-          <p class="footnote">
-          <time datetime="08-14-2018">
-            08-14-2018
-          </time>
-          </p>
-        </li>
-        
-        
-        
-        <li>
-          
-          <a class="post-list" href="/posts/dormann-et-al-2018-biotic-interactions-in-species-distribution-modelling-10-questions-to-guide-interpretations-and-avoid-false-conclusions/">Dormann et al (2018) Biotic interactions in species distribution modelling\: 10 questions to guide interpretations and avoid false conclusions</a>
-
-          <p class="footnote">
-          <time datetime="07-31-2018">
-            07-31-2018
-          </time>
-          </p>
-        </li>
-        
-        
-        
-        <li>
-          
-          <a class="post-list" href="/posts/baranyi-and-da-silva-2017-the-use-of-predictive-models-to-optimize-risk-of-decisions/">Baranyi and da Silva (2017) The use of predictive models to optimize risk of decisions</a>
-
-          <p class="footnote">
-          <time datetime="07-25-2018">
-            07-25-2018
-          </time>
-          </p>
-        </li>
-        
-        
-        
-        <li>
-          
-          <a class="post-list" href="/posts/seaman-c-s-weber-r-2015-undisclosed-flexibility-in-computing-and-reporting-structural-equation-models-in-communication-science/">Seaman &amp; Weber (2015) Undisclosed Flexibility in Computing and Reporting Structural Equation Models in Communication Science.</a>
-
-          <p class="footnote">
-          <time datetime="07-10-2018">
-            07-10-2018
-          </time>
-          </p>
-        </li>
-        
-        
-        
-        <li>
-          
-          <a class="post-list" href="/posts/schmolke-et-al-2010-ecological-models-supporting-environmental-decision-making-a-strategy-for-the-future/">Schmolke et al (2010) Ecological models supporting environmental decision making: a strategy for the future</a>
-
-          <p class="footnote">
-          <time datetime="06-26-2018">
-            06-26-2018
-          </time>
-          </p>
-        </li>
-        
-        
-        
-        <li>
-          
-          <a class="post-list" href="/posts/de-vos-are-environmental-models-transparent-and-reproducible/">de Vos Are Environmental Models Transparent and Reproducible?</a>
-
-          <p class="footnote">
-          <time datetime="06-20-2018">
-            06-20-2018
-          </time>
-          </p>
-        </li>
-        
-        
-        
-        <li>
-          
-          <a class="post-list" href="/posts/fraser-et-al-2018-qrps-in-ecology-and-evolution/">Fraser et al 2018 QRPs in Ecology and Evolution</a>
-
-          <p class="footnote">
-          <time datetime="05-15-2018">
-            05-15-2018
-          </time>
-          </p>
-        </li>
-        
-        
-        
-        <li>
-          
-          <a class="post-list" href="/posts/gardner-et-al-2018-decision-complacency-and-conservation-planning/">Gardner et al. 2018 Decision Complacency and Conservation Planning</a>
-
-          <p class="footnote">
-          <time datetime="05-09-2018">
-            05-09-2018
-          </time>
-          </p>
-        </li>
-        
-        
-        
-        <li>
-          
-          <a class="post-list" href="/posts/cullina-et-al-2018-navigating-the-unfolding-open-data-landscape-in-ecology-and-evolution/">Cullina et al 2018 Navigating the unfolding open data landscape in ecology and evolution</a>
-
-          <p class="footnote">
-          <time datetime="04-13-2018">
-            04-13-2018
-          </time>
-          </p>
-        </li>
-        
-        
-        
-        <li>
-          
-          <a class="post-list" href="/posts/nakagawa-and-parker-2015/">Nakagawa and Parker 2015</a>
-
-          <p class="footnote">
-          <time datetime="04-12-2018">
-            04-12-2018
-          </time>
-          </p>
-        </li>
-        
-        
-        
-        <li>
-          
-          <a class="post-list" href="/posts/fidler-2017-metaresearch-in-ecology/">Fidler 2017 Metaresearch in ecology</a>
-
-          <p class="footnote">
-          <time datetime="03-21-2018">
-            03-21-2018
-          </time>
-          </p>
-        </li>
-        
-        
-        
-        <li>
-          
-          <a class="post-list" href="/posts/french-2012-meta-analysis-for-expert-judgment/">French 2012 meta-analysis for expert judgment</a>
-
-          <p class="footnote">
-          <time datetime="03-06-2018">
-            03-06-2018
-          </time>
-          </p>
-        </li>
-        
-        
-        
-        <li>
-          
-          <a class="post-list" href="/posts/madin-2007-advancing-ecological-research-with-ontologies/">Madin (2007) Advancing ecological research with ontologies</a>
-
-          <p class="footnote">
-          <time datetime="02-24-2018">
-            02-24-2018
-          </time>
-          </p>
-        </li>
-        
-        
-        
-        <li>
-          
-          <a class="post-list" href="/posts/hart-towards-a-more-reproducible-ecology/">Hart - Towards a more reproducible ecology</a>
-
-          <p class="footnote">
-          <time datetime="02-20-2018">
-            02-20-2018
-          </time>
-          </p>
-        </li>
-        
-        
-        
-        <li>
-          
-          <a class="post-list" href="/posts/guerrero-et-al-2017-using-sdm-to-set-restoration-objectives/">Guerrero et al 2017 Using SDM to set restoration objectives</a>
-
-          <p class="footnote">
-          <time datetime="02-19-2018">
-            02-19-2018
-          </time>
-          </p>
-        </li>
-        
-        
-        
-        <li>
-          
-          <a class="post-list" href="/posts/mcpherson-et-al-2018-a-simulation-tool-to-scrutinise-the-behaviour-of-functional-diversity-metrics/">McPherson et al 2018 A simulation tool to scrutinise the behaviour of functional diversity metrics</a>
-
-          <p class="footnote">
-          <time datetime="01-18-2018">
-            01-18-2018
-          </time>
-          </p>
-        </li>
-        
-        
-        
-        <li>
-          
-          <a class="post-list" href="/posts/matzek-et-al-2017-emerging-approaches-to-successful-ecologicall-restoration/">Matzek et al (2017) Emerging approaches to successful ecologicall restoration</a>
-
-          <p class="footnote">
-          <time datetime="12-21-2017">
-            12-21-2017
-          </time>
-          </p>
-        </li>
-        
-        
-        
-        <li>
-          
-          <a class="post-list" href="/posts/law-et-al-2017-biol-con/">Law et al. (2017) Biol Con</a>
-
-          <p class="footnote">
-          <time datetime="12-15-2017">
-            12-15-2017
-          </time>
-          </p>
-        </li>
-        
-        
-      </ul>
+      </div>
+      
     </div>
   </div>
   <div class="pure-u-1-24 pure-u-md-1-6"></div>

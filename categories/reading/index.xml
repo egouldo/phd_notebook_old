@@ -9,10 +9,19 @@
     <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
     <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
     <copyright>(c) 2018 -- All rights reserved.</copyright>
-    <lastBuildDate>Sun, 25 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/reading/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Adaptive Pre-registration</title>
+      <link>/posts/adaptive-pre-registration/</link>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/adaptive-pre-registration/</guid>
+      <description>Context, situate paper Discuss definition of RDF / QRPs Challenges and Barriers Strategies for Adaptive Pre-registration  Why I chose this paper  Neat explanation of researcher degrees of freedom (analagous to QRP’s), that makes sense in the context of non-hypothesis testing research. clear articulation of challenges to pre-registration in complicated research, and creative strategies. In the past when we’ve had conversations about pre-registration, it hasn’t been very clear how we might move forward to implementing that in this field.</description>
+    </item>
     
     <item>
       <title>pre-print Sound Inference in Compliacted Research: A Multi-Strategy Approach</title>

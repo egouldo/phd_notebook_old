@@ -9,10 +9,31 @@
     <managingEditor>elise.gould@unimelb.edu.au (Elise Gould)</managingEditor>
     <webMaster>elise.gould@unimelb.edu.au (Elise Gould)</webMaster>
     <copyright>(c) 2018 -- All rights reserved.</copyright>
-    <lastBuildDate>Tue, 18 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/qrp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Meeting-20-Dec-2018</title>
+      <link>/posts/meeting-20-dec-2018/</link>
+      <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/meeting-20-dec-2018/</guid>
+      <description>Present: HF, FF, LR, EG
+Problems with the proposed QRP modelling method HF How necessary is it going to be to have covariates at the study/trial level? It will poptentially be cumbersome and problematic. Can we just have an uninformative error term to soak up between-study variation?
+cumbersome to implement
+ must pre-identify articles for each participant, asking them about specific papers (logistically problematic, how do we find appropriate studies? The author must also be the person who conducted the analyses, and it may not be easy to find contact details for them) ask participants to specify a fixed number of studies in which they used the analysis type (although not necessary for the model, restricting n is going to be better for the people answering the question, and more tractible for me)… then we need to pipe these studies through to the rest of the survey some how.</description>
+    </item>
+    
+    <item>
+      <title>Adaptive Pre-registration</title>
+      <link>/posts/adaptive-pre-registration/</link>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
+      <author>elise.gould@unimelb.edu.au (Elise Gould)</author>
+      <guid>/posts/adaptive-pre-registration/</guid>
+      <description>Context, situate paper Discuss definition of RDF / QRPs Challenges and Barriers Strategies for Adaptive Pre-registration  Why I chose this paper  Neat explanation of researcher degrees of freedom (analagous to QRP’s), that makes sense in the context of non-hypothesis testing research. clear articulation of challenges to pre-registration in complicated research, and creative strategies. In the past when we’ve had conversations about pre-registration, it hasn’t been very clear how we might move forward to implementing that in this field.</description>
+    </item>
     
     <item>
       <title>Meeting-Dec-2018-Jian</title>

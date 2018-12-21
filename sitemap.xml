@@ -53,6 +53,21 @@
   </url>
   
   <url>
+    <loc>/posts/meeting-20-dec-2018/</loc>
+    <lastmod>2018-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/replicating-models-talks-with-neil/</loc>
+    <lastmod>2018-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/adaptive-pre-registration/</loc>
+    <lastmod>2018-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/meeting-dec-2018/</loc>
     <lastmod>2018-12-18T00:00:00+00:00</lastmod>
   </url>
@@ -393,14 +408,6 @@
   </url>
   
   <url>
-    <loc>/posts/2018-12-20-adaptive-pre-registration/</loc>
-  </url>
-  
-  <url>
-    <loc>/posts/2018-12-21-meeting-20-dec-2018/</loc>
-  </url>
-  
-  <url>
     <loc>/tags/accuracy/</loc>
     <lastmod>2018-08-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -582,7 +589,7 @@
   
   <url>
     <loc>/categories/meeting/</loc>
-    <lastmod>2018-12-18T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -600,7 +607,7 @@
   
   <url>
     <loc>/tags/modelling/</loc>
-    <lastmod>2018-09-03T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -654,7 +661,7 @@
   
   <url>
     <loc>/categories/planning/</loc>
-    <lastmod>2018-12-18T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -666,7 +673,7 @@
   
   <url>
     <loc>/posts/</loc>
-    <lastmod>2018-12-18T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -696,7 +703,7 @@
   
   <url>
     <loc>/tags/qrp/</loc>
-    <lastmod>2018-12-18T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -708,13 +715,13 @@
   
   <url>
     <loc>/categories/reading/</loc>
-    <lastmod>2018-11-25T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/replication/</loc>
-    <lastmod>2018-07-31T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
